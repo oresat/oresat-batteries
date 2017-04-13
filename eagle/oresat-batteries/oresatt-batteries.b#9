@@ -99,6 +99,19 @@
 <smd name="11" x="1.85" y="-1" dx="0.31" dy="0.5" layer="1" rot="R90"/>
 <circle x="-1.8" y="1.4" radius="0.1" width="0.127" layer="21"/>
 </package>
+<package name="PSOP6">
+<smd name="1" x="-0.5" y="-0.475" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.5" y="-0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.5" y="0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0" y="0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.127" layer="25"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.127" layer="25"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="25"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
+<text x="-1.25" y="-0.75" size="0.625" layer="25" rot="R90">BQ2970</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -291,6 +304,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="oresat-batteries" package="20_4X4_VVTQ" value="ADP5063" x="6.35" y="5.08"/>
+<element name="U$2" library="oresat-batteries" package="PSOP6" value="BQ2970" x="11.43" y="6.35"/>
 </elements>
 <signals>
 </signals>

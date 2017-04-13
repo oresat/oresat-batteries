@@ -102,7 +102,6 @@
 <wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.127" layer="25"/>
 <wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="25"/>
 <wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
-<text x="-1.15" y="1.35" size="0.625" layer="25">&gt;VAL</text>
 <text x="1.38" y="-1.08" size="0.625" layer="25" rot="R180">&gt;NAME</text>
 </package>
 <package name="WDFN8_3X4">

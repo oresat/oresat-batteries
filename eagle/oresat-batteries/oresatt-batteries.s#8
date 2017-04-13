@@ -106,6 +106,24 @@
 <wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
 <text x="-1.25" y="-0.75" size="0.625" layer="25" rot="R90">BQ2970</text>
 </package>
+<package name="WDFN8_3X4">
+<smd name="2" x="-0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="1" x="-0.975" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="NC" x="0" y="0" dx="2.56" dy="1.96" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="2" x2="1.6" y2="2" width="0.127" layer="25"/>
+<wire x1="1.6" y1="2" x2="1.6" y2="-2" width="0.127" layer="25"/>
+<wire x1="1.6" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="25"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="25"/>
+<circle x="-1.1" y="-1.6" radius="0.2" width="0.127" layer="25"/>
+<text x="-2.1" y="-3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="2.4" size="1.27" layer="25">&gt;VAL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADP5063">
@@ -140,6 +158,24 @@
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LC709203F">
+<pin name="TEST" x="-15.24" y="-5.08" length="middle"/>
+<pin name="VSS" x="-15.24" y="10.16" length="middle"/>
+<pin name="VDD" x="-15.24" y="5.08" length="middle"/>
+<pin name="ALARMB" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="TSW" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="TSENSE" x="-15.24" y="0" length="middle"/>
+<pin name="SDA" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="SCL" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="NC" x="-15.24" y="-10.16" length="middle"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="-15.24" size="1.27" layer="94">&gt;NAME</text>
+<text x="-10.16" y="15.24" size="1.27" layer="94">&gt;VAL</text>
+<text x="0" y="-15.24" size="1.27" layer="94">LC709203F</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -191,6 +227,29 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LC709203F">
+<gates>
+<gate name="G$1" symbol="LC709203F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WDFN8_3X4">
+<connects>
+<connect gate="G$1" pin="ALARMB" pad="4"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="SCL" pad="8"/>
+<connect gate="G$1" pin="SDA" pad="7"/>
+<connect gate="G$1" pin="TEST" pad="1"/>
+<connect gate="G$1" pin="TSENSE" pad="6"/>
+<connect gate="G$1" pin="TSW" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -205,6 +264,7 @@
 <parts>
 <part name="U$1" library="oresat-batteries" deviceset="ADP5063" device=""/>
 <part name="U$2" library="oresat-batteries" deviceset="BQ2970" device=""/>
+<part name="U$3" library="oresat-batteries" deviceset="LC709203F" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -213,6 +273,7 @@
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="U$2" gate="G$1" x="45.72" y="-27.94"/>
+<instance part="U$3" gate="G$1" x="-25.4" y="-38.1"/>
 </instances>
 <busses>
 </busses>

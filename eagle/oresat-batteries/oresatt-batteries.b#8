@@ -112,6 +112,24 @@
 <wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
 <text x="-1.25" y="-0.75" size="0.625" layer="25" rot="R90">BQ2970</text>
 </package>
+<package name="WDFN8_3X4">
+<smd name="2" x="-0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="1" x="-0.975" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
+<smd name="NC" x="0" y="0" dx="2.56" dy="1.96" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="2" x2="1.6" y2="2" width="0.127" layer="25"/>
+<wire x1="1.6" y1="2" x2="1.6" y2="-2" width="0.127" layer="25"/>
+<wire x1="1.6" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="25"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="25"/>
+<circle x="-1.1" y="-1.6" radius="0.2" width="0.127" layer="25"/>
+<text x="-2.1" y="-3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="2.4" size="1.27" layer="25">&gt;VAL</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -305,6 +323,7 @@ design rules under a new name.</description>
 <elements>
 <element name="U$1" library="oresat-batteries" package="20_4X4_VVTQ" value="ADP5063" x="6.35" y="5.08"/>
 <element name="U$2" library="oresat-batteries" package="PSOP6" value="BQ2970" x="11.43" y="6.35"/>
+<element name="U$3" library="oresat-batteries" package="WDFN8_3X4" value="LC709203F" x="15.24" y="5.08"/>
 </elements>
 <signals>
 </signals>

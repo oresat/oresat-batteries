@@ -88,7 +88,7 @@
 <smd name="13" x="1.85" y="0" dx="0.31" dy="0.5" layer="1" rot="R90"/>
 <smd name="12" x="1.85" y="-0.5" dx="0.31" dy="0.5" layer="1" rot="R90"/>
 <smd name="11" x="1.85" y="-1" dx="0.31" dy="0.5" layer="1" rot="R90"/>
-<circle x="-1.8" y="1.4" radius="0.1" width="0.127" layer="21"/>
+<text x="-2.4" y="0.9" size="0.31" layer="25">1</text>
 </package>
 <package name="PSOP6">
 <smd name="1" x="-0.5" y="-0.475" dx="0.75" dy="0.3" layer="1" rot="R90"/>

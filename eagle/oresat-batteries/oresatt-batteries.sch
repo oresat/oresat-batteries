@@ -336,6 +336,38 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <wire x1="-2.1" y1="1.9" x2="-1.9" y2="2.1" width="0.127" layer="21"/>
 <circle x="-2.3" y="2.3" radius="0.2" width="0.127" layer="21"/>
 </package>
+<package name="4-SMD">
+<smd name="4" x="-3" y="1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="3" y="1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="-3" y="-1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="3" y="-1.27" dx="1.4" dy="2" layer="1" rot="R90"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="51"/>
+</package>
+<package name="SOT23-8_TI-DCN">
+<smd name="1" x="-0.975" y="-1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.325" y="-1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="-1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="-1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="1.3" dx="1.1" dy="0.45" layer="1" rot="R90"/>
+<wire x1="1.5" y1="0.9" x2="-1.5" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.9" x2="-1.5" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.9" x2="1.5" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-0.9" x2="1.5" y2="0.9" width="0.1" layer="51"/>
+<wire x1="1.5" y1="0.9" x2="1.5" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.9" x2="-1.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0" x2="-1.5" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.9" x2="-1.5" y2="0" width="0.127" layer="21" curve="-180"/>
+<text x="1.9" y="0.2" size="0.635" layer="25" ratio="20">&gt;NAME</text>
+<text x="1.9" y="-0.7" size="0.635" layer="27" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADP5063">
@@ -424,6 +456,33 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <wire x1="-17.78" y1="-22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
 <text x="12.7" y="-27.94" size="1.778" layer="95">&gt;NAME</text>
 <text x="12.7" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CSM-8Q">
+<pin name="IN" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;VALUE</text>
+<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TCAN330">
+<pin name="CANH" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="CANL" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-15.24" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="TXD" x="-12.7" y="-7.62" length="short" direction="in"/>
+<pin name="RXD" x="-12.7" y="-2.54" length="short" direction="out"/>
+<pin name="SHDN" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="S" x="-12.7" y="7.62" length="short" direction="in"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="7.62" y="-17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -542,6 +601,46 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 </device>
 </devices>
 </deviceset>
+<deviceset name="CSM-8Q">
+<description>http://www.digikey.com/product-detail/en/ecs-inc/ECS-80-18-20BQ-DS/XC2015CT-ND/4073726</description>
+<gates>
+<gate name="G$1" symbol="CSM-8Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4-SMD">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCAN330" prefix="U">
+<gates>
+<gate name="G$1" symbol="TCAN330" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-8_TI-DCN">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="S" pad="8"/>
+<connect gate="G$1" pin="SHDN" pad="5"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -558,6 +657,8 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 <part name="U$2" library="oresat-batteries" deviceset="BQ2970" device=""/>
 <part name="U$3" library="oresat-batteries" deviceset="LC709203F" device=""/>
 <part name="U$4" library="oresat-batteries" deviceset="STM32F042G" device=""/>
+<part name="U$5" library="oresat-batteries" deviceset="CSM-8Q" device=""/>
+<part name="U1" library="oresat-batteries" deviceset="TCAN330" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -568,6 +669,8 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 <instance part="U$2" gate="G$1" x="45.72" y="-27.94"/>
 <instance part="U$3" gate="G$1" x="-25.4" y="-38.1"/>
 <instance part="U$4" gate="G$1" x="-60.96" y="5.08"/>
+<instance part="U$5" gate="G$1" x="-68.58" y="-33.02"/>
+<instance part="U1" gate="G$1" x="45.72" y="17.78"/>
 </instances>
 <busses>
 </busses>

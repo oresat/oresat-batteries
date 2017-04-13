@@ -93,6 +93,19 @@
 <smd name="11" x="1.85" y="-1" dx="0.31" dy="0.5" layer="1" rot="R90"/>
 <circle x="-1.8" y="1.4" radius="0.1" width="0.127" layer="21"/>
 </package>
+<package name="PSOP6">
+<smd name="1" x="-0.5" y="-0.475" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.5" y="-0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.5" y="0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0" y="0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="0.525" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.127" layer="25"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.127" layer="25"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="25"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
+<text x="-1.25" y="-0.75" size="0.625" layer="25" rot="R90">BQ2970</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADP5063">
@@ -115,6 +128,18 @@
 <pin name="ISO_B" x="19.05" y="-8.89" length="middle" rot="R180"/>
 <pin name="AGND" x="0" y="-20.32" length="middle" rot="R90"/>
 <text x="2.54" y="-17.78" size="1.778" layer="94">ADP5063</text>
+</symbol>
+<symbol name="BQ2970">
+<pin name="NC" x="-15.24" y="-5.08" length="middle"/>
+<pin name="COUT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="DOUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="V-" x="-15.24" y="5.08" length="middle"/>
+<pin name="BAT" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="VSS" x="-15.24" y="0" length="middle"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -146,6 +171,26 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="BQ2970">
+<gates>
+<gate name="G$1" symbol="BQ2970" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PSOP6">
+<connects>
+<connect gate="G$1" pin="BAT" pad="5"/>
+<connect gate="G$1" pin="COUT" pad="2"/>
+<connect gate="G$1" pin="DOUT" pad="3"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="V-" pad="6"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -159,6 +204,7 @@
 </classes>
 <parts>
 <part name="U$1" library="oresat-batteries" deviceset="ADP5063" device=""/>
+<part name="U$2" library="oresat-batteries" deviceset="BQ2970" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -166,6 +212,7 @@
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
+<instance part="U$2" gate="G$1" x="45.72" y="-27.94"/>
 </instances>
 <busses>
 </busses>
