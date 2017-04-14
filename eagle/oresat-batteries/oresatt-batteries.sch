@@ -858,6 +858,118 @@ Epson Toyocom FCC-255</description>
 <text x="-2.794" y="1.524" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.794" y="-1.905" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="HARWIN-ARCHER-M50-3202045">
+<wire x1="-12.9" y1="2.4" x2="-12.9" y2="-2.4" width="0.3" layer="51"/>
+<wire x1="12.9" y1="2.4" x2="12.9" y2="-2.4" width="0.3" layer="51"/>
+<wire x1="-12.9" y1="2.4" x2="12.9" y2="2.4" width="0.15" layer="51"/>
+<wire x1="12.9" y1="-2.4" x2="-12.9" y2="-2.4" width="0.15" layer="51"/>
+<wire x1="12.9" y1="2.4" x2="12.9" y2="-2.4" width="0.3" layer="21"/>
+<wire x1="-12.9" y1="2.4" x2="-12.9" y2="-2.4" width="0.3" layer="21"/>
+<wire x1="0.6" y1="1.1" x2="0.6" y2="0.3" width="0.16" layer="21"/>
+<wire x1="0.6" y1="1.1" x2="0.3" y2="0.8" width="0.16" layer="21"/>
+<wire x1="0.6" y1="1.1" x2="0.9" y2="0.8" width="0.16" layer="21"/>
+<wire x1="-10.8" y1="-1.1" x2="-10.8" y2="-0.3" width="0.16" layer="21"/>
+<wire x1="-10.8" y1="-1.1" x2="-10.5" y2="-0.8" width="0.16" layer="21"/>
+<wire x1="-10.8" y1="-1.1" x2="-11.1" y2="-0.8" width="0.16" layer="21"/>
+<wire x1="-11.826875" y1="2.54" x2="-12.303125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-10.556875" y1="2.54" x2="-11.033125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-9.286875" y1="2.54" x2="-9.763125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-8.016875" y1="2.54" x2="-8.493125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-6.746875" y1="2.54" x2="-7.223125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-5.476875" y1="2.54" x2="-5.953125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-4.206875" y1="2.54" x2="-4.683125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-2.936875" y1="2.54" x2="-3.413125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-1.666875" y1="2.54" x2="-2.143125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="-0.396875" y1="2.54" x2="-0.873125" y2="2.54" width="0.15" layer="51"/>
+<wire x1="0.873125" y1="2.54" x2="0.396875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="2.143125" y1="2.54" x2="1.666875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="3.413125" y1="2.54" x2="2.936875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="4.683125" y1="2.54" x2="4.206875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="5.953125" y1="2.54" x2="5.476875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="7.223125" y1="2.54" x2="6.746875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="8.493125" y1="2.54" x2="8.016875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="9.763125" y1="2.54" x2="9.286875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="11.033125" y1="2.54" x2="10.556875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="12.303125" y1="2.54" x2="11.826875" y2="2.54" width="0.15" layer="51"/>
+<wire x1="12.303125" y1="-2.54" x2="11.826875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="11.033125" y1="-2.54" x2="10.556875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="9.763125" y1="-2.54" x2="9.286875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="8.493125" y1="-2.54" x2="8.016875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="7.223125" y1="-2.54" x2="6.746875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="5.953125" y1="-2.54" x2="5.476875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="4.683125" y1="-2.54" x2="4.206875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="3.413125" y1="-2.54" x2="2.936875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="2.143125" y1="-2.54" x2="1.666875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="0.873125" y1="-2.54" x2="0.396875" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-0.396875" y1="-2.54" x2="-0.873125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-1.666875" y1="-2.54" x2="-2.143125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-2.936875" y1="-2.54" x2="-3.413125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-4.206875" y1="-2.54" x2="-4.683125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-5.476875" y1="-2.54" x2="-5.953125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-6.746875" y1="-2.54" x2="-7.223125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-8.016875" y1="-2.54" x2="-8.493125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-9.286875" y1="-2.54" x2="-9.763125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-10.556875" y1="-2.54" x2="-11.033125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-11.826875" y1="-2.54" x2="-12.303125" y2="-2.54" width="0.15" layer="51"/>
+<wire x1="-13.1" y1="2.5" x2="-13.1" y2="-2.5" width="0.1" layer="39"/>
+<wire x1="-13.1" y1="-2.5" x2="13.1" y2="-2.5" width="0.1" layer="39"/>
+<wire x1="13.1" y1="-2.5" x2="13.1" y2="2.5" width="0.1" layer="39"/>
+<wire x1="13.1" y1="2.5" x2="-13.1" y2="2.5" width="0.1" layer="39"/>
+<rectangle x1="-12.7" y1="-2.4" x2="-11.4" y2="2.4" layer="51"/>
+<rectangle x1="-12.6" y1="-1.2" x2="-11.5" y2="1.2" layer="21"/>
+<pad name="P$1" x="-12.065" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$2" x="-12.065" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$3" x="-10.795" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$4" x="-10.795" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$5" x="-9.525" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$6" x="-9.525" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$7" x="-8.255" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$8" x="-8.255" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$9" x="-6.985" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$10" x="-6.985" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$11" x="-5.715" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$12" x="-5.715" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$13" x="-4.445" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$14" x="-4.445" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$15" x="-3.175" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$16" x="-3.175" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$17" x="-1.905" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$18" x="-1.905" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$19" x="-0.635" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$20" x="-0.635" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$21" x="0.635" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$22" x="0.635" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$23" x="1.905" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$24" x="1.905" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$25" x="3.175" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$26" x="3.175" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$27" x="4.445" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$28" x="4.445" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$29" x="5.715" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$30" x="5.715" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$31" x="6.985" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$32" x="6.985" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$33" x="8.255" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$34" x="8.255" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$35" x="9.525" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$36" x="9.525" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$37" x="10.795" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$38" x="10.795" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$39" x="12.065" y="-2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<pad name="P$40" x="12.065" y="2.54" drill="0.7" diameter="1.07" shape="long" rot="R90"/>
+<text x="-13.6" y="-3.6" size="1" layer="21" font="vector" ratio="16">1</text>
+<text x="12.9" y="-3.6" size="1" layer="21" font="vector" ratio="16">39</text>
+<text x="12.9" y="2.6" size="1" layer="21" font="vector" ratio="16">40</text>
+<text x="-13.6" y="2.6" size="1" layer="21" font="vector" ratio="16">2</text>
+<text x="13.335" y="0.635" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="13.335" y="-1.27" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<text x="-10.2" y="-1.2" size="1" layer="21" font="vector" ratio="16">LOWER ROW</text>
+<text x="1.2" y="0.2" size="1" layer="21" font="vector" ratio="16">UPPER ROW</text>
+<text x="-11.7" y="-1.2" size="1" layer="22" font="vector" ratio="16" rot="MR0">1</text>
+<text x="-11.7" y="0.2" size="1" layer="22" font="vector" ratio="16" rot="MR0">2</text>
+<text x="12.9" y="0.3" size="1" layer="22" font="vector" ratio="16" rot="MR0">40</text>
+<text x="12.9" y="-1.3" size="1" layer="22" font="vector" ratio="16" rot="MR0">39</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL">
@@ -875,6 +987,54 @@ Epson Toyocom FCC-255</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ORESAT-CONNECTOR-40PIN">
+<wire x1="-8.89" y1="-52.07" x2="1.27" y2="-52.07" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-52.07" x2="1.27" y2="52.07" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="52.07" x2="-8.89" y2="52.07" width="0.4064" layer="94"/>
+<wire x1="-8.89" y1="52.07" x2="-8.89" y2="-52.07" width="0.4064" layer="94"/>
+<pin name="1" x="0" y="49.53" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="2" x="0" y="46.99" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="0" y="44.45" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="4" x="0" y="41.91" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="0" y="39.37" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="6" x="0" y="36.83" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="0" y="34.29" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="8" x="0" y="31.75" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="9" x="0" y="29.21" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="10" x="0" y="26.67" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="11" x="0" y="24.13" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="12" x="0" y="21.59" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="13" x="0" y="19.05" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="14" x="0" y="16.51" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="15" x="0" y="13.97" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="16" x="0" y="11.43" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="17" x="0" y="8.89" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="18" x="0" y="6.35" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="19" x="0" y="3.81" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="20" x="0" y="1.27" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="21" x="0" y="-1.27" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="22" x="0" y="-3.81" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="23" x="0" y="-6.35" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="24" x="0" y="-8.89" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="25" x="0" y="-11.43" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="26" x="0" y="-13.97" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="27" x="0" y="-16.51" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="28" x="0" y="-19.05" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="29" x="0" y="-21.59" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="30" x="0" y="-24.13" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="31" x="0" y="-26.67" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="32" x="0" y="-29.21" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="33" x="0" y="-31.75" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="34" x="0" y="-34.29" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="35" x="0" y="-36.83" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="36" x="0" y="-39.37" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="37" x="0" y="-41.91" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="38" x="0" y="-44.45" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="39" x="0" y="-46.99" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="40" x="0" y="-49.53" visible="pin" length="short" direction="pas" function="dot" rot="R180"/>
+<text x="-6.35" y="52.705" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-54.61" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -979,6 +1139,61 @@ Epson Toyocom FCC-255</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ORESAT-CONNECTOR-40PIN" prefix="CF">
+<description>OreSat 40pin card connector. Uses the Harwin Archer M50-3202045.</description>
+<gates>
+<gate name="G$1" symbol="ORESAT-CONNECTOR-40PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HARWIN-ARCHER-M50-3202045">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="13" pad="P$13"/>
+<connect gate="G$1" pin="14" pad="P$14"/>
+<connect gate="G$1" pin="15" pad="P$15"/>
+<connect gate="G$1" pin="16" pad="P$16"/>
+<connect gate="G$1" pin="17" pad="P$17"/>
+<connect gate="G$1" pin="18" pad="P$18"/>
+<connect gate="G$1" pin="19" pad="P$19"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="20" pad="P$20"/>
+<connect gate="G$1" pin="21" pad="P$21"/>
+<connect gate="G$1" pin="22" pad="P$22"/>
+<connect gate="G$1" pin="23" pad="P$23"/>
+<connect gate="G$1" pin="24" pad="P$24"/>
+<connect gate="G$1" pin="25" pad="P$25"/>
+<connect gate="G$1" pin="26" pad="P$26"/>
+<connect gate="G$1" pin="27" pad="P$27"/>
+<connect gate="G$1" pin="28" pad="P$28"/>
+<connect gate="G$1" pin="29" pad="P$29"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="30" pad="P$30"/>
+<connect gate="G$1" pin="31" pad="P$31"/>
+<connect gate="G$1" pin="32" pad="P$32"/>
+<connect gate="G$1" pin="33" pad="P$33"/>
+<connect gate="G$1" pin="34" pad="P$34"/>
+<connect gate="G$1" pin="35" pad="P$35"/>
+<connect gate="G$1" pin="36" pad="P$36"/>
+<connect gate="G$1" pin="37" pad="P$37"/>
+<connect gate="G$1" pin="38" pad="P$38"/>
+<connect gate="G$1" pin="39" pad="P$39"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="40" pad="P$40"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -997,18 +1212,20 @@ Epson Toyocom FCC-255</description>
 <part name="U$4" library="oresat-batteries" deviceset="STM32F042G" device=""/>
 <part name="U1" library="oresat-batteries" deviceset="TCAN330" device=""/>
 <part name="Y1" library="low-gain-radio" deviceset="CRYSTAL" device="2.5X2.0MM"/>
+<part name="CF1" library="low-gain-radio" deviceset="ORESAT-CONNECTOR-40PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="0" y="0"/>
-<instance part="U$2" gate="G$1" x="45.72" y="-27.94"/>
-<instance part="U$3" gate="G$1" x="-25.4" y="-38.1"/>
-<instance part="U$4" gate="G$1" x="-60.96" y="5.08"/>
-<instance part="U1" gate="G$1" x="45.72" y="17.78"/>
+<instance part="U$1" gate="G$1" x="-81.28" y="30.48"/>
+<instance part="U$2" gate="G$1" x="25.4" y="17.78"/>
+<instance part="U$3" gate="G$1" x="-81.28" y="-12.7"/>
+<instance part="U$4" gate="G$1" x="-30.48" y="-43.18"/>
+<instance part="U1" gate="G$1" x="35.56" y="-40.64"/>
 <instance part="Y1" gate="G$1" x="-73.66" y="-38.1"/>
+<instance part="CF1" gate="G$1" x="-149.86" y="0"/>
 </instances>
 <busses>
 </busses>
