@@ -103,7 +103,7 @@
 <wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.127" layer="25"/>
 <wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="25"/>
 <wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
-<text x="-0.78" y="-2.12" size="1.2" layer="21">&gt;NAME</text>
+<text x="-1.38" y="-2.22" size="1.2" layer="21">&gt;NAME</text>
 </package>
 <package name="WDFN8_3X4">
 <smd name="2" x="-0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
