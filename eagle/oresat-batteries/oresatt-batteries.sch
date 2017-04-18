@@ -144,6 +144,11 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>Oresat
+Battery Management Board v0
+Andrew Greenberg
+Austin Joseph
+Haneef Mubarak</description>
 <libraries>
 <library name="oresat-batteries">
 <packages>
@@ -188,23 +193,6 @@
 <wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="25"/>
 <wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="25"/>
 <text x="-1.38" y="-2.22" size="1.2" layer="21">&gt;NAME</text>
-</package>
-<package name="WDFN8_3X4">
-<smd name="2" x="-0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="3" x="0.325" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="1" x="-0.975" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="4" x="0.975" y="-1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="8" x="-0.975" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="7" x="-0.325" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="6" x="0.325" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="5" x="0.975" y="1.8" dx="0.7" dy="0.35" layer="1" rot="R90"/>
-<smd name="NC" x="0" y="0" dx="2.56" dy="1.96" layer="1" rot="R90"/>
-<wire x1="-1.5" y1="2" x2="1.6" y2="2" width="0.127" layer="25"/>
-<wire x1="1.6" y1="2" x2="1.6" y2="-2" width="0.127" layer="25"/>
-<wire x1="1.6" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="25"/>
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="25"/>
-<circle x="-1.1" y="-1.6" radius="0.2" width="0.127" layer="25"/>
-<text x="-1.5" y="-3.4" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="UFQFPN-28">
 <description>&lt;b&gt;QFPN-28&lt;/b&gt; 7x7 x 1.8mm&lt;p&gt;
@@ -440,6 +428,53 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <text x="1.9" y="0.2" size="0.635" layer="25" ratio="20">&gt;NAME</text>
 <text x="1.9" y="-0.7" size="0.635" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="S-PDSO-N12">
+<smd name="9" x="0.2" y="1.95" dx="0.75" dy="0.2" layer="1" rot="R270" thermals="no"/>
+<circle x="0.2" y="1.575" radius="0.05" width="0.1" layer="1"/>
+<smd name="10" x="-0.2" y="1.95" dx="0.75" dy="0.2" layer="1" rot="R270" thermals="no"/>
+<circle x="-0.2" y="1.575" radius="0.05" width="0.1" layer="1"/>
+<smd name="11" x="-0.6" y="1.95" dx="0.75" dy="0.2" layer="1" rot="R270" thermals="no"/>
+<circle x="-0.6" y="1.575" radius="0.05" width="0.1" layer="1"/>
+<smd name="12" x="-1" y="1.95" dx="0.75" dy="0.2" layer="1" rot="R270" thermals="no"/>
+<circle x="-1" y="1.575" radius="0.05" width="0.1" layer="1"/>
+<smd name="8" x="0.6" y="1.95" dx="0.75" dy="0.2" layer="1" rot="R270" thermals="no"/>
+<circle x="0.6" y="1.575" radius="0.05" width="0.1" layer="1"/>
+<smd name="7" x="1" y="1.95" dx="0.75" dy="0.2" layer="1" rot="R270" thermals="no"/>
+<circle x="1" y="1.575" radius="0.05" width="0.1" layer="1"/>
+<smd name="3" x="-0.2" y="-2.02" dx="0.75" dy="0.2" layer="1" rot="R90" thermals="no"/>
+<circle x="-0.2" y="-1.645" radius="0.05" width="0.1" layer="1"/>
+<smd name="4" x="0.2" y="-2.02" dx="0.75" dy="0.2" layer="1" rot="R90" thermals="no"/>
+<circle x="0.2" y="-1.645" radius="0.05" width="0.1" layer="1"/>
+<smd name="5" x="0.6" y="-2.02" dx="0.75" dy="0.2" layer="1" rot="R90" thermals="no"/>
+<circle x="0.6" y="-1.645" radius="0.05" width="0.1" layer="1"/>
+<smd name="6" x="1" y="-2.02" dx="0.75" dy="0.2" layer="1" rot="R90" thermals="no"/>
+<circle x="1" y="-1.645" radius="0.05" width="0.1" layer="1"/>
+<smd name="2" x="-0.6" y="-2.02" dx="0.75" dy="0.2" layer="1" rot="R90" thermals="no"/>
+<circle x="-0.6" y="-1.645" radius="0.05" width="0.1" layer="1"/>
+<smd name="1" x="-1" y="-2.02" dx="0.75" dy="0.2" layer="1" rot="R90" thermals="no"/>
+<circle x="-1" y="-1.645" radius="0.05" width="0.1" layer="1"/>
+<smd name="THERM" x="0" y="0" dx="1.95" dy="1.95" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="1.225"/>
+<vertex x="1.65" y="1.225"/>
+<vertex x="1.65" y="0.975"/>
+<vertex x="-1.65" y="0.975"/>
+<vertex x="-1.65" y="1.225"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="0" y="-0.975"/>
+<vertex x="1.65" y="-0.975"/>
+<vertex x="1.65" y="-1.225"/>
+<vertex x="-1.65" y="-1.225"/>
+<vertex x="-1.65" y="-0.975"/>
+</polygon>
+<wire x1="1.3" y1="2.1" x2="1.3" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-2.1" x2="-1.3" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-2.1" x2="-1.3" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="2.1" x2="1.3" y2="2.1" width="0.127" layer="21"/>
+<text x="3.4" y="-3.65" size="1.27" layer="25" rot="R90">BQ27500</text>
+<circle x="-0.9" y="-1.7" radius="0.22360625" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADP5063">
@@ -474,24 +509,6 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-<symbol name="LC709203F">
-<pin name="TEST" x="-15.24" y="-5.08" length="middle"/>
-<pin name="VSS" x="-15.24" y="10.16" length="middle"/>
-<pin name="VDD" x="-15.24" y="5.08" length="middle"/>
-<pin name="ALARMB" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="TSW" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="TSENSE" x="-15.24" y="0" length="middle"/>
-<pin name="SDA" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="SCL" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="NC" x="-15.24" y="-10.16" length="middle"/>
-<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="-15.24" size="1.27" layer="94">&gt;NAME</text>
-<text x="-10.16" y="15.24" size="1.27" layer="94">&gt;VAL</text>
-<text x="0" y="-15.24" size="1.27" layer="94">LC709203F</text>
 </symbol>
 <symbol name="STM32F04G">
 <pin name="VDD" x="-7.62" y="25.4" length="short" direction="pwr" rot="R270"/>
@@ -545,6 +562,27 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <text x="7.62" y="-17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="BQ27500">
+<pin name="BAT_LOW" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="BI/TOUT" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="TS" x="-20.32" y="2.54" length="middle"/>
+<pin name="BAT" x="-20.32" y="-12.7" length="middle"/>
+<pin name="VCC" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="VSS" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="SRP" x="-20.32" y="-7.62" length="middle"/>
+<pin name="SRN" x="-20.32" y="-2.54" length="middle"/>
+<pin name="NC" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="-20.32" y="7.62" length="middle"/>
+<pin name="SCL" x="-20.32" y="10.16" length="middle"/>
+<pin name="BAT_GD*" x="20.32" y="7.62" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<text x="5.08" y="-17.78" size="1.778" layer="94">BQ27500</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="94">&gt;NAME</text>
+<text x="-12.7" y="17.78" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADP5063">
@@ -588,29 +626,6 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <connect gate="G$1" pin="NC" pad="1"/>
 <connect gate="G$1" pin="V-" pad="6"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LC709203F">
-<gates>
-<gate name="G$1" symbol="LC709203F" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WDFN8_3X4">
-<connects>
-<connect gate="G$1" pin="ALARMB" pad="4"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="SCL" pad="8"/>
-<connect gate="G$1" pin="SDA" pad="7"/>
-<connect gate="G$1" pin="TEST" pad="1"/>
-<connect gate="G$1" pin="TSENSE" pad="6"/>
-<connect gate="G$1" pin="TSW" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -677,6 +692,32 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 <connect gate="G$1" pin="SHDN" pad="5"/>
 <connect gate="G$1" pin="TXD" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ27500">
+<gates>
+<gate name="G$1" symbol="BQ27500" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S-PDSO-N12">
+<connects>
+<connect gate="G$1" pin="BAT" pad="4"/>
+<connect gate="G$1" pin="BAT_GD*" pad="12"/>
+<connect gate="G$1" pin="BAT_LOW" pad="1"/>
+<connect gate="G$1" pin="BI/TOUT" pad="2"/>
+<connect gate="G$1" pin="NC" pad="9"/>
+<connect gate="G$1" pin="SCL" pad="11"/>
+<connect gate="G$1" pin="SDA" pad="10"/>
+<connect gate="G$1" pin="SRN" pad="8"/>
+<connect gate="G$1" pin="SRP" pad="7"/>
+<connect gate="G$1" pin="TS" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="6 THERM"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1208,11 +1249,11 @@ Epson Toyocom FCC-255</description>
 <parts>
 <part name="U$1" library="oresat-batteries" deviceset="ADP5063" device=""/>
 <part name="U$2" library="oresat-batteries" deviceset="BQ2970" device=""/>
-<part name="U$3" library="oresat-batteries" deviceset="LC709203F" device=""/>
 <part name="U$4" library="oresat-batteries" deviceset="STM32F042G" device=""/>
 <part name="U1" library="oresat-batteries" deviceset="TCAN330" device=""/>
 <part name="Y1" library="low-gain-radio" deviceset="CRYSTAL" device="2.5X2.0MM"/>
 <part name="CF1" library="low-gain-radio" deviceset="ORESAT-CONNECTOR-40PIN" device=""/>
+<part name="U$3" library="oresat-batteries" deviceset="BQ27500" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1221,11 +1262,11 @@ Epson Toyocom FCC-255</description>
 <instances>
 <instance part="U$1" gate="G$1" x="-81.28" y="30.48"/>
 <instance part="U$2" gate="G$1" x="25.4" y="17.78"/>
-<instance part="U$3" gate="G$1" x="-81.28" y="-12.7"/>
 <instance part="U$4" gate="G$1" x="-30.48" y="-43.18"/>
 <instance part="U1" gate="G$1" x="35.56" y="-40.64"/>
 <instance part="Y1" gate="G$1" x="-73.66" y="-38.1"/>
 <instance part="CF1" gate="G$1" x="-149.86" y="0"/>
+<instance part="U$3" gate="G$1" x="-33.02" y="25.4"/>
 </instances>
 <busses>
 </busses>
