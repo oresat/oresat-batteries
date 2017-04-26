@@ -813,7 +813,7 @@ design rules under a new name.</description>
 <element name="U1" library="oresat-batteries" package="SOT23-8_TI-DCN" value="TCAN330" x="10.5" y="78"/>
 <element name="Y1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="" x="18" y="78"/>
 <element name="CF1" library="low-gain-radio" package="HARWIN-ARCHER-M50-3202045" value="ORESAT-CONNECTOR-40PIN" x="21.5" y="89.5"/>
-<element name="U$3" library="oresat-batteries" package="S-PDSO-N12" value="BQ27500" x="29.5" y="59"/>
+<element name="U$3" library="oresat-batteries" package="S-PDSO-N12" value="BQ27500" x="22" y="69"/>
 </elements>
 <signals>
 <signal name="VDD">

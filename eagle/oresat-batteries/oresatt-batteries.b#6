@@ -469,12 +469,12 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <vertex x="-1.65" y="-1.225"/>
 <vertex x="-1.65" y="-0.975"/>
 </polygon>
-<pad name="THERM3" x="-0.5" y="0" drill="0.5" diameter="0.4"/>
-<pad name="THERM4" x="0.5" y="0" drill="0.5" diameter="0.4"/>
-<pad name="THERM1" x="-0.5" y="0.9" drill="0.5" diameter="0.4"/>
-<pad name="THERM2" x="0.5" y="0.9" drill="0.5" diameter="0.4"/>
-<pad name="THERM6" x="0.5" y="-0.9" drill="0.5" diameter="0.4"/>
-<pad name="THERM5" x="-0.5" y="-0.9" drill="0.5" diameter="0.4"/>
+<pad name="THERM3" x="-0.5" y="0" drill="0.3" diameter="0.4" stop="no" thermals="no"/>
+<pad name="THERM4" x="0.5" y="0" drill="0.3" diameter="0.4" stop="no" thermals="no"/>
+<pad name="THERM1" x="-0.5" y="0.9" drill="0.3" diameter="0.4" stop="no" thermals="no"/>
+<pad name="THERM2" x="0.5" y="0.9" drill="0.3" diameter="0.4" stop="no" thermals="no"/>
+<pad name="THERM6" x="0.5" y="-0.9" drill="0.3" diameter="0.4" stop="no" thermals="no"/>
+<pad name="THERM5" x="-0.5" y="-0.9" drill="0.3" diameter="0.4" stop="no" thermals="no"/>
 <wire x1="1.3" y1="2.1" x2="1.3" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="1.3" y1="-2.1" x2="-1.3" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="-1.3" y1="-2.1" x2="-1.3" y2="2.1" width="0.127" layer="21"/>

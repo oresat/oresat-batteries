@@ -476,6 +476,22 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <text x="3.4" y="-3.65" size="1.27" layer="25" rot="R90">BQ27500</text>
 <circle x="-0.9" y="-1.7" radius="0.22360625" width="0.127" layer="21"/>
 </package>
+<package name="MINISO-8">
+<smd name="1" x="-0.945" y="-1.89" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.325" y="-1.89" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0.295" y="-1.89" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.915" y="-1.89" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="0.915" y="1.92" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="0.295" y="1.92" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="1.92" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="-0.945" y="1.92" dx="1.27" dy="0.4" layer="1" rot="R90"/>
+<wire x1="1.6" y1="1.55" x2="1.6" y2="-1.55" width="0.4" layer="21"/>
+<wire x1="1.6" y1="-1.55" x2="-1.6" y2="-1.55" width="0.4" layer="21"/>
+<wire x1="-1.6" y1="-1.55" x2="-1.6" y2="1.55" width="0.4" layer="21"/>
+<wire x1="-1.6" y1="1.55" x2="1.6" y2="1.55" width="0.4" layer="21"/>
+<circle x="-1" y="-1" radius="0.1" width="0.4" layer="21"/>
+<text x="3.5" y="-3.35" size="1.27" layer="25" rot="R90">STC100</text>
+</package>
 </packages>
 </library>
 <library name="low-gain-radio">
@@ -808,6 +824,7 @@ design rules under a new name.</description>
 <element name="Y1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="" x="18" y="78"/>
 <element name="CF1" library="low-gain-radio" package="HARWIN-ARCHER-M50-3202045" value="ORESAT-CONNECTOR-40PIN" x="21.5" y="89.5"/>
 <element name="U$3" library="oresat-batteries" package="S-PDSO-N12" value="BQ27500" x="37.5" y="73.5"/>
+<element name="U$5" library="oresat-batteries" package="MINISO-8" value="STC3100LST" x="-4.5" y="4"/>
 </elements>
 <signals>
 <signal name="VDD">

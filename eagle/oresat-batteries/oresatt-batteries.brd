@@ -445,6 +445,26 @@ Source: http://www.st.com/stonline/products/literature/ds/11115/lis3lv02dq.pdf</
 <circle x="-1" y="-1" radius="0.1" width="0.4" layer="21"/>
 <text x="3.5" y="-3.35" size="1.27" layer="25" rot="R90">STC100</text>
 </package>
+<package name="1.5AH">
+<wire x1="28" y1="-43" x2="28" y2="43" width="0.5" layer="21"/>
+<wire x1="28" y1="43" x2="-28" y2="43" width="0.5" layer="21"/>
+<wire x1="-28" y1="43" x2="-28" y2="-43" width="0.5" layer="21"/>
+<wire x1="-28" y1="-43" x2="28" y2="-43" width="0.5" layer="21"/>
+<wire x1="-23.5" y1="-44" x2="-22" y2="-44" width="0.5" layer="21"/>
+<wire x1="-22" y1="-44" x2="-16.5" y2="-44" width="0.5" layer="21"/>
+<wire x1="-16.5" y1="-44" x2="-16.5" y2="-49" width="0.5" layer="21"/>
+<wire x1="-16.5" y1="-49" x2="-28" y2="-49" width="0.5" layer="21"/>
+<wire x1="-28" y1="-49" x2="-28" y2="-44" width="0.5" layer="21"/>
+<wire x1="-28" y1="-44" x2="-23.5" y2="-44" width="0.5" layer="21"/>
+<wire x1="21" y1="-44" x2="22.5" y2="-44" width="0.5" layer="21"/>
+<wire x1="22.5" y1="-44" x2="28" y2="-44" width="0.5" layer="21"/>
+<wire x1="28" y1="-44" x2="28" y2="-49" width="0.5" layer="21"/>
+<wire x1="28" y1="-49" x2="16.5" y2="-49" width="0.5" layer="21"/>
+<wire x1="16.5" y1="-49" x2="16.5" y2="-44" width="0.5" layer="21"/>
+<wire x1="16.5" y1="-44" x2="21" y2="-44" width="0.5" layer="21"/>
+<text x="-23.5" y="-46.5" size="1.27" layer="25">V-</text>
+<text x="21.5" y="-47" size="1.27" layer="25">V+</text>
+</package>
 </packages>
 </library>
 <library name="low-gain-radio">
@@ -777,6 +797,7 @@ design rules under a new name.</description>
 <element name="Y1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="" x="18" y="78"/>
 <element name="CF1" library="low-gain-radio" package="HARWIN-ARCHER-M50-3202045" value="ORESAT-CONNECTOR-40PIN" x="21.5" y="89.5"/>
 <element name="U$5" library="oresat-batteries" package="MINISO-8" value="STC3100LST" x="-4.5" y="4"/>
+<element name="U$3" library="oresat-batteries" package="1.5AH" value="1.5AHBATT" x="64.5" y="50"/>
 </elements>
 <signals>
 <signal name="VDD">
