@@ -8819,7 +8819,7 @@ General-purpose diode for high-speed switching</description>
 <part name="U$20" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="oresat-batteries" deviceset="2AHBATT" device=""/>
-<part name="U$21" library="oresat-batteries" deviceset="RES_HEATER" device=""/>
+<part name="U$21" library="oresat-batteries" deviceset="RES_HEATER" device="" value="4.19"/>
 </parts>
 <sheets>
 <sheet>
@@ -8868,6 +8868,7 @@ Full SHUTDOWN
 <text x="96.52" y="3.81" size="2.1844" layer="95" rot="MR0">DIG_IO2</text>
 <text x="96.52" y="1.27" size="2.1844" layer="95" rot="MR0">DIG_IO3</text>
 <text x="139.7" y="29.21" size="1.778" layer="95">HEAT</text>
+<text x="-133.35" y="-57.15" size="1.778" layer="95" rot="MR0">This won't work</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-115.57" y="7.62"/>

@@ -418,6 +418,65 @@ Haneef Mubarak</description>
 <text x="-7.75" y="-5" size="4" layer="25">2A 2C
 605060</text>
 </package>
+<package name="RES_HEATER">
+<wire x1="25.5" y1="-31.25" x2="25.5" y2="31.25" width="0.127" layer="21"/>
+<wire x1="25.5" y1="31.25" x2="-25.5" y2="31.25" width="0.127" layer="21"/>
+<wire x1="-25.5" y1="31.25" x2="-25.5" y2="-31.25" width="0.127" layer="21"/>
+<wire x1="-25.5" y1="-31.25" x2="25.5" y2="-31.25" width="0.127" layer="21"/>
+<smd name="V+" x="-24" y="30" dx="1" dy="1" layer="1"/>
+<smd name="V-" x="24.5" y="-30" dx="2" dy="2" layer="1"/>
+<wire x1="-24" y1="30" x2="24" y2="30" width="0.154" layer="1"/>
+<wire x1="24" y1="30" x2="24" y2="27" width="0.154" layer="1"/>
+<wire x1="24" y1="27" x2="-24" y2="27" width="0.154" layer="1"/>
+<wire x1="-24" y1="27" x2="-24" y2="24" width="0.154" layer="1"/>
+<wire x1="-24" y1="24" x2="24" y2="24" width="0.154" layer="1"/>
+<wire x1="24" y1="24" x2="24" y2="21" width="0.154" layer="1"/>
+<wire x1="24" y1="21" x2="-24" y2="21" width="0.154" layer="1"/>
+<wire x1="-24" y1="21" x2="-24" y2="18" width="0.154" layer="1"/>
+<wire x1="-24" y1="18" x2="24" y2="18" width="0.154" layer="1"/>
+<wire x1="24" y1="18" x2="24" y2="15" width="0.154" layer="1"/>
+<wire x1="24" y1="15" x2="-24" y2="15" width="0.154" layer="1"/>
+<wire x1="-24" y1="15" x2="-24" y2="12" width="0.154" layer="1"/>
+<wire x1="-24" y1="12" x2="24" y2="12" width="0.154" layer="1"/>
+<wire x1="24" y1="12" x2="24" y2="9" width="0.154" layer="1"/>
+<wire x1="24" y1="9" x2="-24" y2="9" width="0.154" layer="1"/>
+<wire x1="-24" y1="9" x2="-24" y2="6" width="0.154" layer="1"/>
+<wire x1="-24" y1="6" x2="24" y2="6" width="0.154" layer="1"/>
+<wire x1="24" y1="6" x2="24" y2="3" width="0.154" layer="1"/>
+<wire x1="24" y1="3" x2="-24" y2="3" width="0.154" layer="1"/>
+<wire x1="-24" y1="3" x2="-24" y2="0" width="0.154" layer="1"/>
+<wire x1="-24" y1="0" x2="24" y2="0" width="0.154" layer="1"/>
+<wire x1="24" y1="0" x2="24" y2="-3" width="0.154" layer="1"/>
+<wire x1="24" y1="-3" x2="-24" y2="-3" width="0.154" layer="1"/>
+<wire x1="-24" y1="-3" x2="-24" y2="-6" width="0.154" layer="1"/>
+<wire x1="-24" y1="-6" x2="24" y2="-6" width="0.154" layer="1"/>
+<wire x1="24" y1="-6" x2="24" y2="-9" width="0.154" layer="1"/>
+<wire x1="24" y1="-9" x2="-24" y2="-9" width="0.154" layer="1"/>
+<wire x1="-24" y1="-9" x2="-24" y2="-12" width="0.154" layer="1"/>
+<wire x1="-24" y1="-12" x2="24" y2="-12" width="0.154" layer="1"/>
+<wire x1="24" y1="-12" x2="24" y2="-15" width="0.154" layer="1"/>
+<wire x1="24" y1="-15" x2="-24" y2="-15" width="0.154" layer="1"/>
+<wire x1="-24" y1="-15" x2="-24" y2="-18" width="0.154" layer="1"/>
+<wire x1="-24" y1="-18" x2="24" y2="-18" width="0.154" layer="1"/>
+<wire x1="24" y1="-18" x2="24" y2="-21" width="0.154" layer="1"/>
+<wire x1="24" y1="-21" x2="-24" y2="-21" width="0.154" layer="1"/>
+<wire x1="-24" y1="-21" x2="-24" y2="-24" width="0.154" layer="1"/>
+<wire x1="-24" y1="-24" x2="24" y2="-24" width="0.154" layer="1"/>
+<wire x1="24" y1="-24" x2="24" y2="-27" width="0.154" layer="1"/>
+<wire x1="24" y1="-27" x2="-24" y2="-27" width="0.154" layer="1"/>
+<wire x1="-24" y1="-27" x2="-24" y2="-30" width="0.154" layer="1"/>
+<wire x1="-24" y1="-30" x2="24" y2="-30" width="0.154" layer="1"/>
+<polygon width="0.154" layer="41">
+<vertex x="25" y="-28.5"/>
+<vertex x="23.5" y="-28.5"/>
+<vertex x="23.5" y="-31"/>
+<vertex x="-25" y="-31"/>
+<vertex x="-25" y="29.5"/>
+<vertex x="-23.5" y="29.5"/>
+<vertex x="-23.5" y="31"/>
+<vertex x="25" y="31"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ADP5063">
@@ -584,6 +643,21 @@ Haneef Mubarak</description>
 <wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
 <pin name="V+" x="0" y="7.62" length="middle" rot="R270"/>
 <pin name="V-" x="0" y="-5.08" length="middle" rot="R90"/>
+</symbol>
+<symbol name="R-US">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -784,6 +858,22 @@ Haneef Mubarak</description>
 <connects>
 <connect gate="G$1" pin="V+" pad="POS"/>
 <connect gate="G$1" pin="V-" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES_HEATER">
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RES_HEATER">
+<connects>
+<connect gate="G$1" pin="1" pad="V+"/>
+<connect gate="G$1" pin="2" pad="V-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8727,9 +8817,9 @@ General-purpose diode for high-speed switching</description>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="U$19" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
 <part name="U$20" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
-<part name="RHEATER" library="rcl" deviceset="R-US_" device="R0603" value="38"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="oresat-batteries" deviceset="2AHBATT" device=""/>
+<part name="U$21" library="oresat-batteries" deviceset="RES_HEATER" device="" value="4.19"/>
 </parts>
 <sheets>
 <sheet>
@@ -8863,9 +8953,9 @@ Full SHUTDOWN
 <instance part="R14" gate="G$1" x="-64.77" y="-16.51" rot="R90"/>
 <instance part="U$19" gate="G$1" x="-49.53" y="15.24" rot="MR180"/>
 <instance part="U$20" gate="G$1" x="157.48" y="46.99"/>
-<instance part="RHEATER" gate="G$1" x="166.37" y="36.83" rot="R180"/>
 <instance part="GND30" gate="1" x="172.72" y="30.48"/>
 <instance part="U$3" gate="G$1" x="-46.99" y="-1.27"/>
+<instance part="U$21" gate="G$1" x="166.37" y="36.83"/>
 </instances>
 <busses>
 </busses>
@@ -9021,10 +9111,10 @@ Full SHUTDOWN
 <wire x1="-119.38" y1="-76.2" x2="-119.38" y2="-74.93" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RHEATER" gate="G$1" pin="1"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="171.45" y1="36.83" x2="172.72" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="36.83" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$21" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ADP_THR" class="0">
@@ -9618,10 +9708,10 @@ Full SHUTDOWN
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="RHEATER" gate="G$1" pin="2"/>
 <pinref part="U$20" gate="G$1" pin="S"/>
 <wire x1="161.29" y1="36.83" x2="160.02" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="36.83" x2="160.02" y2="39.37" width="0.1524" layer="91"/>
+<pinref part="U$21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">

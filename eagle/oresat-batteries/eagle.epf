@@ -352,7 +352,7 @@ UsedLibrary="/home/austin/oresat-eagle-libraries/low-gain-radio.lbr"
 
 [Win_1]
 Type="Library Editor"
-Loc="0 0 635 760"
+Loc="640 18 1275 778"
 State=2
 Number=3
 File="/home/austin/oresat-batteries/eagle/lib/oresat-batteries.lbr"
@@ -405,11 +405,11 @@ Number=0
 
 [Win_3]
 Type="Board Editor"
-Loc="0 0 635 760"
+Loc="640 18 1275 778"
 State=2
 Number=2
 File="oresatt-batteries.brd"
-View="-25.3028 -42.5816 96.3393 96.7774"
+View="-25.3028 -44.9276 96.3393 96.8234"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -451,11 +451,11 @@ Layer=16
 
 [Win_4]
 Type="Schematic Editor"
-Loc="0 0 635 760"
+Loc="0 0 1279 799"
 State=2
 Number=1
 File="oresatt-batteries.sch"
-View="-149.321 -8.45551 -97.3276 62.9056"
+View="-142.034 -138.849 8.96703 -3.24485"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -494,7 +494,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -149.321 -8.45551 -97.3276 62.9056"
+Views=" 1: -142.034 -138.849 8.96703 -3.24485"
 Sheet="1"
 
 [Desktop]
