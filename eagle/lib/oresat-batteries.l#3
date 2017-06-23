@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.056" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -654,6 +654,22 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <smd name="P$7" x="-0.325" y="1.435" dx="0.5" dy="0.63" layer="1"/>
 <smd name="P$8" x="-0.975" y="1.435" dx="0.5" dy="0.63" layer="1"/>
 <smd name="P$9" x="0" y="0.39" dx="2.45" dy="1.9" layer="1" thermals="no"/>
+<wire x1="-1.4" y1="1.6" x2="1.4" y2="1.6" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.6" x2="1.4" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-1.6" x2="-1.4" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.6" x2="-1.4" y2="1.6" width="0.127" layer="21"/>
+<text x="2.5" y="-2.3" size="0.6096" layer="25" rot="R90">CSD16340Q3</text>
+</package>
+<package name="2AH_605060">
+<wire x1="25.5" y1="-31.25" x2="25.5" y2="31.25" width="0.127" layer="21"/>
+<wire x1="25.5" y1="31.25" x2="-25.5" y2="31.25" width="0.127" layer="21"/>
+<wire x1="-25.5" y1="31.25" x2="-25.5" y2="-31.25" width="0.127" layer="21"/>
+<wire x1="-25.5" y1="-31.25" x2="25.5" y2="-31.25" width="0.127" layer="21"/>
+<smd name="NEG" x="-12" y="-36.5" dx="5.5" dy="10.5" layer="1"/>
+<smd name="POS" x="12" y="-36.5" dx="5.5" dy="10.5" layer="1"/>
+<text x="15.25" y="-37.75" size="4" layer="25">+</text>
+<text x="-7.75" y="-5" size="4" layer="25">2A 2C
+605060</text>
 </package>
 </packages>
 <symbols>
@@ -662,26 +678,26 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<pin name="SCL" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL" x="20.32" y="12.7" length="middle" rot="R180"/>
 <pin name="DIG_IO3" x="-20.32" y="12.7" length="middle"/>
 <pin name="DIG_IO2" x="-20.32" y="10.16" length="middle"/>
 <pin name="BAT_SNS" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="DIG_IO1" x="-20.32" y="7.62" length="middle"/>
 <pin name="VIN" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="ISO_S" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="ISO_S" x="20.32" y="5.08" length="middle" rot="R180"/>
 <pin name="ILED" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="SYS_EN" x="-20.32" y="-7.62" length="middle"/>
-<pin name="SDA" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="SYS_EN" x="-20.32" y="5.08" length="middle"/>
+<pin name="SDA" x="20.32" y="10.16" length="middle" rot="R180"/>
 <pin name="THR" x="-20.32" y="-12.7" length="middle"/>
-<pin name="CBP" x="-20.32" y="0" length="middle"/>
+<pin name="CBP" x="-20.32" y="-5.08" length="middle"/>
 <pin name="ISO_B" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="AGND" x="0" y="-20.32" length="middle" rot="R90"/>
 <text x="2.54" y="-17.78" size="1.778" layer="94">ADP5063</text>
 </symbol>
 <symbol name="BQ2970">
 <pin name="NC" x="-15.24" y="-5.08" length="middle"/>
-<pin name="COUT" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="DOUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="COUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="DOUT" x="15.24" y="5.08" length="middle" rot="R180"/>
 <pin name="V-" x="-15.24" y="5.08" length="middle"/>
 <pin name="BAT" x="15.24" y="-5.08" length="middle" rot="R180"/>
 <pin name="VSS" x="-15.24" y="0" length="middle"/>
@@ -833,10 +849,8 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <text x="2.54" y="-2.54" size="1.778" layer="94">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
 <wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="6.35" size="1.27" layer="94">V+</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="94">V-</text>
+<pin name="V+" x="0" y="7.62" length="middle" rot="R270"/>
+<pin name="V-" x="0" y="-5.08" length="middle" rot="R90"/>
 </symbol>
 <symbol name="STM32F042K6">
 <pin name="VDD" x="-7.62" y="25.4" length="short" direction="pwr" rot="R270"/>
@@ -1246,9 +1260,31 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 </deviceset>
 <deviceset name="CSD16340Q3">
 <gates>
+<gate name="G$1" symbol="N-MOSFET-GDS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="Q3">
+<connects>
+<connect gate="G$1" pin="D" pad="P$5 P$6 P$7 P$8 P$9"/>
+<connect gate="G$1" pin="G" pad="P$4"/>
+<connect gate="G$1" pin="S" pad="P$1 P$2 P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2AHBATT">
+<gates>
+<gate name="G$1" symbol="LIPOCELL" x="0" y="-1.27"/>
+</gates>
+<devices>
+<device name="" package="2AH_605060">
+<connects>
+<connect gate="G$1" pin="V+" pad="POS"/>
+<connect gate="G$1" pin="V-" pad="NEG"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1258,4 +1294,10 @@ http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-c
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
