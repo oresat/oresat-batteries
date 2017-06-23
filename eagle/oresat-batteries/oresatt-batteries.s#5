@@ -8734,6 +8734,9 @@ General-purpose diode for high-speed switching</description>
 <part name="U$18" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="U$19" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
+<part name="U$20" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
+<part name="RHEATER" library="rcl" deviceset="R-US_" device="R0603" value="38"/>
+<part name="GND30" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8781,6 +8784,7 @@ Full SHUTDOWN
 <text x="96.52" y="6.35" size="2.1844" layer="95" rot="MR0">DIG_IO1</text>
 <text x="96.52" y="3.81" size="2.1844" layer="95" rot="MR0">DIG_IO2</text>
 <text x="96.52" y="1.27" size="2.1844" layer="95" rot="MR0">DIG_IO3</text>
+<text x="139.7" y="29.21" size="1.778" layer="95">HEAT</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-115.57" y="7.62"/>
@@ -8866,6 +8870,9 @@ Full SHUTDOWN
 <instance part="U$18" gate="G$1" x="-121.92" y="-67.31"/>
 <instance part="R14" gate="G$1" x="-64.77" y="-16.51" rot="R90"/>
 <instance part="U$19" gate="G$1" x="-49.53" y="15.24" rot="MR180"/>
+<instance part="U$20" gate="G$1" x="157.48" y="46.99"/>
+<instance part="RHEATER" gate="G$1" x="166.37" y="36.83" rot="R180"/>
+<instance part="GND30" gate="1" x="172.72" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -9019,6 +9026,12 @@ Full SHUTDOWN
 <pinref part="U$18" gate="G$1" pin="S"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-119.38" y1="-76.2" x2="-119.38" y2="-74.93" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RHEATER" gate="G$1" pin="1"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="171.45" y1="36.83" x2="172.72" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="36.83" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADP_THR" class="0">
@@ -9468,7 +9481,8 @@ Full SHUTDOWN
 <wire x1="30.48" y1="7.62" x2="30.48" y2="57.15" width="0.1524" layer="91"/>
 <junction x="30.48" y="57.15"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="125.73" y1="57.15" x2="179.07" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="57.15" x2="160.02" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="57.15" x2="179.07" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="179.07" y1="57.15" x2="212.09" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="212.09" y1="57.15" x2="212.09" y2="30.48" width="0.1524" layer="91"/>
 <junction x="125.73" y="57.15"/>
@@ -9503,6 +9517,9 @@ Full SHUTDOWN
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-29.21" y1="20.32" x2="-29.21" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-29.21" y1="25.4" x2="-46.99" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="G$1" pin="D"/>
+<wire x1="160.02" y1="54.61" x2="160.02" y2="57.15" width="0.1524" layer="91"/>
+<junction x="160.02" y="57.15"/>
 </segment>
 </net>
 <net name="BQKILL" class="0">
@@ -9602,6 +9619,23 @@ Full SHUTDOWN
 <wire x1="81.28" y1="-43.18" x2="81.28" y2="1.27" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PB4"/>
 <wire x1="81.28" y1="1.27" x2="97.79" y2="1.27" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="RHEATER" gate="G$1" pin="2"/>
+<pinref part="U$20" gate="G$1" pin="S"/>
+<wire x1="161.29" y1="36.83" x2="160.02" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="36.83" x2="160.02" y2="39.37" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PA1"/>
+<wire x1="138.43" y1="29.21" x2="149.86" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="29.21" x2="149.86" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="G$1" pin="G"/>
+<wire x1="149.86" y1="44.45" x2="152.4" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

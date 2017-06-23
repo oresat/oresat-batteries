@@ -2109,7 +2109,7 @@ design rules under a new name.</description>
 <element name="U$19" library="oresat-batteries" package="Q3" value="CSD16340Q3" x="-17" y="-18"/>
 <element name="U$20" library="oresat-batteries" package="Q3" value="CSD16340Q3" x="-21.5" y="-19.5"/>
 <element name="U$3" library="oresat-batteries" package="2AH_605060" value="2AHBATT" x="47.5" y="50"/>
-<element name="U$21" library="oresat-batteries" package="RES_HEATER" value="RES_HEATER" x="47.5" y="50"/>
+<element name="U$21" library="oresat-batteries" package="RES_HEATER" value="4.19" x="47.5" y="50"/>
 </elements>
 <signals>
 <signal name="GND">

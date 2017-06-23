@@ -434,16 +434,16 @@ Haneef Mubarak</description>
 <wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<pin name="SCL" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="SCL" x="20.32" y="10.16" length="middle" rot="R180"/>
 <pin name="DIG_IO3" x="-20.32" y="12.7" length="middle"/>
 <pin name="DIG_IO2" x="-20.32" y="10.16" length="middle"/>
 <pin name="BAT_SNS" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="DIG_IO1" x="-20.32" y="7.62" length="middle"/>
 <pin name="VIN" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="ISO_S" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="ISO_S" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="ILED" x="20.32" y="-12.7" length="middle" rot="R180"/>
 <pin name="SYS_EN" x="-20.32" y="5.08" length="middle"/>
-<pin name="SDA" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="SDA" x="20.32" y="7.62" length="middle" rot="R180"/>
 <pin name="THR" x="-20.32" y="-12.7" length="middle"/>
 <pin name="CBP" x="-20.32" y="-5.08" length="middle"/>
 <pin name="ISO_B" x="20.32" y="-7.62" length="middle" rot="R180"/>
@@ -9047,7 +9047,7 @@ Full SHUTDOWN
 <net name="ISO_S" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="ISO_S"/>
-<wire x1="-95.25" y1="17.78" x2="-80.01" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-95.25" y1="7.62" x2="-80.01" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-80.01" y1="17.78" x2="-80.01" y2="54.61" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-80.01" y1="16.51" x2="-80.01" y2="17.78" width="0.1524" layer="91"/>
@@ -9275,7 +9275,7 @@ Full SHUTDOWN
 <net name="SDA" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SDA"/>
-<wire x1="-86.36" y1="7.62" x2="-95.25" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="7.62" x2="-95.25" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="29.21" x2="-86.36" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="19.05" y1="29.21" x2="-31.75" y2="29.21" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="SDA"/>
@@ -9296,7 +9296,7 @@ Full SHUTDOWN
 <segment>
 <pinref part="U2" gate="G$1" pin="PB6"/>
 <pinref part="U$1" gate="G$1" pin="SCL"/>
-<wire x1="-95.25" y1="10.16" x2="-90.17" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-95.25" y1="17.78" x2="-90.17" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-90.17" y1="10.16" x2="-90.17" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-90.17" y1="33.02" x2="-24.13" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-24.13" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
