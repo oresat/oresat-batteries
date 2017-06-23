@@ -8,24 +8,24 @@
 </settings>
 <grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,20 +43,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="b3D" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="b3D" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -8828,6 +8828,7 @@ General-purpose diode for high-speed switching</description>
 <part name="U$24" library="oresat-batteries" deviceset="TP" device=""/>
 <part name="U$25" library="oresat-batteries" deviceset="TP" device=""/>
 <part name="U$26" library="oresat-batteries" deviceset="TP" device=""/>
+<part name="U$27" library="oresat-batteries" deviceset="TP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8836,7 +8837,7 @@ General-purpose diode for high-speed switching</description>
 <text x="96.52" y="-6.35" size="1.778" layer="95" rot="MR0">SDA</text>
 <text x="139.7" y="26.67" size="1.778" layer="95">USART2_TX</text>
 <text x="139.7" y="24.13" size="1.778" layer="95">USART2_RX</text>
-<text x="139.7" y="21.59" size="1.778" layer="95">DEBUG</text>
+<text x="139.7" y="31.75" size="1.778" layer="95">DEBUG</text>
 <text x="139.7" y="8.89" size="1.778" layer="95">CAN_LSTN</text>
 <text x="139.7" y="6.35" size="1.778" layer="95">CAN_EN</text>
 <text x="139.7" y="3.81" size="1.778" layer="95">CAN_RX</text>
@@ -8962,7 +8963,7 @@ General-purpose diode for high-speed switching</description>
 <instance part="R14" gate="G$1" x="-64.77" y="-16.51" rot="R90"/>
 <instance part="U$19" gate="G$1" x="-49.53" y="15.24" rot="MR180"/>
 <instance part="U$20" gate="G$1" x="157.48" y="46.99"/>
-<instance part="GND30" gate="1" x="172.72" y="30.48"/>
+<instance part="GND30" gate="1" x="175.26" y="30.48"/>
 <instance part="U$3" gate="G$1" x="-46.99" y="-1.27"/>
 <instance part="U$21" gate="G$1" x="166.37" y="36.83"/>
 <instance part="R15" gate="G$1" x="-128.27" y="-74.93" rot="R270"/>
@@ -8973,6 +8974,7 @@ General-purpose diode for high-speed switching</description>
 <instance part="U$24" gate="G$1" x="-152.4" y="12.7"/>
 <instance part="U$25" gate="G$1" x="67.31" y="29.21"/>
 <instance part="U$26" gate="G$1" x="-128.27" y="-46.99"/>
+<instance part="U$27" gate="G$1" x="140.97" y="11.43"/>
 </instances>
 <busses>
 </busses>
@@ -9134,8 +9136,8 @@ General-purpose diode for high-speed switching</description>
 </segment>
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="171.45" y1="36.83" x2="172.72" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="36.83" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="36.83" x2="175.26" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="36.83" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -9233,7 +9235,7 @@ General-purpose diode for high-speed switching</description>
 <pinref part="U$3" gate="G$1" pin="V-"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="ROSC" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="ROSC"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -9330,11 +9332,11 @@ General-purpose diode for high-speed switching</description>
 </net>
 <net name="STM_DEBUG" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="PA4"/>
-<wire x1="138.43" y1="21.59" x2="171.45" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="171.45" y1="21.59" x2="171.45" y2="-26.67" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="31.75" x2="171.45" y2="-26.67" width="0.1524" layer="91"/>
 <pinref part="CF2" gate="G$1" pin="8"/>
 <wire x1="171.45" y1="-26.67" x2="224.79" y2="-26.67" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PA0"/>
+<wire x1="138.43" y1="31.75" x2="171.45" y2="31.75" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_LSTN" class="0">
@@ -9389,7 +9391,7 @@ General-purpose diode for high-speed switching</description>
 <wire x1="138.43" y1="-1.27" x2="168.91" y2="-1.27" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="NRESET" class="0">
 <segment>
 <pinref part="CF2" gate="G$1" pin="3"/>
 <wire x1="224.79" y1="-39.37" x2="163.83" y2="-39.37" width="0.1524" layer="91"/>
@@ -9474,7 +9476,7 @@ General-purpose diode for high-speed switching</description>
 <pinref part="D2" gate="1" pin="C"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="IO0" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
@@ -9487,7 +9489,7 @@ General-purpose diode for high-speed switching</description>
 <wire x1="22.86" y1="-10.16" x2="30.48" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CANH" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CANH"/>
 <wire x1="224.79" y1="3.81" x2="229.87" y2="3.81" width="0.1524" layer="91"/>
@@ -9506,7 +9508,7 @@ General-purpose diode for high-speed switching</description>
 <junction x="232.41" y="-77.47"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CANL"/>
 <wire x1="224.79" y1="-1.27" x2="232.41" y2="-1.27" width="0.1524" layer="91"/>
@@ -9689,7 +9691,7 @@ General-purpose diode for high-speed switching</description>
 <wire x1="-57.15" y1="-59.69" x2="-57.15" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="SYS_EN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB0"/>
 <wire x1="97.79" y1="8.89" x2="69.85" y2="8.89" width="0.1524" layer="91"/>
@@ -9700,7 +9702,7 @@ General-purpose diode for high-speed switching</description>
 <wire x1="-152.4" y1="12.7" x2="-135.89" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DIG_IO1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIG_IO1"/>
 <wire x1="-135.89" y1="15.24" x2="-156.21" y2="15.24" width="0.1524" layer="91"/>
@@ -9711,7 +9713,7 @@ General-purpose diode for high-speed switching</description>
 <wire x1="73.66" y1="6.35" x2="97.79" y2="6.35" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DIG_IO2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIG_IO2"/>
 <wire x1="-135.89" y1="17.78" x2="-160.02" y2="17.78" width="0.1524" layer="91"/>
@@ -9722,7 +9724,7 @@ General-purpose diode for high-speed switching</description>
 <wire x1="77.47" y1="3.81" x2="97.79" y2="3.81" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="DIG_IO3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIG_IO3"/>
 <wire x1="-135.89" y1="20.32" x2="-163.83" y2="20.32" width="0.1524" layer="91"/>
@@ -9741,7 +9743,7 @@ General-purpose diode for high-speed switching</description>
 <pinref part="U$21" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="HEAT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA1"/>
 <wire x1="138.43" y1="29.21" x2="149.86" y2="29.21" width="0.1524" layer="91"/>
@@ -9757,6 +9759,12 @@ General-purpose diode for high-speed switching</description>
 <wire x1="-55.88" y1="-54.61" x2="-55.88" y2="-49.53" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="G"/>
 <wire x1="-54.61" y1="-49.53" x2="-55.88" y2="-49.53" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PA8" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PA8"/>
+<wire x1="140.97" y1="11.43" x2="138.43" y2="11.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

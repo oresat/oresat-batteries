@@ -2113,6 +2113,8 @@ design rules under a new name.</description>
 <element name="R15" library="rcl" package="R0603" value="100k" x="-21" y="-25"/>
 <element name="U$22" library="oresat-batteries" package="2MM_TP" value="TP" x="-21.5" y="-29"/>
 <element name="U$23" library="oresat-batteries" package="2MM_TP" value="TP" x="-21.5" y="-31.5"/>
+<element name="U$24" library="oresat-batteries" package="2MM_TP" value="TP" x="-21.5" y="-34"/>
+<element name="U$25" library="oresat-batteries" package="2MM_TP" value="TP" x="-21.5" y="-36.5"/>
 </elements>
 <signals>
 <signal name="GND">

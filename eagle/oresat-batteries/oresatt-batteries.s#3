@@ -8825,6 +8825,8 @@ General-purpose diode for high-speed switching</description>
 <part name="U$22" library="oresat-batteries" deviceset="TP" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="U$23" library="oresat-batteries" deviceset="TP" device=""/>
+<part name="U$24" library="oresat-batteries" deviceset="TP" device=""/>
+<part name="U$25" library="oresat-batteries" deviceset="TP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8966,6 +8968,8 @@ General-purpose diode for high-speed switching</description>
 <instance part="U$22" gate="G$1" x="-160.02" y="-73.66"/>
 <instance part="GND32" gate="1" x="-153.67" y="-78.74"/>
 <instance part="U$23" gate="G$1" x="-153.67" y="-73.66"/>
+<instance part="U$24" gate="G$1" x="-152.4" y="12.7"/>
+<instance part="U$25" gate="G$1" x="67.31" y="29.21"/>
 </instances>
 <busses>
 </busses>

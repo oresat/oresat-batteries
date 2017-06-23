@@ -8819,7 +8819,7 @@ General-purpose diode for high-speed switching</description>
 <part name="U$20" library="oresat-batteries" deviceset="CSD16340Q3" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="oresat-batteries" deviceset="2AHBATT" device=""/>
-<part name="U$21" library="oresat-batteries" deviceset="RES_HEATER" device=""/>
+<part name="U$21" library="oresat-batteries" deviceset="RES_HEATER" device="" value="4.19"/>
 </parts>
 <sheets>
 <sheet>
