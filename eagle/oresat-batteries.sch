@@ -8846,6 +8846,61 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FRAME_C_L">
+<frame x1="0" y1="0" x2="558.8" y2="431.8" columns="11" rows="9" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_C_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; C Size , 17 x 22 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_C_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="452.12" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8950,6 +9005,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9017,7 +9073,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="U$2" gate="G$1" x="-120.65" y="-99.06"/>
 <instance part="U1" gate="G$1" x="224.79" y="8.89"/>
 <instance part="CF1" gate="G$1" x="-184.15" y="7.62"/>
-<instance part="U$5" gate="G$1" x="12.7" y="-1.27"/>
+<instance part="U$5" gate="G$1" x="12.7" y="1.27"/>
 <instance part="R1" gate="G$1" x="-138.43" y="-11.43" rot="R90"/>
 <instance part="C1" gate="G$1" x="-160.02" y="-105.41"/>
 <instance part="GND1" gate="1" x="-115.57" y="-20.32"/>
@@ -9037,11 +9093,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND10" gate="1" x="-6.35" y="-25.4"/>
 <instance part="R4" gate="G$1" x="-6.35" y="-16.51" rot="R90"/>
 <instance part="GND11" gate="1" x="12.7" y="-25.4"/>
-<instance part="C6" gate="G$1" x="-17.78" y="-5.08" rot="R180"/>
-<instance part="R5" gate="G$1" x="-17.78" y="8.89" rot="R90"/>
-<instance part="GND12" gate="1" x="-17.78" y="-12.7"/>
-<instance part="C7" gate="G$1" x="-7.62" y="12.7" rot="R180"/>
-<instance part="GND13" gate="1" x="-7.62" y="6.35"/>
+<instance part="C6" gate="G$1" x="-16.51" y="1.27" rot="R180"/>
+<instance part="R5" gate="G$1" x="-16.51" y="15.24" rot="R90"/>
+<instance part="GND12" gate="1" x="-16.51" y="-6.35"/>
+<instance part="C7" gate="G$1" x="8.89" y="20.32" rot="R180"/>
+<instance part="GND13" gate="1" x="8.89" y="13.97"/>
 <instance part="R6" gate="G$1" x="-142.24" y="-104.14" rot="R180"/>
 <instance part="GND14" gate="1" x="-160.02" y="-118.11"/>
 <instance part="R7" gate="G$1" x="-160.02" y="-92.71" rot="R90"/>
@@ -9064,7 +9120,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND21" gate="1" x="123.19" y="40.64"/>
 <instance part="GND22" gate="1" x="113.03" y="40.64"/>
 <instance part="GND23" gate="1" x="144.78" y="40.64"/>
-<instance part="R10" gate="G$1" x="43.18" y="8.89" rot="R90"/>
+<instance part="R10" gate="G$1" x="43.18" y="3.81" rot="R90"/>
 <instance part="C13" gate="G$1" x="215.9" y="34.29"/>
 <instance part="GND25" gate="1" x="215.9" y="25.4"/>
 <instance part="R11" gate="G$1" x="12.7" y="39.37" rot="R90"/>
@@ -9074,8 +9130,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="U$6" gate="G$1" x="-115.57" y="52.07"/>
 <instance part="U$7" gate="G$1" x="12.7" y="57.15"/>
 <instance part="U$9" gate="G$1" x="43.18" y="-8.89"/>
-<instance part="U$10" gate="G$1" x="35.56" y="-3.81"/>
-<instance part="U$11" gate="G$1" x="33.02" y="1.27"/>
+<instance part="U$10" gate="G$1" x="34.29" y="-1.27"/>
+<instance part="U$11" gate="G$1" x="31.75" y="3.81"/>
 <instance part="U$15" gate="G$1" x="224.79" y="38.1"/>
 <instance part="D2" gate="1" x="-156.21" y="57.15" rot="R180"/>
 <instance part="R13" gate="G$1" x="60.96" y="-8.89" rot="R180"/>
@@ -9092,7 +9148,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="GND29" gate="1" x="231.14" y="-86.36"/>
 <instance part="U$20" gate="G$1" x="170.18" y="46.99"/>
 <instance part="GND30" gate="1" x="187.96" y="30.48"/>
-<instance part="U$3" gate="G$1" x="-46.99" y="-2.54"/>
+<instance part="U$3" gate="G$1" x="-46.99" y="-1.27"/>
 <instance part="U$21" gate="G$1" x="179.07" y="36.83"/>
 <instance part="GND31" gate="1" x="-6.35" y="-118.11"/>
 <instance part="U$22" gate="G$1" x="-6.35" y="-113.03"/>
@@ -9108,6 +9164,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="C14" gate="G$1" x="-76.2" y="-55.88"/>
 <instance part="GND2" gate="1" x="-76.2" y="-66.04"/>
 <instance part="GND33" gate="1" x="-88.9" y="-82.55"/>
+<instance part="FRAME1" gate="G$1" x="-238.76" y="-232.41"/>
+<instance part="FRAME1" gate="G$2" x="213.36" y="-232.41"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -9136,10 +9194,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </bus>
 <bus name="B$4">
 <segment>
-<wire x1="-24.13" y1="-46.99" x2="48.26" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
+<wire x1="-22.86" y1="-46.99" x2="48.26" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
 <wire x1="48.26" y1="-46.99" x2="48.26" y2="69.85" width="0.1524" layer="92" style="shortdash"/>
-<wire x1="48.26" y1="69.85" x2="-24.13" y2="69.85" width="0.1524" layer="92" style="shortdash"/>
-<wire x1="-24.13" y1="69.85" x2="-24.13" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
+<wire x1="48.26" y1="69.85" x2="-22.86" y2="69.85" width="0.1524" layer="92" style="shortdash"/>
+<wire x1="-22.86" y1="69.85" x2="-22.86" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
 </segment>
 </bus>
 <bus name="B$5">
@@ -9168,9 +9226,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </bus>
 <bus name="B$8">
 <segment>
-<wire x1="-67.31" y1="69.85" x2="-25.4" y2="71.12" width="0.1524" layer="92" style="shortdash"/>
-<wire x1="-25.4" y1="71.12" x2="-25.4" y2="-45.72" width="0.1524" layer="92" style="shortdash"/>
-<wire x1="-25.4" y1="-45.72" x2="-67.31" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
+<wire x1="-67.31" y1="69.85" x2="-24.13" y2="69.85" width="0.1524" layer="92" style="shortdash"/>
+<wire x1="-24.13" y1="69.85" x2="-24.13" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
+<wire x1="-24.13" y1="-46.99" x2="-67.31" y2="-46.99" width="0.1524" layer="92" style="shortdash"/>
 <wire x1="-67.31" y1="-46.99" x2="-67.31" y2="69.85" width="0.1524" layer="92" style="shortdash"/>
 </segment>
 </bus>
@@ -9220,17 +9278,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="U$5" gate="G$1" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="12.7" y1="-22.86" x2="12.7" y2="-16.51" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-22.86" x2="12.7" y2="-13.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="-3.81" x2="-16.51" y2="-1.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="-7.62" y1="8.89" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="17.78" x2="8.89" y2="16.51" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -9392,9 +9450,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="237.49" y1="-69.85" x2="184.15" y2="-69.85" width="0.1524" layer="91"/>
 <wire x1="184.15" y1="-69.85" x2="184.15" y2="-44.45" width="0.1524" layer="91"/>
 <wire x1="-41.91" y1="-44.45" x2="-41.91" y2="-31.75" width="0.1524" layer="91"/>
-<wire x1="-41.91" y1="-31.75" x2="-58.42" y2="-31.75" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-31.75" x2="-58.42" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="52.07" x2="-115.57" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="-41.91" y1="-31.75" x2="-60.96" y2="-31.75" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-31.75" x2="-60.96" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="52.07" x2="-115.57" y2="52.07" width="0.1524" layer="91"/>
 <junction x="-115.57" y="52.07"/>
 <pinref part="DEBUG_DNP" gate="A" pin="8"/>
 <wire x1="245.11" y1="-69.85" x2="237.49" y2="-69.85" width="0.1524" layer="91"/>
@@ -9415,7 +9473,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="U$14" gate="G$1" pin="S"/>
 <wire x1="-46.99" y1="-66.04" x2="-46.99" y2="-52.07" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="V-"/>
-<wire x1="-46.99" y1="-52.07" x2="-46.99" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-46.99" y1="-52.07" x2="-46.99" y2="-6.35" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VSS"/>
 <wire x1="-69.85" y1="-91.44" x2="-99.06" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="-91.44" x2="-99.06" y2="-99.06" width="0.1524" layer="91"/>
@@ -9429,19 +9487,21 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="U$5" gate="G$1" pin="ROSC"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-8.89" x2="-6.35" y2="-8.89" width="0.1524" layer="91"/>
-<wire x1="-6.35" y1="-8.89" x2="-6.35" y2="-11.43" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-6.35" x2="-6.35" y2="-6.35" width="0.1524" layer="91"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-11.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STC_VIN" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="VIN"/>
-<wire x1="-5.08" y1="1.27" x2="-17.78" y2="1.27" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="3.81" x2="-8.89" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="-8.89" y1="3.81" x2="-8.89" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-8.89" y1="7.62" x2="-16.51" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="0" x2="-17.78" y2="1.27" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="6.35" x2="-16.51" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="3.81" x2="-17.78" y2="1.27" width="0.1524" layer="91"/>
-<junction x="-17.78" y="1.27"/>
+<wire x1="-16.51" y1="10.16" x2="-16.51" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-16.51" y="7.62"/>
 </segment>
 </net>
 <net name="BQVMIN" class="0">
@@ -9610,20 +9670,20 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="U$1" gate="G$1" pin="SDA"/>
 <wire x1="-90.17" y1="17.78" x2="-95.25" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-90.17" y1="21.59" x2="-90.17" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="21.59" x2="-19.05" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="-90.17" y1="29.21" x2="-90.17" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="29.21" x2="-19.05" y2="29.21" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="SDA"/>
-<wire x1="-19.05" y1="21.59" x2="-90.17" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="1.27" x2="33.02" y2="1.27" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="1.27" x2="33.02" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="-19.05" y1="29.21" x2="-90.17" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="3.81" x2="31.75" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="3.81" x2="31.75" y2="29.21" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PB7"/>
 <wire x1="110.49" y1="-6.35" x2="38.1" y2="-6.35" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-6.35" x2="38.1" y2="1.27" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="1.27" x2="33.02" y2="1.27" width="0.1524" layer="91"/>
-<junction x="33.02" y="1.27"/>
+<wire x1="38.1" y1="-6.35" x2="38.1" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="3.81" x2="31.75" y2="3.81" width="0.1524" layer="91"/>
+<junction x="31.75" y="3.81"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="-19.05" y1="21.59" x2="-19.05" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-19.05" y="21.59"/>
+<wire x1="-19.05" y1="29.21" x2="-19.05" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-19.05" y="29.21"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -9631,17 +9691,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="U2" gate="G$1" pin="PB6"/>
 <pinref part="U$1" gate="G$1" pin="SCL"/>
 <wire x1="-95.25" y1="20.32" x2="-92.71" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-92.71" y1="20.32" x2="-92.71" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="-92.71" y1="24.13" x2="-11.43" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="-11.43" y1="24.13" x2="35.56" y2="24.13" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="24.13" x2="35.56" y2="-3.81" width="0.1524" layer="91"/>
+<wire x1="-92.71" y1="20.32" x2="-92.71" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="-92.71" y1="31.75" x2="-11.43" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="-11.43" y1="31.75" x2="34.29" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="31.75" x2="34.29" y2="-1.27" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="SCL"/>
-<wire x1="35.56" y1="-3.81" x2="30.48" y2="-3.81" width="0.1524" layer="91"/>
-<wire x1="110.49" y1="-3.81" x2="35.56" y2="-3.81" width="0.1524" layer="91"/>
-<junction x="35.56" y="-3.81"/>
+<wire x1="34.29" y1="-1.27" x2="30.48" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="-3.81" x2="34.29" y2="-3.81" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="-3.81" x2="34.29" y2="-1.27" width="0.1524" layer="91"/>
+<junction x="34.29" y="-1.27"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-11.43" y1="24.13" x2="-11.43" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-11.43" y="24.13"/>
+<wire x1="-11.43" y1="31.75" x2="-11.43" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-11.43" y="31.75"/>
 </segment>
 </net>
 <net name="STC_IO" class="0">
@@ -9656,12 +9717,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="VCC"/>
-<wire x1="12.7" y1="11.43" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="13.97" x2="12.7" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="26.67" x2="12.7" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="25.4" x2="8.89" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="34.29" width="0.1524" layer="91"/>
-<junction x="12.7" y="17.78"/>
+<wire x1="12.7" y1="26.67" x2="12.7" y2="34.29" width="0.1524" layer="91"/>
+<junction x="12.7" y="26.67"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9683,10 +9745,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-8.89" x2="55.88" y2="-8.89" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="3.81" x2="43.18" y2="-8.89" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-1.27" x2="43.18" y2="-8.89" width="0.1524" layer="91"/>
 <junction x="43.18" y="-8.89"/>
 <pinref part="U$5" gate="G$1" pin="IO0"/>
-<wire x1="30.48" y1="-8.89" x2="43.18" y2="-8.89" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-6.35" x2="35.56" y2="-6.35" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-6.35" x2="35.56" y2="-8.89" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-8.89" x2="43.18" y2="-8.89" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -9739,7 +9803,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-91.44" y1="2.54" x2="-95.25" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="57.15" x2="-73.66" y2="0" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="BAT_SNS"/>
-<wire x1="-46.99" y1="17.78" x2="-46.99" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="-46.99" y1="26.67" x2="-46.99" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="57.15" x2="-46.99" y2="57.15" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-73.66" y1="-6.35" x2="-73.66" y2="0" width="0.1524" layer="91"/>
@@ -9749,14 +9813,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-91.44" y1="2.54" x2="-91.44" y2="0" width="0.1524" layer="91"/>
 <junction x="-91.44" y="0"/>
 <junction x="-73.66" y="0"/>
-<junction x="-46.99" y="17.78"/>
+<junction x="-46.99" y="26.67"/>
 <wire x1="43.18" y1="57.15" x2="12.7" y2="57.15" width="0.1524" layer="91"/>
 <junction x="-46.99" y="57.15"/>
 <wire x1="12.7" y1="57.15" x2="-11.43" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="-11.43" y1="57.15" x2="-19.05" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="-19.05" y1="57.15" x2="-46.99" y2="57.15" width="0.1524" layer="91"/>
-<junction x="-46.99" y="17.78"/>
-<wire x1="-60.96" y1="17.78" x2="-46.99" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-46.99" y="26.67"/>
+<wire x1="-63.5" y1="26.67" x2="-46.99" y2="26.67" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="57.15" x2="77.47" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="57.15" x2="119.38" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="57.15" x2="130.81" y2="57.15" width="0.1524" layer="91"/>
@@ -9791,9 +9855,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="173.99" y1="-29.21" x2="77.47" y2="-29.21" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="-29.21" x2="77.47" y2="57.15" width="0.1524" layer="91"/>
 <junction x="77.47" y="57.15"/>
+<wire x1="43.18" y1="7.62" x2="43.18" y2="8.89" width="0.1524" layer="91"/>
 <junction x="43.18" y="57.15"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="13.97" x2="43.18" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="8.89" x2="43.18" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="57.15" x2="172.72" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="57.15" x2="191.77" y2="57.15" width="0.1524" layer="91"/>
 <wire x1="191.77" y1="57.15" x2="224.79" y2="57.15" width="0.1524" layer="91"/>
@@ -9823,21 +9888,22 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="-11.43" y="57.15"/>
 <junction x="237.49" y="-62.23"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="13.97" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="17.78" x2="-46.99" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="20.32" x2="-16.51" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="-16.51" y1="26.67" x2="-46.99" y2="26.67" width="0.1524" layer="91"/>
 <pinref part="U$20" gate="G$1" pin="D"/>
 <wire x1="172.72" y1="54.61" x2="172.72" y2="57.15" width="0.1524" layer="91"/>
 <junction x="172.72" y="57.15"/>
 <junction x="191.77" y="57.15"/>
-<wire x1="-46.99" y1="17.78" x2="-46.99" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-46.99" y1="26.67" x2="-46.99" y2="6.35" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="V+"/>
-<wire x1="-60.96" y1="17.78" x2="-60.96" y2="-31.75" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="-31.75" x2="-106.68" y2="-31.75" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="26.67" x2="-63.5" y2="-31.75" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-31.75" x2="-106.68" y2="-31.75" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-31.75" x2="-106.68" y2="-85.09" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-85.09" x2="-160.02" y2="-85.09" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-160.02" y1="-85.09" x2="-160.02" y2="-87.63" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
+<junction x="43.18" y="8.89"/>
 </segment>
 </net>
 <net name="SYS_EN" class="0">
@@ -9959,10 +10025,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-46.99" y1="-100.33" x2="-44.45" y2="-100.33" width="0.1524" layer="91"/>
 <junction x="-46.99" y="-100.33"/>
 <wire x1="-44.45" y1="-100.33" x2="-44.45" y2="-29.21" width="0.1524" layer="91"/>
-<wire x1="-11.43" y1="-3.81" x2="-11.43" y2="-29.21" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-1.27" x2="-10.16" y2="-29.21" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="CG"/>
-<wire x1="-5.08" y1="-3.81" x2="-11.43" y2="-3.81" width="0.1524" layer="91"/>
-<wire x1="-44.45" y1="-29.21" x2="-11.43" y2="-29.21" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-1.27" x2="-10.16" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="-44.45" y1="-29.21" x2="-10.16" y2="-29.21" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
