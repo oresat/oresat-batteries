@@ -738,18 +738,18 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
 <pin name="SCL" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="DIG_IO3" x="-20.32" y="12.7" length="middle"/>
-<pin name="DIG_IO2" x="-20.32" y="10.16" length="middle"/>
-<pin name="BAT_SNS" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="DIG_IO1" x="-20.32" y="7.62" length="middle"/>
+<pin name="DIG_IO3" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="DIG_IO2" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="BAT_SNS" x="-20.32" y="0" length="middle"/>
+<pin name="DIG_IO1" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="VIN" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="ISO_S" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="ILED" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="SYS_EN" x="-20.32" y="5.08" length="middle"/>
+<pin name="ISO_S" x="-20.32" y="12.7" length="middle"/>
+<pin name="ILED" x="-20.32" y="-7.62" length="middle"/>
+<pin name="SYS_EN" x="20.32" y="-5.08" length="middle" rot="R180"/>
 <pin name="SDA" x="20.32" y="10.16" length="middle" rot="R180"/>
 <pin name="THR" x="-20.32" y="-12.7" length="middle"/>
-<pin name="CBP" x="-20.32" y="-5.08" length="middle"/>
-<pin name="ISO_B" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="CBP" x="-20.32" y="-10.16" length="middle"/>
+<pin name="ISO_B" x="-20.32" y="-2.54" length="middle"/>
 <pin name="AGND" x="0" y="-20.32" length="middle" rot="R90"/>
 <text x="2.54" y="-17.78" size="1.778" layer="94">ADP5063</text>
 </symbol>
@@ -889,9 +889,9 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <pin name="IO0" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="SDA" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="SCL" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="ROSC" x="-17.78" y="-7.62" length="middle"/>
+<pin name="ROSC" x="-17.78" y="-2.54" length="middle"/>
 <pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
-<pin name="CG" x="-17.78" y="-2.54" length="middle"/>
+<pin name="CG" x="-17.78" y="-7.62" length="middle"/>
 <pin name="VIN" x="-17.78" y="2.54" length="middle"/>
 <pin name="VCC" x="0" y="12.7" length="middle" rot="R270"/>
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
