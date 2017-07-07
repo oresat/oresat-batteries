@@ -2185,7 +2185,7 @@ design rules under a new name.</description>
 <element name="U$27" library="oresat-batteries" package="2MM_TP" value="TP" x="24.2" y="22.9"/>
 <element name="IC1" library="74xx-little-us" package="SOT23-5" value="74AHC1G08DBV" x="18.1" y="26.2"/>
 <element name="R14" library="rcl" package="R0603" value="2.2k" x="16.6" y="19.4"/>
-<element name="C14" library="rcl" package="C0603" value="" x="16.6" y="14.6"/>
+<element name="C14" library="rcl" package="C0603" value=".1u" x="16.6" y="14.6"/>
 <element name="U$18" library="oresat-batteries" package="2MM_TP" value="TP" x="16.2" y="12.4"/>
 <element name="U$19" library="oresat-batteries" package="2MM_TP" value="TP" x="16.2" y="10.1"/>
 <element name="U$28" library="oresat-batteries" package="2MM_TP" value="TP" x="25.9" y="10.4"/>

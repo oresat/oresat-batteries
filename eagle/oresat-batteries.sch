@@ -9004,7 +9004,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="U$27" library="oresat-batteries" deviceset="TP" device=""/>
 <part name="IC1" library="74xx-little-us" deviceset="74*1G08" device="DBV" technology="AHC"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value=".1u"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_C_L" device=""/>
