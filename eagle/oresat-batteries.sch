@@ -9048,9 +9048,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="-85.09" y="17.78" size="1.778" layer="91">either bus or draw explicit bus</text>
 <text x="-67.31" y="-110.49" size="1.778" layer="91">Fix U$ names </text>
 <wire x1="-152.4" y1="-52.07" x2="-25.4" y2="-52.07" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-25.4" y1="-52.07" x2="-25.4" y2="-123.19" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-25.4" y1="-123.19" x2="-152.4" y2="-123.19" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="-152.4" y1="-123.19" x2="-152.4" y2="-52.07" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-25.4" y1="-52.07" x2="-25.4" y2="-125.73" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-25.4" y1="-125.73" x2="-152.4" y2="-125.73" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-152.4" y1="-125.73" x2="-152.4" y2="-52.07" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-54.61" y1="-49.53" x2="-54.61" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-54.61" y1="68.58" x2="-152.4" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-152.4" y1="68.58" x2="-152.4" y2="-49.53" width="0.1524" layer="97" style="shortdash"/>
@@ -9079,6 +9079,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="34.29" y1="-124.46" x2="34.29" y2="-107.95" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="34.29" y1="-107.95" x2="1.27" y2="-107.95" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="1.27" y1="-107.95" x2="1.27" y2="-124.46" width="0.1524" layer="97" style="shortdash"/>
+<text x="0" y="-78.74" size="1.778" layer="91">Two options for a switch on the layout in case NANO racks doesn't like our shutoff</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-101.6" y="10.16"/>
@@ -9151,7 +9152,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="U$12" gate="G$1" x="256.54" y="10.16"/>
 <instance part="U$13" gate="G$1" x="-35.56" y="-92.71"/>
 <instance part="U$14" gate="G$1" x="-35.56" y="-74.93" rot="MR180"/>
-<instance part="GND24" gate="1" x="-33.02" y="-119.38"/>
+<instance part="GND24" gate="1" x="-33.02" y="-121.92"/>
 <instance part="GND27" gate="1" x="21.59" y="-119.38"/>
 <instance part="U$16" gate="G$1" x="21.59" y="-114.3"/>
 <instance part="GND28" gate="1" x="27.94" y="-119.38"/>
@@ -9345,6 +9346,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="-33.02" y1="-114.3" x2="-33.02" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-33.02" y1="-116.84" x2="-33.02" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-133.35" y1="-105.41" x2="-135.89" y2="-105.41" width="0.1524" layer="91"/>
+<wire x1="-135.89" y1="-105.41" x2="-135.89" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-116.84" x2="-135.89" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-116.84"/>
 </segment>
 </net>
 <net name="ADP_THR" class="0">
@@ -9948,12 +9955,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </net>
 <net name="C_SENSE" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-133.35" y1="-105.41" x2="-135.89" y2="-105.41" width="0.1524" layer="91"/>
-<wire x1="-135.89" y1="-105.41" x2="-135.89" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="-135.89" y1="-114.3" x2="-80.01" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="-80.01" y1="-114.3" x2="-80.01" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="-80.01" y1="-101.6" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U$13" gate="G$1" pin="S"/>
 <wire x1="-33.02" y1="-104.14" x2="-33.02" y2="-101.6" width="0.1524" layer="91"/>

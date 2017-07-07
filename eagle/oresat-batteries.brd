@@ -2191,6 +2191,7 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="3"/>
 <contactref element="C14" pad="2"/>
 <contactref element="R3" pad="1"/>
+<contactref element="R6" pad="2"/>
 <wire x1="21.85" y1="80.08" x2="20.85" y2="81.93" width="0" layer="19" extent="1-1"/>
 <wire x1="22.415" y1="75.42" x2="21.85" y2="80.08" width="0" layer="19" extent="1-1"/>
 <wire x1="17.325" y1="78.375" x2="21.85" y2="80.08" width="0" layer="19" extent="1-1"/>
@@ -2203,7 +2204,8 @@ design rules under a new name.</description>
 <wire x1="13.35" y1="70" x2="13.35" y2="73" width="0" layer="19" extent="1-1"/>
 <wire x1="14.2" y1="66.75" x2="13.35" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="11.65" y1="76" x2="13.35" y2="73" width="0" layer="19" extent="1-1"/>
-<wire x1="7.65" y1="73" x2="11.65" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="9.35" y1="76" x2="11.65" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="7.65" y1="73" x2="9.35" y2="76" width="0" layer="19" extent="1-1"/>
 <wire x1="27.175" y1="72.2" x2="22.415" y2="75.42" width="0" layer="19" extent="1-1"/>
 <wire x1="24.85" y1="68.5" x2="27.175" y2="72.2" width="0" layer="19" extent="1-1"/>
 <wire x1="24.85" y1="64.5" x2="24.85" y2="68.5" width="0" layer="19" extent="1-1"/>
@@ -2577,13 +2579,11 @@ design rules under a new name.</description>
 <wire x1="-2.525" y1="-3.435" x2="26.66" y2="76.825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C_SENSE">
-<contactref element="R6" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="U$13" pad="P$1"/>
 <contactref element="U$13" pad="P$2"/>
 <contactref element="U$13" pad="P$3"/>
 <contactref element="U$5" pad="6"/>
-<wire x1="9.35" y1="76" x2="21.795" y2="75.42" width="0" layer="19" extent="1-1"/>
 <wire x1="29.35" y1="53" x2="21.795" y2="75.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.175" y1="-3.435" x2="29.35" y2="53" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.825" y1="-3.435" x2="-3.175" y2="-3.435" width="0" layer="19" extent="1-1"/>
