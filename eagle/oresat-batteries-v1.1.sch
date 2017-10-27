@@ -11997,7 +11997,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="TP6" gate="G$1" x="82.55" y="342.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="83.82" y="341.63" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="99.06" y="342.9" rot="R270"/>
+<instance part="SUPPLY2" gate="G$1" x="104.14" y="346.71"/>
 <instance part="SUPPLY5" gate="G$1" x="181.61" y="256.54"/>
 <instance part="SUPPLY7" gate="G$1" x="256.54" y="191.77"/>
 <instance part="SUPPLY6" gate="G$1" x="195.58" y="281.94"/>
@@ -12909,7 +12909,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="VSOLAR" class="0">
 <segment>
-<wire x1="82.55" y1="342.9" x2="99.06" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="342.9" x2="104.14" y2="342.9" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="P$1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <pinref part="JP1" gate="A" pin="12"/>
@@ -12919,6 +12919,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="80.01" y1="342.9" x2="80.01" y2="350.52" width="0.1524" layer="91"/>
 <junction x="82.55" y="342.9"/>
 <junction x="82.55" y="342.9"/>
+<wire x1="104.14" y1="342.9" x2="104.14" y2="346.71" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IN"/>
