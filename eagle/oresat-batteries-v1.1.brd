@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2673,8 +2673,8 @@ design rules under a new name.</description>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="DNP/0" x="78.7" y="90.65" rot="R90"/>
 <element name="Q2" library="oresat-batteries" package="Q3" value="CSD16340Q3" x="24.6" y="40.5375" rot="R90"/>
 <element name="Q1" library="oresat-batteries" package="Q3" value="CSD16340Q3" x="24.6" y="43.6375" rot="R90"/>
-<element name="TP3" library="oresat-batteries" package="2MM_TP" value="TP" x="5.05" y="12.6"/>
-<element name="TP4" library="oresat-batteries" package="2MM_TP" value="TP" x="5.35" y="15.4"/>
+<element name="TP3" library="oresat-batteries" package="2MM_TP" value="TP" x="5.05" y="5.6"/>
+<element name="TP4" library="oresat-batteries" package="2MM_TP" value="TP" x="93.85" y="5.4"/>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="57.3" y="3.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.06" y="7.825" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="67.46" y="8.145" size="1.27" layer="27" rot="R180"/>
@@ -2682,8 +2682,8 @@ design rules under a new name.</description>
 <element name="Q7" library="oresat-batteries" package="Q3" value="CSD16340Q3" x="16.1" y="72.3" rot="MR180"/>
 <element name="B1" library="oresat-batteries" package="2AH_605060" value="2AHBATT" x="49.3" y="47.5" rot="MR90"/>
 <element name="R20" library="oresat-batteries" package="RES_HEATER" value="4.19" x="49.3" y="47.5" rot="MR270"/>
-<element name="TP1" library="oresat-batteries" package="2MM_TP" value="TP" x="5.6" y="20.75"/>
-<element name="TP2" library="oresat-batteries" package="2MM_TP" value="TP" x="6.1" y="18.1"/>
+<element name="TP1" library="oresat-batteries" package="2MM_TP" value="TP" x="88.6" y="92.75"/>
+<element name="TP2" library="oresat-batteries" package="2MM_TP" value="TP" x="9.1" y="93.1"/>
 <element name="TP18" library="oresat-batteries" package="2MM_TP" value="TP" x="81.85" y="93.25"/>
 <element name="TP7" library="oresat-batteries" package="2MM_TP" value="TP" x="41.85" y="54.4"/>
 <element name="IC1" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:2482/1" value="74AHC1G08DBV" x="38.55" y="49.5" rot="R90"/>
@@ -2847,10 +2847,22 @@ design rules under a new name.</description>
 <via x="29.35" y="50.55" extent="1-16" drill="0.35"/>
 <via x="30.25" y="50.55" extent="1-16" drill="0.35"/>
 <via x="30.25" y="49.65" extent="1-16" drill="0.35"/>
-<wire x1="73.64" y1="3.315" x2="79.3" y2="23" width="0" layer="19" extent="16-16"/>
+<polygon width="0.1524" layer="16" thermals="no">
+<vertex x="8" y="95.15"/>
+<vertex x="90.3" y="95.15"/>
+<vertex x="90.3" y="85.25"/>
+<vertex x="95.85" y="85.25"/>
+<vertex x="95.85" y="3.35"/>
+<vertex x="83.75" y="3.35"/>
+<vertex x="83.75" y="0.3"/>
+<vertex x="14.45" y="0.3"/>
+<vertex x="14.45" y="3.45"/>
+<vertex x="2.65" y="3.45"/>
+<vertex x="2.65" y="85.15"/>
+<vertex x="8" y="85.15"/>
+</polygon>
 <wire x1="47.55" y1="64.55" x2="45.8" y2="62.65" width="0" layer="19" extent="1-1"/>
 <wire x1="35.7" y1="46.5" x2="39.65" y2="44.6" width="0" layer="19" extent="1-1"/>
-<wire x1="16.5" y1="69.95" x2="16.5" y2="65.45" width="0" layer="19" extent="1-1"/>
 <wire x1="46.325" y1="46.7" x2="42.7" y2="42.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT-">
