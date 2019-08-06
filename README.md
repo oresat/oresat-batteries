@@ -1,6 +1,1 @@
-# oresat-batteries
-Battery board for OreSat
-
-# Current Design Documentation
-- [Google Docs](https://docs.google.com/document/d/1m6FopMepRnWKUnyaSLvasRHum4sx9E_MLduOtIjwnw8/pub)
-- If you need editing permission ask either Austin or Andrew
+#OreSat Battery Board V2.0##The Jeremey Clarkson Methodology to Power Management (MORE POWAAHH)The OreSat Power Domain (OPD) is designed with modularity as a key factor in design decisions.  We are confident that our system will behave spectacularly in flight (whether that is spectacularly well or spectacularly bad remains to be seen).##Battery Pack TopologyEach OreSat battery card has 4 18650 LiPo cells, with two cells in parallel, and then two of the 2P pairings in series, this configuration allows one of the cells in a pair to die while still maintaining the proper voltage.  We will be flying two battery cards connected to the OPD, bothto keep our center of mass balanced around our geometric center, and for the added capacity.  Despite this, each card is independent and the OPD is fully capable of functioning with only one active card.  ##Charge/Discharge Protection##Fuel Gauge and Cell Health Monitoring# Current Design Documentation- [Google Docs](https://docs.google.com/document/d/1m6FopMepRnWKUnyaSLvasRHum4sx9E_MLduOtIjwnw8/pub)- If you need editing permission ask either Austin or Andrew
