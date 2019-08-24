@@ -6461,8 +6461,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DISTRIBUTOR" value="Digi-key" x="15.94" y="120.6" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="RNCP0603FTD10K0CT-ND" x="15.94" y="120.6" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RNCP0603FTD10K0" x="15.94" y="120.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="55.44" y="55.4" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="52.64" y="55.05" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="55.44" y="55.4" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="54.64" y="54.05" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R56" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="55.43" y="56.24" smashed="yes">
