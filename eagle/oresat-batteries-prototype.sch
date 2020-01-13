@@ -184,6 +184,33 @@
 <rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
 <text x="-1.6" y="1.5" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
 </package>
+<package name="SOT23">
+<wire x1="1.4" y1="0.6" x2="-1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="0.6" x2="-1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="-0.6" x2="1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="1.4" y1="-0.6" x2="1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.7" y1="-1.6" x2="1.7" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="1.7" y1="-1.6" x2="1.7" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.7" y1="0.9" x2="1" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1" y1="0.9" x2="1" y2="1.6" width="0.05" layer="39"/>
+<wire x1="1" y1="1.6" x2="-1" y2="1.6" width="0.05" layer="39"/>
+<wire x1="-1" y1="1.6" x2="-1" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1" y1="0.9" x2="-1.7" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="0.9" x2="-1.7" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-0.3683" y1="-0.3861" x2="0.3429" y2="-0.3861" width="0.15" layer="21"/>
+<wire x1="-1.3868" y1="-0.3683" x2="-1.3868" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="-1.3868" y1="0.3861" x2="-0.4978" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="1.3868" y1="-0.3683" x2="1.3868" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="1.3868" y1="0.3861" x2="0.5232" y2="0.3861" width="0.15" layer="21"/>
+<smd name="3" x="0" y="1.143" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-1.143" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="1" x="-0.9525" y="-1.143" dx="0.7874" dy="0.889" layer="1"/>
+<text x="-2" y="1.8" size="1" layer="25">&gt;NAME</text>
+<text x="-2" y="-3" size="1" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.25" y1="0.65" x2="0.25" y2="1.3" layer="51"/>
+<rectangle x1="-1.2" y1="-1.3" x2="-0.7" y2="-0.65" layer="51"/>
+<rectangle x1="0.7" y1="-1.3" x2="1.2" y2="-0.65" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEST-POINT">
@@ -193,6 +220,70 @@
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <text x="-5.08" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <pin name="1" x="0" y="0" visible="off" length="point" direction="pas"/>
+</symbol>
+<symbol name="N_MOSFET">
+<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-0.254" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="-1.524" y="0"/>
+<vertex x="-0.508" y="0.635"/>
+<vertex x="-0.508" y="-0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="0.762"/>
+<vertex x="2.032" y="-0.254"/>
+<vertex x="0.762" y="-0.254"/>
+</polygon>
+</symbol>
+<symbol name="P_MOSFET">
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.651" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="0.508" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="0" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="1.397" y2="-0.381" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="0.762" y1="0.508" x2="2.032" y2="0.635" layer="94"/>
+<pin name="D" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="-0.127" y="0"/>
+<vertex x="-1.143" y="0.635"/>
+<vertex x="-1.143" y="-0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="0.508"/>
+<vertex x="0.762" y="-0.508"/>
+<vertex x="2.032" y="-0.508"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -204,6 +295,40 @@
 <device name="" package="2MM-TEST-POINT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMV45EN" prefix="Q">
+<gates>
+<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTR4101P" prefix="Q">
+<gates>
+<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7437,98 +7562,6 @@ paste inset 0.025&amp;nbsp;mm.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="zetex" urn="urn:adsk.eagle:library:418">
-<description>&lt;b&gt;Zetex Power MOS FETs, Bridges, Diodes&lt;/b&gt;&lt;p&gt;
-http://www.zetex.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT-23" urn="urn:adsk.eagle:footprint:30948/1" library_version="4">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
-<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
-<text x="-1.397" y="1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.397" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
-<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
-<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT-23" urn="urn:adsk.eagle:package:30981/1" type="box" library_version="4">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT-23"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="N_MOSFET" urn="urn:adsk.eagle:symbol:30955/1" library_version="4">
-<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-0.254" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="3.048" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-1.524" y="0"/>
-<vertex x="-0.508" y="0.635"/>
-<vertex x="-0.508" y="-0.635"/>
-</polygon>
-<polygon width="0.1016" layer="94">
-<vertex x="1.397" y="0.762"/>
-<vertex x="2.032" y="-0.254"/>
-<vertex x="0.762" y="-0.254"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NMOSSOT23" urn="urn:adsk.eagle:component:31000/1" prefix="T" uservalue="yes" library_version="4">
-<description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23">
-<connects>
-<connect gate="A" pin="D" pad="1"/>
-<connect gate="A" pin="G" pad="3"/>
-<connect gate="A" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30981/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Q-VIshay-MOSFET-PCH-PowerPak121-8">
 <packages>
 <package name="POWERPAK-1212-8">
@@ -7603,147 +7636,6 @@ http://www.zetex.com&lt;p&gt;
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Transistor" urn="urn:adsk.eagle:library:14522416">
-<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Transistors &lt;/i&gt;&lt;/h3&gt;
-
-Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
-&lt;BR&gt;
-&lt;BR&gt;
-This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
-&lt;BR&gt;
-&lt;BR&gt;
-Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
-<packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:10893250/2" library_version="1">
-<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.325 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<smd name="1" x="-0.95" y="-1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R270" stop="no" cream="no"/>
-<smd name="2" x="0.95" y="-1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R270" stop="no" cream="no"/>
-<smd name="3" x="0" y="1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R90" stop="no" cream="no"/>
-<wire x1="-1.1925" y1="-1" x2="-0.7075" y2="-1" width="0.025" layer="51"/>
-<wire x1="-0.7075" y1="-1" x2="-0.7075" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="-0.7075" y1="-1.2" x2="-1.1925" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="-1.1925" y1="-1.2" x2="-1.1925" y2="-1" width="0.025" layer="51"/>
-<wire x1="0.7075" y1="-1" x2="1.1925" y2="-1" width="0.025" layer="51"/>
-<wire x1="1.1925" y1="-1" x2="1.1925" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="1.1925" y1="-1.2" x2="0.7075" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="0.7075" y1="-1.2" x2="0.7075" y2="-1" width="0.025" layer="51"/>
-<wire x1="0.2425" y1="1" x2="-0.2425" y2="1" width="0.025" layer="51"/>
-<wire x1="-0.2425" y1="1" x2="-0.2425" y2="1.2" width="0.025" layer="51"/>
-<wire x1="-0.2425" y1="1.2" x2="0.2425" y2="1.2" width="0.025" layer="51"/>
-<wire x1="0.2425" y1="1.2" x2="0.2425" y2="1" width="0.025" layer="51"/>
-<wire x1="-1.46" y1="-0.6625" x2="-1.46" y2="0.6625" width="0.025" layer="51"/>
-<wire x1="-1.46" y1="0.6625" x2="1.46" y2="0.6625" width="0.025" layer="51"/>
-<wire x1="1.46" y1="0.6625" x2="1.46" y2="-0.6625" width="0.025" layer="51"/>
-<wire x1="1.46" y1="-0.6625" x2="-1.46" y2="-0.6625" width="0.025" layer="51"/>
-<wire x1="-1.56" y1="-0.75" x2="-1.56" y2="0.75" width="0.12" layer="51"/>
-<wire x1="-1.56" y1="0.75" x2="1.56" y2="0.75" width="0.12" layer="51"/>
-<wire x1="1.56" y1="0.75" x2="1.56" y2="-0.75" width="0.12" layer="51"/>
-<wire x1="1.56" y1="-0.75" x2="-1.56" y2="-0.75" width="0.12" layer="51"/>
-<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
-<wire x1="-1.56" y1="-0.75" x2="-1.56" y2="0.75" width="0.12" layer="21"/>
-<wire x1="-1.56" y1="0.75" x2="-0.535" y2="0.75" width="0.12" layer="21"/>
-<wire x1="1.56" y1="-0.75" x2="1.56" y2="0.75" width="0.12" layer="21"/>
-<wire x1="1.56" y1="0.75" x2="0.535" y2="0.75" width="0.12" layer="21"/>
-<wire x1="1.76" y1="-0.95" x2="1.76" y2="0.95" width="0.05" layer="39"/>
-<wire x1="1.76" y1="0.95" x2="0.555" y2="0.95" width="0.05" layer="39"/>
-<wire x1="0.555" y1="0.95" x2="0.555" y2="1.755" width="0.05" layer="39"/>
-<wire x1="0.555" y1="1.755" x2="-0.555" y2="1.755" width="0.05" layer="39"/>
-<wire x1="-0.555" y1="1.755" x2="-0.555" y2="0.95" width="0.05" layer="39"/>
-<wire x1="-0.555" y1="0.95" x2="-1.76" y2="0.95" width="0.05" layer="39"/>
-<wire x1="-1.76" y1="0.95" x2="-1.76" y2="-0.95" width="0.05" layer="39"/>
-<wire x1="-1.76" y1="-0.95" x2="-1.505" y2="-0.95" width="0.05" layer="39"/>
-<wire x1="-1.505" y1="-0.95" x2="-1.505" y2="-1.755" width="0.05" layer="39"/>
-<wire x1="-1.505" y1="-1.755" x2="1.505" y2="-1.755" width="0.05" layer="39"/>
-<wire x1="1.505" y1="-1.755" x2="1.505" y2="-0.95" width="0.05" layer="39"/>
-<wire x1="1.505" y1="-0.95" x2="1.76" y2="-0.95" width="0.05" layer="39"/>
-<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<circle x="-1.02" y="-2.04" radius="0.1" width="0.2" layer="21"/>
-<text x="-2.54" y="2.54" size="1.02" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.02" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:10893259/3" type="model" library_version="1">
-<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.325 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<packageinstances>
-<packageinstance name="SOT23"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MOSFET_P" urn="urn:adsk.eagle:symbol:14521945/1" library_version="1">
-<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.159" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.159" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.159" x2="0.5334" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="2.159" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.159" x2="3.81" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.159" x2="2.54" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.159" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.159" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="-2.159" radius="0.127" width="0.4064" layer="94"/>
-<text x="-6.35" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.397" y="-4.318" size="0.8128" layer="93">D</text>
-<text x="1.397" y="3.556" size="0.8128" layer="93">S</text>
-<text x="-2.286" y="1.143" size="0.8128" layer="93">G</text>
-<rectangle x1="-0.254" y1="-2.794" x2="0.508" y2="-1.27" layer="94"/>
-<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.794" layer="94"/>
-<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
-<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1524" layer="94">
-<vertex x="2.54" y="0"/>
-<vertex x="1.27" y="0.508"/>
-<vertex x="1.27" y="-0.508"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BSS84" urn="urn:adsk.eagle:component:14521958/1" prefix="Q" library_version="1">
-<description>&lt;h3&gt; MOSFET P-CH 50V 130MA SOT-23 &lt;/h3&gt;
-&lt;BR&gt;
-&lt;a href="https://www.onsemi.com/pub/Collateral/BSS84-D.PDF"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_P" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10893259/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATED_BY" value="PCBLayout.com" constant="no"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="BSS84CT-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="BSS84" constant="no"/>
-<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -8059,7 +7951,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R66" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
 <part name="R67" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="TP35" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="T1" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
+<part name="Q4" library="Tova" deviceset="PMV45EN" device=""/>
 <part name="U10" library="U-LT-LTC4412-ideal-diode" deviceset="LTC4412" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C31" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n"/>
@@ -8083,13 +7975,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R70" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="100"/>
 <part name="R73" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
-<part name="T2" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
+<part name="Q1" library="Tova" deviceset="PMV45EN" device=""/>
 <part name="R74" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q2" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
 <part name="Q9" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q10" library="Transistor" library_urn="urn:adsk.eagle:library:14522416" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:10893259/3"/>
-<part name="Q11" library="Transistor" library_urn="urn:adsk.eagle:library:14522416" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:10893259/3"/>
+<part name="Q10" library="Tova" deviceset="NTR4101P" device=""/>
+<part name="Q11" library="Tova" deviceset="NTR4101P" device=""/>
 <part name="Q12" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
 <part name="Q13" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
 <part name="Q14" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
@@ -8100,16 +7992,16 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="C9" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="470n"/>
 <part name="U2" library="U-Maxim-MAX17205-Fuel_Gauge" deviceset="MAX17205G" device="" value="MAX17205G"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="T3" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
+<part name="Q3" library="Tova" deviceset="PMV45EN" device=""/>
 <part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
 <part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="D1" library="D-0402-package" deviceset="D-0402" device=""/>
 <part name="D4" library="D-0402-package" deviceset="D-0402" device=""/>
-<part name="T4" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
+<part name="Q5" library="Tova" deviceset="PMV45EN" device=""/>
 <part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
-<part name="T5" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
-<part name="T6" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:30981/1"/>
+<part name="Q7" library="Tova" deviceset="PMV45EN" device=""/>
+<part name="Q6" library="Tova" deviceset="PMV45EN" device=""/>
 <part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
@@ -8126,6 +8018,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP3" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP4" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP5" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8196,7 +8092,7 @@ if CHARGE-DISABLE is asserted or if Vcell &gt; Vovercharge</text>
 <wire x1="243.84" y1="255.27" x2="317.5" y2="255.27" width="0.1524" layer="97"/>
 <wire x1="243.84" y1="163.83" x2="317.5" y2="163.83" width="0.1524" layer="97"/>
 <wire x1="317.5" y1="255.27" x2="317.5" y2="163.83" width="0.1524" layer="97"/>
-<text x="335.28" y="26.67" size="3.81" layer="94">OreSat battery Card - Battery Pack 1</text>
+<text x="335.28" y="26.67" size="3.81" layer="94">OreSat Prototype Battery Pack </text>
 <text x="416.56" y="6.35" size="3.81" layer="94">1.0</text>
 <text x="247.65" y="62.23" size="1.778" layer="97">Kelvin
 Connection</text>
@@ -8352,7 +8248,7 @@ asserted - will neither charge nor discharge.</text>
 <instance part="TP35" gate="G$1" x="53.34" y="64.77" smashed="yes">
 <attribute name="NAME" x="50.8" y="67.31" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="T1" gate="A" x="45.72" y="83.82" smashed="yes" rot="MR0">
+<instance part="Q4" gate="G$1" x="45.72" y="83.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="43.18" y="83.82" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="43.18" y="86.36" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -8424,9 +8320,9 @@ asserted - will neither charge nor discharge.</text>
 <attribute name="NAME" x="270.51" y="200.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="276.86" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="T2" gate="A" x="280.67" y="186.69" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="278.13" y="186.69" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="278.13" y="189.23" size="1.778" layer="95" rot="MR0"/>
+<instance part="Q1" gate="G$1" x="280.67" y="186.69" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="285.75" y="186.69" size="1.778" layer="96"/>
+<attribute name="NAME" x="285.75" y="189.23" size="1.778" layer="95"/>
 </instance>
 <instance part="R74" gate="R" x="287.02" y="177.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="285.5214" y="181.61" size="1.778" layer="95" rot="MR270"/>
@@ -8443,13 +8339,13 @@ asserted - will neither charge nor discharge.</text>
 <attribute name="VALUE" x="241.3" y="130.175" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="241.3" y="127.635" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="Q10" gate="G$1" x="227.33" y="132.08" smashed="yes">
+<instance part="Q10" gate="G$1" x="229.87" y="132.08" smashed="yes">
 <attribute name="NAME" x="220.98" y="129.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="220.98" y="127" size="1.778" layer="96"/>
+<attribute name="VALUE" x="215.9" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="Q11" gate="G$1" x="227.33" y="97.79" smashed="yes">
+<instance part="Q11" gate="G$1" x="229.87" y="97.79" smashed="yes">
 <attribute name="NAME" x="220.98" y="95.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="220.98" y="92.71" size="1.778" layer="96"/>
+<attribute name="VALUE" x="215.9" y="92.71" size="1.778" layer="96"/>
 </instance>
 <instance part="Q12" gate="G$1" x="217.17" y="222.25" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="222.25" y="224.155" size="1.778" layer="96" rot="MR180"/>
@@ -8489,7 +8385,7 @@ asserted - will neither charge nor discharge.</text>
 <instance part="GND7" gate="1" x="349.25" y="138.43" smashed="yes">
 <attribute name="VALUE" x="346.71" y="135.89" size="1.778" layer="96"/>
 </instance>
-<instance part="T3" gate="A" x="27.94" y="83.82" smashed="yes" rot="MR0">
+<instance part="Q3" gate="G$1" x="27.94" y="83.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="25.4" y="83.82" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="25.4" y="86.36" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -8512,7 +8408,7 @@ asserted - will neither charge nor discharge.</text>
 <attribute name="NAME" x="55.88" y="48.26" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="49.53" y="49.53" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="T4" gate="A" x="44.45" y="34.29" smashed="yes" rot="MR0">
+<instance part="Q5" gate="G$1" x="44.45" y="34.29" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="41.91" y="34.29" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="41.91" y="36.83" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -8520,11 +8416,11 @@ asserted - will neither charge nor discharge.</text>
 <attribute name="NAME" x="49.53" y="20.32" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="49.53" y="26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="T5" gate="A" x="78.74" y="58.42" smashed="yes" rot="MR0">
+<instance part="Q7" gate="G$1" x="78.74" y="58.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="76.2" y="58.42" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="76.2" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="T6" gate="A" x="64.77" y="48.26" smashed="yes" rot="MR0">
+<instance part="Q6" gate="G$1" x="64.77" y="48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="62.23" y="48.26" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="62.23" y="50.8" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -8588,6 +8484,18 @@ asserted - will neither charge nor discharge.</text>
 <attribute name="NAME" x="363.22" y="84.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="73.66" size="1.778" layer="96"/>
 </instance>
+<instance part="TP1" gate="G$1" x="245.11" y="83.82" smashed="yes" rot="MR0">
+<attribute name="NAME" x="247.65" y="85.09" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP3" gate="G$1" x="245.11" y="81.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="247.65" y="82.55" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP4" gate="G$1" x="245.11" y="118.11" smashed="yes" rot="MR0">
+<attribute name="NAME" x="247.65" y="119.38" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP5" gate="G$1" x="245.11" y="115.57" smashed="yes" rot="MR0">
+<attribute name="NAME" x="247.65" y="116.84" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8644,7 +8552,7 @@ asserted - will neither charge nor discharge.</text>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="T2" gate="A" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="280.67" y1="181.61" x2="280.67" y2="171.45" width="0.1524" layer="91"/>
 <wire x1="280.67" y1="171.45" x2="284.48" y2="171.45" width="0.1524" layer="91"/>
 <pinref part="R74" gate="R" pin="2"/>
@@ -8979,7 +8887,7 @@ asserted - will neither charge nor discharge.</text>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R67" gate="R" pin="2"/>
-<pinref part="T1" gate="A" pin="G"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="53.34" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="81.28" x2="53.34" y2="64.77" width="0.1524" layer="91"/>
 <junction x="53.34" y="81.28"/>
@@ -8988,7 +8896,7 @@ asserted - will neither charge nor discharge.</text>
 <junction x="53.34" y="64.77"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="53.34" y1="49.53" x2="53.34" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="T5" gate="A" pin="D"/>
+<pinref part="Q7" gate="G$1" pin="D"/>
 <wire x1="53.34" y1="64.77" x2="78.74" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="64.77" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -9007,7 +8915,7 @@ asserted - will neither charge nor discharge.</text>
 <segment>
 <pinref part="R66" gate="R" pin="1"/>
 <wire x1="45.72" y1="91.44" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="T1" gate="A" pin="D"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="!CHARGE-PK1" class="0">
@@ -9087,6 +8995,9 @@ asserted - will neither charge nor discharge.</text>
 <junction x="229.87" y="139.7"/>
 <pinref part="Q10" gate="G$1" pin="S"/>
 <pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="118.11" x2="238.76" y2="118.11" width="0.1524" layer="91"/>
+<junction x="238.76" y="118.11"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -9127,7 +9038,7 @@ asserted - will neither charge nor discharge.</text>
 <junction x="45.72" y="76.2"/>
 <wire x1="229.87" y1="76.2" x2="80.01" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="78.74" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="T1" gate="A" pin="S"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
 <pinref part="U12" gate="G$1" pin="VSS"/>
 <wire x1="229.87" y1="80.01" x2="229.87" y2="76.2" width="0.1524" layer="91"/>
 <junction x="229.87" y="76.2"/>
@@ -9135,23 +9046,23 @@ asserted - will neither charge nor discharge.</text>
 <junction x="238.76" y="71.12"/>
 <pinref part="U2" gate="A" pin="CSP"/>
 <wire x1="318.77" y1="95.25" x2="318.77" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="T3" gate="A" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="27.94" y1="78.74" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
 <junction x="27.94" y="76.2"/>
 <wire x1="20.32" y1="76.2" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="17.78" x2="44.45" y2="17.78" width="0.1524" layer="91"/>
 <junction x="20.32" y="76.2"/>
-<pinref part="T4" gate="A" pin="S"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="44.45" y1="17.78" x2="44.45" y2="29.21" width="0.1524" layer="91"/>
 <pinref part="R8" gate="R" pin="1"/>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="17.78" x2="44.45" y2="17.78" width="0.1524" layer="91"/>
 <junction x="44.45" y="17.78"/>
-<pinref part="T6" gate="A" pin="S"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
 <wire x1="50.8" y1="17.78" x2="64.77" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="64.77" y1="17.78" x2="64.77" y2="43.18" width="0.1524" layer="91"/>
 <junction x="50.8" y="17.78"/>
-<pinref part="T5" gate="A" pin="S"/>
+<pinref part="Q7" gate="G$1" pin="S"/>
 <wire x1="64.77" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="17.78" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
@@ -9164,6 +9075,9 @@ asserted - will neither charge nor discharge.</text>
 <junction x="78.74" y="17.78"/>
 <junction x="64.77" y="17.78"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="81.28" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
+<junction x="238.76" y="81.28"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -9193,6 +9107,9 @@ asserted - will neither charge nor discharge.</text>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="Q11" gate="G$1" pin="S"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<junction x="238.76" y="83.82"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -9262,6 +9179,9 @@ asserted - will neither charge nor discharge.</text>
 <wire x1="35.56" y1="101.6" x2="35.56" y2="133.35" width="0.1524" layer="91"/>
 <junction x="35.56" y="133.35"/>
 <pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="115.57" x2="238.76" y2="115.57" width="0.1524" layer="91"/>
+<junction x="238.76" y="115.57"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -9294,14 +9214,14 @@ asserted - will neither charge nor discharge.</text>
 <wire x1="280.67" y1="199.39" x2="280.67" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="280.67" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
 <junction x="280.67" y="193.04"/>
-<pinref part="T2" gate="A" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="280.67" y1="191.77" x2="280.67" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="Q14" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="FAST-CHARGE-PK1" class="0">
 <segment>
-<pinref part="T2" gate="A" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="285.75" y1="184.15" x2="287.02" y2="184.15" width="0.1524" layer="91"/>
 <pinref part="R74" gate="R" pin="1"/>
 <wire x1="287.02" y1="184.15" x2="287.02" y2="182.88" width="0.1524" layer="91"/>
@@ -9365,14 +9285,14 @@ asserted - will neither charge nor discharge.</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="T3" gate="A" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="27.94" y1="88.9" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R6" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="T3" gate="A" pin="G"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <pinref part="R7" gate="R" pin="1"/>
 <wire x1="33.02" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="81.28" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
@@ -9383,7 +9303,7 @@ asserted - will neither charge nor discharge.</text>
 <junction x="35.56" y="54.61"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="54.61" x2="35.56" y2="49.53" width="0.1524" layer="91"/>
-<pinref part="T6" gate="A" pin="D"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="64.77" y1="54.61" x2="64.77" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9395,14 +9315,14 @@ asserted - will neither charge nor discharge.</text>
 <wire x1="35.56" y1="40.64" x2="44.45" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="44.45" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="40.64" x2="53.34" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="T4" gate="A" pin="D"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="44.45" y1="39.37" x2="44.45" y2="40.64" width="0.1524" layer="91"/>
 <junction x="44.45" y="40.64"/>
 </segment>
 </net>
 <net name="OPD-PK1-DISABLE" class="0">
 <segment>
-<pinref part="T4" gate="A" pin="G"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="49.53" y1="31.75" x2="50.8" y2="31.75" width="0.1524" layer="91"/>
 <pinref part="R8" gate="R" pin="2"/>
 <wire x1="50.8" y1="31.75" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
@@ -9416,7 +9336,7 @@ asserted - will neither charge nor discharge.</text>
 </net>
 <net name="CHARGE-DISABLE" class="0">
 <segment>
-<pinref part="T6" gate="A" pin="G"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
 <pinref part="R9" gate="R" pin="2"/>
 <wire x1="69.85" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="71.12" y2="29.21" width="0.1524" layer="91"/>
@@ -9428,7 +9348,7 @@ asserted - will neither charge nor discharge.</text>
 </net>
 <net name="DISCHARGE-DISABLE" class="0">
 <segment>
-<pinref part="T5" gate="A" pin="G"/>
+<pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="83.82" y1="55.88" x2="85.09" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R10" gate="R" pin="2"/>
 <wire x1="85.09" y1="55.88" x2="85.09" y2="29.21" width="0.1524" layer="91"/>
@@ -9462,6 +9382,8 @@ asserted - will neither charge nor discharge.</text>
 <approved hash="113,1,238.997,118.336,JP6,,,,,"/>
 <approved hash="113,1,232.173,53.1139,JP7,,,,,"/>
 <approved hash="113,1,240.256,235.983,JP8,,,,,"/>
+<approved hash="113,1,355.837,81.5061,JP9,,,,,"/>
+<approved hash="113,1,367.267,81.5061,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>

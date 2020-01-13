@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -24,20 +24,20 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -49,7 +49,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -173,8 +173,11 @@
 </layers>
 <board>
 <plain>
-<text x="2.6066" y="9.3058" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat Battery Prototype v1</text>
-<text x="41.6066" y="23.3058" size="2" layer="21" font="vector" ratio="15" rot="R90">2020/01/14</text>
+<text x="3.8" y="31.6" size="2" layer="21" font="vector" ratio="15">OreSat 
+Battery 
+Prototype 
+v1</text>
+<text x="41.2066" y="23.4058" size="2" layer="21" font="vector" ratio="15" rot="R90">2020/01/14</text>
 <wire x1="21.1" y1="12.7" x2="21.1" y2="13.3" width="0.1524" layer="41"/>
 <wire x1="21.1" y1="12.7" x2="23.8" y2="12.7" width="0.1524" layer="41"/>
 <wire x1="23.8" y1="12.7" x2="24" y2="12.9" width="0.1524" layer="41"/>
@@ -185,6 +188,32 @@
 <wire x1="0" y1="63" x2="42" y2="63" width="0.1524" layer="20"/>
 <wire x1="42" y1="63" x2="42" y2="0" width="0.1524" layer="20"/>
 <wire x1="42" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+<text x="40.1" y="5.1" size="0.635" layer="21" font="vector" ratio="20" align="center">THERM
+Cell 2</text>
+<text x="28.6" y="5.2" size="0.635" layer="21" font="vector" ratio="20" align="center">THERM
+Cell 1</text>
+<text x="25.7" y="20.3" size="0.635" layer="21" font="vector" ratio="20" align="center">+ CELL 1</text>
+<text x="25.7" y="17.8" size="0.635" layer="21" font="vector" ratio="20" align="center">- CELL 1</text>
+<text x="25.7" y="30.5" size="0.635" layer="21" font="vector" ratio="20" align="center">- CELL 2</text>
+<text x="25.7" y="33.1" size="0.635" layer="21" font="vector" ratio="20" align="center">+ CELL 2</text>
+<text x="34.2" y="33" size="0.635" layer="21" font="vector" ratio="20" align="center">!SD</text>
+<text x="34.1" y="30.5" size="0.635" layer="21" font="vector" ratio="20" align="center">GND</text>
+<text x="39.7" y="17.8" size="0.635" layer="21" font="vector" ratio="20" align="center">SCL</text>
+<text x="39.7" y="15.3" size="0.635" layer="21" font="vector" ratio="20" align="center">SDA</text>
+<text x="40.1" y="12.8" size="0.635" layer="21" font="vector" ratio="20" align="center">ALERT</text>
+<text x="39.6" y="10.2" size="0.635" layer="21" font="vector" ratio="20" align="center">GND</text>
+<text x="18.7" y="3.7" size="0.635" layer="21" font="vector" ratio="20" align="center">PACK
+-</text>
+<text x="18.7" y="59.6" size="0.635" layer="21" font="vector" ratio="20" align="center">PACK
++</text>
+<text x="3.2" y="53.3" size="0.635" layer="21" font="vector" ratio="20" align="center">DSTAT</text>
+<text x="3.2" y="50.7" size="0.635" layer="21" font="vector" ratio="20" align="center">CSTAT</text>
+<text x="2.5" y="48.2" size="0.635" layer="21" font="vector" ratio="20" align="center">FASTCHG</text>
+<text x="3.7" y="45.7" size="0.635" layer="21" font="vector" ratio="20" align="center">GND</text>
+<text x="6.3" y="4.8" size="0.635" layer="21" font="vector" ratio="20" align="center">GND</text>
+<text x="11.5" y="4.8" size="0.635" layer="21" font="vector" ratio="20" align="center">CDIS</text>
+<text x="14" y="4.8" size="0.635" layer="21" font="vector" ratio="20" align="center">DDIS</text>
+<text x="8.9" y="4.8" size="0.635" layer="21" font="vector" ratio="20" align="center">PKDIS</text>
 </plain>
 <libraries>
 <library name="Tova">
@@ -197,6 +226,33 @@
 <pad name="1" x="0" y="0" drill="0.7366"/>
 <rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
 <text x="-1.6" y="1.5" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
+</package>
+<package name="SOT23">
+<wire x1="1.4" y1="0.6" x2="-1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="0.6" x2="-1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="-0.6" x2="1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="1.4" y1="-0.6" x2="1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.7" y1="-1.6" x2="1.7" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="1.7" y1="-1.6" x2="1.7" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.7" y1="0.9" x2="1" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1" y1="0.9" x2="1" y2="1.6" width="0.05" layer="39"/>
+<wire x1="1" y1="1.6" x2="-1" y2="1.6" width="0.05" layer="39"/>
+<wire x1="-1" y1="1.6" x2="-1" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1" y1="0.9" x2="-1.7" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="0.9" x2="-1.7" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-0.3683" y1="-0.3861" x2="0.3429" y2="-0.3861" width="0.15" layer="21"/>
+<wire x1="-1.3868" y1="-0.3683" x2="-1.3868" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="-1.3868" y1="0.3861" x2="-0.4978" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="1.3868" y1="-0.3683" x2="1.3868" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="1.3868" y1="0.3861" x2="0.5232" y2="0.3861" width="0.15" layer="21"/>
+<smd name="3" x="0" y="1.143" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-1.143" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="1" x="-0.9525" y="-1.143" dx="0.7874" dy="0.889" layer="1"/>
+<text x="-2" y="1.8" size="1" layer="25">&gt;NAME</text>
+<text x="-2" y="-3" size="1" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.25" y1="0.65" x2="0.25" y2="1.3" layer="51"/>
+<rectangle x1="-1.2" y1="-1.3" x2="-0.7" y2="-0.65" layer="51"/>
+<rectangle x1="0.7" y1="-1.3" x2="1.2" y2="-0.65" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1506,36 +1562,6 @@ paste inset 0.025&amp;nbsp;mm.</description>
 </package>
 </packages>
 </library>
-<library name="zetex" urn="urn:adsk.eagle:library:418">
-<description>&lt;b&gt;Zetex Power MOS FETs, Bridges, Diodes&lt;/b&gt;&lt;p&gt;
-http://www.zetex.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT-23" urn="urn:adsk.eagle:footprint:30948/1" library_version="4">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
-<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
-<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
-<text x="-1.397" y="1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.397" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
-<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
-<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT-23" urn="urn:adsk.eagle:package:30981/1" type="box" library_version="4">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT-23"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="Q-VIshay-MOSFET-PCH-PowerPak121-8">
 <packages>
 <package name="POWERPAK-1212-8">
@@ -1557,75 +1583,6 @@ http://www.zetex.com&lt;p&gt;
 <rectangle x1="-0.8" y1="-0.2" x2="0.7" y2="0.5" layer="31"/>
 </package>
 </packages>
-</library>
-<library name="Transistor" urn="urn:adsk.eagle:library:14522416">
-<description>&lt;h3&gt; PCBLayout.com - Frequently Used &lt;i&gt;Transistors &lt;/i&gt;&lt;/h3&gt;
-
-Visit us at &lt;a href="http://www.PCBLayout.com"&gt;PCBLayout.com&lt;/a&gt; for quick and hassle-free PCB Layout/Manufacturing ordering experience.
-&lt;BR&gt;
-&lt;BR&gt;
-This library has been generated by our experienced pcb layout engineers using current IPC and/or industry standards. We &lt;b&gt;believe&lt;/b&gt; the content to be accurate, complete and current. But, this content is provided as a courtesy and &lt;u&gt;user assumes all risk and responsiblity of it's usage&lt;/u&gt;.
-&lt;BR&gt;
-&lt;BR&gt;
-Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@PCBLayout.com&lt;/a&gt; if you have any questions/concerns regarding any of our content or services.</description>
-<packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:10893250/2" library_version="1">
-<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.325 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<smd name="1" x="-0.95" y="-1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R270" stop="no" cream="no"/>
-<smd name="2" x="0.95" y="-1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R270" stop="no" cream="no"/>
-<smd name="3" x="0" y="1.075" dx="0.96" dy="0.71" layer="1" roundness="51" rot="R90" stop="no" cream="no"/>
-<wire x1="-1.1925" y1="-1" x2="-0.7075" y2="-1" width="0.025" layer="51"/>
-<wire x1="-0.7075" y1="-1" x2="-0.7075" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="-0.7075" y1="-1.2" x2="-1.1925" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="-1.1925" y1="-1.2" x2="-1.1925" y2="-1" width="0.025" layer="51"/>
-<wire x1="0.7075" y1="-1" x2="1.1925" y2="-1" width="0.025" layer="51"/>
-<wire x1="1.1925" y1="-1" x2="1.1925" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="1.1925" y1="-1.2" x2="0.7075" y2="-1.2" width="0.025" layer="51"/>
-<wire x1="0.7075" y1="-1.2" x2="0.7075" y2="-1" width="0.025" layer="51"/>
-<wire x1="0.2425" y1="1" x2="-0.2425" y2="1" width="0.025" layer="51"/>
-<wire x1="-0.2425" y1="1" x2="-0.2425" y2="1.2" width="0.025" layer="51"/>
-<wire x1="-0.2425" y1="1.2" x2="0.2425" y2="1.2" width="0.025" layer="51"/>
-<wire x1="0.2425" y1="1.2" x2="0.2425" y2="1" width="0.025" layer="51"/>
-<wire x1="-1.46" y1="-0.6625" x2="-1.46" y2="0.6625" width="0.025" layer="51"/>
-<wire x1="-1.46" y1="0.6625" x2="1.46" y2="0.6625" width="0.025" layer="51"/>
-<wire x1="1.46" y1="0.6625" x2="1.46" y2="-0.6625" width="0.025" layer="51"/>
-<wire x1="1.46" y1="-0.6625" x2="-1.46" y2="-0.6625" width="0.025" layer="51"/>
-<wire x1="-1.56" y1="-0.75" x2="-1.56" y2="0.75" width="0.12" layer="51"/>
-<wire x1="-1.56" y1="0.75" x2="1.56" y2="0.75" width="0.12" layer="51"/>
-<wire x1="1.56" y1="0.75" x2="1.56" y2="-0.75" width="0.12" layer="51"/>
-<wire x1="1.56" y1="-0.75" x2="-1.56" y2="-0.75" width="0.12" layer="51"/>
-<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
-<wire x1="-1.56" y1="-0.75" x2="-1.56" y2="0.75" width="0.12" layer="21"/>
-<wire x1="-1.56" y1="0.75" x2="-0.535" y2="0.75" width="0.12" layer="21"/>
-<wire x1="1.56" y1="-0.75" x2="1.56" y2="0.75" width="0.12" layer="21"/>
-<wire x1="1.56" y1="0.75" x2="0.535" y2="0.75" width="0.12" layer="21"/>
-<wire x1="1.76" y1="-0.95" x2="1.76" y2="0.95" width="0.05" layer="39"/>
-<wire x1="1.76" y1="0.95" x2="0.555" y2="0.95" width="0.05" layer="39"/>
-<wire x1="0.555" y1="0.95" x2="0.555" y2="1.755" width="0.05" layer="39"/>
-<wire x1="0.555" y1="1.755" x2="-0.555" y2="1.755" width="0.05" layer="39"/>
-<wire x1="-0.555" y1="1.755" x2="-0.555" y2="0.95" width="0.05" layer="39"/>
-<wire x1="-0.555" y1="0.95" x2="-1.76" y2="0.95" width="0.05" layer="39"/>
-<wire x1="-1.76" y1="0.95" x2="-1.76" y2="-0.95" width="0.05" layer="39"/>
-<wire x1="-1.76" y1="-0.95" x2="-1.505" y2="-0.95" width="0.05" layer="39"/>
-<wire x1="-1.505" y1="-0.95" x2="-1.505" y2="-1.755" width="0.05" layer="39"/>
-<wire x1="-1.505" y1="-1.755" x2="1.505" y2="-1.755" width="0.05" layer="39"/>
-<wire x1="1.505" y1="-1.755" x2="1.505" y2="-0.95" width="0.05" layer="39"/>
-<wire x1="1.505" y1="-0.95" x2="1.76" y2="-0.95" width="0.05" layer="39"/>
-<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<circle x="-1.02" y="-2.04" radius="0.1" width="0.2" layer="21"/>
-<text x="-2.54" y="2.54" size="1.02" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.02" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23" urn="urn:adsk.eagle:package:10893259/3" type="model" library_version="1">
-<description>Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.325 mm W X 1.20 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<packageinstances>
-<packageinstance name="SOT23"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
@@ -1901,155 +1858,151 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="R39" library="oresat-rcl" package=".0603-C-NOSILK" value="10" x="24.6" y="40.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.7" y="42.15" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="24" y="41.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="24.6" y="40.8" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="25.8" y="42.5" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R40" library="oresat-rcl" package="1206-C" value="10m" x="21.6" y="13.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.87" y="14.135" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="23.33" y="12.765" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="19.06" y="14.135" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R41" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="31.3" y="13.6" smashed="yes" rot="R90">
 <attribute name="DISTRIBUTOR" value="Digi-key" x="-21.7" y="-96.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DPN" value="RNCP0603FTD10K0CT-ND" x="-21.7" y="-96.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RNCP0603FTD10K0" x="-21.7" y="-96.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="30.265" y="13.965" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="31.565" y="14.865" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="33.205" y="12.965" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R42" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="32.5" y="13.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.865" y="14.665" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="32.765" y="14.865" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="34.405" y="12.965" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C13" library="oresat-rcl" package=".0603-C-NOSILK" value="1n" x="24.5" y="7.7" smashed="yes">
-<attribute name="NAME" x="23.635" y="8.388" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="23.665" y="6.412" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="23.865" y="5.795" size="1.27" layer="27"/>
 </element>
 <element name="C14" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="23.6" y="11" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.362" y="11.635" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.938" y="9.765" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="21.695" y="11.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C15" library="oresat-rcl" package=".0603-C-NOSILK" value="1n" x="24.5" y="9.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.365" y="8.162" size="1.27" layer="25"/>
+<attribute name="NAME" x="24.865" y="9.762" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="25.135" y="11.005" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C18" library="oresat-rcl" package=".0603-C-NOSILK" value="10n" x="9.5" y="27.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.925" y="27.58" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="10.875" y="26.22" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="8.05" y="27.58" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="R53" library="oresat-rcl" package=".0603-C-NOSILK" value="470" x="7.6" y="29.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.185" y="29.045" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="6.915" y="30.455" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="8.235" y="31.685" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R54" library="oresat-rcl" package=".0603-C-NOSILK" value="470" x="7.5" y="23.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.185" y="27.215" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="6.685" y="22.185" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="8.135" y="25.485" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R47" library="oresat-rcl" package=".0603-C-NOSILK" value="1k" x="18" y="24.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.465" y="23.545" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="18.365" y="22.145" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="19.905" y="24.345" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R48" library="oresat-rcl" package=".0603-C-NOSILK" value="1k" x="16.8" y="24.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.065" y="23.545" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="17.165" y="22.145" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="18.705" y="24.345" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R55" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="23.1" y="28.2" smashed="yes">
-<attribute name="NAME" x="22.685" y="27.385" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="22.715" y="28.885" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="22.465" y="26.295" size="1.27" layer="27"/>
 </element>
 <element name="C21" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="8.4" y="27.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.975" y="28.33" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.625" y="26.27" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="6.95" y="27.58" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C19" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="8.4" y="20.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.825" y="21.18" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.675" y="19.92" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="6.95" y="21.18" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="oresat-rcl" package=".0603-C-NOSILK" value="10n" x="9.5" y="20.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.95" y="21.48" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="10.85" y="19.82" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="9.5" y="20.68" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="8.15" y="21.48" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="TP21" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="11.38" y="16.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.48" y="15.16" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="8.38" y="15.56" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP22" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="9.58" y="16.66" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.68" y="19.26" size="0.8" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="13.3" y="15.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP23" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="16.5" y="27.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.3" y="25.48" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="16.9" y="28.18" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="TP24" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="18.3" y="27.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.3" y="25.68" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="20" y="26" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U$2" library="F-Panasonic-ERB_RE5-Fuse" package="C0603" value="5A" x="21.9" y="42.4" smashed="yes" rot="R90">
 <attribute name="DPN" value="P15125CT-ND" x="21.9" y="42.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERB-RE5R00V" x="21.9" y="42.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.315" y="41.065" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="21.115" y="41.865" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="23.805" y="41.765" size="1.27" layer="27" rot="R90"/>
 <attribute name="VENDOR" value="Digi-Key" x="21.9" y="42.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP25" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="26.7" y="7.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.2" y="6.1" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="27.9" y="7.4" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP28" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="28.3" y="10.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.85" y="8.9" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="29.5" y="9.9" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="U9" library="U-LT-LTC4412-ideal-diode" package="SOT23-6" value="LTC4412" x="30.5" y="47.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.7" y="49.7" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="28.4" y="45.6" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30.5" y="47.8" size="0.5" layer="33" rot="R270" align="center"/>
 <attribute name="VALUE" x="28.3" y="49.7" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="top-left"/>
 </element>
 <element name="C30" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="31.1" y="45.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.9" y="44.65" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="30.9" y="43.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="31.1" y="45.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="31.9" y="46.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R45" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="33.4" y="47.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.95" y="48.6" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="33.75" y="44.9" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="33.4" y="47.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="32.05" y="48.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R66" library="oresat-rcl" package=".0603-C-NOSILK" value="1k" x="15.1626" y="15.4438" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.6126" y="14.6438" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="NAME" x="15.1626" y="15.4438" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="16.5126" y="14.6438" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="R66" library="oresat-rcl" package=".0603-C-NOSILK" value="1k" x="15.2" y="16" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.5374" y="15.2562" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="15.2" y="16" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="16.55" y="15.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R67" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="4.18" y="15.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.73" y="15.86" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="4.47" y="16.34" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="4.18" y="15.06" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="2.83" y="15.86" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="TP35" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="4.18" y="12.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.68" y="11.26" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="2.98" y="11.46" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="T1" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOT-23" package3d_urn="urn:adsk.eagle:package:30981/1" value="" x="15.18" y="12.66" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="15.18" y="12.66" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="15.18" y="12.66" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.577" y="9.358" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="15.18" y="12.66" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="15.18" y="12.66" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="16.577" y="10.882" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="Q4" library="Tova" package="SOT23" value="PMV45EN" x="15.2" y="13" smashed="yes">
+<attribute name="NAME" x="13.543" y="13.782" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="13.803" y="14.778" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="U10" library="U-LT-LTC4412-ideal-diode" package="SOT23-6" value="LTC4412" x="13.9" y="51" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.7" y="49.1" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="10.3" y="52.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="13.9" y="51" size="0.5" layer="33" rot="R90" align="center"/>
 <attribute name="VALUE" x="16.1" y="49.1" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="top-left"/>
 </element>
 <element name="C31" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="13.3" y="53.5" smashed="yes">
-<attribute name="NAME" x="12.5" y="54.05" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="12.7" y="54.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="13.3" y="53.5" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="12.5" y="52.15" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R50" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="10.2" y="50.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.65" y="49.9" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="9.55" y="50" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="10.2" y="50.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="11.55" y="49.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="TP36" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="29.2034" y="50.7584" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.8034" y="49.2584" size="0.8" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="28.0966" y="51.9416" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP37" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="13.9" y="48.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.4" y="50.1" size="0.8" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="16.3" y="47" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U11" library="U-ABLIC-s8209A-BattProtection" package="TSSOP8" value="S-8209AAA-T8T1U" x="12.4" y="30.08" smashed="yes">
 <attribute name="MFR" value="Ablic" x="12.4" y="30.08" size="1.778" layer="27" display="off"/>
@@ -2062,228 +2015,210 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="11.6" y="21.28" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R68" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="24.3" y="21.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.85" y="22.6" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="25.65" y="21" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="24.3" y="21.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="22.95" y="22.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R69" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="24.7" y="34.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.25" y="35.6" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="26.05" y="34.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="24.7" y="34.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="23.35" y="35.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="D10" library="D-0402-package" package=".0402-B-NOSILK-DIODE" value="D-0402" x="29.7" y="24.3" smashed="yes">
-<attribute name="NAME" x="28.9" y="24.85" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="28.9" y="24.95" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="29.7" y="24.3" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="28.9" y="21.68" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="D11" library="D-0402-package" package=".0402-B-NOSILK-DIODE" value="D-0402" x="29.9" y="37.1" smashed="yes">
-<attribute name="NAME" x="29.1" y="37.65" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="29.1" y="37.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="29.9" y="37.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="29.1" y="34.48" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R71" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="27.9" y="25" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.45" y="25.8" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="28.15" y="26.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="27.9" y="25" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="26.55" y="25.8" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R72" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="28.3" y="37.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.75" y="37" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="28.65" y="39.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="28.3" y="37.8" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="29.65" y="37" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R70" library="oresat-rcl" package="1206-C" value="100" x="15.2" y="44.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.47" y="45.435" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="14.465" y="41.87" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="12.66" y="45.435" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R73" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="13.5" y="44.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.05" y="45.6" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="12.85" y="44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="13.5" y="44.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="12.15" y="45.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="T2" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOT-23" package3d_urn="urn:adsk.eagle:package:30981/1" value="" x="11.7" y="47" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="11.7" y="47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="11.7" y="47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.398" y="45.603" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="OC_FARNELL" value="unknown" x="11.7" y="47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="11.7" y="47" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="9.922" y="45.603" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="Q1" library="Tova" package="SOT23" value="PMV45EN" x="11.7" y="47" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.403" y="44.602" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="13.478" y="48.397" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R74" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="9.3514" y="47.2612" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.9014" y="48.0612" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="NAME" x="9.3514" y="47.2612" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="8.0014" y="48.0612" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+<element name="R74" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="9.3" y="47.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.75" y="46.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="9.3" y="47.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="7.95" y="48.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="Q2" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="21.9" y="24.9" smashed="yes">
-<attribute name="NAME" x="23.8" y="24.7" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="20" y="24.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="Q9" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="21.9" y="37.6" smashed="yes">
-<attribute name="NAME" x="23.8" y="37.4" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="20" y="37.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="Q10" library="Transistor" library_urn="urn:adsk.eagle:library:14522416" package="SOT23" package3d_urn="urn:adsk.eagle:package:10893259/3" value="BSS84" x="25.8" y="37.8" smashed="yes" rot="R90">
-<attribute name="CREATED_BY" value="PCBLayout.com" x="25.8" y="37.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="BSS84CT-ND" x="25.8" y="37.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor" x="25.8" y="37.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="BSS84" x="25.8" y="37.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="23.26" y="35.26" size="1.02" layer="25" ratio="10" rot="R90"/>
-<attribute name="PACKAGE" value="SOT-23-3" x="25.8" y="37.8" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="Q10" library="Tova" package="SOT23" value="NTR4101P" x="25.8" y="37.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.76" y="35.64" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.61" y="35.26" size="1.02" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="Q11" library="Transistor" library_urn="urn:adsk.eagle:library:14522416" package="SOT23" package3d_urn="urn:adsk.eagle:package:10893259/3" value="BSS84" x="25.4" y="24.9" smashed="yes" rot="R90">
-<attribute name="CREATED_BY" value="PCBLayout.com" x="25.4" y="24.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="BSS84CT-ND" x="25.4" y="24.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor" x="25.4" y="24.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="BSS84" x="25.4" y="24.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.86" y="22.36" size="1.02" layer="25" ratio="10" rot="R90"/>
-<attribute name="PACKAGE" value="SOT-23-3" x="25.4" y="24.9" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="Q11" library="Tova" package="SOT23" value="NTR4101P" x="25.4" y="24.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.36" y="22.74" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.21" y="22.36" size="1.02" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="Q12" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="26.4" y="49.2" smashed="yes">
-<attribute name="NAME" x="28.3" y="49" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="24.5" y="48.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="Q13" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="25.8" y="44.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.9" y="44.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="23.9" y="43.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="Q14" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="18.1" y="44.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.2" y="44.8" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="20.6" y="44.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="Q15" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="18.9" y="54" smashed="yes">
-<attribute name="NAME" x="20.8" y="53.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="21.4" y="53.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="Q16" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" package="POWERPAK-1212-8" value="Si7625DN" x="18.3" y="49.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.4" y="49.7" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="20.8" y="48.9" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C3" library="oresat-rcl" package=".0603-C-NOSILK" value="470n" x="26.1" y="15.7" smashed="yes">
-<attribute name="NAME" x="25.4" y="16.15" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="25.8" y="16.35" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="26.1" y="15.7" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="25.4" y="14.45" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C9" library="oresat-rcl" package=".0603-C-NOSILK" value="470n" x="19.8" y="12.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.25" y="13.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="19.05" y="12.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="19.8" y="12.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="18.55" y="13.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U2" library="U-Maxim-MAX17205-Fuel_Gauge" package="21-0137I_T1433-2" value="MAX17205G" x="26.9" y="13.1" smashed="yes">
-<attribute name="NAME" x="26.1" y="10.3" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="27.7" y="14.9" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="T3" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOT-23" package3d_urn="urn:adsk.eagle:package:30981/1" value="" x="9.58" y="11.66" smashed="yes">
-<attribute name="MF" value="" x="9.58" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="9.58" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.183" y="14.962" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="9.58" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="9.58" y="11.66" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.183" y="13.438" size="1.27" layer="27" ratio="10"/>
+<element name="Q3" library="Tova" package="SOT23" value="PMV45EN" x="9.6" y="11.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.203" y="12.602" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="10.997" y="9.922" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R6" library="oresat-rcl" package=".0603-C-NOSILK" value="1k" x="9.58" y="14.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.13" y="13.86" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="10.93" y="13.96" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="9.58" y="14.56" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="10.83" y="13.86" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R7" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="6.08" y="15.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.63" y="14.36" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="6.43" y="16.36" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="6.08" y="15.06" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="7.33" y="14.36" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="TP2" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="6.08" y="12.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.58" y="11.26" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="7.88" y="12.16" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="D1" library="D-0402-package" package=".0402-B-NOSILK-DIODE" value="D-0402" x="6.08" y="10.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.63" y="11.66" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="6.64" y="11.13" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="6.08" y="10.86" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="3.46" y="11.66" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="D4" library="D-0402-package" package=".0402-B-NOSILK-DIODE" value="D-0402" x="4.18" y="10.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.73" y="11.66" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="4.57" y="8.84" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="4.18" y="10.86" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="1.56" y="11.66" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="T4" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOT-23" package3d_urn="urn:adsk.eagle:package:30981/1" value="" x="7.58" y="9.26" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="7.58" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="7.58" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.977" y="5.958" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="7.58" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="7.58" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="8.977" y="7.482" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="Q5" library="Tova" package="SOT23" value="PMV45EN" x="7.6" y="9.3" smashed="yes">
+<attribute name="NAME" x="4.943" y="8.982" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="6.203" y="11.078" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R8" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="8.38" y="6.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.08" y="6.01" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="6.02" y="6.19" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="8.38" y="6.46" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="9.08" y="7.71" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="T5" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOT-23" package3d_urn="urn:adsk.eagle:package:30981/1" value="" x="14.18" y="9.26" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="14.18" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="14.18" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.577" y="5.958" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="14.18" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="14.18" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15.577" y="7.482" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="Q7" library="Tova" package="SOT23" value="PMV45EN" x="14.2" y="9.4" smashed="yes">
+<attribute name="NAME" x="14.943" y="10.082" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="12.803" y="11.178" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="T6" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOT-23" package3d_urn="urn:adsk.eagle:package:30981/1" value="" x="10.88" y="9.26" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="10.88" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="10.88" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.277" y="5.958" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="10.88" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="10.88" y="9.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="12.277" y="7.482" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="Q6" library="Tova" package="SOT23" value="PMV45EN" x="10.9" y="9.4" smashed="yes">
+<attribute name="NAME" x="11.443" y="9.982" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="9.503" y="11.178" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R9" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="10.88" y="6.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.58" y="6.01" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="11.21" y="7.02" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="10.88" y="6.46" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="11.58" y="7.71" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R10" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="13.38" y="6.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.08" y="6.01" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="14.62" y="6.19" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="13.38" y="6.46" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="14.08" y="7.71" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="36.8" y="13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.6288" y="19.1262" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="35.9738" y="7.9288" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="91" x="36.8" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.625" y="19.05" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="6.32" y="49.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.1488" y="54.6862" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="5.3138" y="43.5488" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="91" x="6.32" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.145" y="54.61" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="10.13" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.2862" y="0.7112" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="14.8138" y="0.3888" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="91" x="10.13" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="15.21" y="5.715" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="36.8" y="31.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.6288" y="34.3662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="36.0338" y="28.2288" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="36.8" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.625" y="34.29" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="21.56" y="19.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.3888" y="21.6662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="18.6338" y="16.2888" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="21.56" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="18.385" y="21.59" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="21.56" y="31.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.3888" y="34.3662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="23" y="31.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="21.56" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="18.385" y="34.29" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="21.56" y="3.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.7312" y="1.1938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="20.8" y="0.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="21.56" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.735" y="1.27" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="21.56" y="59.69" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.7312" y="57.0738" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="20.6738" y="56.1688" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="21.56" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="24.735" y="57.15" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="31.72" y="3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.5488" y="6.4262" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="30.8738" y="0.3488" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="31.72" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="28.545" y="6.35" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="36.8" y="3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.6288" y="6.4262" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="35.8" y="0.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="36.8" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.625" y="6.35" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="18.3" y="20.3" smashed="yes">
+<attribute name="NAME" x="15.2" y="20" size="0.8" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="TP3" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="18.3" y="17.8" smashed="yes">
+<attribute name="NAME" x="15.1" y="17.5" size="0.8" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="TP4" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="18.5" y="33" smashed="yes">
+<attribute name="NAME" x="15.4" y="32.6" size="0.8" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="TP5" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="18.5" y="30.5" smashed="yes">
+<attribute name="NAME" x="15.3" y="31.5" size="0.8" layer="25" font="vector" ratio="20"/>
 </element>
 </elements>
 <signals>
@@ -2292,13 +2227,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SDAOPT1">
 </signal>
 <signal name="GND">
-<polygon width="0.2" layer="1" isolate="0.2" rank="6">
+<polygon width="0.1524" layer="1" isolate="0.2" rank="6">
 <vertex x="0" y="0"/>
 <vertex x="42" y="0"/>
 <vertex x="42" y="63"/>
 <vertex x="0" y="63"/>
 </polygon>
-<polygon width="0.2" layer="16" isolate="0.2" rank="6">
+<polygon width="0.1524" layer="16" isolate="0.2" rank="6">
 <vertex x="0" y="0"/>
 <vertex x="42" y="0"/>
 <vertex x="42" y="63"/>
@@ -2306,15 +2241,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <contactref element="R40" pad="2"/>
 <contactref element="C14" pad="2"/>
-<via x="37.55" y="57.2" extent="1-16" drill="0.254"/>
+<via x="41" y="62" extent="1-16" drill="0.254"/>
 <via x="30.08" y="17.54" extent="1-16" drill="0.254"/>
 <via x="12.6" y="55.6" extent="1-16" drill="0.254"/>
-<via x="36" y="55.8" extent="1-16" drill="0.254"/>
+<via x="36" y="56" extent="1-16" drill="0.254"/>
 <contactref element="U9" pad="2"/>
 <contactref element="C30" pad="2"/>
 <contactref element="U10" pad="2"/>
 <contactref element="C31" pad="2"/>
-<contactref element="T2" pad="2"/>
+<contactref element="Q1" pad="2"/>
 <contactref element="R74" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="U2" pad="EP"/>
@@ -2335,7 +2270,51 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.6" y1="12.1" x2="21.6" y2="5.12" width="1" layer="1"/>
 <wire x1="21.56" y1="5.08" x2="21.56" y2="2.54" width="1" layer="1"/>
 <via x="29.6" y="45.2" extent="1-16" drill="0.254"/>
-<via x="30.4" y="44.1" extent="1-16" drill="0.254"/>
+<via x="30.4" y="44.3" extent="1-16" drill="0.254"/>
+<via x="1" y="62" extent="1-16" drill="0.254"/>
+<via x="1" y="1" extent="1-16" drill="0.254"/>
+<via x="41" y="1" extent="1-16" drill="0.254"/>
+<via x="17.1" y="21.4" extent="1-16" drill="0.254"/>
+<via x="18" y="16" extent="1-16" drill="0.254"/>
+<via x="13" y="14" extent="1-16" drill="0.254"/>
+<via x="14" y="18" extent="1-16" drill="0.254"/>
+<via x="13" y="24" extent="1-16" drill="0.254"/>
+<via x="11" y="29" extent="1-16" drill="0.254"/>
+<via x="28" y="29" extent="1-16" drill="0.254"/>
+<via x="19" y="37" extent="1-16" drill="0.254"/>
+<via x="14" y="35" extent="1-16" drill="0.254"/>
+<via x="11" y="40" extent="1-16" drill="0.254"/>
+<via x="17" y="42" extent="1-16" drill="0.254"/>
+<via x="29" y="41" extent="1-16" drill="0.254"/>
+<via x="22" y="49" extent="1-16" drill="0.254"/>
+<via x="11" y="62" extent="1-16" drill="0.254"/>
+<via x="31" y="62" extent="1-16" drill="0.254"/>
+<via x="41" y="52" extent="1-16" drill="0.254"/>
+<via x="41" y="42" extent="1-16" drill="0.254"/>
+<via x="41" y="32" extent="1-16" drill="0.254"/>
+<via x="41" y="22" extent="1-16" drill="0.254"/>
+<via x="41" y="12" extent="1-16" drill="0.254"/>
+<via x="1" y="11" extent="1-16" drill="0.254"/>
+<via x="1" y="21" extent="1-16" drill="0.254"/>
+<via x="1" y="31" extent="1-16" drill="0.254"/>
+<via x="1" y="41" extent="1-16" drill="0.254"/>
+<via x="1" y="51" extent="1-16" drill="0.254"/>
+<via x="19.8" y="11.3" extent="1-16" drill="0.254"/>
+<via x="24.5" y="10.3" extent="1-16" drill="0.254"/>
+<via x="26.9" y="13.1" extent="1-16" drill="0.254"/>
+<via x="27" y="11.2" extent="1-16" drill="0.254"/>
+<via x="26.9" y="14.8" extent="1-16" drill="0.254"/>
+<via x="34.2" y="47.8" extent="1-16" drill="0.254"/>
+<via x="31.8" y="49.8" extent="1-16" drill="0.254"/>
+<via x="13.9" y="50.8" extent="1-16" drill="0.254"/>
+<via x="11.5" y="50.7" extent="1-16" drill="0.254"/>
+<via x="14" y="54.4" extent="1-16" drill="0.254"/>
+<via x="10.7" y="47.1" extent="1-16" drill="0.254"/>
+<via x="9.3" y="45.8" extent="1-16" drill="0.254"/>
+<via x="23.1" y="22.4" extent="1-16" drill="0.254"/>
+<via x="26.2" y="22.2" extent="1-16" drill="0.254"/>
+<via x="19.4" y="29" extent="1-16" drill="0.254"/>
+<via x="15.2" y="28.2" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="N$262">
 </signal>
@@ -2536,16 +2515,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="22.9" y="42"/>
 <vertex x="20.9" y="42"/>
 </polygon>
-<wire x1="22" y1="40.8" x2="21.9" y2="40.9" width="0.2" layer="1"/>
-<wire x1="22" y1="40.8" x2="23.9" y2="40.8" width="0.2" layer="1"/>
-<wire x1="21.9" y1="41.55" x2="21.9" y2="40.9" width="0.2" layer="1"/>
 <wire x1="8.4" y1="27.78" x2="7.7" y2="27.78" width="0.2" layer="1"/>
 <wire x1="7.7" y1="27.78" x2="6.9" y2="28.58" width="0.2" layer="1"/>
 <wire x1="6.9" y1="28.58" x2="6.9" y2="29.78" width="0.2" layer="1"/>
 <wire x1="6.9" y1="33.18" x2="6.9" y2="29.78" width="0.2" layer="1"/>
-<wire x1="14.47" y1="40.75" x2="6.9" y2="33.18" width="0.2" layer="1"/>
-<wire x1="21.9" y1="41.55" x2="21.1" y2="40.75" width="0.2" layer="1"/>
-<wire x1="21.1" y1="40.75" x2="14.47" y2="40.75" width="0.2" layer="1"/>
+<wire x1="14.52" y1="40.8" x2="6.9" y2="33.18" width="0.2" layer="1"/>
+<wire x1="21.9" y1="40.8" x2="14.52" y2="40.8" width="0.2" layer="1"/>
+<wire x1="21.9" y1="41.55" x2="21.9" y2="40.8" width="0.2" layer="1"/>
+<wire x1="23.9" y1="40.8" x2="21.9" y2="40.8" width="0.2" layer="1"/>
+<wire x1="21.9" y1="40.8" x2="21.9" y2="40.2" width="0.2" layer="1"/>
+<wire x1="21.575" y1="39.875" x2="21.575" y2="39.04" width="0.2" layer="1"/>
+<wire x1="21.9" y1="40.2" x2="21.575" y2="39.875" width="0.2" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R53" pad="1"/>
@@ -2577,13 +2557,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U11" pad="6"/>
 <wire x1="15.325" y1="29.755" x2="16.975" y2="29.755" width="0.2" layer="1"/>
 <wire x1="16.975" y1="29.755" x2="17.6" y2="30.38" width="0.2" layer="1"/>
-<wire x1="17.6" y1="39.9" x2="17.8" y2="40.1" width="0.2" layer="1"/>
-<via x="17.8" y="40.1" extent="1-16" drill="0.254"/>
+<via x="17.6" y="39.9" extent="1-16" drill="0.254"/>
 <wire x1="17.6" y1="30.38" x2="17.6" y2="39.9" width="0.2" layer="1"/>
 <wire x1="31.81" y1="48.75" x2="32.55" y2="48.75" width="0.2" layer="1"/>
 <wire x1="32.55" y1="48.75" x2="32.8" y2="48.5" width="0.2" layer="1"/>
 <wire x1="32.8" y1="48.5" x2="33.4" y2="48.5" width="0.2" layer="1"/>
-<wire x1="17.8" y1="40.1" x2="19.7" y2="42" width="0.2" layer="16"/>
+<wire x1="17.6" y1="39.9" x2="19.7" y2="42" width="0.2" layer="16"/>
 <wire x1="19.7" y1="42" x2="29.5" y2="42" width="0.2" layer="16"/>
 <wire x1="29.5" y1="42" x2="33.4" y2="45.9" width="0.2" layer="16"/>
 <wire x1="33.4" y1="45.9" x2="33.4" y2="49.3" width="0.2" layer="16"/>
@@ -2637,19 +2616,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$11">
 <contactref element="R67" pad="2"/>
-<contactref element="T1" pad="3"/>
+<contactref element="Q4" pad="1"/>
 <contactref element="TP35" pad="1"/>
 <contactref element="D4" pad="A"/>
-<contactref element="T5" pad="1"/>
-<wire x1="14.1546" y1="10.276" x2="14.1546" y2="11.6092" width="0.2" layer="1"/>
-<wire x1="14.1546" y1="11.6092" x2="14.1894" y2="11.644" width="0.2" layer="1"/>
+<contactref element="Q7" pad="3"/>
 <wire x1="4.18" y1="11.36" x2="4.18" y2="12.86" width="0.2" layer="1"/>
 <wire x1="4.18" y1="12.86" x2="4.18" y2="14.36" width="0.2" layer="1"/>
-<wire x1="14.1894" y1="11.644" x2="11.996" y2="11.644" width="0.2" layer="1"/>
-<wire x1="11.996" y1="11.644" x2="11.98" y2="11.66" width="0.2" layer="1"/>
+<wire x1="11.98" y1="11.66" x2="14.225090625" y2="11.66" width="0.2" layer="1"/>
+<wire x1="14.2475" y1="11.857" x2="14.225090625" y2="11.66" width="0.2" layer="1"/>
 <via x="11.98" y="11.66" extent="1-16" drill="0.254"/>
 <wire x1="11.98" y1="11.66" x2="5.38" y2="11.66" width="0.2" layer="16"/>
 <wire x1="5.38" y1="11.66" x2="4.18" y2="12.86" width="0.2" layer="16"/>
+<wire x1="14.2475" y1="11.857" x2="14.2475" y2="10.5905" width="0.2" layer="1"/>
+<wire x1="14.2475" y1="10.5905" x2="14.2" y2="10.543" width="0.2" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="R66" pad="2"/>
@@ -2658,28 +2637,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.475" y1="24.205" x2="10.675" y2="24.205" width="0.2" layer="1"/>
 <wire x1="10.675" y1="24.205" x2="10.7" y2="24.18" width="0.2" layer="1"/>
 <via x="10.7" y="24.18" extent="1-16" drill="0.254"/>
-<wire x1="15.1626" y1="16.1438" x2="13.5962" y2="16.1438" width="0.2" layer="1"/>
-<wire x1="13.5962" y1="16.1438" x2="13.08" y2="16.66" width="0.2" layer="1"/>
-<wire x1="13.08" y1="16.66" x2="11.38" y2="16.66" width="0.2" layer="1"/>
+<wire x1="15.2" y1="16.7" x2="15.16" y2="16.66" width="0.2" layer="1"/>
+<wire x1="15.16" y1="16.66" x2="11.38" y2="16.66" width="0.2" layer="1"/>
 <wire x1="11.38" y1="16.66" x2="11.38" y2="23.5" width="0.2" layer="16"/>
 <wire x1="11.38" y1="23.5" x2="10.7" y2="24.18" width="0.2" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R66" pad="1"/>
-<contactref element="T1" pad="1"/>
-<wire x1="15.1546" y1="13.676" x2="15.1546" y2="14.7358" width="0.2" layer="1"/>
-<wire x1="15.1546" y1="14.7358" x2="15.1626" y2="14.7438" width="0.2" layer="1"/>
+<contactref element="Q4" pad="3"/>
+<wire x1="15.2" y1="15.3" x2="15.2" y2="14.143" width="0.2" layer="1"/>
 </signal>
 <signal name="!CHARGE-PK1">
 <contactref element="U10" pad="3"/>
 <contactref element="R50" pad="1"/>
 <contactref element="U11" pad="7"/>
 <wire x1="15.325" y1="30.405" x2="16.425" y2="30.405" width="0.2" layer="1"/>
-<wire x1="16.425" y1="30.405" x2="17" y2="30.98" width="0.2" layer="1"/>
-<wire x1="17" y1="39.8" x2="16.7" y2="40.1" width="0.2" layer="1"/>
-<via x="16.7" y="40.1" extent="1-16" drill="0.254"/>
-<wire x1="17" y1="30.98" x2="17" y2="39.8" width="0.2" layer="1"/>
-<wire x1="16.7" y1="40.1" x2="11.3" y2="45.5" width="0.2" layer="16"/>
+<wire x1="16.425" y1="30.405" x2="16.9" y2="30.88" width="0.2" layer="1"/>
+<via x="16.9" y="39.9" extent="1-16" drill="0.254"/>
+<wire x1="16.9" y1="30.88" x2="16.9" y2="39.9" width="0.2" layer="1"/>
+<wire x1="16.9" y1="39.9" x2="11.3" y2="45.5" width="0.2" layer="16"/>
 <via x="11.3" y="50" extent="1-16" drill="0.254"/>
 <wire x1="11.3" y1="50" x2="12.54" y2="50" width="0.2" layer="1"/>
 <wire x1="12.54" y1="50" x2="12.59" y2="50.05" width="0.2" layer="1"/>
@@ -2736,7 +2712,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="22.3" y="36.5"/>
 <vertex x="20.9" y="36.5"/>
 </polygon>
-<wire x1="26.875" y1="38.75" x2="26.15" y2="38.75" width="0.2" layer="1"/>
+<wire x1="26.943" y1="38.7525" x2="26.15" y2="38.75" width="0.2" layer="1"/>
 <wire x1="26.15" y1="38.75" x2="25.8" y2="38.4" width="0.2" layer="1"/>
 <wire x1="25.8" y1="35.4" x2="25.2" y2="34.8" width="0.2" layer="1"/>
 <wire x1="25.2" y1="34.8" x2="22" y2="34.8" width="0.2" layer="1"/>
@@ -2744,19 +2720,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.5" y1="35.3" x2="21.5" y2="36.085" width="0.2" layer="1"/>
 <wire x1="21.5" y1="36.085" x2="21.575" y2="36.16" width="0.2" layer="1"/>
 <wire x1="25.8" y1="38.4" x2="25.8" y2="35.4" width="0.2" layer="1"/>
-<wire x1="26.875" y1="38.75" x2="27.45" y2="38.75" width="0.2" layer="1"/>
+<wire x1="26.943" y1="38.7525" x2="27.45" y2="38.75" width="0.2" layer="1"/>
 <wire x1="27.45" y1="38.75" x2="27.7" y2="38.5" width="0.2" layer="1"/>
 <wire x1="27.7" y1="38.5" x2="28.3" y2="38.5" width="0.2" layer="1"/>
+<contactref element="TP4" pad="1"/>
+<wire x1="21.56" y1="33.02" x2="21.54" y2="33" width="0.2" layer="1"/>
+<wire x1="21.54" y1="33" x2="18.5" y2="33" width="0.2" layer="1"/>
 </signal>
 <signal name="N$46">
 <contactref element="R68" pad="1"/>
 <contactref element="Q2" pad="4"/>
 <contactref element="Q11" pad="3"/>
-<wire x1="24.325" y1="24.9" x2="24.325" y2="23.5" width="0.2" layer="1"/>
-<wire x1="24.285" y1="23.46" x2="24.325" y2="23.5" width="0.2" layer="1"/>
 <wire x1="22.875" y1="23.46" x2="24.285" y2="23.46" width="0.2" layer="1"/>
 <wire x1="24.3" y1="22.5" x2="24.285" y2="22.515" width="0.2" layer="1"/>
 <wire x1="24.285" y1="22.515" x2="24.285" y2="23.46" width="0.2" layer="1"/>
+<wire x1="24.257" y1="24.9" x2="24.257" y2="23.488" width="0.2" layer="1"/>
+<wire x1="24.257" y1="23.488" x2="24.285" y2="23.46" width="0.2" layer="1"/>
 </signal>
 <signal name="CSP-PK1">
 <contactref element="R68" pad="2"/>
@@ -2764,17 +2743,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C20" pad="2"/>
 <contactref element="R40" pad="1"/>
 <contactref element="C15" pad="2"/>
-<contactref element="T1" pad="2"/>
+<contactref element="Q4" pad="2"/>
 <contactref element="U12" pad="5"/>
 <contactref element="U2" pad="2"/>
 <wire x1="25.425" y1="13.9" x2="21.92" y2="13.9" width="0.2" layer="1"/>
 <wire x1="21.92" y1="13.9" x2="21.6" y2="14.22" width="0.2" layer="1"/>
 <wire x1="21.6" y1="14.22" x2="21.6" y2="14.9" width="0.2" layer="1"/>
-<contactref element="T3" pad="2"/>
-<contactref element="T4" pad="2"/>
+<contactref element="Q3" pad="2"/>
+<contactref element="Q5" pad="2"/>
 <contactref element="R8" pad="1"/>
-<contactref element="T6" pad="2"/>
-<contactref element="T5" pad="2"/>
+<contactref element="Q6" pad="2"/>
+<contactref element="Q7" pad="2"/>
 <contactref element="R9" pad="1"/>
 <contactref element="R10" pad="1"/>
 <contactref element="JP5" pad="2"/>
@@ -2788,44 +2767,51 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="22.44" y1="17.74" x2="21.6" y2="17.74" width="0.2" layer="1"/>
 <wire x1="24.3" y1="19.6" x2="22.44" y2="17.74" width="0.2" layer="1"/>
 <wire x1="9.5" y1="19.98" x2="8.4" y2="19.98" width="0.2" layer="1"/>
-<wire x1="9.08" y1="6.46" x2="9.08" y2="7.06" width="0.2" layer="1"/>
-<wire x1="8.5198" y1="7.6202" x2="8.5198" y2="8.244" width="0.2" layer="1"/>
-<wire x1="9.08" y1="7.06" x2="8.5198" y2="7.6202" width="0.2" layer="1"/>
 <wire x1="11.58" y1="6.46" x2="11.58" y2="7.26" width="0.2" layer="1"/>
 <wire x1="11.58" y1="7.26" x2="11.88" y2="7.56" width="0.2" layer="1"/>
-<wire x1="11.88" y1="7.56" x2="11.88" y2="8.1838" width="0.2" layer="1"/>
-<wire x1="11.88" y1="8.1838" x2="11.8419" y2="8.2219" width="0.2" layer="1"/>
-<wire x1="11.8419" y1="8.2219" x2="11.8198" y2="8.244" width="0.2" layer="1"/>
-<wire x1="14.08" y1="6.46" x2="14.68" y2="6.46" width="0.2" layer="1"/>
-<wire x1="15.1198" y1="6.8998" x2="15.1198" y2="8.244" width="0.2" layer="1"/>
-<wire x1="14.68" y1="6.46" x2="15.1198" y2="6.8998" width="0.2" layer="1"/>
-<wire x1="8.5198" y1="8.244" x2="8.5198" y2="9.1998" width="0.2" layer="1"/>
-<wire x1="8.5198" y1="9.1998" x2="8.58" y2="9.26" width="0.2" layer="1"/>
-<wire x1="8.58" y1="9.26" x2="11.88" y2="9.26" width="0.2" layer="1"/>
-<wire x1="11.88" y1="9.26" x2="11.88" y2="8.26" width="0.2" layer="1"/>
-<wire x1="11.88" y1="8.26" x2="11.8419" y2="8.2219" width="0.2" layer="1"/>
-<wire x1="11.88" y1="9.26" x2="15.08" y2="9.26" width="0.2" layer="1"/>
-<wire x1="15.1198" y1="9.2202" x2="15.08" y2="9.26" width="0.2" layer="1"/>
-<wire x1="15.1198" y1="9.2202" x2="15.1198" y2="8.244" width="0.2" layer="1"/>
-<wire x1="16.1198" y1="10.2998" x2="16.1198" y2="11.644" width="0.2" layer="1"/>
-<wire x1="15.08" y1="9.26" x2="16.1198" y2="10.2998" width="0.2" layer="1"/>
-<wire x1="8.5198" y1="9.1998" x2="8.5198" y2="11.4998" width="0.2" layer="1"/>
-<wire x1="8.6402" y1="11.6202" x2="8.6402" y2="12.676" width="0.2" layer="1"/>
-<wire x1="8.5198" y1="11.4998" x2="8.6402" y2="11.6202" width="0.2" layer="1"/>
-<wire x1="16.1198" y1="19.2102" x2="15.325" y2="20.005" width="0.2" layer="1"/>
 <wire x1="15.325" y1="22.905" x2="15.325" y2="20.005" width="0.2" layer="1"/>
-<wire x1="16.1198" y1="19.2102" x2="16.1198" y2="17.7" width="0.2" layer="1"/>
-<wire x1="16.1198" y1="17.7" x2="16.1198" y2="11.644" width="0.2" layer="1"/>
-<wire x1="21.56" y1="17.78" x2="16.1998" y2="17.78" width="0.2" layer="1"/>
-<wire x1="16.1998" y1="17.78" x2="16.1198" y2="17.7" width="0.2" layer="1"/>
 <wire x1="9.5" y1="19.98" x2="15.3" y2="19.98" width="0.2" layer="1"/>
 <wire x1="15.3" y1="19.98" x2="15.325" y2="20.005" width="0.2" layer="1"/>
+<wire x1="16.196946875" y1="19.133053125" x2="16.196946875" y2="17.78" width="0.2" layer="1"/>
+<wire x1="15.325" y1="20.005" x2="16.196946875" y2="19.133053125" width="0.2" layer="1"/>
+<wire x1="16.1525" y1="11.857" x2="16.1525" y2="17.735553125" width="0.2" layer="1"/>
+<wire x1="16.1525" y1="17.735553125" x2="16.196946875" y2="17.78" width="0.2" layer="1"/>
+<wire x1="16.1525" y1="11.857" x2="16.1525" y2="10.3325" width="0.2" layer="1"/>
+<wire x1="16.1525" y1="10.3325" x2="15.08" y2="9.26" width="0.2" layer="1"/>
+<wire x1="14.08" y1="6.46" x2="14.56" y2="6.46" width="0.2" layer="1"/>
+<wire x1="14.56" y1="6.46" x2="15.2" y2="7.1" width="0.2" layer="1"/>
+<wire x1="15.2" y1="7.1" x2="15.2" y2="8.2095" width="0.2" layer="1"/>
+<wire x1="15.2" y1="8.2095" x2="15.1525" y2="8.257" width="0.2" layer="1"/>
+<wire x1="15.1525" y1="8.257" x2="15.1525" y2="9.1875" width="0.2" layer="1"/>
+<wire x1="15.1525" y1="9.1875" x2="15.08" y2="9.26" width="0.2" layer="1"/>
+<wire x1="8.5525" y1="8.157" x2="8.5525" y2="8" width="0.2" layer="1"/>
+<wire x1="8.5525" y1="8" x2="8.5525" y2="7.5475" width="0.2" layer="1"/>
+<wire x1="8.5525" y1="7.5475" x2="9.1" y2="7" width="0.2" layer="1"/>
+<wire x1="9.1" y1="7" x2="9.1" y2="6.48" width="0.2" layer="1"/>
+<wire x1="9.1" y1="6.48" x2="9.08" y2="6.46" width="0.2" layer="1"/>
+<wire x1="8.5198" y1="11.4998" x2="8.5198" y2="9.2" width="0.2" layer="1"/>
+<wire x1="8.5198" y1="9.2" x2="8.5198" y2="8.0327" width="0.2" layer="1"/>
+<wire x1="8.5198" y1="8.0327" x2="8.5525" y2="8" width="0.2" layer="1"/>
+<wire x1="15.08" y1="9.26" x2="11.9" y2="9.26" width="0.2" layer="1"/>
+<wire x1="11.9" y1="9.26" x2="8.5798" y2="9.26" width="0.2" layer="1"/>
+<wire x1="8.5798" y1="9.26" x2="8.5198" y2="9.2" width="0.2" layer="1"/>
+<wire x1="11.88" y1="7.56" x2="11.88" y2="8.2295" width="0.2" layer="1"/>
+<wire x1="11.88" y1="8.2295" x2="11.8525" y2="8.257" width="0.2" layer="1"/>
+<wire x1="11.8525" y1="8.257" x2="11.8525" y2="9.2125" width="0.2" layer="1"/>
+<wire x1="11.8525" y1="9.2125" x2="11.9" y2="9.26" width="0.2" layer="1"/>
+<wire x1="8.6475" y1="12.843" x2="8.6475" y2="11.6275" width="0.2" layer="1"/>
+<wire x1="8.6475" y1="11.6275" x2="8.5198" y2="11.4998" width="0.2" layer="1"/>
+<contactref element="TP3" pad="1"/>
+<wire x1="21.56" y1="17.78" x2="18.32" y2="17.78" width="0.2" layer="1"/>
+<wire x1="18.32" y1="17.78" x2="18.3" y2="17.8" width="0.2" layer="1"/>
+<wire x1="18.3" y1="17.8" x2="18.28" y2="17.78" width="0.2" layer="1"/>
+<wire x1="18.28" y1="17.78" x2="16.196946875" y2="17.78" width="0.2" layer="1"/>
 </signal>
 <signal name="N$40">
 <contactref element="R71" pad="2"/>
 <contactref element="D10" pad="A"/>
 <contactref element="Q11" pad="1"/>
-<wire x1="26.475" y1="23.95" x2="27.05" y2="23.95" width="0.2" layer="1"/>
+<wire x1="26.543" y1="23.9475" x2="27.05" y2="23.95" width="0.2" layer="1"/>
 <wire x1="27.05" y1="23.95" x2="27.4" y2="24.3" width="0.2" layer="1"/>
 <wire x1="27.4" y1="24.3" x2="27.9" y2="24.3" width="0.2" layer="1"/>
 <wire x1="27.9" y1="24.3" x2="29.2" y2="24.3" width="0.2" layer="1"/>
@@ -2844,32 +2830,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="20.9" y="23.8"/>
 <vertex x="20.9" y="20"/>
 </polygon>
-<wire x1="26.475" y1="25.85" x2="25.75" y2="25.85" width="0.2" layer="1"/>
+<wire x1="26.543" y1="25.8525" x2="25.75" y2="25.85" width="0.2" layer="1"/>
 <wire x1="25.75" y1="25.85" x2="25.4" y2="25.5" width="0.2" layer="1"/>
 <wire x1="25.4" y1="25.5" x2="25.4" y2="22.2" width="0.2" layer="1"/>
 <wire x1="25.4" y1="22.2" x2="25" y2="21.8" width="0.2" layer="1"/>
 <wire x1="25" y1="21.8" x2="22.3" y2="21.8" width="0.2" layer="1"/>
 <wire x1="22.3" y1="21.8" x2="21.575" y2="22.525" width="0.2" layer="1"/>
 <wire x1="21.575" y1="22.525" x2="21.575" y2="23.46" width="0.2" layer="1"/>
-<wire x1="26.475" y1="25.85" x2="27.05" y2="25.85" width="0.2" layer="1"/>
+<wire x1="26.543" y1="25.8525" x2="27.05" y2="25.85" width="0.2" layer="1"/>
 <wire x1="27.05" y1="25.85" x2="27.2" y2="25.7" width="0.2" layer="1"/>
 <wire x1="27.2" y1="25.7" x2="27.9" y2="25.7" width="0.2" layer="1"/>
+<contactref element="TP1" pad="1"/>
+<wire x1="18.3" y1="20.3" x2="21.54" y2="20.3" width="0.2" layer="1"/>
+<wire x1="21.54" y1="20.3" x2="21.575" y2="20.335" width="0.2" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R69" pad="1"/>
 <contactref element="Q9" pad="4"/>
 <contactref element="Q10" pad="3"/>
 <wire x1="24.725" y1="35.525" x2="24.7" y2="35.5" width="0.2" layer="1"/>
-<wire x1="24.725" y1="37.8" x2="24.725" y2="36.1" width="0.2" layer="1"/>
 <wire x1="24.725" y1="36.1" x2="24.725" y2="35.525" width="0.2" layer="1"/>
 <wire x1="24.665" y1="36.16" x2="24.725" y2="36.1" width="0.2" layer="1"/>
 <wire x1="22.875" y1="36.16" x2="24.665" y2="36.16" width="0.2" layer="1"/>
+<wire x1="24.657" y1="37.8" x2="24.657" y2="36.168" width="0.2" layer="1"/>
+<wire x1="24.657" y1="36.168" x2="24.665" y2="36.16" width="0.2" layer="1"/>
 </signal>
 <signal name="N$50">
 <contactref element="D11" pad="A"/>
 <contactref element="R72" pad="1"/>
 <contactref element="Q10" pad="1"/>
-<wire x1="26.875" y1="36.85" x2="27.45" y2="36.85" width="0.2" layer="1"/>
+<wire x1="26.943" y1="36.8475" x2="27.45" y2="36.85" width="0.2" layer="1"/>
 <wire x1="27.45" y1="36.85" x2="27.7" y2="37.1" width="0.2" layer="1"/>
 <wire x1="27.7" y1="37.1" x2="28.3" y2="37.1" width="0.2" layer="1"/>
 <wire x1="29.4" y1="37.1" x2="28.3" y2="37.1" width="0.2" layer="1"/>
@@ -2907,9 +2897,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.19" y1="21.79" x2="6.8" y2="22.18" width="0.2" layer="1"/>
 <wire x1="6.8" y1="22.18" x2="6.8" y2="23.58" width="0.2" layer="1"/>
 <wire x1="8.4" y1="26.38" x2="9.5" y2="26.38" width="0.2" layer="1"/>
-<wire x1="15.325" y1="29.105" x2="13.025" y2="29.105" width="0.2" layer="1"/>
-<wire x1="13.025" y1="29.105" x2="10.3" y2="26.38" width="0.2" layer="1"/>
-<wire x1="10.3" y1="26.38" x2="9.5" y2="26.38" width="0.2" layer="1"/>
+<wire x1="15.325" y1="29.105" x2="13.725" y2="29.105" width="0.2" layer="1"/>
+<wire x1="13.725" y1="29.105" x2="11" y2="26.38" width="0.2" layer="1"/>
+<wire x1="11" y1="26.38" x2="9.5" y2="26.38" width="0.2" layer="1"/>
 <wire x1="21.6" y1="25.2" x2="21.9" y2="25.2" width="0.2" layer="1"/>
 <wire x1="22.225" y1="26.34" x2="22.225" y2="25.825" width="0.2" layer="1"/>
 <wire x1="22.225" y1="25.825" x2="21.6" y2="25.2" width="0.2" layer="1"/>
@@ -2919,10 +2909,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.8" y1="25.48" x2="6.8" y2="23.58" width="0.2" layer="1"/>
 <wire x1="6.08" y1="15.76" x2="6.08" y2="20.68" width="0.2" layer="1"/>
 <wire x1="6.08" y1="20.68" x2="7.19" y2="21.79" width="0.2" layer="1"/>
-<wire x1="15.325" y1="29.105" x2="18.105" y2="29.105" width="0.2" layer="1"/>
-<wire x1="18.105" y1="29.105" x2="19.5" y2="30.5" width="0.2" layer="1"/>
-<wire x1="19.5" y1="30.5" x2="21.54" y2="30.5" width="0.2" layer="1"/>
+<wire x1="15.325" y1="29.105" x2="17.105" y2="29.105" width="0.2" layer="1"/>
 <wire x1="21.54" y1="30.5" x2="21.56" y2="30.48" width="0.2" layer="1"/>
+<contactref element="TP5" pad="1"/>
+<wire x1="21.56" y1="30.48" x2="18.52" y2="30.48" width="0.2" layer="1"/>
+<wire x1="18.52" y1="30.48" x2="18.5" y2="30.5" width="0.2" layer="1"/>
+<wire x1="18.5" y1="30.5" x2="17.105" y2="29.105" width="0.2" layer="1"/>
 </signal>
 <signal name="N$41">
 <contactref element="U10" pad="6"/>
@@ -2967,7 +2959,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="!FAST-CHARGE-PK1">
 <contactref element="R73" pad="2"/>
-<contactref element="T2" pad="1"/>
+<contactref element="Q1" pad="3"/>
 <contactref element="Q14" pad="4"/>
 <wire x1="17.125" y1="46.04" x2="17.125" y2="46.975" width="0.2" layer="1"/>
 <wire x1="17.125" y1="46.975" x2="17.1" y2="47" width="0.2" layer="1"/>
@@ -2975,21 +2967,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.1" y1="47" x2="13.7" y2="47" width="0.2" layer="16"/>
 <via x="13.7" y="47" extent="1-16" drill="0.254"/>
 <wire x1="13.5" y1="44.1" x2="13" y2="44.1" width="0.2" layer="1"/>
-<wire x1="12.716" y1="47.0254" x2="13.6746" y2="47.0254" width="0.2" layer="1"/>
+<wire x1="12.843" y1="47" x2="13.6746" y2="47.0254" width="0.2" layer="1"/>
 <wire x1="13.6746" y1="47.0254" x2="13.7" y2="47" width="0.2" layer="1"/>
-<wire x1="12.716" y1="47.0254" x2="12.716" y2="44.384" width="0.2" layer="1"/>
+<wire x1="12.843" y1="47" x2="12.843" y2="46.143" width="0.2" layer="1"/>
+<wire x1="12.843" y1="46.143" x2="12.7" y2="46" width="0.2" layer="1"/>
+<wire x1="12.7" y1="46" x2="12.716" y2="44.384" width="0.2" layer="1"/>
 <wire x1="12.716" y1="44.384" x2="13" y2="44.1" width="0.2" layer="1"/>
 </signal>
 <signal name="FAST-CHARGE-PK1">
-<contactref element="T2" pad="3"/>
+<contactref element="Q1" pad="1"/>
 <contactref element="R74" pad="1"/>
 <contactref element="JP3" pad="3"/>
-<wire x1="10.684" y1="47.9906" x2="9.3808" y2="47.9906" width="0.2" layer="1"/>
-<wire x1="9.3808" y1="47.9906" x2="9.3514" y2="47.9612" width="0.2" layer="1"/>
-<wire x1="9.3514" y1="47.9612" x2="8.3388" y2="47.9612" width="0.2" layer="1"/>
-<wire x1="8.3388" y1="47.9612" x2="8" y2="48.3" width="0.2" layer="1"/>
+<wire x1="8" y1="48.3" x2="8.3" y2="48" width="0.2" layer="1"/>
 <wire x1="8" y1="48.3" x2="6.36" y2="48.3" width="0.2" layer="1"/>
 <wire x1="6.36" y1="48.3" x2="6.32" y2="48.26" width="0.2" layer="1"/>
+<wire x1="8.3" y1="48" x2="9.3" y2="48" width="0.2" layer="1"/>
+<wire x1="10.557" y1="47.9525" x2="9.3475" y2="47.9525" width="0.2" layer="1"/>
+<wire x1="9.3475" y1="47.9525" x2="9.3" y2="48" width="0.2" layer="1"/>
 </signal>
 <signal name="ALERTA-PK1">
 <contactref element="TP28" pad="1"/>
@@ -3086,72 +3080,71 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.425" y1="15.697221875" x2="25.4" y2="15.7" width="0.2" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="T3" pad="1"/>
+<contactref element="Q3" pad="3"/>
 <contactref element="R6" pad="1"/>
-<wire x1="9.58" y1="13.86" x2="9.58" y2="10.6694" width="0.2" layer="1"/>
-<wire x1="9.58" y1="10.6694" x2="9.6054" y2="10.644" width="0.2" layer="1"/>
+<wire x1="9.58" y1="13.86" x2="9.6" y2="13.84" width="0.2" layer="1"/>
+<wire x1="9.6" y1="13.84" x2="9.6" y2="10.557" width="0.2" layer="1"/>
 </signal>
 <signal name="N$51">
-<contactref element="T3" pad="3"/>
+<contactref element="Q3" pad="1"/>
 <contactref element="R7" pad="1"/>
 <contactref element="TP2" pad="1"/>
 <contactref element="D1" pad="A"/>
-<contactref element="T6" pad="1"/>
-<wire x1="10.8546" y1="10.276" x2="10.8546" y2="11.4854" width="0.2" layer="1"/>
-<wire x1="10.5706" y1="11.7694" x2="10.5706" y2="12.676" width="0.2" layer="1"/>
-<wire x1="10.8546" y1="11.4854" x2="10.5706" y2="11.7694" width="0.2" layer="1"/>
+<contactref element="Q6" pad="3"/>
+<wire x1="10.8673" y1="11.4727" x2="10.55155" y2="11.78845" width="0.2" layer="1"/>
 <wire x1="6.08" y1="11.36" x2="6.08" y2="12.86" width="0.2" layer="1"/>
 <wire x1="6.08" y1="12.86" x2="6.08" y2="14.36" width="0.2" layer="1"/>
-<wire x1="10.5706" y1="14.1694" x2="10.5706" y2="12.676" width="0.2" layer="1"/>
 <wire x1="6.08" y1="12.86" x2="7.78" y2="14.56" width="0.2" layer="1"/>
-<wire x1="10.18" y1="14.56" x2="10.5706" y2="14.1694" width="0.2" layer="1"/>
 <wire x1="7.78" y1="14.56" x2="10.18" y2="14.56" width="0.2" layer="1"/>
+<wire x1="10.9" y1="10.543" x2="10.8673" y2="10.5757" width="0.2" layer="1"/>
+<wire x1="10.8673" y1="10.5757" x2="10.8673" y2="11.4727" width="0.2" layer="1"/>
+<wire x1="10.55155" y1="11.78845" x2="10.55155" y2="12.84205" width="0.2" layer="1"/>
+<wire x1="10.55155" y1="12.84205" x2="10.5525" y2="12.843" width="0.2" layer="1"/>
+<wire x1="10.5525" y1="14.1875" x2="10.5525" y2="12.843" width="0.2" layer="1"/>
+<wire x1="10.18" y1="14.56" x2="10.5525" y2="14.1875" width="0.2" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="C"/>
 <contactref element="D4" pad="C"/>
-<contactref element="T4" pad="1"/>
-<wire x1="6.08" y1="10.36" x2="6.78" y2="10.36" width="0.2" layer="1"/>
-<wire x1="6.78" y1="10.36" x2="6.88" y2="10.26" width="0.2" layer="1"/>
-<wire x1="6.88" y1="10.26" x2="7.5386" y2="10.26" width="0.2" layer="1"/>
-<wire x1="7.5386" y1="10.26" x2="7.5546" y2="10.276" width="0.2" layer="1"/>
+<contactref element="Q5" pad="3"/>
+<wire x1="7.6" y1="10.443" x2="6.743" y2="10.443" width="0.2" layer="1"/>
+<wire x1="6.743" y1="10.443" x2="6.66" y2="10.36" width="0.2" layer="1"/>
 <wire x1="4.18" y1="10.36" x2="6.08" y2="10.36" width="0.2" layer="1"/>
+<wire x1="6.66" y1="10.36" x2="6.08" y2="10.36" width="0.2" layer="1"/>
 </signal>
 <signal name="OPD-PK1-DISABLE">
-<contactref element="T4" pad="3"/>
+<contactref element="Q5" pad="1"/>
 <contactref element="R8" pad="2"/>
 <contactref element="JP2" pad="3"/>
 <wire x1="7.68" y1="5.72" x2="8.86" y2="4.54" width="0.2" layer="1"/>
 <wire x1="8.86" y1="4.54" x2="8.86" y2="2.54" width="0.2" layer="1"/>
 <wire x1="7.68" y1="6.46" x2="7.68" y2="5.72" width="0.2" layer="1"/>
-<wire x1="7.68" y1="6.46" x2="7.28" y2="6.46" width="0.2" layer="1"/>
-<wire x1="7.28" y1="6.46" x2="6.58" y2="7.16" width="0.2" layer="1"/>
-<wire x1="6.58" y1="7.16" x2="6.58" y2="8.2346" width="0.2" layer="1"/>
-<wire x1="6.58" y1="8.2346" x2="6.5894" y2="8.244" width="0.2" layer="1"/>
+<wire x1="7.28" y1="6.46" x2="7.68" y2="6.46" width="0.2" layer="1"/>
+<wire x1="6.6475" y1="8.157" x2="6.6475" y2="7.0925" width="0.2" layer="1"/>
+<wire x1="6.6475" y1="7.0925" x2="7.28" y2="6.46" width="0.2" layer="1"/>
 </signal>
 <signal name="CHARGE-DISABLE">
-<contactref element="T6" pad="3"/>
+<contactref element="Q6" pad="1"/>
 <contactref element="R9" pad="2"/>
 <contactref element="JP2" pad="2"/>
 <wire x1="10.18" y1="6.46" x2="10.18" y2="5.66" width="0.2" layer="1"/>
 <wire x1="10.18" y1="5.66" x2="11.4" y2="4.44" width="0.2" layer="1"/>
 <wire x1="11.4" y1="4.44" x2="11.4" y2="2.54" width="0.2" layer="1"/>
-<wire x1="10.18" y1="6.46" x2="10.18" y2="7.16" width="0.2" layer="1"/>
-<wire x1="10.18" y1="7.16" x2="9.88" y2="7.46" width="0.2" layer="1"/>
-<wire x1="9.88" y1="7.46" x2="9.88" y2="8.2346" width="0.2" layer="1"/>
-<wire x1="9.88" y1="8.2346" x2="9.8894" y2="8.244" width="0.2" layer="1"/>
+<wire x1="10.18" y1="7.16" x2="10.18" y2="6.46" width="0.2" layer="1"/>
+<wire x1="9.9475" y1="7.3925" x2="10.18" y2="7.16" width="0.2" layer="1"/>
+<wire x1="9.9475" y1="8.257" x2="9.9475" y2="7.3925" width="0.2" layer="1"/>
 </signal>
 <signal name="DISCHARGE-DISABLE">
-<contactref element="T5" pad="3"/>
+<contactref element="Q7" pad="1"/>
 <contactref element="R10" pad="2"/>
 <contactref element="JP2" pad="1"/>
 <wire x1="13.94" y1="2.54" x2="13.94" y2="4.54" width="0.2" layer="1"/>
 <wire x1="12.69" y1="5.79" x2="13.94" y2="4.54" width="0.2" layer="1"/>
 <wire x1="12.69" y1="6.45" x2="12.69" y2="5.79" width="0.2" layer="1"/>
 <wire x1="12.69" y1="6.45" x2="12.68" y2="6.46" width="0.2" layer="1"/>
-<wire x1="12.68" y1="6.46" x2="12.68" y2="7.06" width="0.2" layer="1"/>
-<wire x1="13.1894" y1="7.5694" x2="13.1894" y2="8.244" width="0.2" layer="1"/>
-<wire x1="12.68" y1="7.06" x2="13.1894" y2="7.5694" width="0.2" layer="1"/>
+<wire x1="12.68" y1="7.06" x2="12.68" y2="6.46" width="0.2" layer="1"/>
+<wire x1="13.2475" y1="8.257" x2="13.2475" y2="7.6275" width="0.2" layer="1"/>
+<wire x1="13.2475" y1="7.6275" x2="12.68" y2="7.06" width="0.2" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -3166,10 +3159,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="6,1,6a766a1930e30717"/>
 <approved hash="6,1,8b0a86cb06ca0b0b"/>
 <approved hash="6,1,4d50c2d84ae74aef"/>
+<approved hash="19,1,2405240600660065"/>
+<approved hash="7,39,39a27861f861b9a2"/>
+<approved hash="7,39,480c3509a97d0f82"/>
+<approved hash="7,39,3da20873b2e77d1d"/>
+<approved hash="7,39,7a1cbddd3ddcfa1d"/>
+<approved hash="7,39,f91d38dcb8dc791d"/>
+<approved hash="7,39,360dafda39667b4b"/>
+<approved hash="7,39,2a342a51bc2bbc4e"/>
+<approved hash="7,39,3e0ca3db4667f64a"/>
+<approved hash="7,39,400d3b08d67c8083"/>
+<approved hash="7,39,7a81bd423d43fa80"/>
+<approved hash="7,39,ee582c1bac1b6e58"/>
+<approved hash="7,39,29ec29d5bfafbf96"/>
+<approved hash="7,39,c73e06ff86ff473e"/>
+<approved hash="7,39,18d2d3ab40ed719d"/>
+<approved hash="7,39,1c27d7304472719d"/>
+<approved hash="7,39,50cd650ee50ed0cd"/>
+<approved hash="7,39,906d80590bc0e193"/>
+<approved hash="7,39,1c101c744e0e4e6a"/>
+<approved hash="7,39,de2c9fbf1fbf5e2c"/>
 </errors>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
