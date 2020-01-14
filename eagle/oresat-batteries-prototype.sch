@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -69,8 +69,8 @@
 <layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -81,72 +81,72 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
-<layer number="100" name="TODO" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="TODO" color="12" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="no"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -155,21 +155,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -7910,11 +7910,7 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R39" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10"/>
 <part name="R40" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="10m"/>
-<part name="R41" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
-<attribute name="DISTRIBUTOR" value="Digi-key"/>
-<attribute name="DPN" value="RNCP0603FTD10K0CT-ND"/>
-<attribute name="MPN" value="RNCP0603FTD10K0"/>
-</part>
+<part name="R41" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="R42" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7936,14 +7932,16 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="TP22" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP23" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP24" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="U$2" library="F-Panasonic-ERB_RE5-Fuse" deviceset="F-ERB_RE5R00V-FUSE" device="" value="5A">
-<attribute name="DPN" value="P15125CT-ND"/>
+<part name="F1" library="F-Panasonic-ERB_RE5-Fuse" deviceset="F-ERB_RE5R00V-FUSE" device="" value="5A">
+<attribute name="MFR" value="Panasonic"/>
 <attribute name="MPN" value="ERB-RE5R00V"/>
-<attribute name="VENDOR" value="Digi-Key"/>
 </part>
 <part name="TP25" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP28" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="U9" library="U-LT-LTC4412-ideal-diode" deviceset="LTC4412" device=""/>
+<part name="U9" library="U-LT-LTC4412-ideal-diode" deviceset="LTC4412" device="">
+<attribute name="MFR" value="Linear Technology"/>
+<attribute name="MPN" value="LTC4412HS6#TRMPBF"/>
+</part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C30" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7951,8 +7949,14 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <part name="R66" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
 <part name="R67" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="TP35" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="Q4" library="Tova" deviceset="PMV45EN" device=""/>
-<part name="U10" library="U-LT-LTC4412-ideal-diode" deviceset="LTC4412" device=""/>
+<part name="Q4" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG2302UK-7"/>
+</part>
+<part name="U10" library="U-LT-LTC4412-ideal-diode" deviceset="LTC4412" device="">
+<attribute name="MFR" value="Linear Technology"/>
+<attribute name="MPN" value="LTC4412HS6#TRMPBF"/>
+</part>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C31" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7969,39 +7973,96 @@ paste inset 0.025&amp;nbsp;mm.</description>
 </part>
 <part name="R68" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R69" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
-<part name="D10" library="D-0402-package" deviceset="D-0402" device=""/>
-<part name="D11" library="D-0402-package" deviceset="D-0402" device=""/>
+<part name="D10" library="D-0402-package" deviceset="D-0402" device="">
+<attribute name="MFR" value="Micro Commercial Co"/>
+<attribute name="MPN" value="1N4148WL2-TP"/>
+</part>
+<part name="D11" library="D-0402-package" deviceset="D-0402" device="">
+<attribute name="MFR" value="Micro Commercial Co"/>
+<attribute name="MPN" value="1N4148WL2-TP"/>
+</part>
 <part name="R71" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R70" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="100"/>
 <part name="R73" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
-<part name="Q1" library="Tova" deviceset="PMV45EN" device=""/>
+<part name="Q1" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG2302UK-7"/>
+</part>
 <part name="R74" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q9" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q10" library="Tova" deviceset="NTR4101P" device=""/>
-<part name="Q11" library="Tova" deviceset="NTR4101P" device=""/>
-<part name="Q12" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q13" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q14" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q15" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
-<part name="Q16" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN"/>
+<part name="Q2" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
+<part name="Q9" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
+<part name="Q10" library="Tova" deviceset="NTR4101P" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG3401LSN-7"/>
+</part>
+<part name="Q11" library="Tova" deviceset="NTR4101P" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG3401LSN-7"/>
+</part>
+<part name="Q12" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
+<part name="Q13" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
+<part name="Q14" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
+<part name="Q15" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
+<part name="Q16" library="Q-VIshay-MOSFET-PCH-PowerPak121-8" deviceset="Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8" device="" value="Si7625DN">
+<attribute name="MFR" value="Vishay Siliconix"/>
+<attribute name="MPN" value="SI7625DN-T1-GE3"/>
+</part>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="470n"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="470n"/>
-<part name="U2" library="U-Maxim-MAX17205-Fuel_Gauge" deviceset="MAX17205G" device="" value="MAX17205G"/>
+<part name="U2" library="U-Maxim-MAX17205-Fuel_Gauge" deviceset="MAX17205G" device="" value="MAX17205G">
+<attribute name="MFR" value="Maxim Integrated"/>
+<attribute name="MPN" value="MAX17205G+T"/>
+</part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q3" library="Tova" deviceset="PMV45EN" device=""/>
+<part name="Q3" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG2302UK-7"/>
+</part>
 <part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
 <part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="D1" library="D-0402-package" deviceset="D-0402" device=""/>
-<part name="D4" library="D-0402-package" deviceset="D-0402" device=""/>
-<part name="Q5" library="Tova" deviceset="PMV45EN" device=""/>
+<part name="D1" library="D-0402-package" deviceset="D-0402" device="">
+<attribute name="MFR" value="Micro Commercial Co"/>
+<attribute name="MPN" value="1N4148WL2-TP"/>
+</part>
+<part name="D4" library="D-0402-package" deviceset="D-0402" device="">
+<attribute name="MFR" value="Micro Commercial Co"/>
+<attribute name="MPN" value="1N4148WL2-TP"/>
+</part>
+<part name="Q5" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG2302UK-7"/>
+</part>
 <part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
-<part name="Q7" library="Tova" deviceset="PMV45EN" device=""/>
-<part name="Q6" library="Tova" deviceset="PMV45EN" device=""/>
+<part name="Q7" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG2302UK-7"/>
+</part>
+<part name="Q6" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="MFR" value="Diodes Inc"/>
+<attribute name="MPN" value="DMG2302UK-7"/>
+</part>
 <part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
@@ -8037,11 +8098,10 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <wire x1="374.65" y1="68.58" x2="374.65" y2="91.44" width="0.1524" layer="97"/>
 <wire x1="374.65" y1="91.44" x2="349.25" y2="91.44" width="0.1524" layer="97"/>
 <text x="354.33" y="66.04" size="1.778" layer="97">NTC Thermistors </text>
-<text x="274.32" y="104.14" size="1.778" layer="97">0603</text>
 <text x="261.62" y="78.74" size="2.54" layer="97" rot="R90">Battery Pack 
 w/shutdown</text>
 <text x="318.77" y="53.34" size="2.54" layer="97">Fuel Gauge + Cell Balancing</text>
-<text x="234.95" y="5.08" size="1.778" layer="97">Note: the S8209 has capability for cell balancing that we are not utilizing 
+<text x="234.95" y="15.24" size="1.778" layer="97">Note: the S8209 has capability for cell balancing that we are not utilizing 
 in favor of the MAX17205 cell balancing</text>
 <text x="120.65" y="134.62" size="1.778" layer="97">100 ms of delay</text>
 <text x="233.68" y="166.37" size="1.778" layer="97" rot="R90">Fast Blow</text>
@@ -8096,7 +8156,6 @@ if CHARGE-DISABLE is asserted or if Vcell &gt; Vovercharge</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">1.0</text>
 <text x="247.65" y="62.23" size="1.778" layer="97">Kelvin
 Connection</text>
-<text x="274.32" y="144.78" size="1.778" layer="97">0603</text>
 <text x="261.62" y="187.96" size="1.778" layer="97" rot="R90">1206</text>
 <text x="40.64" y="149.86" size="1.778" layer="97">S-8209A has a Vov = 4.100V (release = 4.000V)
 and a Vuv = 2.500V (release = 2.700V)</text>
@@ -8104,6 +8163,8 @@ and a Vuv = 2.500V (release = 2.700V)</text>
 GND which is bottom of shunt.</text>
 <text x="129.54" y="35.56" size="1.778" layer="97">The battery pack is disconnected if OPD-PK1_DISABLE is
 asserted - will neither charge nor discharge.</text>
+<text x="234.95" y="7.62" size="1.778" layer="97">All Cs are 0603 and &gt; 16Vw
+All Rs are 0603 and 1%</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8126,9 +8187,6 @@ asserted - will neither charge nor discharge.</text>
 <instance part="R41" gate="R" x="355.6" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="354.1014" y="105.41" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="358.902" y="105.41" size="1.778" layer="96" rot="R90"/>
-<attribute name="DISTRIBUTOR" x="355.6" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="355.6" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="355.6" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R42" gate="R" x="367.03" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="365.5314" y="105.41" size="1.778" layer="95" rot="R90"/>
@@ -8206,12 +8264,11 @@ asserted - will neither charge nor discharge.</text>
 <instance part="TP24" gate="G$1" x="110.49" y="105.41" smashed="yes" rot="MR90">
 <attribute name="NAME" x="113.03" y="104.14" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
-<instance part="U$2" gate="G$1" x="238.76" y="172.72" smashed="yes" rot="R90">
+<instance part="F1" gate="G$1" x="238.76" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="237.363" y="168.91" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="242.951" y="168.91" size="1.778" layer="96" rot="R90"/>
-<attribute name="DPN" x="238.76" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="238.76" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VENDOR" x="238.76" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="238.76" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP25" gate="G$1" x="287.02" y="107.95" smashed="yes" rot="MR0">
 <attribute name="NAME" x="289.56" y="109.22" size="1.778" layer="95" font="vector"/>
@@ -8222,6 +8279,8 @@ asserted - will neither charge nor discharge.</text>
 <instance part="U9" gate="G$1" x="191.77" y="227.33" smashed="yes">
 <attribute name="NAME" x="196.85" y="219.71" size="1.778" layer="95"/>
 <attribute name="VALUE" x="196.85" y="217.17" size="1.778" layer="96"/>
+<attribute name="MPN" x="191.77" y="227.33" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="191.77" y="227.33" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="191.77" y="217.17" smashed="yes">
 <attribute name="VALUE" x="189.23" y="214.63" size="1.778" layer="96"/>
@@ -8251,10 +8310,14 @@ asserted - will neither charge nor discharge.</text>
 <instance part="Q4" gate="G$1" x="45.72" y="83.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="43.18" y="83.82" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="43.18" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="45.72" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="45.72" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U10" gate="G$1" x="284.48" y="223.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="279.4" y="215.9" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="279.4" y="213.36" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MPN" x="284.48" y="223.52" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="284.48" y="223.52" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="284.48" y="213.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="287.02" y="210.82" size="1.778" layer="96" rot="MR0"/>
@@ -8299,10 +8362,14 @@ asserted - will neither charge nor discharge.</text>
 <instance part="D10" gate="G$1" x="212.09" y="100.33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="214.63" y="102.87" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="208.28" y="97.79" size="1.778" layer="96" rot="MR180"/>
+<attribute name="MFR" x="212.09" y="100.33" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="212.09" y="100.33" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="D11" gate="G$1" x="212.09" y="134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="214.63" y="137.16" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="208.28" y="132.08" size="1.778" layer="96" rot="MR180"/>
+<attribute name="MFR" x="212.09" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="212.09" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R71" gate="R" x="223.52" y="105.41" smashed="yes" rot="R180">
 <attribute name="NAME" x="222.25" y="106.68" size="1.778" layer="95"/>
@@ -8323,6 +8390,8 @@ asserted - will neither charge nor discharge.</text>
 <instance part="Q1" gate="G$1" x="280.67" y="186.69" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="285.75" y="186.69" size="1.778" layer="96"/>
 <attribute name="NAME" x="285.75" y="189.23" size="1.778" layer="95"/>
+<attribute name="MFR" x="280.67" y="186.69" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="280.67" y="186.69" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R74" gate="R" x="287.02" y="177.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="285.5214" y="181.61" size="1.778" layer="95" rot="MR270"/>
@@ -8334,38 +8403,56 @@ asserted - will neither charge nor discharge.</text>
 <instance part="Q2" gate="G$1" x="236.22" y="93.98" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="241.3" y="95.885" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="241.3" y="93.345" size="1.778" layer="95" rot="MR180"/>
+<attribute name="MFR" x="236.22" y="93.98" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="236.22" y="93.98" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="Q9" gate="G$1" x="236.22" y="128.27" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="241.3" y="130.175" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="241.3" y="127.635" size="1.778" layer="95" rot="MR180"/>
+<attribute name="MFR" x="236.22" y="128.27" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="236.22" y="128.27" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="Q10" gate="G$1" x="229.87" y="132.08" smashed="yes">
 <attribute name="NAME" x="220.98" y="129.54" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="127" size="1.778" layer="96"/>
+<attribute name="MFR" x="229.87" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="229.87" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q11" gate="G$1" x="229.87" y="97.79" smashed="yes">
 <attribute name="NAME" x="220.98" y="95.25" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="92.71" size="1.778" layer="96"/>
+<attribute name="MFR" x="229.87" y="97.79" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="229.87" y="97.79" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q12" gate="G$1" x="217.17" y="222.25" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="222.25" y="224.155" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="222.25" y="221.615" size="1.778" layer="95" rot="MR180"/>
+<attribute name="MFR" x="217.17" y="222.25" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="217.17" y="222.25" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="Q13" gate="G$1" x="217.17" y="209.55" smashed="yes">
 <attribute name="VALUE" x="222.25" y="207.645" size="1.778" layer="96"/>
 <attribute name="NAME" x="222.25" y="210.185" size="1.778" layer="95"/>
+<attribute name="MFR" x="217.17" y="209.55" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="217.17" y="209.55" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q14" gate="G$1" x="271.78" y="190.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="270.51" y="178.435" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="270.51" y="180.975" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="271.78" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="271.78" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="Q15" gate="G$1" x="260.35" y="226.06" smashed="yes" rot="R180">
 <attribute name="VALUE" x="255.27" y="227.965" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="255.27" y="225.425" size="1.778" layer="95" rot="R180"/>
+<attribute name="MFR" x="260.35" y="226.06" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="260.35" y="226.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="Q16" gate="G$1" x="260.35" y="213.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="255.27" y="211.455" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="255.27" y="213.995" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="260.35" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="260.35" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C3" gate="CE" x="339.09" y="147.32" smashed="yes">
 <attribute name="NAME" x="340.106" y="147.955" size="1.778" layer="95"/>
@@ -8381,6 +8468,8 @@ asserted - will neither charge nor discharge.</text>
 <instance part="U2" gate="A" x="323.85" y="115.57" smashed="yes">
 <attribute name="NAME" x="332.74" y="93.98" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="332.74" y="91.44" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MFR" x="323.85" y="115.57" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="323.85" y="115.57" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="349.25" y="138.43" smashed="yes">
 <attribute name="VALUE" x="346.71" y="135.89" size="1.778" layer="96"/>
@@ -8388,6 +8477,8 @@ asserted - will neither charge nor discharge.</text>
 <instance part="Q3" gate="G$1" x="27.94" y="83.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="25.4" y="83.82" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="25.4" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="27.94" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="27.94" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R6" gate="R" x="27.94" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.67" y="92.71" size="1.778" layer="95" rot="R90"/>
@@ -8403,14 +8494,20 @@ asserted - will neither charge nor discharge.</text>
 <instance part="D1" gate="G$1" x="35.56" y="46.99" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.1" y="48.26" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="31.75" y="49.53" size="1.778" layer="96" rot="R270"/>
+<attribute name="MFR" x="35.56" y="46.99" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="35.56" y="46.99" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="53.34" y="46.99" smashed="yes" rot="R270">
 <attribute name="NAME" x="55.88" y="48.26" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="49.53" y="49.53" size="1.778" layer="96" rot="R270"/>
+<attribute name="MFR" x="53.34" y="46.99" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="53.34" y="46.99" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="44.45" y="34.29" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="41.91" y="34.29" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="41.91" y="36.83" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="44.45" y="34.29" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="44.45" y="34.29" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R8" gate="R" x="50.8" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.53" y="20.32" size="1.778" layer="95" rot="R90"/>
@@ -8419,10 +8516,14 @@ asserted - will neither charge nor discharge.</text>
 <instance part="Q7" gate="G$1" x="78.74" y="58.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="76.2" y="58.42" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="76.2" y="60.96" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="78.74" y="58.42" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="78.74" y="58.42" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="64.77" y="48.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="62.23" y="48.26" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="62.23" y="50.8" size="1.778" layer="95" rot="MR0"/>
+<attribute name="MFR" x="64.77" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="64.77" y="48.26" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R9" gate="R" x="71.12" y="24.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.85" y="19.05" size="1.778" layer="95" rot="R90"/>
@@ -8720,7 +8821,7 @@ asserted - will neither charge nor discharge.</text>
 <net name="VBATT-PK1" class="0">
 <segment>
 <wire x1="238.76" y1="148.59" x2="238.76" y2="160.02" width="0.508" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="160.02" x2="238.76" y2="167.64" width="0.508" layer="91"/>
 <wire x1="238.76" y1="148.59" x2="271.78" y2="148.59" width="0.1524" layer="91"/>
 <pinref part="R39" gate="R" pin="2"/>
@@ -8854,7 +8955,7 @@ asserted - will neither charge nor discharge.</text>
 </net>
 <net name="VBATT-F-PK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="219.71" y1="204.47" x2="219.71" y2="201.93" width="0.508" layer="91"/>
 <wire x1="219.71" y1="201.93" x2="219.71" y2="184.15" width="0.508" layer="91"/>
 <wire x1="238.76" y1="184.15" x2="238.76" y2="177.8" width="0.508" layer="91"/>
