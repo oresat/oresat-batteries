@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -7292,121 +7292,121 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <wire x1="-7.5" y1="33.5" x2="-6.5" y2="33.5" width="0.2" layer="21"/>
 <wire x1="-7" y1="34" x2="-7" y2="33" width="0.2" layer="21"/>
 <wire x1="-8" y1="-33.5" x2="-7" y2="-33.5" width="0.2" layer="21"/>
-<wire x1="-3.65" y1="-32" x2="3.65" y2="-32" width="0" layer="20"/>
-<wire x1="3.65" y1="-33" x2="-3.65" y2="-33" width="0" layer="20"/>
-<wire x1="-3.65" y1="-35" x2="3.65" y2="-35" width="0" layer="20"/>
-<wire x1="3.65" y1="-36" x2="-3.65" y2="-36" width="0" layer="20"/>
-<wire x1="-3.65" y1="-33" x2="-3.65" y2="-32" width="0" layer="20" curve="-180"/>
-<wire x1="3.65" y1="-32" x2="3.65" y2="-33" width="0" layer="20" curve="-180"/>
-<wire x1="-3.65" y1="-36" x2="-3.65" y2="-35" width="0" layer="20" curve="-180"/>
-<wire x1="3.65" y1="-35" x2="3.65" y2="-36" width="0" layer="20" curve="-180"/>
+<wire x1="-2.65" y1="-32.5" x2="2.65" y2="-32.5" width="0" layer="20"/>
+<wire x1="2.65" y1="-33.5" x2="-2.65" y2="-33.5" width="0" layer="20"/>
+<wire x1="-2.65" y1="-35" x2="2.65" y2="-35" width="0" layer="20"/>
+<wire x1="2.65" y1="-36" x2="-2.65" y2="-36" width="0" layer="20"/>
+<wire x1="-2.65" y1="-33.5" x2="-2.65" y2="-32.5" width="0" layer="20" curve="-180"/>
+<wire x1="2.65" y1="-32.5" x2="2.65" y2="-33.5" width="0" layer="20" curve="-180"/>
+<wire x1="-2.65" y1="-36" x2="-2.65" y2="-35" width="0" layer="20" curve="-180"/>
+<wire x1="2.65" y1="-35" x2="2.65" y2="-36" width="0" layer="20" curve="-180"/>
 <polygon width="0.2" layer="2">
-<vertex x="-4.9" y="36.4"/>
-<vertex x="4.9" y="36.4"/>
-<vertex x="4.9" y="31.6"/>
-<vertex x="-4.9" y="31.6"/>
+<vertex x="-3.9" y="36.4"/>
+<vertex x="3.9" y="36.4"/>
+<vertex x="3.9" y="32.1"/>
+<vertex x="-3.9" y="32.1"/>
 </polygon>
 <polygon width="0.2" layer="15">
-<vertex x="-4.9" y="36.4"/>
-<vertex x="-4.9" y="31.6"/>
-<vertex x="4.9" y="31.6"/>
-<vertex x="4.9" y="36.4"/>
+<vertex x="-3.9" y="36.4"/>
+<vertex x="-3.9" y="32.1"/>
+<vertex x="3.9" y="32.1"/>
+<vertex x="3.9" y="36.4"/>
 </polygon>
-<wire x1="-3.65" y1="35.5" x2="3.65" y2="35.5" width="1" layer="46"/>
-<wire x1="-3.65" y1="32.5" x2="3.65" y2="32.5" width="1" layer="46"/>
-<wire x1="-3.65" y1="-32.5" x2="3.65" y2="-32.5" width="1" layer="46"/>
-<wire x1="-3.65" y1="-35.5" x2="3.65" y2="-35.5" width="1" layer="46"/>
+<wire x1="-2.65" y1="35.5" x2="2.65" y2="35.5" width="1" layer="46"/>
+<wire x1="-2.65" y1="33" x2="2.65" y2="33" width="1" layer="46"/>
+<wire x1="-2.65" y1="-33" x2="2.65" y2="-33" width="1" layer="46"/>
+<wire x1="-2.65" y1="-35.5" x2="2.65" y2="-35.5" width="1" layer="46"/>
 <polygon width="0.2" layer="1">
-<vertex x="-4.9" y="31.6"/>
-<vertex x="-4.9" y="36.4"/>
-<vertex x="4.9" y="36.4"/>
-<vertex x="4.9" y="31.6"/>
+<vertex x="-3.9" y="32.1"/>
+<vertex x="-3.9" y="36.4"/>
+<vertex x="3.9" y="36.4"/>
+<vertex x="3.9" y="32.1"/>
 </polygon>
 <polygon width="0.2" layer="16">
-<vertex x="-4.9" y="31.6"/>
-<vertex x="-4.9" y="36.4"/>
-<vertex x="4.9" y="36.4"/>
-<vertex x="4.9" y="31.6"/>
+<vertex x="-3.9" y="32.1"/>
+<vertex x="-3.9" y="36.4"/>
+<vertex x="3.9" y="36.4"/>
+<vertex x="3.9" y="32.1"/>
 </polygon>
-<wire x1="-3.65" y1="33" x2="3.65" y2="33" width="0" layer="20"/>
-<wire x1="3.65" y1="32" x2="-3.65" y2="32" width="0" layer="20"/>
-<wire x1="-3.65" y1="36" x2="3.65" y2="36" width="0" layer="20"/>
-<wire x1="3.65" y1="35" x2="-3.65" y2="35" width="0" layer="20"/>
-<wire x1="-3.65" y1="32" x2="-3.65" y2="33" width="0" layer="20" curve="-180"/>
-<wire x1="3.65" y1="33" x2="3.65" y2="32" width="0" layer="20" curve="-180"/>
-<wire x1="-3.65" y1="35" x2="-3.65" y2="36" width="0" layer="20" curve="-180"/>
-<wire x1="3.65" y1="36" x2="3.65" y2="35" width="0" layer="20" curve="-180"/>
+<wire x1="-2.65" y1="33.5" x2="2.65" y2="33.5" width="0" layer="20"/>
+<wire x1="2.65" y1="32.5" x2="-2.65" y2="32.5" width="0" layer="20"/>
+<wire x1="-2.65" y1="36" x2="2.65" y2="36" width="0" layer="20"/>
+<wire x1="2.65" y1="35" x2="-2.65" y2="35" width="0" layer="20"/>
+<wire x1="-2.65" y1="32.5" x2="-2.65" y2="33.5" width="0" layer="20" curve="-180"/>
+<wire x1="2.65" y1="33.5" x2="2.65" y2="32.5" width="0" layer="20" curve="-180"/>
+<wire x1="-2.65" y1="35" x2="-2.65" y2="36" width="0" layer="20" curve="-180"/>
+<wire x1="2.65" y1="36" x2="2.65" y2="35" width="0" layer="20" curve="-180"/>
 <polygon width="0.2" layer="1">
-<vertex x="-4.9" y="-31.6"/>
-<vertex x="-4.9" y="-36.4"/>
-<vertex x="4.9" y="-36.4"/>
-<vertex x="4.9" y="-31.6"/>
+<vertex x="-3.9" y="-32.1"/>
+<vertex x="-3.9" y="-36.4"/>
+<vertex x="3.9" y="-36.4"/>
+<vertex x="3.9" y="-32.1"/>
 </polygon>
 <polygon width="0.2" layer="2">
-<vertex x="-4.9" y="-31.6"/>
-<vertex x="-4.9" y="-36.4"/>
-<vertex x="4.9" y="-36.4"/>
-<vertex x="4.9" y="-31.6"/>
+<vertex x="-3.9" y="-32.1"/>
+<vertex x="-3.9" y="-36.4"/>
+<vertex x="3.9" y="-36.4"/>
+<vertex x="3.9" y="-32.1"/>
 </polygon>
 <polygon width="0.2" layer="15">
-<vertex x="-4.9" y="-31.6"/>
-<vertex x="-4.9" y="-36.4"/>
-<vertex x="4.9" y="-36.4"/>
-<vertex x="4.9" y="-31.6"/>
+<vertex x="-3.9" y="-32.1"/>
+<vertex x="-3.9" y="-36.4"/>
+<vertex x="3.9" y="-36.4"/>
+<vertex x="3.9" y="-32.1"/>
 </polygon>
 <polygon width="0.2" layer="16">
-<vertex x="-4.9" y="-31.6"/>
-<vertex x="-4.9" y="-36.4"/>
-<vertex x="4.9" y="-36.4"/>
-<vertex x="4.9" y="-31.6"/>
+<vertex x="-3.9" y="-32.1"/>
+<vertex x="-3.9" y="-36.4"/>
+<vertex x="3.9" y="-36.4"/>
+<vertex x="3.9" y="-32.1"/>
 </polygon>
 <polygon width="0.2" layer="29">
-<vertex x="-4.9" y="36.4"/>
-<vertex x="4.9" y="36.4"/>
-<vertex x="4.9" y="34.6"/>
-<vertex x="-4.9" y="34.6"/>
+<vertex x="-3.9" y="36.4"/>
+<vertex x="3.9" y="36.4"/>
+<vertex x="3.9" y="34.6"/>
+<vertex x="-3.9" y="34.6"/>
 </polygon>
 <polygon width="0.2" layer="29">
-<vertex x="-4.9" y="33.4"/>
-<vertex x="4.9" y="33.4"/>
-<vertex x="4.9" y="31.6"/>
-<vertex x="-4.9" y="31.6"/>
+<vertex x="-3.9" y="33.9"/>
+<vertex x="3.9" y="33.9"/>
+<vertex x="3.9" y="32.1"/>
+<vertex x="-3.9" y="32.1"/>
 </polygon>
 <polygon width="0.2" layer="29">
-<vertex x="-4.9" y="-31.6"/>
-<vertex x="4.9" y="-31.6"/>
-<vertex x="4.9" y="-33.4"/>
-<vertex x="-4.9" y="-33.4"/>
+<vertex x="-3.9" y="-32.1"/>
+<vertex x="3.9" y="-32.1"/>
+<vertex x="3.9" y="-33.9"/>
+<vertex x="-3.9" y="-33.9"/>
 </polygon>
 <polygon width="0.2" layer="29">
-<vertex x="-4.9" y="-34.6"/>
-<vertex x="4.9" y="-34.6"/>
-<vertex x="4.9" y="-36.4"/>
-<vertex x="-4.9" y="-36.4"/>
+<vertex x="-3.9" y="-34.6"/>
+<vertex x="3.9" y="-34.6"/>
+<vertex x="3.9" y="-36.4"/>
+<vertex x="-3.9" y="-36.4"/>
 </polygon>
 <polygon width="0.2" layer="30">
-<vertex x="-4.9" y="-34.6"/>
-<vertex x="4.9" y="-34.6"/>
-<vertex x="4.9" y="-36.4"/>
-<vertex x="-4.9" y="-36.4"/>
+<vertex x="-3.9" y="-34.6"/>
+<vertex x="3.9" y="-34.6"/>
+<vertex x="3.9" y="-36.4"/>
+<vertex x="-3.9" y="-36.4"/>
 </polygon>
 <polygon width="0.2" layer="30">
-<vertex x="-4.9" y="-31.6"/>
-<vertex x="4.9" y="-31.6"/>
-<vertex x="4.9" y="-33.4"/>
-<vertex x="-4.9" y="-33.4"/>
+<vertex x="-3.9" y="-32.1"/>
+<vertex x="3.9" y="-32.1"/>
+<vertex x="3.9" y="-33.9"/>
+<vertex x="-3.9" y="-33.9"/>
 </polygon>
 <polygon width="0.2" layer="30">
-<vertex x="-4.9" y="33.4"/>
-<vertex x="4.9" y="33.4"/>
-<vertex x="4.9" y="31.6"/>
-<vertex x="-4.9" y="31.6"/>
+<vertex x="-3.9" y="33.9"/>
+<vertex x="3.9" y="33.9"/>
+<vertex x="3.9" y="32.1"/>
+<vertex x="-3.9" y="32.1"/>
 </polygon>
 <polygon width="0.2" layer="30">
-<vertex x="-4.9" y="36.4"/>
-<vertex x="4.9" y="36.4"/>
-<vertex x="4.9" y="34.6"/>
-<vertex x="-4.9" y="34.6"/>
+<vertex x="-3.9" y="36.4"/>
+<vertex x="3.9" y="36.4"/>
+<vertex x="3.9" y="34.6"/>
+<vertex x="-3.9" y="34.6"/>
 </polygon>
 </package>
 </packages>
@@ -13349,6 +13349,108 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SW-Omron-D2F-L3-D-switch">
+<packages>
+<package name="D2F-L3-D-HORIZONTAL-L">
+<wire x1="-6.4" y1="5" x2="-6.3" y2="5" width="0.127" layer="21"/>
+<wire x1="-6.3" y1="5" x2="6.4" y2="5" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-1.5" x2="6.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-1.5" x2="-6.4" y2="5" width="0.127" layer="21"/>
+<wire x1="6.4" y1="5" x2="6.4" y2="-1.5" width="0.127" layer="21"/>
+<hole x="3.25" y="0" drill="2"/>
+<hole x="-3.25" y="0" drill="2"/>
+<pad name="NO" x="0" y="-1.6" drill="1" shape="long" rot="R180"/>
+<pad name="NC" x="5" y="-1.6" drill="1" shape="long" rot="R180"/>
+<pad name="COM" x="-5.08" y="-1.6" drill="1" shape="long" rot="R180"/>
+<text x="6.85" y="1.4" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<wire x1="-6.6" y1="-1.65" x2="-6.6" y2="5.15" width="0.127" layer="39"/>
+<wire x1="-6.6" y1="5.15" x2="6.6" y2="5.15" width="0.127" layer="39"/>
+<wire x1="6.6" y1="5.15" x2="6.6" y2="-1.65" width="0.127" layer="39"/>
+<wire x1="6.6" y1="-1.65" x2="-6.6" y2="-1.65" width="0.127" layer="39"/>
+<wire x1="2.15" y1="13" x2="1.7" y2="13" width="0.127" layer="21"/>
+<wire x1="1.7" y1="13" x2="0.95" y2="13" width="0.127" layer="21"/>
+<wire x1="3.05" y1="7.2" x2="5.6" y2="7.2" width="0.127" layer="21" curve="-180"/>
+<wire x1="3.05" y1="7.2" x2="-6.15" y2="5.45" width="0.127" layer="21"/>
+<wire x1="-6.15" y1="5.45" x2="-6.3" y2="5.3" width="0.127" layer="21"/>
+<wire x1="-6.3" y1="5.3" x2="-6.3" y2="5" width="0.127" layer="21"/>
+<wire x1="3.4" y1="8.5" x2="4.3" y2="8.5" width="0.127" layer="21"/>
+<wire x1="4.3" y1="8.5" x2="5.3" y2="8.5" width="0.127" layer="21"/>
+<wire x1="4.3" y1="7.3" x2="4.3" y2="8.5" width="0.127" layer="21"/>
+<wire x1="4.3" y1="8.5" x2="4.3" y2="9.7" width="0.127" layer="21"/>
+<wire x1="4.7" y1="5.4" x2="1.7" y2="13" width="0.127" layer="21" style="shortdash" curve="43.531199"/>
+</package>
+<package name="D2F-L3-D-HORIZONTAL-R">
+<wire x1="6.4" y1="5" x2="6.3" y2="5" width="0.127" layer="21"/>
+<wire x1="6.2" y1="5" x2="-6.4" y2="5" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-1.5" x2="6.4" y2="-1.5" width="0.127" layer="21"/>
+<hole x="3.25" y="0" drill="2"/>
+<hole x="-3.25" y="0" drill="2"/>
+<pad name="NO" x="0" y="-1.6" drill="1" shape="long" rot="R180"/>
+<pad name="COM" x="5" y="-1.6" drill="1" shape="long" rot="R180"/>
+<pad name="NC" x="-5.08" y="-1.6" drill="1" shape="long" rot="R180"/>
+<text x="6.85" y="1.4" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<wire x1="-6.6" y1="-1.65" x2="-6.6" y2="5.15" width="0.127" layer="39"/>
+<wire x1="-6.6" y1="5.15" x2="6.6" y2="5.15" width="0.127" layer="39"/>
+<wire x1="6.6" y1="5.15" x2="6.6" y2="-1.65" width="0.127" layer="39"/>
+<wire x1="6.6" y1="-1.65" x2="-6.6" y2="-1.65" width="0.127" layer="39"/>
+<wire x1="-2.15" y1="13" x2="-1.7" y2="13" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="13" x2="-0.95" y2="13" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="7.2" x2="-5.6" y2="7.2" width="0.127" layer="21" curve="180"/>
+<wire x1="-3.05" y1="7.2" x2="6.15" y2="5.45" width="0.127" layer="21"/>
+<wire x1="6.15" y1="5.45" x2="6.3" y2="5.3" width="0.127" layer="21"/>
+<wire x1="6.3" y1="5.3" x2="6.3" y2="5" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="8.5" x2="-4.3" y2="8.5" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="8.5" x2="-5.3" y2="8.5" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="7.3" x2="-4.3" y2="8.5" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="8.5" x2="-4.3" y2="9.7" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="5.4" x2="-1.7" y2="13" width="0.127" layer="21" style="shortdash" curve="-43.531199"/>
+<wire x1="-6.4" y1="5" x2="-6.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6.4" y1="-1.5" x2="6.4" y2="5" width="0.127" layer="21"/>
+<wire x1="6.3" y1="5" x2="6.2" y2="5" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SPDT">
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="COM" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="NC" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="NO" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="3.048" y2="1.778" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OMRON-D2F-L3-D" prefix="SW">
+<gates>
+<gate name="G$1" symbol="SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-LEFT" package="D2F-L3-D-HORIZONTAL-L">
+<connects>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RIGHT" package="D2F-L3-D-HORIZONTAL-R">
+<connects>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14148,6 +14250,10 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
 <part name="U3" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
+<part name="SW1" library="SW-Omron-D2F-L3-D-switch" deviceset="OMRON-D2F-L3-D" device="-LEFT"/>
+<part name="SW2" library="SW-Omron-D2F-L3-D-switch" deviceset="OMRON-D2F-L3-D" device="-RIGHT"/>
+<part name="SW3" library="SW-Omron-D2F-L3-D-switch" deviceset="OMRON-D2F-L3-D" device="-LEFT"/>
+<part name="SW4" library="SW-Omron-D2F-L3-D-switch" deviceset="OMRON-D2F-L3-D" device="-RIGHT"/>
 </parts>
 <sheets>
 <sheet>
@@ -16713,8 +16819,8 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <instance part="B2" gate="G$1" x="256.54" y="80.01" smashed="yes" rot="R270">
 <attribute name="NAME" x="260.35" y="77.978" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND46" gate="1" x="256.54" y="48.26" smashed="yes">
-<attribute name="VALUE" x="254" y="45.72" size="1.778" layer="96"/>
+<instance part="GND46" gate="1" x="259.08" y="30.48" smashed="yes">
+<attribute name="VALUE" x="256.54" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="R65" gate="R" x="294.64" y="148.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="289.56" y="149.86" size="1.778" layer="95"/>
@@ -17113,22 +17219,23 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <attribute name="NAME" x="255.0414" y="173.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="259.842" y="163.83" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SW1" gate="G$1" x="256.54" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="252.73" y="39.37" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="252.73" y="41.91" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SW2" gate="G$1" x="50.8" y="185.42" smashed="yes">
+<attribute name="NAME" x="45.72" y="189.23" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="180.34" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<wire x1="346.71" y1="95.25" x2="346.71" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND46" gate="1" pin="GND"/>
-<pinref part="R62" gate="R" pin="2"/>
-<wire x1="256.54" y1="50.8" x2="256.54" y2="54.61" width="0.508" layer="91"/>
-<wire x1="256.54" y1="54.61" x2="256.54" y2="58.42" width="0.508" layer="91"/>
-<wire x1="256.54" y1="58.42" x2="346.71" y2="58.42" width="0.1524" layer="91"/>
-<junction x="256.54" y="58.42"/>
-<pinref part="U12" gate="A" pin="CSN"/>
-<pinref part="TP43" gate="G$1" pin="1"/>
-<junction x="256.54" y="54.61"/>
+<wire x1="259.08" y1="33.02" x2="259.08" y2="35.56" width="0.508" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="NC"/>
 </segment>
 <segment>
 <pinref part="R72" gate="R" pin="1"/>
@@ -17998,6 +18105,20 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <junction x="335.28" y="217.17"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="346.71" y1="95.25" x2="346.71" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R62" gate="R" pin="2"/>
+<wire x1="256.54" y1="45.72" x2="256.54" y2="54.61" width="0.508" layer="91"/>
+<wire x1="256.54" y1="54.61" x2="256.54" y2="58.42" width="0.508" layer="91"/>
+<wire x1="256.54" y1="58.42" x2="346.71" y2="58.42" width="0.1524" layer="91"/>
+<junction x="256.54" y="58.42"/>
+<pinref part="U12" gate="A" pin="CSN"/>
+<pinref part="TP43" gate="G$1" pin="1"/>
+<junction x="256.54" y="54.61"/>
+<pinref part="SW1" gate="G$1" pin="COM"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -18495,6 +18616,14 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <instance part="F2" gate="G$1" x="256.54" y="177.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="255.0414" y="173.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="260.35" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SW3" gate="G$1" x="73.66" y="210.82" smashed="yes">
+<attribute name="NAME" x="68.58" y="214.63" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.58" y="205.74" size="1.778" layer="96"/>
+</instance>
+<instance part="SW4" gate="G$1" x="45.72" y="205.74" smashed="yes">
+<attribute name="NAME" x="40.64" y="209.55" size="1.778" layer="95"/>
+<attribute name="VALUE" x="40.64" y="200.66" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
