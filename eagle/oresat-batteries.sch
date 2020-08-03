@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -13420,8 +13420,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </part>
 <part name="R61" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R60" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
-<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1"/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1"/>
+<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4151W-E3-08"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4151W-E3-08"/>
 <part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R63" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="100"/>
@@ -13537,8 +13537,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </part>
 <part name="R91" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R90" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
-<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1"/>
-<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1"/>
+<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4151W-E3-08"/>
+<part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4151W-E3-08"/>
 <part name="R89" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R88" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M"/>
 <part name="R93" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="100"/>
@@ -14131,13 +14131,13 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="TP81" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP82" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP83" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="R113" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
+<part name="R113" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="A129632CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
 <attribute name="MPN" value="CRGCQ0402F2K7"/>
 </part>
-<part name="R114" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
+<part name="R114" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="A129632CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
@@ -16132,7 +16132,7 @@ programming board</text>
 </instance>
 <instance part="D10" gate="G$1" x="368.3" y="182.88" smashed="yes">
 <attribute name="NAME" x="370.205" y="173.482" size="1.778" layer="95" font="vector" rot="MR90"/>
-<attribute name="VALUE" x="370.205" y="178.308" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="VALUE" x="370.205" y="179.578" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="DIS" x="368.3" y="182.88" size="1.778" layer="96" display="off"/>
 <attribute name="DPN" x="368.3" y="182.88" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="368.3" y="182.88" size="1.778" layer="96" display="off"/>
@@ -16146,8 +16146,8 @@ programming board</text>
 <attribute name="DPN" x="360.68" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFR" x="360.68" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="360.68" y="185.42" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="364.49" y="183.9214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="359.41" y="184.15" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="358.14" y="181.8386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="358.14" y="187.96" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME7" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -16192,7 +16192,7 @@ programming board</text>
 <attribute name="DPN" x="15.24" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="15.24" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="15.24" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="13.7414" y="196.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="13.97" y="194.31" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="13.97" y="201.93" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R114" gate="R" x="20.32" y="200.66" smashed="yes" rot="R90">
@@ -16200,7 +16200,7 @@ programming board</text>
 <attribute name="DPN" x="20.32" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="20.32" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="20.32" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="18.8214" y="196.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="19.05" y="194.31" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="19.05" y="201.93" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="17.78" y="210.82" smashed="yes" rot="MR0">
@@ -16384,8 +16384,8 @@ programming board</text>
 </segment>
 <segment>
 <pinref part="U21" gate="G$1" pin="PB7"/>
-<wire x1="195.58" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
-<label x="147.32" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
+<label x="177.8" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <label x="184.15" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -16408,8 +16408,8 @@ programming board</text>
 </segment>
 <segment>
 <pinref part="U21" gate="G$1" pin="PB6"/>
-<wire x1="195.58" y1="170.18" x2="170.18" y2="170.18" width="0.1524" layer="91"/>
-<label x="170.18" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
+<label x="177.8" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <label x="184.15" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -16458,36 +16458,36 @@ programming board</text>
 <net name="CHARGE-DISABLE-PK2" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB0"/>
-<wire x1="195.58" y1="185.42" x2="170.18" y2="185.42" width="0.1524" layer="91"/>
-<label x="170.18" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
+<label x="177.8" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE-STAT-OC-PK1" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PA7"/>
-<wire x1="241.3" y1="167.64" x2="287.02" y2="167.64" width="0.1524" layer="91"/>
-<label x="287.02" y="167.64" size="1.778" layer="95" xref="yes"/>
+<wire x1="241.3" y1="167.64" x2="267.97" y2="167.64" width="0.1524" layer="91"/>
+<label x="267.97" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE-STAT-OC-PK2" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB10"/>
-<wire x1="195.58" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
-<label x="170.18" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
+<label x="177.8" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FAST-CHARGE-PK2" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB2"/>
-<wire x1="170.18" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<label x="170.18" y="180.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="177.8" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
+<label x="177.8" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE-DISABLE-PK1" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PA4"/>
-<wire x1="241.3" y1="175.26" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
-<label x="287.02" y="175.26" size="1.778" layer="95" xref="yes"/>
+<wire x1="241.3" y1="175.26" x2="267.97" y2="175.26" width="0.1524" layer="91"/>
+<label x="267.97" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA2/USART2_TX" class="0">
@@ -16531,36 +16531,36 @@ programming board</text>
 <net name="DCHG-STAT-OC-PK2" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB11"/>
-<wire x1="195.58" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
-<label x="147.32" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="177.8" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALERTA-PK2" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB4"/>
-<wire x1="195.58" y1="175.26" x2="170.18" y2="175.26" width="0.1524" layer="91"/>
-<label x="170.18" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
+<label x="177.8" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FAST-CHARGE-PK1" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PA6"/>
-<wire x1="241.3" y1="170.18" x2="287.02" y2="170.18" width="0.1524" layer="91"/>
-<label x="287.02" y="170.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="241.3" y1="170.18" x2="267.97" y2="170.18" width="0.1524" layer="91"/>
+<label x="267.97" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ALERTA-PK1" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB5"/>
-<wire x1="195.58" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
-<label x="147.32" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="172.72" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
+<label x="177.8" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DISCHARGE-DISABLE-PK1" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PA5"/>
-<wire x1="241.3" y1="172.72" x2="287.02" y2="172.72" width="0.1524" layer="91"/>
-<label x="287.02" y="172.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="241.3" y1="172.72" x2="267.97" y2="172.72" width="0.1524" layer="91"/>
+<label x="267.97" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="POUT" class="0">
@@ -16573,15 +16573,15 @@ programming board</text>
 <net name="DCHG-STAT-OC-PK1" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PA1"/>
-<wire x1="241.3" y1="182.88" x2="287.02" y2="182.88" width="0.1524" layer="91"/>
-<label x="287.02" y="182.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="241.3" y1="182.88" x2="267.97" y2="182.88" width="0.1524" layer="91"/>
+<label x="267.97" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DISCHARGE-DISABLE-PK2" class="0">
 <segment>
 <pinref part="U21" gate="G$1" pin="PB1"/>
-<wire x1="195.58" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
-<label x="147.32" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="182.88" x2="177.8" y2="182.88" width="0.1524" layer="91"/>
+<label x="177.8" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CRYSTALIN2" class="0">
@@ -16688,82 +16688,6 @@ programming board</text>
 <label x="243.84" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PA15" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PA15"/>
-<wire x1="241.3" y1="152.4" x2="285.75" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PC15" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PC15-OSC32_OUT"/>
-<wire x1="241.3" y1="193.04" x2="264.16" y2="193.04" width="0.1524" layer="91"/>
-<label x="264.16" y="193.04" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC14" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PC14-OSC32_IN"/>
-<wire x1="241.3" y1="198.12" x2="264.16" y2="198.12" width="0.1524" layer="91"/>
-<label x="264.16" y="198.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC13" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PC13"/>
-<wire x1="241.3" y1="205.74" x2="264.16" y2="205.74" width="0.1524" layer="91"/>
-<label x="264.16" y="205.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB3" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB3"/>
-<wire x1="195.58" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
-<label x="147.32" y="177.8" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB8" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB8"/>
-<wire x1="195.58" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
-<label x="170.18" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB9" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB9"/>
-<wire x1="195.58" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
-<label x="147.32" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB12" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB12"/>
-<wire x1="195.58" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
-<label x="170.18" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB13" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB13"/>
-<wire x1="195.58" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
-<label x="147.32" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB14" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB14"/>
-<wire x1="195.58" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
-<label x="170.18" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB15" class="0">
-<segment>
-<pinref part="U21" gate="G$1" pin="PB15"/>
-<wire x1="195.58" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
-<label x="147.32" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="CAN1_L" class="0">
 <segment>
 <pinref part="U20" gate="G$1" pin="CANL"/>
@@ -16862,6 +16786,10 @@ GND which is bottom of shunt.</text>
 ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <text x="361.95" y="72.39" size="1.778" layer="97">B1</text>
 <text x="394.97" y="72.39" size="1.778" layer="97">B2</text>
+<text x="173.99" y="193.04" size="1.778" layer="97">MOSFETs needed for 
+ground level decoupling.</text>
+<text x="344.17" y="228.6" size="1.778" layer="97">MOSFETs needed for 
+ground level decoupling.</text>
 </plain>
 <instances>
 <instance part="B4" gate="G$1" x="256.54" y="80.01" smashed="yes" rot="R270">
@@ -17063,11 +16991,11 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 </instance>
 <instance part="D8" gate="G$1" x="229.87" y="100.33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="232.41" y="102.87" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="226.06" y="97.79" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="222.25" y="99.06" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="D7" gate="G$1" x="229.87" y="134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="232.41" y="137.16" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="226.06" y="132.08" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="222.25" y="133.35" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R89" gate="R" x="241.3" y="105.41" smashed="yes" rot="R180">
 <attribute name="NAME" x="240.03" y="106.68" size="1.778" layer="95"/>
@@ -18456,11 +18384,11 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 </instance>
 <instance part="D6" gate="G$1" x="229.87" y="100.33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="232.41" y="102.87" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="226.06" y="97.79" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="220.98" y="99.06" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="D5" gate="G$1" x="229.87" y="134.62" smashed="yes" rot="MR0">
 <attribute name="NAME" x="232.41" y="137.16" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="226.06" y="132.08" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="220.98" y="133.35" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R59" gate="R" x="241.3" y="105.41" smashed="yes" rot="R180">
 <attribute name="NAME" x="240.03" y="106.68" size="1.778" layer="95"/>
@@ -19571,48 +19499,58 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <approved hash="104,5,256.54,119.38,B1,POS,N$42,,,"/>
 <approved hash="104,5,256.54,77.47,B2,NEG,CSP-PK1,,,"/>
 <approved hash="104,5,256.54,85.09,B2,POS,N$53,,,"/>
-<approved hash="104,4,256.54,77.47,B3,NEG,CSP-PK2,,,"/>
-<approved hash="104,4,256.54,85.09,B3,POS,N$85,,,"/>
-<approved hash="104,4,256.54,111.76,B4,NEG,N$88,,,"/>
-<approved hash="104,4,256.54,119.38,B4,POS,N$82,,,"/>
-<approved hash="104,5,201.93,234.95,U9,VIN,VBATT-F-PK1,,,"/>
-<approved hash="104,5,309.88,233.68,U10,VIN,VBUS,,,"/>
-<approved hash="104,5,148.59,161.29,U11,VDD,N$16,,,"/>
-<approved hash="104,5,148.59,135.89,U11,VSS,N$54,,,"/>
-<approved hash="104,5,90.17,118.11,U12,VDD,N$17,,,"/>
-<approved hash="104,5,90.17,92.71,U12,VSS,CSP-PK1,,,"/>
-<approved hash="104,5,346.71,135.89,U2,REG3,REG3-PK1,,,"/>
-<approved hash="104,5,336.55,135.89,U2,REG2,REG2-PK1,,,"/>
-<approved hash="104,5,323.85,123.19,U2,VBATT,VBATT-PL1,,,"/>
-<approved hash="104,4,201.93,234.95,U7,VIN,VBATT-F-PK2,,,"/>
-<approved hash="104,4,309.88,233.68,U8,VIN,VBUS,,,"/>
-<approved hash="104,4,148.59,161.29,U13,VDD,N$70,,,"/>
-<approved hash="104,4,148.59,135.89,U13,VSS,N$88,,,"/>
-<approved hash="104,4,90.17,118.11,U14,VDD,N$71,,,"/>
-<approved hash="104,4,90.17,92.71,U14,VSS,CSP-PK2,,,"/>
-<approved hash="104,4,346.71,135.89,U15,REG3,REG3-PK2,,,"/>
-<approved hash="104,4,336.55,135.89,U15,REG2,REG2-PK2,,,"/>
-<approved hash="104,4,323.85,123.19,U15,VBATT,VBATT-PL2,,,"/>
-<approved hash="104,3,289.56,189.23,X2,SHIELD,GND,,,"/>
-<approved hash="104,3,100.33,194.31,U3,VCC,3.3V,,,"/>
-<approved hash="104,3,233.68,207.01,U4,VDD,3.3V,,,"/>
-<approved hash="104,3,226.06,207.01,U4,VDDA,3.3V,,,"/>
-<approved hash="104,3,226.06,156.21,U4,VSS,GND,,,"/>
-<approved hash="104,3,218.44,207.01,U4,VDDIO2,3.3V,,,"/>
-<approved hash="104,2,133.35,171.45,U18,V+,VPD,,,"/>
-<approved hash="104,2,285.75,232.41,U19,VCC,ON/!OFF,,,"/>
-<approved hash="104,2,290.83,95.25,U20,VIN,VBUSP,,,"/>
-<approved hash="104,2,143.51,97.79,U21,VDD,VPD,,,"/>
-<approved hash="104,2,143.51,53.34,U22,VDD,VPD,,,"/>
+<approved hash="104,4,256.54,77.47,B4,NEG,CSP-PK2,,,"/>
+<approved hash="104,4,256.54,85.09,B4,POS,N$85,,,"/>
+<approved hash="104,4,256.54,111.76,B3,NEG,N$88,,,"/>
+<approved hash="104,4,256.54,119.38,B3,POS,N$82,,,"/>
+<approved hash="104,5,201.93,234.95,U10,VIN,VBATT-F-PK1,,,"/>
+<approved hash="104,5,309.88,233.68,U11,VIN,VBUS,,,"/>
+<approved hash="104,5,148.59,161.29,U9,VDD,N$16,,,"/>
+<approved hash="104,5,148.59,135.89,U9,VSS,N$54,,,"/>
+<approved hash="104,5,90.17,118.11,U8,VDD,N$17,,,"/>
+<approved hash="104,5,90.17,92.71,U8,VSS,CSP-PK1,,,"/>
+<approved hash="104,5,346.71,135.89,U12,REG3,REG3-PK1,,,"/>
+<approved hash="104,5,336.55,135.89,U12,REG2,REG2-PK1,,,"/>
+<approved hash="104,5,323.85,123.19,U12,VBATT,VBATT-PL1,,,"/>
+<approved hash="104,4,201.93,234.95,U15,VIN,VBATT-F-PK2,,,"/>
+<approved hash="104,4,309.88,233.68,U16,VIN,VBUS,,,"/>
+<approved hash="104,4,148.59,161.29,U14,VDD,N$70,,,"/>
+<approved hash="104,4,148.59,135.89,U14,VSS,N$88,,,"/>
+<approved hash="104,4,90.17,118.11,U13,VDD,N$71,,,"/>
+<approved hash="104,4,90.17,92.71,U13,VSS,CSP-PK2,,,"/>
+<approved hash="104,4,346.71,135.89,U17,REG3,REG3-PK2,,,"/>
+<approved hash="104,4,336.55,135.89,U17,REG2,REG2-PK2,,,"/>
+<approved hash="104,4,323.85,123.19,U17,VBATT,VBATT-PL2,,,"/>
+<approved hash="104,2,133.35,171.45,U1,V+,VPD,,,"/>
+<approved hash="104,2,285.75,232.41,U4,VCC,ON/!OFF,,,"/>
+<approved hash="104,2,290.83,95.25,U5,VIN,VBUSP,,,"/>
+<approved hash="104,2,143.51,97.79,U2,VDD,VPD,,,"/>
+<approved hash="104,2,143.51,53.34,U3,VDD,VPD,,,"/>
+<approved hash="104,3,68.58,195.58,X3,SHIELD,GND,,,"/>
+<approved hash="104,3,393.7,175.26,U20,VCC,3.3V,,,"/>
+<approved hash="104,3,213.36,139.7,U21,VSS,GND,,,"/>
+<approved hash="104,3,215.9,220.98,U21,VDDA,3.3V,,,"/>
+<approved hash="104,3,210.82,220.98,U21,VDD,3.3V,,,"/>
+<approved hash="104,3,226.06,220.98,U21,VDDIO2,3.3V,,,"/>
+<approved hash="104,3,223.52,139.7,U21,VSSA,GND,,,"/>
+<approved hash="104,3,220.98,220.98,U21,VBAT,3.3V,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,5,215.796,139.596,FRAME2,,,,,"/>
-<approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,4,215.796,139.596,FRAME4,,,,,"/>
-<approved hash="113,3,215.796,139.596,FRAME5,,,,,"/>
-<approved hash="113,5,396.477,80.2361,JP1,,,,,"/>
-<approved hash="113,5,362.983,80.2361,JP2,,,,,"/>
-<approved hash="113,4,396.477,80.2361,JP5,,,,,"/>
-<approved hash="113,4,362.983,80.2361,JP6,,,,,"/>
+<approved hash="113,5,215.796,139.596,FRAME4,,,,,"/>
+<approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
+<approved hash="113,4,215.796,139.596,FRAME5,,,,,"/>
+<approved hash="113,5,396.477,80.2361,JP2,,,,,"/>
+<approved hash="113,5,362.983,80.2361,JP1,,,,,"/>
+<approved hash="113,4,396.477,80.2361,JP4,,,,,"/>
+<approved hash="113,4,362.983,80.2361,JP3,,,,,"/>
+<approved hash="113,5,259.409,63.5,JP5,,,,,"/>
+<approved hash="113,5,259.409,58.42,JP6,,,,,"/>
+<approved hash="113,1,216.229,102.87,JP8,,,,,"/>
+<approved hash="113,1,216.229,95.25,JP9,,,,,"/>
+<approved hash="113,1,238.528,102.87,JP10,,,,,"/>
+<approved hash="113,1,238.43,95.25,JP11,,,,,"/>
+<approved hash="113,4,259.409,66.04,JP7,,,,,"/>
+<approved hash="113,4,260.118,59.69,JP12,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
