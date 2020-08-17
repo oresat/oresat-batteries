@@ -1,0 +1,5 @@
+If you manufacture something described in this repository or modify its documentation, please tell us!
+We'd love to hear about how our work gets used.
+Send messages to oresat@pdx.edu.
+If you wish to contact individual contributors, please check the commit logs of this repository for their emails.
+
