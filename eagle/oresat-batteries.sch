@@ -7279,10 +7279,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <library name="B-18650-Li-battery">
 <packages>
 <package name="18650">
-<wire x1="-9.2" y1="32.5" x2="9.2" y2="32.5" width="0.2" layer="21"/>
-<wire x1="9.2" y1="32.5" x2="9.2" y2="-32.5" width="0.2" layer="21"/>
-<wire x1="9.2" y1="-32.5" x2="-9.2" y2="-32.5" width="0.2" layer="21"/>
-<wire x1="-9.2" y1="-32.5" x2="-9.2" y2="32.5" width="0.2" layer="21"/>
+<wire x1="-9.2" y1="32.5" x2="9.2" y2="32.5" width="0.2" layer="51"/>
+<wire x1="9.2" y1="32.5" x2="9.2" y2="-32.5" width="0.2" layer="51"/>
+<wire x1="9.2" y1="-32.5" x2="-9.2" y2="-32.5" width="0.2" layer="51"/>
+<wire x1="-9.2" y1="-32.5" x2="-9.2" y2="32.5" width="0.2" layer="51"/>
 <text x="6" y="-35" size="0.635" layer="21" font="vector" ratio="20">&gt;NAME</text>
 <smd name="NEG-T" x="0" y="-34.25" dx="0.5" dy="0.5" layer="1" roundness="10" stop="no" thermals="no" cream="no"/>
 <smd name="POS-T" x="0" y="34.25" dx="0.5" dy="0.5" layer="1" roundness="10" stop="no" thermals="no" cream="no"/>
@@ -11758,7 +11758,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <junction x="198.12" y="111.76"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="2">
 <segment>
 <label x="168.91" y="152.4" size="2.54" layer="95" xref="yes"/>
 <wire x1="146.05" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
@@ -12820,7 +12820,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <wire x1="359.41" y1="86.36" x2="359.41" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="2">
 <segment>
 <pinref part="VBUS1" gate="1" pin="VBUS"/>
 <pinref part="R25" gate="R" pin="2"/>
@@ -15042,6 +15042,7 @@ ground level decoupling.</text>
 <pinref part="U17" gate="A" pin="CSN"/>
 <pinref part="TP66" gate="G$1" pin="1"/>
 <junction x="256.54" y="41.91"/>
+<label x="281.94" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R102" gate="R" pin="1"/>
@@ -15259,7 +15260,7 @@ ground level decoupling.</text>
 <pinref part="R75" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="VBATT-PK2" class="0">
+<net name="VBATT-POS-PK2" class="2">
 <segment>
 <wire x1="256.54" y1="148.59" x2="256.54" y2="160.02" width="0.508" layer="91"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="172.72" width="0.508" layer="91"/>
@@ -15267,7 +15268,7 @@ ground level decoupling.</text>
 <pinref part="R95" gate="R" pin="2"/>
 <wire x1="148.59" y1="173.99" x2="213.36" y2="173.99" width="0.1524" layer="91"/>
 <junction x="256.54" y="148.59"/>
-<label x="257.81" y="151.13" size="1.778" layer="95"/>
+<label x="264.16" y="148.59" size="1.778" layer="95"/>
 <junction x="148.59" y="173.99"/>
 <pinref part="R84" gate="R" pin="2"/>
 <wire x1="213.36" y1="160.02" x2="213.36" y2="173.99" width="0.1524" layer="91"/>
@@ -15283,6 +15284,7 @@ ground level decoupling.</text>
 <pinref part="TP61" gate="G$1" pin="1"/>
 <junction x="256.54" y="135.89"/>
 <pinref part="F2" gate="G$1" pin="P$2"/>
+<label x="184.15" y="173.99" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -15327,7 +15329,7 @@ ground level decoupling.</text>
 <wire x1="199.39" y1="100.33" x2="223.52" y2="100.33" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="2">
 <segment>
 <pinref part="VBUS4" gate="1" pin="VBUS"/>
 <wire x1="237.49" y1="232.41" x2="237.49" y2="234.95" width="0.508" layer="91"/>
@@ -15390,7 +15392,7 @@ ground level decoupling.</text>
 <pinref part="Q31" gate="G$1" pin="S"/>
 </segment>
 </net>
-<net name="VBATT-F-PK2" class="0">
+<net name="VBATT-F-PK2" class="2">
 <segment>
 <wire x1="237.49" y1="209.55" x2="237.49" y2="207.01" width="0.508" layer="91"/>
 <wire x1="237.49" y1="207.01" x2="237.49" y2="189.23" width="0.508" layer="91"/>
@@ -15548,7 +15550,7 @@ ground level decoupling.</text>
 <pinref part="Q33" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="CSP-PK2" class="2">
+<net name="VBATT-NEG-PK2" class="2">
 <segment>
 <pinref part="R91" gate="R" pin="2"/>
 <wire x1="90.17" y1="76.2" x2="90.17" y2="92.71" width="0.1524" layer="91"/>
@@ -15603,6 +15605,8 @@ ground level decoupling.</text>
 <junction x="256.54" y="73.66"/>
 <pinref part="B4" gate="G$1" pin="NEG"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
+<label x="184.15" y="76.2" size="1.778" layer="95"/>
+<label x="30.48" y="53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$84" class="0">
@@ -15658,7 +15662,7 @@ ground level decoupling.</text>
 <pinref part="Q32" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$88" class="2">
+<net name="INTERCELL-PK2" class="2">
 <segment>
 <pinref part="C26" gate="CE" pin="1"/>
 <pinref part="R81" gate="R" pin="2"/>
@@ -15703,9 +15707,11 @@ ground level decoupling.</text>
 <junction x="45.72" y="130.81"/>
 <pinref part="TP63" gate="G$1" pin="1"/>
 <pinref part="B3" gate="G$1" pin="NEG"/>
+<label x="184.15" y="110.49" size="1.778" layer="95"/>
+<label x="30.48" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$89" class="0">
+<net name="N$89" class="2">
 <segment>
 <wire x1="275.59" y1="215.9" x2="275.59" y2="210.82" width="0.508" layer="91"/>
 <pinref part="U16" gate="G$1" pin="SENSE"/>
@@ -15904,7 +15910,7 @@ ground level decoupling.</text>
 <junction x="335.28" y="217.17"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="CSP-PK2" class="2">
 <segment>
 <pinref part="U17" gate="A" pin="CSP"/>
 <wire x1="336.55" y1="95.25" x2="336.55" y2="55.88" width="0.1524" layer="91"/>
@@ -15913,6 +15919,7 @@ ground level decoupling.</text>
 <wire x1="256.54" y1="55.88" x2="256.54" y2="59.69" width="0.508" layer="91"/>
 <wire x1="256.54" y1="55.88" x2="336.55" y2="55.88" width="0.1524" layer="91"/>
 <junction x="256.54" y="55.88"/>
+<label x="281.94" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -16520,6 +16527,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="GND46" gate="1" pin="GND"/>
 <wire x1="256.54" y1="38.1" x2="256.54" y2="35.56" width="0.508" layer="91"/>
 <junction x="256.54" y="38.1"/>
+<label x="279.4" y="41.91" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBATT-PL1" class="0">
@@ -16652,7 +16660,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="R45" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="VBATT-PK1" class="0">
+<net name="VBATT-POS-PK1" class="2">
 <segment>
 <wire x1="256.54" y1="148.59" x2="256.54" y2="160.02" width="0.508" layer="91"/>
 <wire x1="256.54" y1="160.02" x2="256.54" y2="172.72" width="0.508" layer="91"/>
@@ -16676,6 +16684,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="TP38" gate="G$1" pin="1"/>
 <junction x="256.54" y="135.89"/>
 <pinref part="F1" gate="G$1" pin="P$2"/>
+<label x="181.61" y="173.99" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -16720,7 +16729,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <wire x1="223.52" y1="100.33" x2="199.39" y2="100.33" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="2">
 <segment>
 <pinref part="VBUS3" gate="1" pin="VBUS"/>
 <wire x1="237.49" y1="232.41" x2="237.49" y2="234.95" width="0.508" layer="91"/>
@@ -16783,7 +16792,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="Q13" gate="G$1" pin="S"/>
 </segment>
 </net>
-<net name="VBATT-F-PK1" class="0">
+<net name="VBATT-F-PK1" class="2">
 <segment>
 <wire x1="237.49" y1="209.55" x2="237.49" y2="207.01" width="0.508" layer="91"/>
 <wire x1="237.49" y1="207.01" x2="237.49" y2="189.23" width="0.508" layer="91"/>
@@ -16941,7 +16950,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="Q15" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="CSP-PK1" class="2">
+<net name="VBATT-NEG-PK1" class="2">
 <segment>
 <pinref part="R61" gate="R" pin="2"/>
 <wire x1="90.17" y1="76.2" x2="90.17" y2="92.71" width="0.1524" layer="91"/>
@@ -16996,6 +17005,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="TP42" gate="G$1" pin="1"/>
 <junction x="256.54" y="73.66"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
+<label x="182.88" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -17051,7 +17061,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <pinref part="Q14" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$54" class="2">
+<net name="INTERCELL-PK1" class="2">
 <segment>
 <pinref part="C15" gate="CE" pin="1"/>
 <pinref part="R51" gate="R" pin="2"/>
@@ -17096,9 +17106,10 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <wire x1="45.72" y1="101.6" x2="45.72" y2="130.81" width="0.1524" layer="91"/>
 <junction x="45.72" y="130.81"/>
 <pinref part="TP40" gate="G$1" pin="1"/>
+<label x="182.88" y="110.49" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="N$41" class="2">
 <segment>
 <wire x1="275.59" y1="215.9" x2="275.59" y2="210.82" width="0.508" layer="91"/>
 <pinref part="U11" gate="G$1" pin="SENSE"/>
@@ -17297,7 +17308,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <junction x="335.28" y="217.17"/>
 </segment>
 </net>
-<net name="N$1" class="2">
+<net name="CSP-PK1" class="2">
 <segment>
 <pinref part="U12" gate="A" pin="CSP"/>
 <wire x1="336.55" y1="95.25" x2="336.55" y2="52.07" width="0.1524" layer="91"/>
@@ -17306,35 +17317,36 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <wire x1="256.54" y1="52.07" x2="336.55" y2="52.07" width="0.1524" layer="91"/>
 <junction x="256.54" y="52.07"/>
 <pinref part="JP6" gate="G$1" pin="1"/>
+<label x="279.4" y="52.07" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,5,256.54,111.76,B1,NEG,N$54,,,"/>
+<approved hash="104,5,256.54,111.76,B1,NEG,INTERCELL-PK1,,,"/>
 <approved hash="104,5,256.54,119.38,B1,POS,N$42,,,"/>
-<approved hash="104,5,256.54,77.47,B2,NEG,CSP-PK1,,,"/>
+<approved hash="104,5,256.54,77.47,B2,NEG,VBATT-NEG-PK1,,,"/>
 <approved hash="104,5,256.54,85.09,B2,POS,N$53,,,"/>
-<approved hash="104,4,256.54,77.47,B4,NEG,CSP-PK2,,,"/>
+<approved hash="104,4,256.54,77.47,B4,NEG,VBATT-NEG-PK2,,,"/>
 <approved hash="104,4,256.54,85.09,B4,POS,N$85,,,"/>
-<approved hash="104,4,256.54,111.76,B3,NEG,N$88,,,"/>
+<approved hash="104,4,256.54,111.76,B3,NEG,INTERCELL-PK2,,,"/>
 <approved hash="104,4,256.54,119.38,B3,POS,N$82,,,"/>
 <approved hash="104,5,201.93,234.95,U10,VIN,VBATT-F-PK1,,,"/>
 <approved hash="104,5,309.88,233.68,U11,VIN,VBUS,,,"/>
 <approved hash="104,5,148.59,161.29,U9,VDD,N$16,,,"/>
-<approved hash="104,5,148.59,135.89,U9,VSS,N$54,,,"/>
+<approved hash="104,5,148.59,135.89,U9,VSS,INTERCELL-PK1,,,"/>
 <approved hash="104,5,90.17,118.11,U8,VDD,N$17,,,"/>
-<approved hash="104,5,90.17,92.71,U8,VSS,CSP-PK1,,,"/>
+<approved hash="104,5,90.17,92.71,U8,VSS,VBATT-NEG-PK1,,,"/>
 <approved hash="104,5,346.71,135.89,U12,REG3,REG3-PK1,,,"/>
 <approved hash="104,5,336.55,135.89,U12,REG2,REG2-PK1,,,"/>
 <approved hash="104,5,323.85,123.19,U12,VBATT,VBATT-PL1,,,"/>
 <approved hash="104,4,201.93,234.95,U15,VIN,VBATT-F-PK2,,,"/>
 <approved hash="104,4,309.88,233.68,U16,VIN,VBUS,,,"/>
 <approved hash="104,4,148.59,161.29,U14,VDD,N$70,,,"/>
-<approved hash="104,4,148.59,135.89,U14,VSS,N$88,,,"/>
+<approved hash="104,4,148.59,135.89,U14,VSS,INTERCELL-PK2,,,"/>
 <approved hash="104,4,90.17,118.11,U13,VDD,N$71,,,"/>
-<approved hash="104,4,90.17,92.71,U13,VSS,CSP-PK2,,,"/>
+<approved hash="104,4,90.17,92.71,U13,VSS,VBATT-NEG-PK2,,,"/>
 <approved hash="104,4,346.71,135.89,U17,REG3,REG3-PK2,,,"/>
 <approved hash="104,4,336.55,135.89,U17,REG2,REG2-PK2,,,"/>
 <approved hash="104,4,323.85,123.19,U17,VBATT,VBATT-PL2,,,"/>
