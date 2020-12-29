@@ -2,3 +2,5 @@
 *.b#*
 *.l#*
 *.lck
+.DS_Store
+
