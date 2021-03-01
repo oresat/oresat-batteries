@@ -4883,7 +4883,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="83.1" y="44.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="85.1" y="42" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="F1" library="F-Generic-Fuse-1206" package="1206-C" value="GENERIC-FUSE-1206" x="76.5" y="39.9" smashed="yes">
+<element name="F1" library="F-Generic-Fuse-1206" package="1206-C" value="1206L500/12SLPR" x="76.5" y="39.9" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="76.5" y="39.9" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="F9966CT-ND" x="76.5" y="39.9" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="LittleFuse" x="76.5" y="39.9" size="1.778" layer="27" display="off"/>
@@ -5153,7 +5153,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="S-8209AAA-T8T1U" x="66.5" y="63.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="65.6" y="65.1" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="R91" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="20.3" y="67.6" smashed="yes" rot="R270">
+<element name="R91" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="20.3" y="67.6" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="20.3" y="67.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND" x="20.3" y="67.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="20.3" y="67.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5162,7 +5162,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="20.3" y="67.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="18.95" y="68.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R90" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="87.4" y="75.4" smashed="yes" rot="R270">
+<element name="R90" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="87.4" y="75.4" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="87.4" y="75.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND" x="87.4" y="75.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="87.4" y="75.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5191,7 +5191,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="4" x="87.5" y="87.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="86.7" y="85.28" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R89" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="21.6" y="72.4" smashed="yes">
+<element name="R89" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="21.6" y="72.4" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="21.6" y="72.4" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND" x="21.6" y="72.4" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="21.6" y="72.4" size="1.778" layer="27" display="off"/>
@@ -5200,7 +5200,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="21.6" y="72.4" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="20.8" y="71.05" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R88" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="88" y="86.3" smashed="yes" rot="R180">
+<element name="R88" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="88" y="86.3" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="88" y="86.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND" x="88" y="86.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="88" y="86.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5481,7 +5481,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="80.9" y="83.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="85.2" y="81.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="F2" library="F-Generic-Fuse-1206" package="1206-C" value="GENERIC-FUSE-1206" x="76.4" y="78.6" smashed="yes">
+<element name="F2" library="F-Generic-Fuse-1206" package="1206-C" value="1206L500/12SLPR" x="76.4" y="78.6" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="76.4" y="78.6" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="F9966CT-ND" x="76.4" y="78.6" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="LittleFuse" x="76.4" y="78.6" size="1.778" layer="27" display="off"/>
@@ -5780,7 +5780,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="40.1" y="70.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.65" y="69.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R26" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="40" y="61" smashed="yes" rot="R180">
+<element name="R26" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="40" y="61" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="40" y="61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="40" y="61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="40" y="61" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5789,7 +5789,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="39.2" y="59.75" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.8" y="62.35" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R27" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="40" y="62.1" smashed="yes" rot="R180">
+<element name="R27" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="40" y="62.1" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="40" y="62.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="40" y="62.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="40" y="62.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5798,7 +5798,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="37.2" y="61.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.8" y="63.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="38.7" y="63.2" smashed="yes" rot="R180">
+<element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="38.7" y="63.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.7" y="63.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="37.8" y="63.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="39.5" y="64.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -6419,7 +6419,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="50.25" y="28.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="49.75" y="28.4" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="F3" library="F-Generic-Fuse-1206" package="1206-C" value="GENERIC-FUSE-1206" x="72.2" y="36" smashed="yes">
+<element name="F3" library="F-Generic-Fuse-1206" package="1206-C" value="1206L150/12SLYR" x="72.2" y="36" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="72.2" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="F9966CT-ND" x="72.2" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="LittleFuse" x="72.2" y="36" size="1.778" layer="27" display="off"/>
@@ -6428,7 +6428,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="71.4" y="33.8" size="1" layer="27" ratio="10"/>
 </element>
 <element name="PCB1" library="oresat-cards" package="ORESAT-CARD-V1.3-BATTERY" value="ORESAT-CARD-V1.3-BATTERY" x="0" y="0" locked="yes" smashed="yes"/>
-<element name="F4" library="F-Generic-Fuse-1206" package="1206-C" value="GENERIC-FUSE-1206" x="72.1" y="74.7" smashed="yes">
+<element name="F4" library="F-Generic-Fuse-1206" package="1206-C" value="1206L150/12SLYR" x="72.1" y="74.7" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="72.1" y="74.7" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="F9966CT-ND" x="72.1" y="74.7" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="LittleFuse" x="72.1" y="74.7" size="1.778" layer="27" display="off"/>

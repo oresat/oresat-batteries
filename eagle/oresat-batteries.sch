@@ -11148,7 +11148,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 <part name="TP32" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP41" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP39" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="F1" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="">
+<part name="F1" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="" value="1206L500/12SLPR">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="F9966CT-ND"/>
 <attribute name="MFR" value="LittleFuse"/>
@@ -11341,13 +11341,13 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 <attribute name="MFR" value="Ablic"/>
 <attribute name="MPN" value="S-8209AAA-T8T1U"/>
 </part>
-<part name="R91" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
+<part name="R91" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
-<part name="R90" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
+<part name="R90" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
@@ -11365,13 +11365,13 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 <attribute name="MFR" value="Vishay"/>
 <attribute name="MPN" value="1N4151WS-E3-08"/>
 </part>
-<part name="R89" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
+<part name="R89" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
-<part name="R88" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
+<part name="R88" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
@@ -11554,7 +11554,7 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 <part name="TP57" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP64" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP62" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="F2" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="">
+<part name="F2" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="" value="1206L500/12SLPR">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="F9966CT-ND"/>
 <attribute name="MFR" value="LittleFuse"/>
@@ -11774,20 +11774,20 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
-<part name="R26" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
+<part name="R26" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R27" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
+<part name="R27" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
+<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R38" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
@@ -12212,14 +12212,14 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="F3" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="">
+<part name="F3" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="" value="1206L150/12SLYR">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="F9966CT-ND"/>
 <attribute name="MFR" value="LittleFuse"/>
 <attribute name="MPN" value="NANOSMD350LR-C-2"/>
 </part>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.3-BATTERY" device=""/>
-<part name="F4" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="">
+<part name="F4" library="F-Generic-Fuse-1206" deviceset="GENERIC-FUSE-1206" device="" value="1206L150/12SLYR">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="F9966CT-ND"/>
 <attribute name="MFR" value="LittleFuse"/>
@@ -14130,7 +14130,7 @@ programming board</text>
 <text x="285.75" y="59.69" size="1.778" layer="97">HEATER</text>
 <text x="267.97" y="30.48" size="1.778" layer="97" rot="R270">-Y HEATER</text>
 <text x="288.29" y="31.75" size="1.778" layer="97" rot="R270">+Y HEATER</text>
-<text x="232.41" y="12.7" size="1.778" layer="97">2x Minco HK6903 Heaters (12.7 x 101.6 mm @ 49 ohm)</text>
+<text x="247.65" y="12.7" size="1.778" layer="97">2x Minco HK6903 Heaters (12.7 x 101.6 mm @ 49 ohm)</text>
 <wire x1="275.59" y1="52.07" x2="262.89" y2="52.07" width="0.1524" layer="97"/>
 <wire x1="262.89" y1="52.07" x2="262.89" y2="16.51" width="0.1524" layer="97"/>
 <wire x1="262.89" y1="16.51" x2="275.59" y2="16.51" width="0.1524" layer="97"/>
@@ -15162,11 +15162,9 @@ the heaters!</text>
 <wire x1="214.63" y1="144.78" x2="214.63" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="214.63" y1="73.66" x2="280.67" y2="73.66" width="0.1524" layer="97"/>
 <text x="262.89" y="55.88" size="1.778" layer="97" rot="R90">1206</text>
-<text x="391.16" y="76.2" size="1.778" layer="97" rot="R90">0603</text>
-<text x="379.73" y="76.2" size="1.778" layer="97" rot="R90">0603</text>
-<wire x1="355.6" y1="88.9" x2="355.6" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="355.6" y1="60.96" x2="405.13" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="405.13" y1="60.96" x2="405.13" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="355.6" y1="88.9" x2="355.6" y2="44.45" width="0.1524" layer="97"/>
+<wire x1="355.6" y1="44.45" x2="405.13" y2="44.45" width="0.1524" layer="97"/>
+<wire x1="405.13" y1="44.45" x2="405.13" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="405.13" y1="88.9" x2="355.6" y2="88.9" width="0.1524" layer="97"/>
 <text x="369.57" y="63.5" size="1.778" layer="97">NTC Thermistors </text>
 <text x="279.4" y="78.74" size="2.54" layer="97" rot="R90">Battery Pack 
@@ -15236,6 +15234,11 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <text x="278.13" y="194.31" size="1.778" layer="97">PTC - 2A</text>
 <text x="266.7" y="166.37" size="1.778" layer="97">OMRON D2D-L3-D SPDT Switch
 (COM + NC)</text>
+<text x="360.68" y="46.99" size="1.778" layer="97">(0603 thermistors on PCB are NP 
+in case we it's too hard to drop 
+leaded thermistors down onto 
+the cells.)</text>
+<text x="360.68" y="59.69" size="1.778" layer="97">2x Honeywell 197-103LAG-A01</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -15867,7 +15870,7 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 </instance>
 <instance part="F1" gate="G$1" x="237.49" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="232.41" y="200.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="210.82" y="197.358" size="1.778" layer="96"/>
+<attribute name="VALUE" x="214.63" y="197.358" size="1.778" layer="96"/>
 <attribute name="DPN" x="237.49" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="237.49" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="237.49" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
@@ -16746,11 +16749,9 @@ ALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED</text>
 <wire x1="214.63" y1="144.78" x2="214.63" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="214.63" y1="73.66" x2="280.67" y2="73.66" width="0.1524" layer="97"/>
 <text x="262.89" y="57.15" size="1.778" layer="97" rot="R90">1206</text>
-<text x="391.16" y="76.2" size="1.778" layer="97" rot="R90">0603</text>
-<text x="379.73" y="76.2" size="1.778" layer="97" rot="R90">0603</text>
-<wire x1="355.6" y1="88.9" x2="355.6" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="355.6" y1="60.96" x2="405.13" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="405.13" y1="60.96" x2="405.13" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="355.6" y1="88.9" x2="355.6" y2="45.72" width="0.1524" layer="97"/>
+<wire x1="355.6" y1="45.72" x2="405.13" y2="45.72" width="0.1524" layer="97"/>
+<wire x1="405.13" y1="45.72" x2="405.13" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="405.13" y1="88.9" x2="355.6" y2="88.9" width="0.1524" layer="97"/>
 <text x="369.57" y="63.5" size="1.778" layer="97">NTC Thermistors </text>
 <text x="279.4" y="78.74" size="2.54" layer="97" rot="R90">Battery Pack 
@@ -16820,6 +16821,11 @@ ground level decoupling.</text>
 <text x="278.13" y="195.58" size="1.778" layer="97">PTC-2A</text>
 <text x="267.97" y="170.18" size="1.778" layer="97">OMROM D2D-L3-D SPDT Swith
 (COM + NC)</text>
+<text x="360.68" y="46.99" size="1.778" layer="97">(0603 thermistors on PCB are NP 
+in case we it's too hard to drop 
+leaded thermistors down onto 
+the cells.)</text>
+<text x="360.68" y="58.42" size="1.778" layer="97">2x Honeywell 197-103LAG-A01</text>
 </plain>
 <instances>
 <instance part="B4" gate="G$1" x="256.54" y="80.01" smashed="yes" rot="R270">
@@ -17445,7 +17451,7 @@ ground level decoupling.</text>
 </instance>
 <instance part="F2" gate="G$1" x="237.49" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.14" y="199.6186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.55" y="196.85" size="1.778" layer="96"/>
+<attribute name="VALUE" x="214.63" y="196.85" size="1.778" layer="96"/>
 <attribute name="MPN" x="237.49" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DPN" x="237.49" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIS" x="237.49" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
