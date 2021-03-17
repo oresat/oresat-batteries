@@ -187,8 +187,8 @@
 </layers>
 <board>
 <plain>
-<text x="49.8" y="3.3" size="2" layer="21" font="vector" ratio="15">OreSat Battery Card v2.0</text>
-<text x="7.1058" y="3.2934" size="2" layer="21" font="vector" ratio="15">2021/03/01</text>
+<text x="47.3" y="4.8" size="2" layer="21" font="vector" ratio="15">OreSat Battery Card v2.1</text>
+<text x="7.5058" y="4.3934" size="2" layer="21" font="vector" ratio="15">2021/03/01</text>
 <rectangle x1="7.3639" y1="22.6149" x2="7.3893" y2="22.6403" layer="21"/>
 <rectangle x1="7.4147" y1="22.6149" x2="7.4655" y2="22.6403" layer="21"/>
 <rectangle x1="7.4909" y1="22.6149" x2="7.5163" y2="22.6403" layer="21"/>
@@ -4073,6 +4073,28 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </package>
 </packages>
 </library>
+<library name="dock_v2">
+<description>Generated from &lt;b&gt;dock.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="FIDUCIAL-1.0X2.0">
+<description>Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance</description>
+<circle x="0" y="0" radius="0.5" width="1" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<circle x="0" y="0" radius="0.5" width="1" layer="41"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+</packages>
+</library>
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="2.54" y="0" size="1.27" layer="21" font="vector" ratio="15">NOT FLIGHT HARDWARE</text>
+<wire x1="2.19" y1="-0.5" x2="5.89" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="-0.25" y1="-0.3" x2="1.55" y2="1.5" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4493,8 +4515,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIS" value="Yageo" x="62" y="24.7" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="RC0603JR-071KL" x="62" y="24.7" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="311-1.0KGRCT-ND" x="62" y="24.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.2" y="24.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="62" y="24.7" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="59.2" y="24.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="61.2" y="23.35" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R49" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="58.5" y="22.7" smashed="yes" rot="R270">
@@ -4583,8 +4605,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="112-1N4151WS-E3-08CT-ND " x="20.9" y="34.3" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Vishay" x="20.9" y="34.3" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1N4151WS-E3-08" x="20.9" y="34.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.1" y="35.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="20.9" y="34.3" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="21.1" y="35.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="4" x="20.9" y="34.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.1" y="31.68" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -4593,8 +4615,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="112-1N4151WS-E3-08CT-ND " x="90.1" y="47.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Vishay" x="90.1" y="47.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="1N4151WS-E3-08" x="90.1" y="47.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="89.25" y="47.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="90.1" y="47.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="89.25" y="47.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="4" x="90.1" y="47.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="87.48" y="48.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -4711,8 +4733,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIS" value="Yageo" x="62" y="26" size="1.778" layer="27" display="off"/>
 <attribute name="DPN" value="RC0603JR-071KL" x="62" y="26" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="311-1.0KGRCT-ND" x="62" y="26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.1" y="25.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="62" y="26" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="59.1" y="25.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="61.3" y="24.75" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R46" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="57.3" y="22.7" smashed="yes" rot="R90">
@@ -5032,8 +5054,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="399-7842-1-ND" x="66" y="59.1" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Kemet" x="66" y="59.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C0603C103M5RACTU" x="66" y="59.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="66" y="59.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="65.2" y="57.75" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="66" y="59.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="65.2" y="57.75" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="TP51" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="62" y="61.9" smashed="yes">
@@ -5176,8 +5198,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="112-1N4151WS-E3-08CT-ND " x="21.1" y="74" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Vishay" x="21.1" y="74" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1N4151WS-E3-08" x="21.1" y="74" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.9" y="74.95" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="21.1" y="74" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="20.9" y="74.95" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="4" x="21.1" y="74" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.3" y="71.38" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -5186,8 +5208,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="112-1N4151WS-E3-08CT-ND " x="87.5" y="87.9" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Vishay" x="87.5" y="87.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1N4151WS-E3-08" x="87.5" y="87.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="87.1" y="88.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="87.5" y="87.9" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="87.1" y="88.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="4" x="87.5" y="87.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="86.7" y="85.28" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -6436,6 +6458,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="71.7" y="72.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="71.3" y="72.5" size="1" layer="27" ratio="10"/>
 </element>
+<element name="FIDUCIAL1" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="94" y="92" smashed="yes"/>
+<element name="FIDUCIAL2" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="6" y="92" smashed="yes"/>
+<element name="FIDUCIAL3" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="6" y="9" smashed="yes"/>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="11.9" y="39.3" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="SDAOPT2">
