@@ -10885,13 +10885,13 @@ by exp-lbrs.ulp</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
-<part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
-<part name="R74" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R74" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
@@ -11082,13 +11082,13 @@ by exp-lbrs.ulp</description>
 <attribute name="MFR" value="Vishay"/>
 <attribute name="MPN" value="1N4151WS-E3-08"/>
 </part>
-<part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
-<part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
@@ -11301,13 +11301,13 @@ by exp-lbrs.ulp</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
-<part name="R102" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R102" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
-<part name="R104" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R104" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
@@ -11486,13 +11486,13 @@ by exp-lbrs.ulp</description>
 <attribute name="MFR" value="Vishay"/>
 <attribute name="MPN" value="1N4151WS-E3-08"/>
 </part>
-<part name="R89" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R89" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
-<part name="R88" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R88" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
@@ -15343,10 +15343,10 @@ if CHARGE-DISABLE is asserted or if Vcell &gt; Vovercharge</text>
 <wire x1="252.73" y1="260.35" x2="252.73" y2="186.69" width="0.1524" layer="97"/>
 <wire x1="252.73" y1="186.69" x2="154.94" y2="186.69" width="0.1524" layer="97"/>
 <wire x1="154.94" y1="186.69" x2="154.94" y2="260.35" width="0.1524" layer="97"/>
-<wire x1="261.62" y1="260.35" x2="260.35" y2="186.69" width="0.1524" layer="97"/>
+<wire x1="261.62" y1="260.35" x2="261.62" y2="186.69" width="0.1524" layer="97"/>
 <wire x1="261.62" y1="260.35" x2="349.25" y2="260.35" width="0.1524" layer="97"/>
-<wire x1="260.35" y1="186.69" x2="347.98" y2="186.69" width="0.1524" layer="97"/>
-<wire x1="349.25" y1="260.35" x2="347.98" y2="186.69" width="0.1524" layer="97"/>
+<wire x1="261.62" y1="186.69" x2="349.25" y2="186.69" width="0.1524" layer="97"/>
+<wire x1="349.25" y1="260.35" x2="349.25" y2="186.69" width="0.1524" layer="97"/>
 <text x="335.28" y="26.67" size="3.81" layer="94">OreSat battery Card - Battery Pack 1</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">1.0</text>
 <text x="265.43" y="57.15" size="1.778" layer="97">Kelvin
