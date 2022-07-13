@@ -1,0 +1,43 @@
+9943900080766
+oresat-footprints
+18650
+
+
+0
+2
+2
+oresat-footprints
+DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias0.3mm
+DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+20
+9
+oresat-footprints
+J-Amphenol-132134-10-SMA-F-SMT-vertical
+
+
+0
+2
+2
+oresat-footprints
+J-MOLEX-SMPM-73300-0111X-long
+
+
+0
+5
+5
+oresat-footprints
+L_ECS-MPI4040
+Inductor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+oresat-footprints
+U-Minicircuits-GE0805C-9
+
+
+0
+6
+6

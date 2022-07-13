@@ -73,7 +73,7 @@ With that much current draw, we're going to need to modify the OPD circuit break
 - Maximum discharge Current:
    - -20 - 5 C = 1.25 A
    -  5 - 45 C = 5 A
-   - 45 - 60 C = 3.75 A 
+   - 45 - 60 C = 3.75 A
 
 ### Temperature
 
@@ -115,7 +115,3 @@ You may redistribute and modify this documentation under the terms of the CERN O
 Version | Date       | Notes
 --------|------------|-------------------------
 1.0     | 2020-08-16 | First version of the board.
-
-
-
-
