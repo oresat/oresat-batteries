@@ -1,0 +1,8 @@
+(version 1)
+(rule "class 1:1"
+  (condition "A.NetClass == 'SHUTDOWN' && B.NetClass == 'SHUTDOWN'")
+  (constraint clearance (min 0.2mm)))
+
+(rule "class 2:2"
+  (condition "A.NetClass == 'BATTERY' && B.NetClass == 'BATTERY'")
+  (constraint clearance (min 0.2mm)))
