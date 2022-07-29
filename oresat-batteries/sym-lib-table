@@ -2,4 +2,5 @@
   (lib (name "oresat-batteries-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-batteries-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "OreSat-q-mosfet-DMP3050LVT-7-pch-sot23-6")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/OreSat-q-mosfet-DMP3050LVT-7-pch-sot23-6.kicad_sym")(options "")(descr ""))
   (lib (name "Oresat-q-mosfet-DMP2240UDM-pch-sot23-6")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/Oresat-q-mosfet-DMP2240UDM-pch-sot23-6.kicad_sym")(options "")(descr ""))
+  (lib (name "OreSat-BatteryBoardOutline")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/OreSat-BatteryBoardOutline.kicad_sym")(options "")(descr ""))
 )

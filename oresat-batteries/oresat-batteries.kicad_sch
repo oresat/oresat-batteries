@@ -131,14 +131,29 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/81370c53-e390-4257-8d55-9ea0eec925b5"
       (reference "#GND016") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/6129e4ad-8aa4-4c14-9d66-a528581bdd11"
+      (reference "#GND017") (unit 1) (value "GND") (footprint "oresat-batteries:")
+    )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/90f9eb38-98b0-4cd2-bbfe-9c59ae0380c5"
+      (reference "#GND018") (unit 1) (value "GND") (footprint "oresat-batteries:")
+    )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/bf7d8fd2-b26a-4caa-b23b-4762610518b2"
       (reference "#GND019") (unit 1) (value "GND") (footprint "oresat-batteries:")
+    )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/c9fe339f-19d5-43cd-b8f0-f47f4e19ed6f"
+      (reference "#GND020") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/3d193915-c051-48cb-9068-4e4c60158e74"
       (reference "#GND021") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/0e7f78e6-aad3-4672-9a78-ed0aa97d6c65"
+      (reference "#GND022") (unit 1) (value "GND") (footprint "oresat-batteries:")
+    )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/624ca170-0e89-493f-80ae-6d52a3d962fe"
       (reference "#GND023") (unit 1) (value "GND") (footprint "oresat-batteries:")
+    )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/de94dd77-e4b5-42d6-9401-28cd44530119"
+      (reference "#GND024") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/86ca8d11-1c23-4e55-b0b6-b73b24cc0269"
       (reference "#GND025") (unit 1) (value "GND") (footprint "oresat-batteries:")
@@ -146,7 +161,7 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/eb08e92d-1eab-4c7b-98eb-36971eafd4d8"
       (reference "#GND026") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/ed89c836-ed10-4151-9cb7-1c46ce6fa980"
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/888dc2fc-c965-4ce4-9497-bb66d9877272"
       (reference "#GND027") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/f7edfaf2-ba15-4429-8e6a-b61c6be795c8"
@@ -284,31 +299,10 @@
     (path "/806bd347-0ee3-420c-b4e7-952fe3b5f084/86a73462-b71d-48c0-916c-97b8f6058411"
       (reference "#GND0100") (unit 1) (value "GND") (footprint "oresat-batteries:")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/9da1010f-1210-44fc-a1c6-b3e7c47b4b00"
-      (reference "#GND0101") (unit 1) (value "GND") (footprint "oresat-batteries:")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/cb077907-4a66-46bf-b181-833fd763497d"
+      (reference "#SUPPLY01") (unit 1) (value "3.3V") (footprint "oresat-batteries:")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/0e11c6a8-f714-4fe7-b784-9c00bfdbc724"
-      (reference "#GND0102") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/2634214c-8849-406d-8ade-ec0d573c25f7"
-      (reference "#GND0103") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/1c15dd30-f8c5-43f2-a20b-4b3f8d5259e6"
-      (reference "#GND0104") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/f7653f0d-12b2-4638-9101-e384cf4b610e"
-      (reference "#GND0105") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/710cf6fe-667b-4dc5-b458-eaf235f44daf"
-      (reference "#GND0106") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/4327a325-d14e-4fa5-b5a9-109187637e03"
-      (reference "#GND0107") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/3defd7d1-8f86-4836-8093-c3019eac0e57"
-      (reference "#GND0108") (unit 1) (value "GND") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/caf81031-5e60-4bc5-9438-c350bfb25246"
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/3fdfe354-a9e2-4323-9aa6-bf966e64cda2"
       (reference "#SUPPLY02") (unit 1) (value "3.3V") (footprint "oresat-batteries:")
     )
     (path "/806bd347-0ee3-420c-b4e7-952fe3b5f084/046a46d3-86bc-4cdf-8ad9-7df338c43b9a"
@@ -329,11 +323,11 @@
     (path "/806bd347-0ee3-420c-b4e7-952fe3b5f084/b6cbad49-db5b-4cb3-bf3f-759426ecd6de"
       (reference "#SUPPLY014") (unit 1) (value "3.3V") (footprint "oresat-batteries:")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/7e64f115-4c84-4265-88f4-ecd52859fb7e"
-      (reference "#SUPPLY0101") (unit 1) (value "3.3V") (footprint "oresat-batteries:")
-    )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/7fc27732-0117-46c5-b6de-faa2e563b874"
       (reference "#VBUS01") (unit 1) (value "VBUS") (footprint "oresat-batteries:")
+    )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/6102c1e3-152b-49fb-bada-f2e86745d50f"
+      (reference "#VBUSP01") (unit 1) (value "VBUSP") (footprint "oresat-batteries:")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/25528cbb-ad3a-435c-890c-406f760d4159"
       (reference "#VBUSP02") (unit 1) (value "VBUSP") (footprint "oresat-batteries:")
@@ -343,9 +337,6 @@
     )
     (path "/806bd347-0ee3-420c-b4e7-952fe3b5f084/93649216-badc-4ad9-b361-27c539274952"
       (reference "#VBUSP04") (unit 1) (value "VBUSP") (footprint "oresat-batteries:")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/062e8304-8c11-4ac6-b63a-7a7ae3ae4a0d"
-      (reference "#VBUSP0101") (unit 1) (value "VBUSP") (footprint "oresat-batteries:")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/c27dd62a-5fc6-49f4-beec-93749b7eaf6a"
       (reference "#VPD01") (unit 1) (value "VPD") (footprint "oresat-batteries:")
@@ -392,17 +383,17 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/71a15610-8be2-4d51-a053-91f065ae8ecc"
       (reference "C4") (unit 1) (value "1u") (footprint "oresat-footprints:0603-SMALL")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/2c3179d8-80ac-4231-8c82-9ffacc092c42"
-      (reference "C5") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/1d101935-7d6d-4032-8147-96d309a17034"
+      (reference "C5") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/fdef5c56-a0f0-4111-b56b-9ec9d5728e4a"
-      (reference "C6") (unit 1) (value "100n") (footprint "oresat-footprints:0603-SMALL")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/0cc1e3b1-e03d-41d6-81ce-62ae34e63519"
+      (reference "C6") (unit 1) (value "1u") (footprint "oresat-footprints:0603-SMALL")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/01ccbc45-662f-4501-a028-962d7cee84f3"
       (reference "C7") (unit 1) (value "1u") (footprint "oresat-footprints:0603-SMALL")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/3cf4f94c-2d64-45a4-a468-1a595936d278"
-      (reference "C8") (unit 1) (value "2u2") (footprint "oresat-footprints:0603-SMALL")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/986c61ed-d186-4a5e-9130-ca037ae5816f"
+      (reference "C8") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/0120491d-7d43-4854-ba05-f38ce0760435"
       (reference "C9") (unit 1) (value "100n") (footprint "oresat-footprints:0603-SMALL")
@@ -412,15 +403,6 @@
     )
     (path "/a52e571c-f4dd-425c-ad7b-3bcb3a547dd8/ee0b8088-cfd6-4b49-bd1c-4d3c10eb7936"
       (reference "C11") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/a2750af6-cfc0-49d2-8bb2-17735b417895"
-      (reference "C12") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/3b940910-cfca-4e60-ab98-9c1038f54c63"
-      (reference "C13") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
-    )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/7d212b75-2d49-4894-bd4f-fcbde2a58c8c"
-      (reference "C14") (unit 1) (value "100n") (footprint "oresat-footprints:0603-SMALL")
     )
     (path "/63f9a884-b798-4e60-88a4-48c37e8d6442/80c9cbef-cded-4522-a210-cf01d3753341"
       (reference "C15") (unit 1) (value "100n") (footprint "oresat-footprints:0603-SMALL")
@@ -510,13 +492,13 @@
       (reference "C50") (unit 1) (value "100n") (footprint "oresat-footprints:0603-SMALL")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/246ae8ff-860b-41db-9ee4-7e95f61e8c9d"
-      (reference "D1") (unit 1) (value "GREEN") (footprint "oresat-batteries:LED-0603")
+      (reference "D1") (unit 1) (value "GREEN") (footprint "oresat-footprints:LED-0603")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/231cb969-83ae-4e75-ae3b-1b44650cf0b9"
-      (reference "D2") (unit 1) (value "GREEN") (footprint "oresat-batteries:LED-0603")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/357ae5cd-9409-47ba-a784-d73a726514ac"
+      (reference "D2") (unit 1) (value "GREEN") (footprint "oresat-footprints:LED-0603")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/50e1c7bf-7e64-4742-9553-ea37f224c24e"
-      (reference "D3") (unit 1) (value "GREEN") (footprint "oresat-batteries:LED-0603")
+      (reference "D3") (unit 1) (value "GREEN") (footprint "oresat-footprints:LED-0603")
     )
     (path "/806bd347-0ee3-420c-b4e7-952fe3b5f084/14ec107f-a22f-4728-84ad-5f19b5637dde"
       (reference "D4") (unit 1) (value "1N4151WS") (footprint "oresat-batteries:SOD323-R")
@@ -605,8 +587,8 @@
     (path "/806bd347-0ee3-420c-b4e7-952fe3b5f084/5eed29be-bf31-422b-a3b4-2d7bef4952d4"
       (reference "JP17") (unit 1) (value "PINHD-1X1") (footprint "oresat-batteries:1X01")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/20955afd-37aa-4ba5-8d09-ae45249a134c"
-      (reference "L1") (unit 1) (value "3u3") (footprint "oresat-footprints:L_ECS-MPI4040")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/eff012e8-cf8c-4c92-b1c4-2df0a40a8976"
+      (reference "L1") (unit 1) (value "6.8u") (footprint "oresat-footprints:L-ECS-MPI4040")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/85f53500-adc3-42fe-aace-78834f2174be"
       (reference "Q1") (unit 1) (value "DMP2240UDM") (footprint "oresat-footprints:SOT23-6")
@@ -806,11 +788,11 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/721c451c-8229-466c-967b-0754ceaeb7ce"
       (reference "R27") (unit 1) (value "10k") (footprint "oresat-footprints:0603-SMALL")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/cd5972e6-b8ad-461f-aab9-78a1cc507383"
-      (reference "R28") (unit 1) (value "100k") (footprint "oresat-footprints:0603-SMALL")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/bb47c2a5-6318-4738-b4f2-a6ccdcc366f2"
+      (reference "R28") (unit 1) (value "10k") (footprint "oresat-footprints:0603-SMALL")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/4153ba76-0feb-4bb4-9d01-bd1f2a49ceb6"
-      (reference "R29") (unit 1) (value "100k") (footprint "oresat-footprints:0603-SMALL")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/7e0ea872-94e2-4339-8ca9-85af1f70a117"
+      (reference "R29") (unit 1) (value "NP") (footprint "oresat-footprints:0603-SMALL")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/8682cf2d-3f59-4af0-9e79-1476096ac0a2"
       (reference "R30") (unit 1) (value "100m") (footprint "oresat-footprints:0603-SMALL")
@@ -830,7 +812,7 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/bc058b71-d22e-48e6-b111-cf1896963236"
       (reference "R35") (unit 1) (value "NP") (footprint "oresat-footprints:0603-SMALL")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/e5d69084-d7ef-47b5-8c5b-f505774c6eda"
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/bf9e9c0a-56c3-4120-af74-7711f616582f"
       (reference "R36") (unit 1) (value "2.7k") (footprint "oresat-footprints:0603-SMALL")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/647624f8-8837-4b2b-8612-1bf783a9b5f7"
@@ -1061,10 +1043,13 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/1fda1295-64af-47ea-aaee-20e06e260632"
       (reference "TP9") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-footprints:TestPoint_Pad_1.0x1.0mm")
     )
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/0be0f3cb-49b5-4eb1-8415-31cad9cdc2d1"
+      (reference "TP10") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-footprints:TestPoint_Pad_1.0x1.0mm")
+    )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/aa517535-c6d7-4c6e-901c-fca873f9726b"
       (reference "TP11") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-footprints:TestPoint_Pad_1.0x1.0mm")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/b3887fec-0edb-42b9-bafb-6a076b678458"
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/84099b72-5f05-4a3b-9f44-23ba87648197"
       (reference "TP12") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-footprints:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/611ab623-965a-48e9-9059-085ad9cf7179"
@@ -1073,7 +1058,7 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/149115b1-76a9-4dd9-81e8-fc2eb1bf37e1"
       (reference "TP14") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-footprints:TestPoint_Pad_1.0x1.0mm")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/1148809b-2eb4-4b3a-8413-af686142774a"
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/86419272-ca1e-42cb-802d-25b19dd969e7"
       (reference "TP15") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-footprints:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/486f5e69-1160-4b8a-bbbc-9d0523e44e5b"
@@ -1250,6 +1235,9 @@
     (path "/a52e571c-f4dd-425c-ad7b-3bcb3a547dd8/ea7328db-9fc4-4c86-a90e-dd4e950b809b"
       (reference "U$1") (unit 1) (value "FLIGHMARKERNEW") (footprint "oresat-footprints:FLIGHTMARKER_NEW_BOARDS")
     )
+    (path "/a52e571c-f4dd-425c-ad7b-3bcb3a547dd8/3a17cf8c-a586-43da-b266-b0351045c6cc"
+      (reference "U$2") (unit 1) (value "BatteryBoardOutline") (footprint "oresat-footprints:ORESAT-CARD-V1.3-BATTERY-V3.0")
+    )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/a935ff10-b2aa-4f0a-85dd-bfc964e5bc04"
       (reference "U1") (unit 1) (value "MAX7310ATE") (footprint "oresat-batteries:QFN65P400X400X80-17T210")
     )
@@ -1262,8 +1250,8 @@
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/5c0f0ce6-8525-43ef-822c-dd1425ee9989"
       (reference "U4") (unit 1) (value "MAX4211FETE") (footprint "oresat-batteries:QFN65P400X400X80-17T210")
     )
-    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/df5f5040-d912-4734-82b6-a01d2d0ee243"
-      (reference "U5") (unit 1) (value "LTC3624-3.3") (footprint "oresat-footprints:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias0.3mm")
+    (path "/fd7b48f9-c735-498f-8f12-5041473aff56/3d303b12-f479-4eea-b667-6d0af84cb04c"
+      (reference "U5") (unit 1) (value "TPS62111RSA") (footprint "oresat-footprints:U-S-PVQFN-16")
     )
     (path "/fd7b48f9-c735-498f-8f12-5041473aff56/5599980e-276a-4eaa-9f84-bd0adf7d1f12"
       (reference "U6") (unit 1) (value "TS5A21366DCUR") (footprint "oresat-batteries:DCU0008A_N")
