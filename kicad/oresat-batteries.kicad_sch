@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3521a840-1323-4632-a472-140474b47f95)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13122c4f-7da4-449e-9764-bf76c7ea0e4f)
+    (property "Sheetname" "Microcontroller" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oresat-batteries"
+        (path "/3521a840-1323-4632-a472-140474b47f95" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4a578cab-fea4-44c9-947f-fb017ca14656)
+    (property "Sheetname" "Connectors/MCU" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectors%2fMCU.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oresat-batteries"
+        (path "/3521a840-1323-4632-a472-140474b47f95" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 50174314-2e96-4d4d-be8d-c26cffb9c3ec)
+    (property "Sheetname" "Battery Pack 1 (BOTTOM)" (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Battery_Pack_1_(BOTTOM).kicad_sch" (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oresat-batteries"
+        (path "/3521a840-1323-4632-a472-140474b47f95" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 69e8b5ce-2826-46f9-8b5f-38374f7d7ed1)
+    (property "Sheetname" "Power" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oresat-batteries"
+        (path "/3521a840-1323-4632-a472-140474b47f95" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 81c848f3-b1bb-4d7f-903e-64bd62eac87b)
+    (property "Sheetname" "Battery Pack 2 (TOP)" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Battery_Pack_2_(TOP).kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oresat-batteries"
+        (path "/3521a840-1323-4632-a472-140474b47f95" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

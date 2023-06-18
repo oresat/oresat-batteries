@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "oresat-batteries")(type "KiCad")(uri "$(KIPRJMOD)/oresat-batteries.pretty")(options "")(descr ""))
+)

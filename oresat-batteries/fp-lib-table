@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "oresat-batteries")(type "KiCad")(uri "/home/benjamin/school/PSAS/OreSat/git/oresat-batteries/oresat-batteries")(options "")(descr ""))
-  (lib (name "oresat-footprints")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints")(options "")(descr ""))
-)
