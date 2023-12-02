@@ -1,15 +1,14 @@
-*.s#*
-*.b#*
-*.l#*
-*.lck
-.DS_Store
+#
+# PSAS/OreSat local folders
+# `local-*` is for local-archive and local-datasheets that we don't want to be committed
+# `build` is for build products (Gerbers, drill files)
 
-# PSAS local folders
-
-archive
+local-*
 build
-gerbers
 
+
+
+# KiCAD Ignore Files, v5 - v7
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -28,6 +27,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+oresat-symbols.bak
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -40,4 +40,16 @@ fp-info-cache
 *.xml
 *.csv
 
-eagle/oresat-batteries-backup
+
+
+#
+# EAGLE v9 files
+#
+
+*.s#*
+*.b#*
+*.l#*
+*.lck
+.DS_Store
+
+

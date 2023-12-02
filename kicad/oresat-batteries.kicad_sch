@@ -2,20 +2,26 @@
 
   (uuid 3521a840-1323-4632-a472-140474b47f95)
 
-  (paper "A4")
+  (paper "B")
+
+  (title_block
+    (title "OreSat Battery Card")
+    (date "2023-12-02")
+    (rev "3.1")
+  )
 
   (lib_symbols
   )
 
 
-  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 25.4 49.53) (size 46.99 3.81)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 13122c4f-7da4-449e-9764-bf76c7ea0e4f)
-    (property "Sheetname" "Microcontroller" (at 127 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "Microcontroller" (at 26.67 52.07 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheetfile" "Microcontroller.kicad_sch" (at 127 29.7946 0)
+    (property "Sheetfile" "oresat-batteries-sch-mcu.kicad_sch" (at 25.4 53.9246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -25,14 +31,14 @@
     )
   )
 
-  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 25.4 25.4) (size 46.99 3.81)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 4a578cab-fea4-44c9-947f-fb017ca14656)
-    (property "Sheetname" "Connectors/MCU" (at 25.4 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "Connectors" (at 26.67 27.94 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheetfile" "Connectors%2fMCU.kicad_sch" (at 25.4 29.7946 0)
+    (property "Sheetfile" "oresat-batteries-sch-connectors.kicad_sch" (at 25.4 29.7946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -42,14 +48,14 @@
     )
   )
 
-  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 25.4 74.93) (size 46.99 3.81)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 50174314-2e96-4d4d-be8d-c26cffb9c3ec)
-    (property "Sheetname" "Battery Pack 1 (BOTTOM)" (at 228.6 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "Battery Pack 1 (BOTTOM)" (at 26.67 77.47 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheetfile" "Battery_Pack_1_(BOTTOM).kicad_sch" (at 228.6 29.7946 0)
+    (property "Sheetfile" "oresat-batteries-sch-pack-1.kicad_sch" (at 25.4 79.3246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -59,14 +65,14 @@
     )
   )
 
-  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 25.4 36.83) (size 46.99 3.81)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 69e8b5ce-2826-46f9-8b5f-38374f7d7ed1)
-    (property "Sheetname" "Power" (at 76.2 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "Power" (at 26.67 39.37 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheetfile" "Power.kicad_sch" (at 76.2 29.7946 0)
+    (property "Sheetfile" "oresat-batteries-sch-power.kicad_sch" (at 25.4 41.2246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -76,14 +82,14 @@
     )
   )
 
-  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 25.4 62.23) (size 46.99 3.81)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 81c848f3-b1bb-4d7f-903e-64bd62eac87b)
-    (property "Sheetname" "Battery Pack 2 (TOP)" (at 177.8 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "Battery Pack 2 (TOP)" (at 26.67 64.77 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheetfile" "Battery_Pack_2_(TOP).kicad_sch" (at 177.8 29.7946 0)
+    (property "Sheetfile" "oresat-batteries-sch-pack-2.kicad_sch" (at 25.4 66.6246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

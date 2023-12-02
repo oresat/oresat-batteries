@@ -376,7 +376,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -563,7 +563,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -575,27 +575,27 @@
   },
   "sheets": [
     [
-      "3521a840-1323-4632-a472-140474b47f95",
+      "f64b5398-c3e6-4fb1-b0c2-52541abaada1",
       ""
     ],
     [
-      "4a578cab-fea4-44c9-947f-fb017ca14656",
-      "Connectors"
+      "dfd312cd-2754-48c0-ba47-07ed6200ba93",
+      "Connectors/MCU"
     ],
     [
-      "69e8b5ce-2826-46f9-8b5f-38374f7d7ed1",
+      "1687fdda-881b-4709-bd07-896f40015b6d",
       "Power"
     ],
     [
-      "13122c4f-7da4-449e-9764-bf76c7ea0e4f",
+      "c274c1b3-3a62-44c9-b11a-1da1d44ac55d",
       "Microcontroller"
     ],
     [
-      "81c848f3-b1bb-4d7f-903e-64bd62eac87b",
+      "ef66c94e-c000-4ee8-95a6-2bbd73f6ebce",
       "Battery Pack 2 (TOP)"
     ],
     [
-      "50174314-2e96-4d4d-be8d-c26cffb9c3ec",
+      "ccfc730f-d43e-4ee8-9a8d-cf13ea0df25f",
       "Battery Pack 1 (BOTTOM)"
     ]
   ],
