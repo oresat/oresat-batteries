@@ -376,7 +376,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -575,27 +575,27 @@
   },
   "sheets": [
     [
-      "3521a840-1323-4632-a472-140474b47f95",
+      "d5070776-2522-4f7b-9d31-10770161e48a",
       ""
     ],
     [
-      "4a578cab-fea4-44c9-947f-fb017ca14656",
+      "9be27716-7ec6-4c1f-ab95-233dfa83999d",
       "Connectors"
     ],
     [
-      "69e8b5ce-2826-46f9-8b5f-38374f7d7ed1",
+      "825d8273-a5eb-4594-9c05-1a3ee01e259d",
       "Power"
     ],
     [
-      "13122c4f-7da4-449e-9764-bf76c7ea0e4f",
+      "60cc160f-89b6-42ae-bb0a-7f727f347e07",
       "Microcontroller"
     ],
     [
-      "81c848f3-b1bb-4d7f-903e-64bd62eac87b",
+      "714b8cb1-7fa6-448b-9eed-93330aa30436",
       "Battery Pack 2 (TOP)"
     ],
     [
-      "50174314-2e96-4d4d-be8d-c26cffb9c3ec",
+      "80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa",
       "Battery Pack 1 (BOTTOM)"
     ]
   ],
