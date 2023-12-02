@@ -1,4 +1,4 @@
-# OreSat Battery Card v3.1
+# OreSat Battery Card
 
 This is the battery card for the OreSat system. You can have up to four of these cards in any OreSat system, ID is set by resistors.
 
@@ -20,7 +20,7 @@ This is the battery card for the OreSat system. You can have up to four of these
 - Flexible polyimide heater tapes to keep batteries above 0 C
 - STM32F091 microcontroller (controlled by the OreSat Power Domain) to interface everything to the CAN bus
 
-![OreSat Battery Card v1.0 Picture](https://github.com/oresat/oresat-batteries/blob/master/oresat-battery-card.png)
+![OreSat Battery Card v3.0 Picture](https://github.com/oresat/oresat-batteries/blob/master/oresat-battery-card.png)
 
 ## TRANSITION DOCUMENT
 Documentation is moving to [Google Docs](https://docs.google.com/document/d/1yaPGtJSM5RQG5k7sVpsDxBkVu4CHtm4LMNnisgOaNRg/edit#heading=h.gjdgxs). The rest of this readme will be integrated later.
