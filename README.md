@@ -1,14 +1,24 @@
-# OreSat Battery Card v1.0
+# OreSat Battery Card v3.1
 
-Oof, this board has a lot on it. It's the central core of OreSat, and must work. It has:
+This is the battery card for the OreSat system. You can have up to four of these cards in any OreSat system, ID is set by resistors.
 
-- 2 indepdenent 2S1P 18650 battery packs (4 batteries total, in 2 packs). Each pack has
+## Version History
+
+- v1.0: We don't talk about v1 (EAGLE).
+- v2.0: First true pack with 3D printed cell storage. Many small issues (EAGLE).
+- v3.0: Flight ready pack, flown 2021-03-15 on OreSat0. Worked! (EAGLE).
+- v3.1: Imported into KiCAD, small tweaks in process (KiCAD).
+
+## Technical Information
+
+- 2 independent 2S1P 18650 battery packs (4 batteries total, in 2 packs). Each pack has:
    - Battery protection circuitry for charge and discharge control for each 2S1P pack
-   - MAX17500 fuel gauge with cell balancing
+   - MAX17500 fuel gauge with cell balancing and cell temperature monitoring
 - Windform 3D printed battery holder
-- Negative battery lead disconnection switches and pusher assembly
-- Power inhibit switches (!SHUTDOWN) and pusher assembly
-- Flexible polyimide heater to keep batteries above 0 C
+- Positive battery lead disconnection switches (with room for plunger assemblies that go through OreSat +/-X rails).
+- Satellite shutdown switches (!SHUTDOWN) (with room for plunger assemblies that go through OreSat +/-X rails).
+- Flexible polyimide heater tapes to keep batteries above 0 C
+- STM32F091 microcontroller (controlled by the OreSat Power Domain) to interface everything to the CAN bus
 
 ![OreSat Battery Card v1.0 Picture](https://github.com/oresat/oresat-batteries/blob/master/oresat-battery-card.png)
 
