@@ -14,6 +14,10 @@ This is the battery card for the OreSat system. You can have up to four of these
 - [PCBA](https://docs.google.com/spreadsheets/d/11vG1kWyrAjmbF5QJM-EhXmvQoF6O47japwYlHF802do/edit#gid=576852939)
 - [Assembly](https://docs.google.com/spreadsheets/d/1GmZE2MR5q2XFSR2Y-65dwwPd7tem3i0CEjZBlCLeJBU/edit?usp=sharing)
 
+## Mechanical CAD
+
+- In [OnShape](https://cad.onshape.com/documents/5eda02ab87dc9021603c3619/w/adac4deb8bbe537007a3b153/e/e3b4fa777f54f6382aedf8d8).
+
 ## Technical Information
 
 - 2 independent 2S1P 18650 battery packs (4 batteries total, in 2 packs). Each pack has:
