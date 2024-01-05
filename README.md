@@ -9,12 +9,17 @@ This is the battery card for the OreSat system. You can have up to four of these
 - v3.0: Flight ready pack, flown 2021-03-15 on OreSat0. Worked! (EAGLE).
 - v3.1: Imported into KiCAD, small tweaks in process (KiCAD).
 
+## Bill of Materials
+
+- [PCBA](https://docs.google.com/spreadsheets/d/11vG1kWyrAjmbF5QJM-EhXmvQoF6O47japwYlHF802do/edit#gid=576852939)
+- [Assembly](https://docs.google.com/spreadsheets/d/1GmZE2MR5q2XFSR2Y-65dwwPd7tem3i0CEjZBlCLeJBU/edit?usp=sharing)
+
 ## Technical Information
 
 - 2 independent 2S1P 18650 battery packs (4 batteries total, in 2 packs). Each pack has:
    - Battery protection circuitry for charge and discharge control for each 2S1P pack
    - MAX17500 fuel gauge with cell balancing and cell temperature monitoring
-- Windform 3D printed battery holder
+- 3D printed battery holder, designed for CRP Windform SLS Nylon material (OK with Form3 Flame Retardant Resin).
 - Positive battery lead disconnection switches (with room for plunger assemblies that go through OreSat +/-X rails).
 - Satellite shutdown switches (!SHUTDOWN) (with room for plunger assemblies that go through OreSat +/-X rails).
 - Flexible polyimide heater tapes to keep batteries above 0 C
@@ -34,7 +39,7 @@ OreSat main power bus is just our 2S Li Ion battery pack, which we've defined as
 
 
 ## Battery Card Topology
-Confusingly, Each OreSat battery card has 2 independenet battery packs on it. Each pack is made of a 2S1P 18650 LiPo cell pack. So it's a 2x2S1P if you will. Despite this, each card is independent and the OPD is fully capable of functioning with only one active card.
+Confusingly, Each OreSat battery card has 2 independent battery packs on it. Each pack is made of a 2S1P 18650 LiPo cell pack. So it's a 2x2S1P if you will. Despite this, each card is independent and the OPD is fully capable of functioning with only one active card.
 
 We decided to separate the packs instead of combining them into a single 2S2P pack for the sake of redundancy, we can lose one cell and the other pack can still provide power to the OPD, as opposed to losing an entire card from a single cell failure.  This design does come with the added drawbacks of extra overhead in the form of requiring more charge protection and fuel gauge circuitry.
 
@@ -110,8 +115,6 @@ Just to summarize the battery temperature operational range:
 
 The OPD circuit breaker is supposed to trip at 300 mA without any division at the current output. Since the headers could pull up to 336, we need to probably go up to that plus 50 mA. So we put in a 10K and 20K to make a 0.66 divider and an N CH MOSFET to turn on the divider on the signal "MOARPWR". Asserting MOARPWR should give you up to 400 mA.
 
-
-
 ## LICENSE
 
 Copyright Portland State Aerospace Society 2020.
@@ -120,8 +123,3 @@ This documentation describes Open Hardware and is licensed under the CERN OHL v.
 
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
 
-## Version Information
-
-Version | Date       | Notes
---------|------------|-------------------------
-1.0     | 2020-08-16 | First version of the board.
