@@ -2676,133 +2676,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "oresat-batteries:1X01"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TEST-POINT-LARGE-SQUARE_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-batteries-eagle-import:VBUSP"
 			(power)
 			(exclude_from_sim no)
@@ -2902,6 +2775,89 @@
 								(size 0 0)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-misc:Test-Point-0.75mm-th"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "Test-Point"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -5893,12 +5849,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 52.07 213.36 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "238a0872-52fc-49bb-9eda-399fe42410ae")
@@ -5920,8 +5876,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 52.07 213.36 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 52.07 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,12 +5894,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 52.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6134,12 +6091,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 162.56 116.84 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2b5b34bf-c96a-4bde-aae1-5fd53690c54b")
@@ -6161,8 +6118,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 162.56 116.84 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,12 +6136,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6972,12 +6930,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 27.94 81.28 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3bed12d7-7b69-4046-a0cc-80181d4100ad")
@@ -6999,8 +6957,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 27.94 81.28 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 27.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,12 +6975,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 27.94 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7496,12 +7455,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 46.99 182.88 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6613eb76-2884-46b0-a949-9459b79567cb")
@@ -7523,8 +7482,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 46.99 182.88 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 46.99 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,12 +7500,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7671,12 +7631,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 59.69 218.44 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6a8a7f2e-1398-4318-9c1d-9c5c3f2118e8")
@@ -7698,8 +7658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 59.69 218.44 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 59.69 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,12 +7676,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 59.69 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7737,12 +7698,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 48.26 210.82 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c3c9867-c4d6-48f6-8a18-ec66e04ac95d")
@@ -7764,8 +7725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 48.26 210.82 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 48.26 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,12 +7743,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 48.26 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8780,12 +8742,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 55.88 215.9 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6b4ce0f-ca70-4663-b71f-ce2ce9bf8fc9")
@@ -8807,8 +8769,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 55.88 215.9 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 55.88 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,12 +8787,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 55.88 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9027,12 +8990,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 157.48 114.3 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc5ee582-c374-4e8b-b995-a14c2d79b97e")
@@ -9054,8 +9017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 157.48 114.3 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,12 +9035,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 157.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9267,12 +9231,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 33.02 81.28 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d92c87bf-662c-4a9a-ac15-8e2e3cb1a607")
@@ -9294,8 +9258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 33.02 81.28 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 33.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9312,12 +9276,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9571,12 +9536,12 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 50.8 63.5 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e769b995-438a-4933-a0c6-244dd5884040")
@@ -9598,8 +9563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 50.8 63.5 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 50.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,12 +9581,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

@@ -11,6 +11,146 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -86,276 +226,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:C-EU0805-B-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:.0805-B-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-EU0805-B-NOSILK_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "oresat-batteries:1X01"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TEST-POINT-LARGE-SQUARE_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 			)
@@ -1874,6 +1744,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-misc:Test-Point-0.75mm-th"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "Test-Point"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-pcbs:ORESAT-CARD-V1.3-BATTERY"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2298,7 +2251,7 @@
 	)
 	(text "Normally Open inhibit switches\n(pulls down ~{SD} when pressed)"
 		(exclude_from_sim no)
-		(at 184.15 205.74 0)
+		(at 183.642 209.042 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,9 +2271,33 @@
 		)
 		(uuid "39c0ff99-daa0-4a17-8257-d1e73564f853")
 	)
+	(text "~{SHUTDOWN} INHIBIT SWITCHES"
+		(exclude_from_sim no)
+		(at 198.12 200.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4b89e6d9-a79c-41a6-a35d-b1a20cc47672")
+	)
+	(text "BATTERY DISCONNECT INHIBIT SWITCHES"
+		(exclude_from_sim no)
+		(at 302.514 201.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "57c93bd5-40b0-4201-8e4c-ec1f8175d81a")
+	)
 	(text "0805"
 		(exclude_from_sim no)
-		(at 327.66 234.95 0)
+		(at 326.644 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2331,7 +2308,7 @@
 	)
 	(text "2x OMRON D2F-5L3 SPDT Switch\n(COM + NO connected)"
 		(exclude_from_sim no)
-		(at 181.61 213.36 0)
+		(at 182.88 214.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2353,7 +2330,7 @@
 	)
 	(text "0805"
 		(exclude_from_sim no)
-		(at 317.5 234.95 0)
+		(at 316.484 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2375,7 +2352,7 @@
 	)
 	(text "Normally Closed inhibit switches\n(disconnects VBAT from VBUS when pressed)"
 		(exclude_from_sim no)
-		(at 256.54 208.28 0)
+		(at 273.304 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2386,7 +2363,7 @@
 	)
 	(text "2x OMRON D2F-5L3 SPDT Switch\n(COM + NC connected)"
 		(exclude_from_sim no)
-		(at 261.62 214.63 0)
+		(at 272.796 216.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,37 +2373,37 @@
 		(uuid "d9103f16-ad2f-4ffa-bbfc-0d7eb3087fa1")
 	)
 	(junction
-		(at 139.7 102.87)
+		(at 135.89 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "124ba3ee-9d58-4ab7-8fe3-b90fe2dafee6")
 	)
 	(junction
-		(at 139.7 69.85)
+		(at 135.89 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14b47745-c6cf-4be2-9f42-1cfc9594bf84")
 	)
 	(junction
-		(at 139.7 105.41)
+		(at 135.89 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19517faa-7b0e-4c02-8a73-7b480bc1befe")
 	)
 	(junction
-		(at 139.7 125.73)
+		(at 135.89 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f56816-d92f-452c-b6bc-a24885dfe481")
 	)
 	(junction
-		(at 139.7 130.81)
+		(at 135.89 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e8a3b74-d1aa-41de-a038-70c56cd523e2")
 	)
 	(junction
-		(at 139.7 113.03)
+		(at 135.89 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4825eac7-3605-46a3-abab-3eb130a57dad")
@@ -2438,16 +2415,10 @@
 		(uuid "482631d9-26a7-44fc-965d-a44ff0aee206")
 	)
 	(junction
-		(at 151.13 100.33)
+		(at 143.51 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ce7958d-ca2b-47a2-b296-25b1b5d57242")
-	)
-	(junction
-		(at 142.24 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5882e6b4-0706-42d1-a9fe-bad671010e9a")
 	)
 	(junction
 		(at 326.39 223.52)
@@ -2456,19 +2427,13 @@
 		(uuid "670a8105-62b1-4ca7-9e7c-2178f689914f")
 	)
 	(junction
-		(at 139.7 80.01)
+		(at 135.89 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec91ed3-db8d-4478-aded-db6a26b723d1")
 	)
 	(junction
-		(at 236.22 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7af07f90-ae15-4e81-abd0-ed0d8a3aff0c")
-	)
-	(junction
-		(at 139.7 115.57)
+		(at 135.89 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90259b1b-11ec-4c5a-8a9b-fa7db27ed88f")
@@ -2480,13 +2445,7 @@
 		(uuid "a1b98435-1569-4adc-b3c1-646c3e589cf4")
 	)
 	(junction
-		(at 142.24 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdd265e6-1c3e-494e-8474-b0a7c611740f")
-	)
-	(junction
-		(at 139.7 74.93)
+		(at 135.89 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c34ac9ea-8148-4d8e-bbd1-451baf3f62cb")
@@ -2498,7 +2457,7 @@
 		(uuid "cdb42a1e-d58e-4d01-adb2-95d6d5cf7eb9")
 	)
 	(junction
-		(at 139.7 100.33)
+		(at 135.89 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce5a69aa-c922-43d3-bd73-45e37f1d2bcd")
@@ -2516,16 +2475,16 @@
 		(uuid "d777e2f9-a6b6-4112-8aa2-d29b0a03e23c")
 	)
 	(junction
-		(at 139.7 140.97)
+		(at 135.89 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d88a9551-3ec7-4bcc-b1eb-7fcde19e9fc3")
 	)
 	(junction
-		(at 238.76 68.58)
+		(at 154.94 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1832b73-cd26-45f9-85e7-ec9ae49310d2")
+		(uuid "f90eb0c2-835c-4d09-9594-5ad85cfc7955")
 	)
 	(no_connect
 		(at 133.35 57.15)
@@ -2647,17 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 144.78) (xy 142.24 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "04b48abe-8b63-4c89-9a64-2d98886af7fb")
-	)
-	(wire
-		(pts
-			(xy 133.35 133.35) (xy 139.7 133.35)
+			(xy 133.35 133.35) (xy 135.89 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -2667,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 128.27) (xy 139.7 125.73)
+			(xy 135.89 128.27) (xy 135.89 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -2707,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 133.35 80.01)
+			(xy 135.89 80.01) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -2757,6 +2706,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 229.87) (xy 326.39 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad5467f-def2-4102-8b13-cc33450199bc")
+	)
+	(wire
+		(pts
 			(xy 299.72 223.52) (xy 316.23 223.52)
 		)
 		(stroke
@@ -2777,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 118.11) (xy 139.7 115.57)
+			(xy 135.89 118.11) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -2797,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 143.51) (xy 139.7 140.97)
+			(xy 135.89 143.51) (xy 135.89 140.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -2807,23 +2766,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 82.55) (xy 139.7 80.01)
+			(xy 135.89 82.55) (xy 135.89 80.01)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "35173215-2850-468a-9f32-70d5a26ce031")
-	)
-	(wire
-		(pts
-			(xy 142.24 193.04) (xy 142.24 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "381d1787-3816-4f18-abf9-8f90786d82b8")
 	)
 	(wire
 		(pts
@@ -2867,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 133.35 102.87)
+			(xy 135.89 102.87) (xy 133.35 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -2887,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 100.33) (xy 162.56 100.33)
+			(xy 143.51 100.33) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2917,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 130.81) (xy 156.21 130.81)
+			(xy 135.89 130.81) (xy 156.21 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -2927,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 69.85) (xy 133.35 69.85)
+			(xy 135.89 69.85) (xy 133.35 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -2937,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 151.13 100.33)
+			(xy 135.89 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0.1524)
@@ -2947,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 193.04) (xy 142.24 193.04)
+			(xy 394.97 193.04) (xy 154.94 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 74.93) (xy 133.35 74.93)
+			(xy 135.89 74.93) (xy 133.35 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -3007,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 151.13 100.33)
+			(xy 143.51 97.79) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3017,7 +2966,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 133.35) (xy 139.7 130.81)
+			(xy 316.23 229.87) (xy 316.23 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a23406f-f13c-416b-9903-dc9ce074f84a")
+	)
+	(wire
+		(pts
+			(xy 135.89 133.35) (xy 135.89 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3027,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 139.7 82.55)
+			(xy 133.35 82.55) (xy 135.89 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -3067,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 72.39) (xy 139.7 72.39)
+			(xy 133.35 72.39) (xy 135.89 72.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -3167,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 139.7 105.41)
+			(xy 135.89 107.95) (xy 135.89 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -3177,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 110.49)
+			(xy 135.89 113.03) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0.1524)
@@ -3207,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 156.21 80.01)
+			(xy 135.89 80.01) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -3287,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 72.39) (xy 139.7 69.85)
+			(xy 135.89 72.39) (xy 135.89 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -3297,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 115.57) (xy 153.67 115.57)
+			(xy 135.89 115.57) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -3337,17 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 232.41) (xy 326.39 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "939da3cd-c113-46db-8693-066a068cc951")
-	)
-	(wire
-		(pts
-			(xy 133.35 143.51) (xy 139.7 143.51)
+			(xy 133.35 143.51) (xy 135.89 143.51)
 		)
 		(stroke
 			(width 0.1524)
@@ -3357,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 139.7 115.57)
+			(xy 133.35 115.57) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -3377,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 139.7 102.87)
+			(xy 135.89 100.33) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -3407,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 107.95) (xy 139.7 107.95)
+			(xy 133.35 107.95) (xy 135.89 107.95)
 		)
 		(stroke
 			(width 0.1524)
@@ -3417,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 139.7 118.11)
+			(xy 133.35 118.11) (xy 135.89 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -3427,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 139.7 77.47)
+			(xy 133.35 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -3447,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 139.7 113.03)
+			(xy 133.35 113.03) (xy 135.89 113.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -3464,16 +3413,6 @@
 			(type default)
 		)
 		(uuid "a7ac9a82-6f74-43f5-8d8a-efe53811b2e3")
-	)
-	(wire
-		(pts
-			(xy 232.41 68.58) (xy 238.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc6b8ba-2ba1-4731-8445-dbb36a13189f")
 	)
 	(wire
 		(pts
@@ -3507,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 139.7 102.87)
+			(xy 135.89 105.41) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -3517,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 140.97) (xy 133.35 140.97)
+			(xy 135.89 140.97) (xy 133.35 140.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -3537,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 130.81) (xy 139.7 130.81)
+			(xy 133.35 130.81) (xy 135.89 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3547,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 139.7 105.41)
+			(xy 133.35 105.41) (xy 135.89 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -3567,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 217.17) (xy 173.99 217.17)
+			(xy 154.94 217.17) (xy 173.99 217.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -3585,16 +3524,6 @@
 		)
 		(uuid "bb788911-9d69-49ec-984a-fdfe32549bfa")
 	)
-	(wire
-		(pts
-			(xy 232.41 66.04) (xy 236.22 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00ecdfd-b7c8-4fda-a47f-d9be22035ac7")
-	)
 	(polyline
 		(pts
 			(xy 224.79 198.12) (xy 177.8 198.12)
@@ -3607,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 144.78) (xy 142.24 140.97)
+			(xy 154.94 140.97) (xy 154.94 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -3617,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 139.7 110.49)
+			(xy 133.35 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0.1524)
@@ -3627,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 139.7 125.73)
+			(xy 133.35 125.73) (xy 135.89 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -3667,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 69.85) (xy 139.7 69.85)
+			(xy 156.21 69.85) (xy 135.89 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -3697,23 +3626,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 217.17) (xy 142.24 193.04)
+			(xy 154.94 217.17) (xy 154.94 193.04)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "db57e590-8d0b-43ed-8d70-8e24f759910a")
-	)
-	(wire
-		(pts
-			(xy 316.23 232.41) (xy 316.23 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "db70ffde-d08b-4d16-b8a3-7ddb322322fb")
 	)
 	(wire
 		(pts
@@ -3747,7 +3666,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 74.93) (xy 182.88 74.93)
+			(xy 135.89 74.93) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -3757,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 77.47) (xy 139.7 74.93)
+			(xy 135.89 77.47) (xy 135.89 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -3767,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 128.27) (xy 139.7 128.27)
+			(xy 133.35 128.27) (xy 135.89 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -3777,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 115.57)
+			(xy 135.89 113.03) (xy 135.89 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -3807,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 115.57) (xy 153.67 116.84)
+			(xy 143.51 115.57) (xy 143.51 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -3817,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 140.97) (xy 142.24 140.97)
+			(xy 135.89 140.97) (xy 154.94 140.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -3837,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 139.7 100.33)
+			(xy 133.35 100.33) (xy 135.89 100.33)
 		)
 		(stroke
 			(width 0.1524)
@@ -3857,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 243.84 125.73)
+			(xy 135.89 125.73) (xy 243.84 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -3875,26 +3794,102 @@
 		)
 		(uuid "fd1634db-26cd-4dbd-b6e3-171ac71bffae")
 	)
-	(global_label "~{SD}"
-		(shape output)
-		(at 157.48 144.78 0)
-		(fields_autoplaced yes)
+	(label "C3-UART-TX"
+		(at 135.89 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "bea0bcb0-3a7e-439e-b5fe-af978d35fe35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.9447 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "06d1e158-5fef-49f9-b93f-23a4471863c2")
+	)
+	(label "CAN1_L"
+		(at 135.89 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "3c3edbfb-27b0-4804-8e7c-be7f69c996e5")
+	)
+	(label "~{SHUTDOWN}"
+		(at 135.89 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cf3b589-9a15-4e91-a8ad-b7ea8b425159")
+	)
+	(label "OPD_PWR"
+		(at 135.89 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "4045225d-9b81-4129-ad45-92550cea54da")
+	)
+	(label "C3-UART-RX"
+		(at 135.89 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "415e4cce-4240-454a-ab1b-44e406787d5b")
+	)
+	(label "OPD_SCL"
+		(at 135.89 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "c072f1ac-ac2c-4810-b426-bb2392236a6c")
+	)
+	(label "~{SHUTDOWN}"
+		(at 278.13 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c65ce9b6-81bb-41f3-9219-08d5e9401cba")
+	)
+	(label "OPD_SDA"
+		(at 135.89 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "d239343e-c070-4558-888b-b7b32a12855d")
+	)
+	(label "CAN1_H"
+		(at 135.89 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "e14e72bf-44c4-4c9e-ac87-04811775baef")
 	)
 	(symbol
 		(lib_id "oresat-misc:OMRON-D2F-L3-D-LEFT")
@@ -3969,7 +3964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 326.39 237.49 0)
+		(at 326.39 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3977,7 +3972,7 @@
 		(dnp no)
 		(uuid "0d6e17db-6c24-4ac8-9bfb-6e81b549e360")
 		(property "Reference" "#PWR37"
-			(at 326.39 243.84 0)
+			(at 326.39 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3981,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 326.39 241.3 0)
+			(at 326.39 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 237.49 0)
+			(at 326.39 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 237.49 0)
+			(at 326.39 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 326.39 237.49 0)
+			(at 326.39 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0805-B-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 326.39 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4105,21 +4100,21 @@
 		(dnp no)
 		(uuid "1844fd26-0b23-4827-8aad-94dcdbd08d6b")
 		(property "Reference" "C11"
-			(at 327.66 227.33 0)
+			(at 326.644 225.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "10u"
-			(at 327.66 232.41 0)
+			(at 326.644 229.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-batteries:.0805-B-NOSILK"
@@ -4146,6 +4141,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -4341,7 +4337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0805-B-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 316.23 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4350,21 +4346,21 @@
 		(dnp no)
 		(uuid "42ed9e96-f3ef-421a-b65c-fac011136b50")
 		(property "Reference" "C10"
-			(at 317.5 227.33 0)
+			(at 316.484 225.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "10u"
-			(at 317.5 232.41 0)
+			(at 316.484 229.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "oresat-batteries:.0805-B-NOSILK"
@@ -4391,6 +4387,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -4708,11 +4705,11 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 162.56 100.33 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8d0afcdc-b10b-42c7-8705-62285dc099ae")
@@ -4734,8 +4731,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 162.56 100.33 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,12 +4749,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4774,7 +4772,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 151.13 97.79 0)
+		(at 143.51 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4782,7 +4780,7 @@
 		(dnp no)
 		(uuid "9a9ede0a-1148-4561-9f9e-b1bd83a0fe7f")
 		(property "Reference" "#PWR2"
-			(at 151.13 101.6 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4789,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 151.13 94.234 0)
+			(at 143.51 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 97.79 0)
+			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 97.79 0)
+			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 151.13 97.79 0)
+			(at 143.51 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,11 +5165,11 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 173.99 217.17 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4456b0a-0d66-4ba0-9a73-446bd0eb7246")
@@ -5193,8 +5191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 173.99 217.17 0)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 173.99 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,12 +5209,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 173.99 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5233,7 +5232,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 316.23 237.49 0)
+		(at 316.23 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5241,7 +5240,7 @@
 		(dnp no)
 		(uuid "d102b743-e5bc-4a8e-93f7-b3dadb15cd0d")
 		(property "Reference" "#PWR36"
-			(at 316.23 243.84 0)
+			(at 316.23 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5249,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 241.3 0)
+			(at 316.23 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 237.49 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 237.49 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 237.49 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,16 +5297,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 116.84 0)
+		(at 143.51 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2a54d00-6666-42e9-b279-2377f56d01f8")
 		(property "Reference" "#PWR3"
-			(at 153.67 123.19 0)
+			(at 143.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 121.92 0)
+			(at 143.51 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{SD}" bidirectional
+		(pin "~{SHUTDOWN}" bidirectional
 			(at 383.54 140.97 0)
 			(uuid "878caca4-b1e0-4e03-b107-bcfde02e6274")
 			(effects
@@ -5993,7 +5991,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{SD}" bidirectional
+		(pin "~{SHUTDOWN}" bidirectional
 			(at 383.54 85.09 0)
 			(uuid "99636b47-26d2-426c-8bb2-1fbc49b156ed")
 			(effects
@@ -6128,26 +6126,6 @@
 		(pin "PA3{slash}USART2_RX" bidirectional
 			(at 232.41 86.36 0)
 			(uuid "001ed66a-d55b-4ab3-85a9-54e1f6cf0375")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB6{slash}SCL" bidirectional
-			(at 232.41 68.58 0)
-			(uuid "538c15a2-9490-4c3b-9792-25837547a1f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB7{slash}SDA" bidirectional
-			(at 232.41 66.04 0)
-			(uuid "c0819e29-88c2-4411-af8c-ce6ad10efcb6")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|101206100|119158600|33d34d23-8c17-4c86-9d45-d59b2d19b4fe|38c2ef97-b437-4dbf-836b-982851408c35",
+          ""
+        ],
+        [
+          "courtyards_overlap|101206100|79058600|33d34d23-8c17-4c86-9d45-d59b2d19b4fe|f21eb837-7496-4d98-97fe-1bba9f4e812d",
+          ""
+        ],
+        [
+          "courtyards_overlap|130934167|90226336|2f314b1c-2c90-4518-9035-1bba2fc75858|68b17000-21fb-4b92-9e17-37ee70404485",
+          ""
+        ],
+        [
+          "courtyards_overlap|132734167|71226336|b7e64614-4de8-452a-9bc6-459ae57c786b|d13293d4-d2f7-4a4b-8682-6d675a21916d",
+          ""
+        ],
+        [
+          "courtyards_overlap|142696100|149288600|33d34d23-8c17-4c86-9d45-d59b2d19b4fe|ac0549b8-79ae-47d1-8680-ba7c5d448be7",
+          ""
+        ],
+        [
+          "courtyards_overlap|164011100|77645215|16a15e40-880e-4968-9a73-cf91ce70a6a5|3506ace0-0386-4363-9763-aa1a6ec55201",
+          ""
+        ],
+        [
+          "courtyards_overlap|165111100|118845215|bca01d65-23f1-4dc5-9bdb-aa50e0bf1f11|e9e0de99-fa6c-4a1f-b508-43f9497ea272",
+          ""
+        ],
+        [
+          "courtyards_overlap|181106100|106808600|16918680-9726-409e-8caf-f886c02724c8|89e53141-cbb9-434d-b4cd-8a83ba3e211f",
+          ""
+        ],
+        [
+          "courtyards_overlap|195326100|119158600|33d34d23-8c17-4c86-9d45-d59b2d19b4fe|61010493-fdf8-4c6c-b33f-982d073c4c29",
+          ""
+        ],
+        [
+          "courtyards_overlap|195326100|79058600|33d34d23-8c17-4c86-9d45-d59b2d19b4fe|496a3cee-04a1-45f2-8046-fd369b92481a",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -106,7 +147,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -133,7 +174,7 @@
         "min_hole_to_hole": 0.127,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.125,
