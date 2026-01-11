@@ -2179,6 +2179,12 @@
 		(uuid "6ec91ed3-db8d-4478-aded-db6a26b723d1")
 	)
 	(junction
+		(at 400.05 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc4e069-f7a4-419f-81ed-a685ec2508d8")
+	)
+	(junction
 		(at 135.89 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2350,6 +2356,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 236.22) (xy 280.67 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3b0031-a507-4cf1-8795-5d1032951308")
+	)
+	(wire
+		(pts
 			(xy 191.77 217.17) (xy 213.36 217.17)
 		)
 		(stroke
@@ -2447,6 +2463,16 @@
 			(type solid)
 		)
 		(uuid "35173215-2850-468a-9f32-70d5a26ce031")
+	)
+	(wire
+		(pts
+			(xy 254 217.17) (xy 254 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38097578-fd09-48d7-b841-936c1722c2aa")
 	)
 	(wire
 		(pts
@@ -2550,6 +2576,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 135.89) (xy 400.05 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47293221-2e83-4662-b83e-cb102d5e2cd1")
+	)
+	(wire
+		(pts
 			(xy 135.89 100.33) (xy 143.51 100.33)
 		)
 		(stroke
@@ -2567,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "4a440d68-e4e0-4a8e-ab76-86d7160441e2")
+	)
+	(wire
+		(pts
+			(xy 280.67 236.22) (xy 280.67 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ccedb1-23e5-47ec-a734-e28320a691d4")
 	)
 	(wire
 		(pts
@@ -2597,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "559b8f64-d9ad-40f4-b8ad-b6ff989e6c53")
+	)
+	(wire
+		(pts
+			(xy 254 223.52) (xy 259.08 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a1d5b9-48a2-4eea-a275-5e11dd514437")
 	)
 	(wire
 		(pts
@@ -2930,6 +2986,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 135.89) (xy 400.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0b389b-f5b0-4773-bc09-30342fb6cec2")
+	)
+	(wire
+		(pts
 			(xy 295.91 72.39) (xy 334.01 72.39)
 		)
 		(stroke
@@ -3057,6 +3123,16 @@
 			(type default)
 		)
 		(uuid "a7ac9a82-6f74-43f5-8d8a-efe53811b2e3")
+	)
+	(wire
+		(pts
+			(xy 400.05 80.01) (xy 400.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a950f527-df61-4919-abab-9c5229d8ba7f")
 	)
 	(wire
 		(pts
@@ -3200,6 +3276,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 220.98) (xy 266.7 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07128b2-a6e0-47cd-86ca-3f6d0fc27831")
+	)
+	(wire
+		(pts
 			(xy 213.36 217.17) (xy 213.36 227.33)
 		)
 		(stroke
@@ -3307,6 +3393,16 @@
 			(type solid)
 		)
 		(uuid "e4c49ff1-9eab-454c-9075-3d9afed124db")
+	)
+	(wire
+		(pts
+			(xy 383.54 80.01) (xy 400.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c1aa1a-6397-405b-921e-97a6fbd79585")
 	)
 	(wire
 		(pts
@@ -3635,6 +3731,71 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
 					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 254 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b8d2e8f-ee6f-4399-8c44-6fe237a5f8e0")
+		(property "Reference" "#PWR051"
+			(at 254 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 254 213.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 254 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736e74eb-8126-46c0-82f2-868f8e521e5e")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5146,9 +5307,19 @@
 				(justify right)
 			)
 		)
-		(pin "INH-POS-BATT-DISC" input
+		(pin "POS-BATT-DISC" input
 			(at 383.54 138.43 0)
 			(uuid "4d422beb-c7a7-4111-911d-8a72725ebd8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NEG-BATT-DISC" input
+			(at 383.54 135.89 0)
+			(uuid "51d6e3f9-f528-480f-958e-28b7e404e76f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,9 +5449,19 @@
 				(justify right)
 			)
 		)
-		(pin "INH-POS-BATT-DISC" input
+		(pin "POS-BATT-DISC" input
 			(at 383.54 82.55 0)
 			(uuid "3d1c8821-7717-4cff-a958-0de1cf55b194")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NEG-BATT-DISC" input
+			(at 383.54 80.01 0)
+			(uuid "9b175288-8895-4a20-bd21-c1bbb20b18a7")
 			(effects
 				(font
 					(size 1.27 1.27)
