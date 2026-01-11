@@ -11,6 +11,146 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -3284,128 +3424,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-power:VBAT"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#VBAT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBAT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBAT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBAT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBAT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3488,6 +3506,131 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -3794,6 +3937,17 @@
 		)
 		(uuid "e5826e9e-3dd2-4a64-b322-9d4e3743d3ed")
 	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 255.016 8.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f01121d3-3a48-44c9-9d7d-4bb19fbb6a74")
+	)
 	(text "PTC @ 5A"
 		(exclude_from_sim no)
 		(at 228.6 93.98 0)
@@ -3906,6 +4060,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b043bd9-394e-4f11-8d99-12ab3f1f2ef4")
+	)
+	(junction
+		(at 259.08 0)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4349448c-1f42-4ba6-b499-50efae9be837")
 	)
 	(junction
 		(at 40.64 166.37)
@@ -4218,6 +4378,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e016004b-9358-4cdc-8a3e-e161f9e9bd7e")
+	)
+	(junction
+		(at 271.78 -3.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c80c64-6870-49ba-a10a-935d025984dd")
 	)
 	(junction
 		(at 307.34 128.27)
@@ -4565,6 +4731,16 @@
 		)
 		(uuid "1c9dd865-67bb-46b1-8b38-8afd0d317a9b")
 	)
+	(wire
+		(pts
+			(xy 271.78 -3.81) (xy 274.32 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce3a81a-1c94-4a53-9b0e-23fcd3447578")
+	)
 	(polyline
 		(pts
 			(xy 217.17 203.2) (xy 283.21 203.2)
@@ -4627,16 +4803,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 44.45) (xy 259.08 36.83)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(uuid "22e93232-9167-4f43-b935-0a1fb6f76501")
-	)
-	(wire
-		(pts
 			(xy 72.39 250.19) (xy 180.34 250.19)
 		)
 		(stroke
@@ -4684,6 +4850,16 @@
 			(type solid)
 		)
 		(uuid "2a593536-763a-4563-bf65-5b6115ba3af7")
+	)
+	(wire
+		(pts
+			(xy 255.27 1.27) (xy 255.27 0)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2b95acf6-81e7-4319-987d-87f628a4fff8")
 	)
 	(wire
 		(pts
@@ -4987,6 +5163,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 0) (xy 260.35 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4807bdfa-5cff-43f0-a1a4-de720ad6729d")
+	)
+	(wire
+		(pts
 			(xy 40.64 175.26) (xy 40.64 166.37)
 		)
 		(stroke
@@ -5014,6 +5200,16 @@
 			(type solid)
 		)
 		(uuid "4af7fea2-8569-4a6d-b58d-09790bc82b3d")
+	)
+	(wire
+		(pts
+			(xy 271.78 0) (xy 270.51 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb461f5-2081-444c-afd1-1ad26ecba575")
 	)
 	(wire
 		(pts
@@ -5217,6 +5413,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 -3.81) (xy 271.78 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2acbb1-5b7a-4d4b-82d2-4f8bc4b520a6")
+	)
+	(wire
+		(pts
 			(xy 229.87 17.78) (xy 234.95 17.78)
 		)
 		(stroke
@@ -5334,6 +5540,26 @@
 			(type solid)
 		)
 		(uuid "686949e6-728e-4c66-87f7-4f770bb10439")
+	)
+	(wire
+		(pts
+			(xy 259.08 0) (xy 259.08 44.45)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "69044098-60c7-46d8-8160-b459553411d9")
+	)
+	(wire
+		(pts
+			(xy 259.08 -12.7) (xy 259.08 -11.43)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "692d4115-6963-45b3-ac72-ef1b9232ec93")
 	)
 	(wire
 		(pts
@@ -6037,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 0) (xy 259.08 0)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab5c67a0-845f-4942-aa9d-9ca9d1952200")
+	)
+	(wire
+		(pts
 			(xy 387.35 160.02) (xy 387.35 162.56)
 		)
 		(stroke
@@ -6164,6 +6400,16 @@
 			(type solid)
 		)
 		(uuid "b864674a-50d1-4cce-90ac-e6deb67ade90")
+	)
+	(wire
+		(pts
+			(xy 271.78 -3.81) (xy 271.78 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b4cab7-40c2-48db-bade-9022f3617455")
 	)
 	(wire
 		(pts
@@ -6757,6 +7003,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 -1.27) (xy 259.08 0)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "deddbce3-122a-4488-8bf9-92b2051b7b3f")
+	)
+	(wire
+		(pts
 			(xy 151.13 115.57) (xy 115.57 115.57)
 		)
 		(stroke
@@ -7047,6 +7303,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 6.35) (xy 255.27 8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f82cc4-499e-4ce7-8dab-edfbc9be2947")
+	)
+	(wire
+		(pts
 			(xy 313.69 63.5) (xy 304.8 63.5)
 		)
 		(stroke
@@ -7328,6 +7594,17 @@
 			(justify left)
 		)
 		(uuid "f1cc843d-a6a3-4a42-a728-4e8719de8972")
+	)
+	(hierarchical_label "INH-POS-BATT-DISC"
+		(shape input)
+		(at 274.32 -3.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8705d11-8f1b-44ef-83fc-5d117cd091f3")
 	)
 	(hierarchical_label "CHARGE-DISABLE-PK1"
 		(shape bidirectional)
@@ -8120,6 +8397,114 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
 					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
+		(at 265.43 0 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ba23f73-38ee-4ac6-9adc-b7efcef5f264")
+		(property "Reference" "R69"
+			(at 260.35 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100k"
+			(at 266.7 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RR08P100KDCT-ND"
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Susumu"
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RR0816P-104-D"
+			(at 265.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25596694-b8e3-47e4-abd8-67d9b1d793c3")
+		)
+		(pin "2"
+			(uuid "6630d7ad-7ecd-470c-8411-e56f788e7546")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -9548,6 +9933,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 259.08 -12.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eddfc38-cb44-4dbc-98b7-da264097c464")
+		(property "Reference" "#PWR041"
+			(at 259.08 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 259.08 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 259.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8466134-447e-44c6-a6f1-bade2fd6ec81")
+		)
+		(instances
+			(project ""
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
 		(at 43.18 193.04 0)
 		(mirror y)
@@ -10563,6 +11014,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 255.27 3.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ed9e96-f3ef-421a-b65c-fac011136b50")
+		(property "Reference" "C10"
+			(at 255.016 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 255.016 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-batteries:.0805-B-NOSILK"
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1276-2893-1-ND"
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung"
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KOFNNNE"
+			(at 255.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f65e88d1-0b46-46a3-b6c3-bca766bfd159")
+		)
+		(pin "2"
+			(uuid "f99bf521-0b9b-488c-83b8-879f88a975e9")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
 		(at 60.96 193.04 0)
 		(mirror y)
@@ -10675,34 +11236,34 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-power:VBAT")
-		(at 259.08 36.83 0)
+		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
+		(at 261.62 -6.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44cb05aa-5bc4-438e-aecd-d8c590662371")
-		(property "Reference" "#VBAT03"
-			(at 259.08 40.64 0)
+		(uuid "457592be-5517-478a-b5eb-80cdb47a4ea3")
+		(property "Reference" "Q10"
+			(at 256.54 -5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "VBAT"
-			(at 259.08 31.75 0)
+		(property "Value" "SI7625DN-T1-GE3"
+			(at 256.54 -8.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 259.08 36.83 0)
+		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+			(at 261.62 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10711,7 +11272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 36.83 0)
+			(at 261.62 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,20 +11281,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 36.83 0)
+			(at 261.62 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "DIS" "Digi-Key"
+			(at 261.62 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SI7625DN-T1-GE3CT-ND"
+			(at 261.62 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 261.62 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SI7625DN-T1-GE3"
+			(at 261.62 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "7d5334b2-fc33-4d1c-b081-f717023739a1")
+			(uuid "71151170-ed38-42f4-8e43-ec3fbafdd8e2")
+		)
+		(pin "2"
+			(uuid "bc3fc675-ab7a-40f5-862a-f9b8e17084af")
+		)
+		(pin "3"
+			(uuid "d024a04d-6cd5-4b81-8ef0-42e99c7acf40")
+		)
+		(pin "4"
+			(uuid "7cc97cda-ae46-41da-9c0b-9fa58c3219aa")
+		)
+		(pin "5"
+			(uuid "05ce96d7-0661-4c90-b378-c3a0c47f8d4a")
+		)
+		(pin "6"
+			(uuid "4ee73427-f731-4461-a13d-3c903802ba37")
+		)
+		(pin "7"
+			(uuid "62a0a1ad-97a9-4cf0-9d71-a6e1da9f40ad")
+		)
+		(pin "8"
+			(uuid "b7a9f5e7-cb0c-4c53-bc42-a5684227accf")
+		)
+		(pin "PAD"
+			(uuid "779c2e90-412d-45bf-bbc0-ef8d84ea4829")
 		)
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
-					(reference "#VBAT03")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -13813,6 +14438,72 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 8.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d102b743-e5bc-4a8e-93f7-b3dadb15cd0d")
+		(property "Reference" "#PWR36"
+			(at 255.27 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4ebbca3-79ca-4b34-8570-9ff7b9357ea9")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
