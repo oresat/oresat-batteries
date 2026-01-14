@@ -300,7 +300,3616 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.381) (xy 2.413 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.381) (xy 2.413 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.381) (xy 2.413 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.381) (xy 2.413 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.381) (xy 2.413 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 0.381) (xy 2.413 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NMOS_GSD_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NMOS_GSD_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NMOS_GSD_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_3_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_PMOS_GSD_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_GSD_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Si7336ADP"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -769,149 +4378,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-batteries-eagle-import:C-EU0603-C-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-EU0603-C-NOSILK_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-batteries-eagle-import:LTC4412"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -920,7 +4386,7 @@
 				(at 5.08 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.778 1.5113)
 					)
 					(justify left bottom)
 				)
@@ -929,7 +4395,7 @@
 				(at 5.08 -10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.778 1.5113)
 					)
 					(justify left bottom)
 				)
@@ -970,54 +4436,6 @@
 				)
 			)
 			(symbol "LTC4412_1_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(text "VIN"
 					(at -4.445 1.905 0)
 					(effects
@@ -1181,6 +4599,19 @@
 					)
 				)
 			)
+			(symbol "LTC4412_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "oresat-batteries-eagle-import:MAX17205G"
@@ -1241,59 +4672,11 @@
 				)
 			)
 			(symbol "MAX17205G_1_0"
-				(polyline
-					(pts
-						(xy -15.24 17.78) (xy -15.24 -17.78)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 -17.78) (xy 15.24 -17.78)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 17.78) (xy -15.24 17.78)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -17.78) (xy 15.24 17.78)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(text "MAX17205G"
 					(at 0 0 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.778 1.5113)
 						)
 					)
 				)
@@ -1568,709 +4951,16 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:SOT23-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "N-MOSFET-SOT-23-3_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 1.778 0.508) (xy 1.778 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
+			(symbol "MAX17205G_1_1"
+				(rectangle
+					(start -15.24 17.78)
+					(end 15.24 -17.78)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:P-MOSFET-SOT23-3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:SOT23-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "P-MOSFET-SOT23-3_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.905) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -3.175) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.778 0.508) (xy 1.778 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+						(type background)
 					)
 				)
 			)
@@ -2422,6 +5112,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2429,7 +5125,7 @@
 				(at 5.08 0.635 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.778 1.5113)
 					)
 					(justify left bottom)
 				)
@@ -2438,7 +5134,7 @@
 				(at 5.08 -1.905 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.778 1.5113)
 					)
 					(justify left bottom)
 				)
@@ -2478,14 +5174,26 @@
 					)
 				)
 			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_0"
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 2.54)
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.905) (xy -1.016 1.905)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2493,11 +5201,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.54) (xy 0.762 3.175)
+						(xy -0.508 1.27) (xy -0.508 2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2505,11 +5213,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.905) (xy 0.762 2.54)
+						(xy -0.508 -0.508) (xy -0.508 0.508)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2517,201 +5225,46 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0) (xy 0.762 0.762)
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -0.508 -1.27)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -3.175) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
+					)
 					(stroke
 						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.778 0.508) (xy 1.778 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0.762) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -2719,11 +5272,45 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 3.81 0.508)
+						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -2731,584 +5318,80 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 0.508) (xy 4.572 0.254)
+						(xy 1.651 0.381) (xy 2.413 0.381)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -2.54 2.54 0)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_1"
+				(pin input line
+					(at -6.35 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name "S"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "D"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:R-US_0603-C-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0603-C-NOSILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:R-US_1206-C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:1206-C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_1206-C_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3324,7 +5407,7 @@
 				(at 5.08 15.24 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.778 1.5113)
 					)
 					(justify left bottom)
 				)
@@ -3333,7 +5416,7 @@
 				(at 5.08 12.7 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.778 1.5113)
 					)
 					(justify left bottom)
 				)
@@ -3374,54 +5457,6 @@
 				)
 			)
 			(symbol "S-8209AXXT_1_0"
-				(polyline
-					(pts
-						(xy -12.7 10.16) (xy -12.7 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 10.16) (xy -12.7 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -15.24 5.08 0)
 					(length 2.54)
@@ -3564,6 +5599,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "S-8209AXXT_1_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -4108,17 +6156,6 @@
 		)
 		(uuid "526721bf-5da0-41c7-a9ac-fef08c11c30f")
 	)
-	(text "ALL CAPS ARE 0603, 10%,  X5R, WV >= 16 V UNLESS OTHERWISE NOTED\nALL RESISTORS ARE 0603 1% UNLESS OTHERWISE NOTED"
-		(exclude_from_sim no)
-		(at 24.13 294.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5615d9ef-d60a-4f8f-a6aa-7f1e1c281ad6")
-	)
 	(text "Fuel Gauge + Cell Balancing"
 		(exclude_from_sim no)
 		(at 342.9 120.65 0)
@@ -4308,16 +6345,16 @@
 		(uuid "0d29c8f8-5e97-484c-a6d1-6ba9a44a3f9b")
 	)
 	(junction
-		(at 48.26 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11157edd-3eb9-4165-ace8-6b320d4ed6e5")
-	)
-	(junction
 		(at 48.26 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "143be738-a22f-4005-a4e3-ae3ca0ce5122")
+	)
+	(junction
+		(at 58.42 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f1784e7-ad42-460e-af02-aebaba3fda3e")
 	)
 	(junction
 		(at 132.08 146.05)
@@ -4326,16 +6363,10 @@
 		(uuid "21a909a7-9831-45f9-974d-bc79d2aa47b0")
 	)
 	(junction
-		(at 293.37 74.93)
+		(at 271.78 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2542a75c-344b-48b8-b307-4f006e051fa9")
-	)
-	(junction
-		(at 237.49 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "264ebfe2-7b46-4d98-a8ae-79146626f423")
+		(uuid "21d01a4d-c2ac-4163-b3ea-ad56d8fd2143")
 	)
 	(junction
 		(at 295.91 38.1)
@@ -4374,12 +6405,6 @@
 		(uuid "32547955-09ab-46ba-8c1b-2020118a9a49")
 	)
 	(junction
-		(at 237.49 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3414b723-746f-4b37-8ac3-81f924a35f96")
-	)
-	(junction
 		(at 367.03 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4398,6 +6423,12 @@
 		(uuid "3b043bd9-394e-4f11-8d99-12ab3f1f2ef4")
 	)
 	(junction
+		(at 66.04 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e59338c-1927-4416-9f5b-e38e6cb79cd9")
+	)
+	(junction
 		(at 259.08 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4410,16 +6441,10 @@
 		(uuid "459a3507-4ff0-4a70-8455-6138ff4aa894")
 	)
 	(junction
-		(at 240.03 46.99)
+		(at 237.49 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45b0629d-e7fa-46d6-8b6b-faaeff1b570a")
-	)
-	(junction
-		(at 66.04 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "464449e9-bf04-48de-b3eb-78f66d4ec8d7")
+		(uuid "4a9a0e8d-d742-4f13-bbfe-753f7374a060")
 	)
 	(junction
 		(at 40.64 200.66)
@@ -4458,6 +6483,12 @@
 		(uuid "58dc65eb-1afc-4398-8039-84b223c8584b")
 	)
 	(junction
+		(at 250.19 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a76e8db-f1fa-4a14-b38d-241176b9eb47")
+	)
+	(junction
 		(at 259.08 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4468,12 +6499,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5be22d9a-de65-4bca-931c-82c2ab367777")
-	)
-	(junction
-		(at 72.39 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "607bf421-2eb1-4328-a8ec-4ca2fe4af414")
 	)
 	(junction
 		(at 250.19 171.45)
@@ -4488,16 +6513,16 @@
 		(uuid "65e142f3-f047-4cab-bd25-6dcb51d91c3b")
 	)
 	(junction
+		(at 293.37 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66097998-e426-4498-8ee1-1bac4c0498a2")
+	)
+	(junction
 		(at 375.92 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68d156ad-2a58-465a-8be1-4f2257555559")
-	)
-	(junction
-		(at 250.19 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c2e6a68-753c-4af5-93b9-577b9c1d122f")
 	)
 	(junction
 		(at 207.01 111.76)
@@ -4510,12 +6535,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "702bc2e4-569d-4711-8384-a5e85eb6a61b")
-	)
-	(junction
-		(at 250.19 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7131688e-6dfa-40c9-84ef-d75dd4abbdd8")
 	)
 	(junction
 		(at 304.8 63.5)
@@ -4548,16 +6567,22 @@
 		(uuid "82295f5e-ac6a-42f9-9354-e9062d9c3446")
 	)
 	(junction
+		(at 240.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8589eedf-0371-4efb-b00b-e47af5658dae")
+	)
+	(junction
 		(at 115.57 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87c5fa7c-1dd2-4d13-bb57-e215df77689c")
 	)
 	(junction
-		(at 259.08 243.84)
+		(at 48.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88d9ee47-b74e-4977-8a89-ad4c0455c489")
+		(uuid "898e388d-5bb2-49fb-9d7c-b7aba7cefeed")
 	)
 	(junction
 		(at 73.66 200.66)
@@ -4566,16 +6591,16 @@
 		(uuid "89a61479-21d6-4874-a29b-534fd8bfb7ed")
 	)
 	(junction
+		(at 250.19 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e9bd1dd-cd95-4eb1-9e57-569660d80761")
+	)
+	(junction
 		(at 229.87 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "905f0613-8e76-4252-a421-be9c5e2d03ac")
-	)
-	(junction
-		(at 72.39 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9173ddf3-5505-4363-b708-2fee74414108")
 	)
 	(junction
 		(at 66.04 218.44)
@@ -4590,10 +6615,10 @@
 		(uuid "96e6b883-3819-4a75-a83e-8902a98456ee")
 	)
 	(junction
-		(at 58.42 237.49)
+		(at 74.93 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "997201ae-65e0-493b-9297-da30f9c8c0a3")
+		(uuid "9d39e864-25c4-4ba5-83e7-f5112cf66899")
 	)
 	(junction
 		(at 259.08 203.2)
@@ -4656,16 +6681,22 @@
 		(uuid "beb83419-f02f-4dca-88ff-6da5788e27e6")
 	)
 	(junction
+		(at 237.49 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03463d5-374e-43f9-8013-cdaffe71a43a")
+	)
+	(junction
+		(at 74.93 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2740800-478b-45e6-ae71-d958ccc76f49")
+	)
+	(junction
 		(at 259.08 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3b413e6-b148-4339-936a-c3e85373477e")
-	)
-	(junction
-		(at 259.08 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c406b24a-d172-4d82-a595-757b25519cd0")
 	)
 	(junction
 		(at 259.08 166.37)
@@ -4710,10 +6741,22 @@
 		(uuid "d736db32-7186-49b8-9cc3-59634382adc7")
 	)
 	(junction
+		(at 226.06 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7670124-21e7-443f-b78b-816469d40e82")
+	)
+	(junction
 		(at 259.08 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db5dce8f-82c0-4db2-b419-baebd7a7e791")
+	)
+	(junction
+		(at 259.08 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db6ab20c-92ce-4954-8f99-2167111c4874")
 	)
 	(junction
 		(at 325.12 168.91)
@@ -4722,16 +6765,16 @@
 		(uuid "e016004b-9358-4cdc-8a3e-e161f9e9bd7e")
 	)
 	(junction
-		(at 271.78 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6c80c64-6870-49ba-a10a-935d025984dd")
-	)
-	(junction
 		(at 307.34 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb719ed5-1b35-4628-9fba-6df09fe77b0a")
+	)
+	(junction
+		(at 259.08 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f55ae9ff-a5ea-4cdc-b52b-5d2483798842")
 	)
 	(junction
 		(at 92.71 200.66)
@@ -4744,12 +6787,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f976caa4-e49e-4b09-97af-793c308726dc")
-	)
-	(junction
-		(at 226.06 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff19809a-6088-493d-906a-11623c9a977e")
 	)
 	(no_connect
 		(at 326.39 158.75)
@@ -4775,6 +6812,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 250.19) (xy 180.34 250.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "017f52c7-5e3c-4b73-8fa1-a71ccf0d106f")
+	)
+	(wire
+		(pts
 			(xy 66.04 146.05) (xy 48.26 146.05)
 		)
 		(stroke
@@ -4795,7 +6842,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 237.49) (xy 77.47 237.49)
+			(xy 279.4 69.85) (xy 281.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03510076-4626-49fc-b9e7-cc36d2f0051c")
+	)
+	(wire
+		(pts
+			(xy 58.42 234.95) (xy 77.47 234.95)
 		)
 		(stroke
 			(width 0.1524)
@@ -4832,6 +6889,16 @@
 			(type solid)
 		)
 		(uuid "0562885f-9894-4216-a864-570f8a66a91b")
+	)
+	(wire
+		(pts
+			(xy 40.64 177.8) (xy 40.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05da27a7-d9b0-4558-b88f-9ac28d122137")
 	)
 	(wire
 		(pts
@@ -4892,16 +6959,6 @@
 			(type solid)
 		)
 		(uuid "0a227a13-3d5e-4bfd-afc9-efc14d4f05d0")
-	)
-	(wire
-		(pts
-			(xy 250.19 184.15) (xy 250.19 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0a593494-0e65-4392-8dfd-6c8a7f81a3a2")
 	)
 	(wire
 		(pts
@@ -4975,16 +7032,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 49.53) (xy 234.95 49.53)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "15033451-ddf9-478e-98aa-c133d8a1d549")
-	)
-	(wire
-		(pts
 			(xy 66.04 218.44) (xy 66.04 219.71)
 		)
 		(stroke
@@ -4995,6 +7042,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 177.8) (xy 48.26 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179abf04-ac96-4b34-a58c-48af5c9e9858")
+	)
+	(wire
+		(pts
 			(xy 259.08 140.97) (xy 259.08 128.27)
 		)
 		(stroke
@@ -5002,6 +7059,16 @@
 			(type solid)
 		)
 		(uuid "17e10cbb-747f-4c09-b3a4-e36ebd78f990")
+	)
+	(wire
+		(pts
+			(xy 58.42 177.8) (xy 58.42 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183c5ee8-18c0-43bb-8f54-3669cea8be2c")
 	)
 	(wire
 		(pts
@@ -5055,16 +7122,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 195.58) (xy 66.04 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c733ae1-0960-474c-b11e-961d54a47215")
-	)
-	(wire
-		(pts
 			(xy 240.03 80.01) (xy 240.03 81.28)
 		)
 		(stroke
@@ -5075,7 +7132,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 29.21) (xy 274.32 29.21)
+			(xy 271.78 26.67) (xy 274.32 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5092,6 +7149,26 @@
 			(type solid)
 		)
 		(uuid "1d562b8d-9e2b-4933-955d-85bdec47c5dc")
+	)
+	(wire
+		(pts
+			(xy 259.08 236.22) (xy 259.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5f763f-defa-4924-aba6-57f0a0ed766c")
+	)
+	(wire
+		(pts
+			(xy 232.41 77.47) (xy 226.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dffcc16-a8e5-42a1-bd46-8c68702a824e")
 	)
 	(wire
 		(pts
@@ -5145,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 250.19) (xy 180.34 250.19)
+			(xy 66.04 250.19) (xy 74.93 250.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -5165,13 +7242,13 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 74.93) (xy 283.21 74.93)
+			(xy 151.13 111.76) (xy 151.13 114.3)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "271e1958-e649-4791-97b8-812f6fc67ca1")
+		(uuid "2797037b-f91d-4280-8843-d3a1e823abef")
 	)
 	(wire
 		(pts
@@ -5195,6 +7272,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 128.27) (xy 302.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1fb04d-371c-4b91-a978-cb2626485238")
+	)
+	(wire
+		(pts
 			(xy 259.08 44.45) (xy 259.08 59.69)
 		)
 		(stroke
@@ -5202,16 +7289,6 @@
 			(type solid)
 		)
 		(uuid "2b95acf6-81e7-4319-987d-87f628a4fff8")
-	)
-	(wire
-		(pts
-			(xy 66.04 195.58) (xy 66.04 218.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2c1acb0f-3f48-4469-9aa6-aafedde8864d")
 	)
 	(wire
 		(pts
@@ -5275,6 +7352,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 132.08) (xy 369.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6c90f7-37b8-4199-aa7e-92a4946aa898")
+	)
+	(wire
+		(pts
 			(xy 48.26 208.28) (xy 48.26 228.6)
 		)
 		(stroke
@@ -5285,13 +7372,23 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 137.16) (xy 250.19 139.7)
+			(xy 293.37 77.47) (xy 293.37 123.19)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "30d1845b-74c5-46fd-bd8a-d8a25b9bfcc0")
+		(uuid "30af42db-db82-44c4-93fa-9574d1a1cdc7")
+	)
+	(wire
+		(pts
+			(xy 246.38 171.45) (xy 248.92 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e216fa-eb36-4e16-8451-a02747f0ed28")
 	)
 	(wire
 		(pts
@@ -5315,6 +7412,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 81.28) (xy 237.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330bb518-f6f1-414b-9f75-ab6cb6b2b617")
+	)
+	(wire
+		(pts
 			(xy 259.08 44.45) (xy 278.13 44.45)
 		)
 		(stroke
@@ -5322,6 +7429,16 @@
 			(type solid)
 		)
 		(uuid "33c71dfc-865c-44e2-b8f3-9829ad5c0886")
+	)
+	(wire
+		(pts
+			(xy 118.11 166.37) (xy 120.65 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e75ab7-93d8-4531-9e03-f49c72f8765b")
 	)
 	(polyline
 		(pts
@@ -5365,6 +7482,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 165.1) (xy 387.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae89e56-8d55-4bee-8c87-51fb43651497")
+	)
+	(wire
+		(pts
 			(xy 175.26 166.37) (xy 175.26 146.05)
 		)
 		(stroke
@@ -5385,6 +7512,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 182.88) (xy 40.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd27e4a-0cc8-4c74-a3f5-79793fcfbb3a")
+	)
+	(wire
+		(pts
 			(xy 248.92 171.45) (xy 250.19 171.45)
 		)
 		(stroke
@@ -5392,6 +7529,16 @@
 			(type solid)
 		)
 		(uuid "3e0ee626-ac39-4ae8-948b-0bcffaa051e6")
+	)
+	(wire
+		(pts
+			(xy 251.46 148.59) (xy 250.19 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f006ca8-1b46-47eb-9802-4d664590043d")
 	)
 	(wire
 		(pts
@@ -5425,16 +7572,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 152.4) (xy 250.19 151.13)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "40abcc38-4577-475e-b949-ef573fb582e4")
-	)
-	(wire
-		(pts
 			(xy 226.06 176.53) (xy 229.87 176.53)
 		)
 		(stroke
@@ -5462,6 +7599,16 @@
 			(type solid)
 		)
 		(uuid "43e0f17e-eeb2-4bec-9e5a-70b8db55fb3c")
+	)
+	(wire
+		(pts
+			(xy 259.08 241.3) (xy 259.08 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ca5fa9-ba1b-49d0-a395-839657a3b4aa")
 	)
 	(polyline
 		(pts
@@ -5505,7 +7652,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 33.02) (xy 260.35 33.02)
+			(xy 259.08 33.02) (xy 262.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5535,6 +7682,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 185.42) (xy 66.04 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a62345b-7aec-4839-b6cf-e0ac471644e3")
+	)
+	(wire
+		(pts
 			(xy 259.08 205.74) (xy 307.34 205.74)
 		)
 		(stroke
@@ -5545,13 +7702,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 33.02) (xy 270.51 33.02)
+			(xy 33.02 172.72) (xy 33.02 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bb461f5-2081-444c-afd1-1ad26ecba575")
+		(uuid "4b8b5b0a-a90a-4289-9540-3ad30ebc6ace")
 	)
 	(wire
 		(pts
@@ -5585,6 +7742,26 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 181.61) (xy 307.34 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eab0798-20e5-427a-a521-d69ff32c795e")
+	)
+	(wire
+		(pts
+			(xy 285.75 52.07) (xy 285.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edbc82a-8f71-4751-b016-3d109ff43366")
+	)
+	(wire
+		(pts
 			(xy 250.19 200.66) (xy 180.34 200.66)
 		)
 		(stroke
@@ -5595,7 +7772,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 195.58) (xy 48.26 185.42)
+			(xy 250.19 154.94) (xy 250.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f09edb0-6965-4896-9386-3303f591334c")
+	)
+	(wire
+		(pts
+			(xy 285.75 77.47) (xy 293.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f65184e-f36d-4151-b308-ac69880b5926")
+	)
+	(wire
+		(pts
+			(xy 48.26 185.42) (xy 48.26 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -5615,6 +7812,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 238.76) (xy 58.42 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5073a89d-5d1d-4e65-b253-ad5cad13b215")
+	)
+	(wire
+		(pts
 			(xy 213.36 49.53) (xy 212.09 49.53)
 		)
 		(stroke
@@ -5622,16 +7829,6 @@
 			(type solid)
 		)
 		(uuid "507e4745-b4d9-409c-b86a-04f8e470ed31")
-	)
-	(wire
-		(pts
-			(xy 250.19 171.45) (xy 250.19 173.99)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "50f74860-b896-4ac0-af46-5bc5166a3daf")
 	)
 	(wire
 		(pts
@@ -5705,13 +7902,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 54.61) (xy 297.18 54.61)
+			(xy 307.34 157.48) (xy 307.34 160.02)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "54e553d3-527b-439f-a466-2e506a85ddfe")
+		(uuid "5581f94d-07d4-4d8e-99c2-0a36befdef88")
 	)
 	(wire
 		(pts
@@ -5765,13 +7962,23 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 29.21) (xy 271.78 29.21)
+			(xy 132.08 140.97) (xy 132.08 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b2acbb1-5b7a-4d4b-82d2-4f8bc4b520a6")
+		(uuid "5a485199-7510-4783-8bf5-81222c3a3d8c")
+	)
+	(wire
+		(pts
+			(xy 232.41 74.93) (xy 232.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aae9995-9898-4446-96f0-bbc2fad7f8cc")
 	)
 	(wire
 		(pts
@@ -5815,16 +8022,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 185.42) (xy 250.19 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5dc2a567-de5d-4cbc-8851-e5dffaf90782")
-	)
-	(wire
-		(pts
 			(xy 248.92 137.16) (xy 250.19 137.16)
 		)
 		(stroke
@@ -5845,6 +8042,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 184.15) (xy 73.66 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622009cf-cd16-4ba8-b21e-9caf19fbe11d")
+	)
+	(wire
+		(pts
 			(xy 259.08 247.65) (xy 259.08 252.73)
 		)
 		(stroke
@@ -5852,6 +8059,26 @@
 			(type solid)
 		)
 		(uuid "6260c780-d366-4a2d-b906-1028579bff68")
+	)
+	(wire
+		(pts
+			(xy 242.57 176.53) (xy 237.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6275d9bb-b981-42aa-8e75-725def2466ea")
+	)
+	(wire
+		(pts
+			(xy 285.75 54.61) (xy 297.18 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "628e569c-0468-4a79-b5bb-0f74acf41e67")
 	)
 	(wire
 		(pts
@@ -5865,6 +8092,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 168.91) (xy 294.64 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6383e71c-6c6d-43fa-af12-a5a8e50d15b0")
+	)
+	(wire
+		(pts
 			(xy 73.66 200.66) (xy 92.71 200.66)
 		)
 		(stroke
@@ -5875,13 +8112,13 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 176.53) (xy 245.11 176.53)
+			(xy 73.66 224.79) (xy 74.93 224.79)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "685e8cb5-4603-4a72-ac87-06407567261c")
+		(uuid "680f6322-d697-4fda-8e32-64d95e0ca022")
 	)
 	(polyline
 		(pts
@@ -5935,6 +8172,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 154.94) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0a5cdd-7d8d-4064-af3e-096570f45054")
+	)
+	(wire
+		(pts
 			(xy 132.08 146.05) (xy 132.08 143.51)
 		)
 		(stroke
@@ -5952,6 +8199,16 @@
 			(type solid)
 		)
 		(uuid "6f513a26-950f-4ffe-97fe-8db7856d6a30")
+	)
+	(wire
+		(pts
+			(xy 58.42 182.88) (xy 58.42 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb92eaa-f9a8-4612-b7ba-aa1caf2079a1")
 	)
 	(wire
 		(pts
@@ -5985,6 +8242,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72660a79-b5ed-44fa-89a0-01a38242b710")
+	)
+	(wire
+		(pts
 			(xy 92.71 147.32) (xy 92.71 146.05)
 		)
 		(stroke
@@ -6002,6 +8269,16 @@
 			(type solid)
 		)
 		(uuid "744161e7-0d24-406c-92b8-b549bb42cb20")
+	)
+	(wire
+		(pts
+			(xy 317.5 59.69) (xy 317.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75726afb-97c8-46c6-ada6-6e562231883a")
 	)
 	(wire
 		(pts
@@ -6065,6 +8342,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 182.88) (xy 250.19 186.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b2ba443-ae41-450f-b67e-5be3eee33bbb")
+	)
+	(wire
+		(pts
 			(xy 166.37 128.27) (xy 207.01 128.27)
 		)
 		(stroke
@@ -6092,6 +8379,26 @@
 			(type solid)
 		)
 		(uuid "7c3a9aeb-100c-4453-a89c-78c43298d6a3")
+	)
+	(wire
+		(pts
+			(xy 58.42 234.95) (xy 55.88 234.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7c8e5160-7d81-4ebc-b2ae-6ac5f039b99c")
+	)
+	(wire
+		(pts
+			(xy 250.19 148.59) (xy 250.19 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d8cc474-34af-4f5c-846b-4940d24fa835")
 	)
 	(wire
 		(pts
@@ -6125,16 +8432,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 250.19) (xy 72.39 248.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7ef7b549-37df-4985-b6b3-dde33ea835e1")
-	)
-	(wire
-		(pts
 			(xy 312.42 54.61) (xy 313.69 54.61)
 		)
 		(stroke
@@ -6162,6 +8459,16 @@
 			(type solid)
 		)
 		(uuid "805fbffa-752a-4988-bebd-09c0379ac955")
+	)
+	(wire
+		(pts
+			(xy 232.41 52.07) (xy 232.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807abfeb-9b13-4b9f-8432-ba03379f8ebc")
 	)
 	(wire
 		(pts
@@ -6225,16 +8532,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 195.58) (xy 48.26 208.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "890ca6a1-60a8-41d5-b318-a674891acf2b")
-	)
-	(wire
-		(pts
 			(xy 259.08 168.91) (xy 259.08 166.37)
 		)
 		(stroke
@@ -6252,6 +8549,16 @@
 			(type solid)
 		)
 		(uuid "8a794c13-0078-46b3-825e-11377c4eb3c0")
+	)
+	(wire
+		(pts
+			(xy 387.35 170.18) (xy 387.35 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c727f9c-2118-4031-961e-72b3c9e7cd6c")
 	)
 	(wire
 		(pts
@@ -6315,6 +8622,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 129.54) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90409511-b4ed-42e4-bf10-5c2afdfb3543")
+	)
+	(wire
+		(pts
+			(xy 66.04 193.04) (xy 66.04 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90e14f6e-bf20-44ea-aeef-e977aa514e00")
+	)
+	(wire
+		(pts
+			(xy 241.3 171.45) (xy 238.76 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fd5d4c-18cf-4b30-9da0-9184292470e4")
+	)
+	(wire
+		(pts
 			(xy 387.35 180.34) (xy 387.35 196.85)
 		)
 		(stroke
@@ -6325,7 +8662,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 248.92) (xy 58.42 250.19)
+			(xy 58.42 246.38) (xy 58.42 250.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -6365,13 +8702,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 227.33) (xy 77.47 227.33)
+			(xy 375.92 170.18) (xy 375.92 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93c7baac-b332-46c0-9e72-9087df13b39e")
+		(uuid "93639a96-b77a-4d6d-b2ed-41ed659781b5")
 	)
 	(wire
 		(pts
@@ -6405,6 +8742,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 137.16) (xy 248.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956d9541-fbfd-4fde-934b-835ccdef086d")
+	)
+	(wire
+		(pts
 			(xy 48.26 250.19) (xy 48.26 240.03)
 		)
 		(stroke
@@ -6425,33 +8772,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 151.13) (xy 250.19 151.13)
+			(xy 151.13 104.14) (xy 151.13 106.68)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "98014ca7-7890-4ea9-b345-dbda36b3d592")
+		(uuid "96f8bafe-2512-4cee-a381-2a0ee853a56e")
 	)
 	(wire
 		(pts
-			(xy 293.37 69.85) (xy 293.37 74.93)
+			(xy 48.26 182.88) (xy 48.26 185.42)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "98b047ae-7cf6-4bcd-aa39-7cc10eb3d3f5")
-	)
-	(wire
-		(pts
-			(xy 45.72 195.58) (xy 48.26 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "994a777a-1313-4577-abdb-399cfb0fd504")
+		(uuid "97c5df9a-a31f-4220-b482-b208677fee30")
 	)
 	(wire
 		(pts
@@ -6535,6 +8872,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 177.8) (xy 66.04 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a497daaa-3497-4b08-8cdf-7857071ea71c")
+	)
+	(wire
+		(pts
 			(xy 267.97 154.94) (xy 267.97 137.16)
 		)
 		(stroke
@@ -6542,6 +8889,16 @@
 			(type solid)
 		)
 		(uuid "a64bf8bd-0d31-455a-8889-4b1418a558e0")
+	)
+	(wire
+		(pts
+			(xy 113.03 166.37) (xy 110.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73b8e96-b155-46b9-bc6f-c6ad1d7e4e45")
 	)
 	(polyline
 		(pts
@@ -6565,6 +8922,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 243.84) (xy 74.93 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78eb085-60de-40b5-ad22-9f031f6806de")
+	)
+	(wire
+		(pts
 			(xy 361.95 146.05) (xy 382.27 146.05)
 		)
 		(stroke
@@ -6575,7 +8942,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 151.13) (xy 250.19 149.86)
+			(xy 250.19 147.32) (xy 250.19 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -6602,6 +8969,16 @@
 			(type solid)
 		)
 		(uuid "aa9450e3-f0ef-4a46-8ef2-70967f53bca3")
+	)
+	(wire
+		(pts
+			(xy 48.26 193.04) (xy 48.26 208.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aaf83d05-92d5-4afe-8cf5-b4b0b301af59")
 	)
 	(wire
 		(pts
@@ -6713,6 +9090,16 @@
 		)
 		(uuid "b5a48b14-7caa-4848-8131-e7211b350305")
 	)
+	(wire
+		(pts
+			(xy 74.93 238.76) (xy 74.93 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b612c865-1623-491f-a5b4-07f5b7899705")
+	)
 	(polyline
 		(pts
 			(xy 273.05 66.04) (xy 270.51 66.04)
@@ -6722,6 +9109,36 @@
 			(type solid)
 		)
 		(uuid "b6d2e323-b780-4f5e-8bfe-05bde9d886aa")
+	)
+	(wire
+		(pts
+			(xy 118.11 171.45) (xy 120.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71876ed-ae3d-4628-8493-8058125bcf06")
+	)
+	(wire
+		(pts
+			(xy 227.33 81.28) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b36902-dd62-4979-b24b-de819f8cd834")
+	)
+	(wire
+		(pts
+			(xy 232.41 49.53) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ec08be-4155-46ac-9d0f-a62d595ca70e")
 	)
 	(wire
 		(pts
@@ -6735,7 +9152,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 29.21) (xy 271.78 33.02)
+			(xy 271.78 26.67) (xy 271.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6895,7 +9312,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 237.49) (xy 58.42 238.76)
+			(xy 250.19 160.02) (xy 250.19 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33a1af2-df85-4f87-abc2-5f418648976b")
+	)
+	(wire
+		(pts
+			(xy 58.42 234.95) (xy 58.42 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -6915,7 +9342,17 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 74.93) (xy 293.37 123.19)
+			(xy 251.46 182.88) (xy 250.19 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63c9fff-2a18-4ca9-9f52-ecf1bcdea977")
+	)
+	(wire
+		(pts
+			(xy 293.37 69.85) (xy 293.37 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -6932,6 +9369,16 @@
 			(type solid)
 		)
 		(uuid "c82aa11d-8d44-4940-9c40-13cdcb49c8c0")
+	)
+	(wire
+		(pts
+			(xy 58.42 243.84) (xy 58.42 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f6a638-0ab4-4330-8314-adc7924fac79")
 	)
 	(wire
 		(pts
@@ -6952,16 +9399,6 @@
 			(type solid)
 		)
 		(uuid "c9b03a86-c570-4436-9ebb-6801218d4ae6")
-	)
-	(wire
-		(pts
-			(xy 234.95 77.47) (xy 226.06 77.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "caa041f3-0a73-4ffa-9f54-05ef687c3f23")
 	)
 	(wire
 		(pts
@@ -7045,6 +9482,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 53.34) (xy 204.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d092caa7-d4a4-49cc-ab30-11107b7bfe2c")
+	)
+	(wire
+		(pts
 			(xy 317.5 62.23) (xy 317.5 63.5)
 		)
 		(stroke
@@ -7125,6 +9572,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 147.32) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cad94c-2b5d-4fc9-83fe-1ee5c20e7ed1")
+	)
+	(wire
+		(pts
 			(xy 295.91 38.1) (xy 295.91 57.15)
 		)
 		(stroke
@@ -7135,7 +9592,27 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 185.42) (xy 250.19 186.69)
+			(xy 74.93 224.79) (xy 80.01 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d431dc76-7ff4-409b-ab60-cb6bcd38a67e")
+	)
+	(wire
+		(pts
+			(xy 292.1 128.27) (xy 294.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d444ab4b-f5f4-48d4-9e13-3a79e6285657")
+	)
+	(wire
+		(pts
+			(xy 250.19 181.61) (xy 250.19 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7155,16 +9632,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 142.24) (xy 245.11 142.24)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d55e1b57-d446-45ac-ab7e-389c44d246a9")
-	)
-	(wire
-		(pts
 			(xy 364.49 173.99) (xy 364.49 180.34)
 		)
 		(stroke
@@ -7172,16 +9639,6 @@
 			(type solid)
 		)
 		(uuid "d5ddc1d8-7d1d-40a1-89f2-fc89bcdcbe83")
-	)
-	(wire
-		(pts
-			(xy 71.12 227.33) (xy 72.39 227.33)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d67c3653-0cfa-430c-9eb6-fa3a13dc252b")
 	)
 	(wire
 		(pts
@@ -7265,13 +9722,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 237.49) (xy 58.42 237.49)
+			(xy 271.78 26.67) (xy 266.7 26.67)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "dd29437e-b526-4122-9240-4ce94f3c5bb2")
+		(uuid "dc35b241-ebe4-4fd0-a053-d6cd85b6c719")
 	)
 	(wire
 		(pts
@@ -7325,6 +9782,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb680a4-9b0b-464e-a1ff-f294b6ee632d")
+	)
+	(wire
+		(pts
 			(xy 307.34 152.4) (xy 307.34 128.27)
 		)
 		(stroke
@@ -7345,7 +9812,17 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 162.56) (xy 375.92 160.02)
+			(xy 238.76 137.16) (xy 241.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09feffb-77a5-45d4-b598-2d891b475cfc")
+	)
+	(wire
+		(pts
+			(xy 375.92 160.02) (xy 375.92 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -7395,6 +9872,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 33.02) (xy 271.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64ed886-e00a-4746-91f6-a52c65b2a6eb")
+	)
+	(wire
+		(pts
 			(xy 180.34 250.19) (xy 180.34 200.66)
 		)
 		(stroke
@@ -7415,16 +9902,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 250.19) (xy 72.39 250.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e7e6c383-fc91-481e-89d3-37f924857cc3")
-	)
-	(wire
-		(pts
 			(xy 289.56 52.07) (xy 289.56 59.69)
 		)
 		(stroke
@@ -7435,7 +9912,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 227.33) (xy 72.39 238.76)
+			(xy 74.93 224.79) (xy 74.93 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -7455,6 +9932,26 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 135.89) (xy 313.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b38d43-4ff6-4f11-a1b4-80e7d84f6c73")
+	)
+	(wire
+		(pts
+			(xy 250.19 189.23) (xy 250.19 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb38681d-d883-4386-909c-1b8653c5a25e")
+	)
+	(wire
+		(pts
 			(xy 73.66 176.53) (xy 73.66 179.07)
 		)
 		(stroke
@@ -7462,6 +9959,16 @@
 			(type solid)
 		)
 		(uuid "ec58b745-2b92-4b0a-91aa-1abfb97b271d")
+	)
+	(wire
+		(pts
+			(xy 250.19 194.31) (xy 250.19 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed02b1d5-46db-40d1-bf4d-2a876a22e59c")
 	)
 	(wire
 		(pts
@@ -7482,6 +9989,16 @@
 			(type solid)
 		)
 		(uuid "ed3a0813-5ca8-4832-b2dc-3a7ed50aa0ee")
+	)
+	(wire
+		(pts
+			(xy 299.72 168.91) (xy 302.26 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed607f1d-2246-414c-a0f7-dea3c58d2333")
 	)
 	(wire
 		(pts
@@ -7512,16 +10029,6 @@
 			(type solid)
 		)
 		(uuid "ee25e136-6cf5-44ec-ae56-dc688b825c74")
-	)
-	(wire
-		(pts
-			(xy 66.04 195.58) (xy 63.5 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "efa858db-5711-444e-b348-5d9597e01ca0")
 	)
 	(wire
 		(pts
@@ -7565,6 +10072,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 132.08) (xy 359.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2638cf5-8b12-4ef8-963d-5a4068fb0913")
+	)
+	(wire
+		(pts
 			(xy 304.8 63.5) (xy 304.8 62.23)
 		)
 		(stroke
@@ -7572,6 +10089,16 @@
 			(type solid)
 		)
 		(uuid "f2a991fb-337b-4bf0-ad1a-721990389cdf")
+	)
+	(wire
+		(pts
+			(xy 287.02 69.85) (xy 289.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50bfa93-9ff5-4ad8-96cb-50596d3b7af8")
 	)
 	(wire
 		(pts
@@ -7585,7 +10112,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 231.14) (xy 250.19 232.41)
+			(xy 250.19 228.6) (xy 250.19 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7655,7 +10182,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 219.71) (xy 250.19 220.98)
+			(xy 66.04 182.88) (xy 66.04 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faed6b22-c7d7-4158-a6f4-57feacece55c")
+	)
+	(wire
+		(pts
+			(xy 250.19 219.71) (xy 250.19 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7857,7 +10394,7 @@
 	)
 	(hierarchical_label "DISCHARGE-DISABLE-PK1"
 		(shape bidirectional)
-		(at 77.47 227.33 0)
+		(at 80.01 224.79 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7922,7 +10459,7 @@
 	)
 	(hierarchical_label "POS-BATT-DISC"
 		(shape input)
-		(at 274.32 29.21 0)
+		(at 274.32 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7935,7 +10472,7 @@
 	)
 	(hierarchical_label "CHARGE-DISABLE-PK1"
 		(shape bidirectional)
-		(at 77.47 237.49 0)
+		(at 77.47 234.95 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8012,8 +10549,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 387.35 167.64 90)
+		(lib_id "Device:R_Small_US")
+		(at 387.35 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8021,7 +10558,7 @@
 		(dnp no)
 		(uuid "016f007d-c072-466d-b75f-63e9a732c0d6")
 		(property "Reference" "R73"
-			(at 385.8514 171.45 0)
+			(at 391.16 169.1386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +10567,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 390.652 171.45 0)
+			(at 391.16 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +10584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 387.35 167.64 0)
 			(effects
 				(font
@@ -8056,12 +10593,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 387.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8120,8 +10658,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 250.19 191.77 270)
+		(lib_id "Device:R_Small_US")
+		(at 250.19 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8129,7 +10667,7 @@
 		(dnp no)
 		(uuid "027b72e0-5338-4c60-b834-c804002de39a")
 		(property "Reference" "R61"
-			(at 248.6914 194.31 0)
+			(at 247.396 193.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +10676,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 254 194.31 0)
+			(at 248.412 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +10693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 191.77 0)
 			(effects
 				(font
@@ -8164,12 +10702,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 250.19 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8212,10 +10751,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "5f8bf114-6626-43a5-a531-35a87fa61674")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "14a6200a-140e-48e2-a370-d229696ca0fe")
 		)
 		(instances
@@ -8228,7 +10767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 68.58 224.79 0)
 		(mirror y)
 		(unit 1)
@@ -8256,6 +10795,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 63.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 68.58 224.79 0)
 			(effects
 				(font
@@ -8264,21 +10812,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 68.58 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8340,7 +10880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 204.47 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8366,7 +10906,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 204.47 50.8 0)
 			(effects
 				(font
@@ -8375,7 +10915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 204.47 50.8 0)
 			(effects
 				(font
@@ -8384,12 +10924,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 204.47 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8448,8 +10989,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 48.26 180.34 90)
+		(lib_id "Device:R_Small_US")
+		(at 48.26 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8457,7 +10998,7 @@
 		(dnp no)
 		(uuid "03c77724-6e15-40d0-a72c-03ef66a7310a")
 		(property "Reference" "R46"
-			(at 46.99 184.15 0)
+			(at 45.974 179.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +11007,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 46.99 179.07 0)
+			(at 46.99 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +11024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 180.34 0)
 			(effects
 				(font
@@ -8492,12 +11033,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 48.26 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8556,8 +11098,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 66.04 180.34 270)
+		(lib_id "Device:R_Small_US")
+		(at 66.04 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8565,7 +11107,7 @@
 		(dnp no)
 		(uuid "058a5bfd-a8a7-41c2-811b-be29bf7a8607")
 		(property "Reference" "R49"
-			(at 64.77 185.42 0)
+			(at 63.754 179.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +11116,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 64.77 179.07 0)
+			(at 64.77 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +11133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 180.34 0)
 			(effects
 				(font
@@ -8600,12 +11142,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 66.04 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8648,10 +11191,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "b58e7fc1-cf29-4f4b-82f8-9aeb71c026cb")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "1ed986f2-6649-4492-94f1-cd915bebdbf7")
 		)
 		(instances
@@ -8730,8 +11273,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 265.43 33.02 180)
+		(lib_id "Device:R_Small_US")
+		(at 265.43 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8739,7 +11282,7 @@
 		(dnp no)
 		(uuid "0ba23f73-38ee-4ac6-9adc-b7efcef5f264")
 		(property "Reference" "R69"
-			(at 260.35 35.56 0)
+			(at 271.018 35.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +11291,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 266.7 35.56 0)
+			(at 264.668 35.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +11308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 265.43 33.02 0)
 			(effects
 				(font
@@ -8774,12 +11317,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8838,8 +11382,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 297.18 128.27 180)
+		(lib_id "Device:R_Small_US")
+		(at 297.18 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8847,7 +11391,7 @@
 		(dnp no)
 		(uuid "0e0b5ed6-b9da-43ff-87ec-cbe307ffb8d8")
 		(property "Reference" "R65"
-			(at 292.1 127 0)
+			(at 302.006 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +11400,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 298.45 127 0)
+			(at 295.656 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +11417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 297.18 128.27 0)
 			(effects
 				(font
@@ -8882,12 +11426,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 297.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8930,10 +11475,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "173aee5c-89f7-426e-afc8-5a9498e5eccf")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "5a32a304-b418-44d4-9718-8ff78cd4f53c")
 		)
 		(instances
@@ -9011,8 +11556,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6")
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 256.54 182.88 0)
+		(at 257.81 182.88 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9021,7 +11567,7 @@
 		(dnp no)
 		(uuid "101c9bc6-284b-4cfe-b69d-4b6850641881")
 		(property "Reference" "Q17"
-			(at 261.62 183.515 0)
+			(at 262.89 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +11576,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 261.62 180.975 0)
+			(at 262.89 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +11585,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,7 +11594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +11603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +11611,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +11621,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +11631,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,7 +11641,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 256.54 182.88 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,29 +11653,11 @@
 		(pin "1"
 			(uuid "6c05beab-4720-4d11-a1ae-b18115a45b8a")
 		)
-		(pin "2"
-			(uuid "31ec7efe-ac50-4a46-b0ce-56b6aad70df3")
-		)
-		(pin "3"
-			(uuid "cd2f20c3-860b-40f3-9af5-48333f177116")
-		)
 		(pin "4"
 			(uuid "92b67f3b-8de9-498b-807a-373601657516")
 		)
 		(pin "5"
 			(uuid "4196b3b2-4627-4858-ab6d-193dad58b229")
-		)
-		(pin "6"
-			(uuid "121f467b-86b9-4f53-88e3-79de5e293ae1")
-		)
-		(pin "7"
-			(uuid "842c897a-ceff-43af-af94-27fd0c00d535")
-		)
-		(pin "8"
-			(uuid "abce2353-478a-42d3-9292-2ba8767fa302")
-		)
-		(pin "PAD"
-			(uuid "229e38df-8224-41c7-b053-5dfa97585842")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -9141,7 +11669,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_name "Q_NMOS_GSD_3")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 50.8 234.95 0)
 		(mirror y)
 		(unit 1)
@@ -9169,6 +11698,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 45.72 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 50.8 234.95 0)
 			(effects
 				(font
@@ -9177,21 +11715,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 50.8 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -9389,7 +11919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 73.66 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9415,7 +11945,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 73.66 181.61 0)
 			(effects
 				(font
@@ -9424,7 +11954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 73.66 181.61 0)
 			(effects
 				(font
@@ -9433,12 +11963,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 73.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -9749,8 +12280,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 40.64 180.34 90)
+		(lib_id "Device:R_Small_US")
+		(at 40.64 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9758,7 +12289,7 @@
 		(dnp no)
 		(uuid "22caa61b-c46f-45c0-89ed-0580773d7529")
 		(property "Reference" "R45"
-			(at 39.37 184.15 0)
+			(at 39.116 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +12298,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 39.37 177.8 0)
+			(at 37.592 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +12315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 180.34 0)
 			(effects
 				(font
@@ -9793,12 +12324,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 40.64 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Yageo"
@@ -9831,10 +12363,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "ac656bc6-4419-4dc7-8c94-2371ecf43794")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "f7a45a17-ac68-4160-a940-94c22fae947f")
 		)
 		(instances
@@ -9914,8 +12446,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 92.71 152.4 90)
+		(lib_id "Device:R_Small_US")
+		(at 92.71 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9923,7 +12455,7 @@
 		(dnp no)
 		(uuid "24f1fae5-8a3a-4ac5-a8cf-a0a7802a99e0")
 		(property "Reference" "R51"
-			(at 91.2114 156.21 0)
+			(at 96.52 153.8986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +12464,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 96.012 156.21 0)
+			(at 96.52 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +12481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 92.71 152.4 0)
 			(effects
 				(font
@@ -9958,12 +12490,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 92.71 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -10326,7 +12859,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_name "Q_NMOS_GSD_1")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 43.18 193.04 0)
 		(mirror y)
 		(unit 1)
@@ -10354,6 +12888,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 38.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 43.18 193.04 0)
 			(effects
 				(font
@@ -10362,21 +12905,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 43.18 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -10438,7 +12973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 313.69 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10464,7 +12999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 313.69 133.35 0)
 			(effects
 				(font
@@ -10473,7 +13008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 313.69 133.35 0)
 			(effects
 				(font
@@ -10482,12 +13017,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 313.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -10613,8 +13149,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 375.92 167.64 90)
+		(lib_id "Device:R_Small_US")
+		(at 375.92 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10622,7 +13158,7 @@
 		(dnp no)
 		(uuid "340d5c19-ffee-4b76-9adf-43e9c240833b")
 		(property "Reference" "R71"
-			(at 374.4214 171.45 0)
+			(at 379.73 169.1386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +13167,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 379.222 171.45 0)
+			(at 379.73 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10648,7 +13184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 375.92 167.64 0)
 			(effects
 				(font
@@ -10657,12 +13193,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 375.92 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -10715,10 +13252,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "cd7ca93b-d6dd-4ffd-9719-e6f77d9abfa7")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "414e5292-c9bc-4481-84ee-797f7b9c8787")
 		)
 		(instances
@@ -10798,7 +13335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 359.41 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10824,7 +13361,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 359.41 129.54 0)
 			(effects
 				(font
@@ -10833,7 +13370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 359.41 129.54 0)
 			(effects
 				(font
@@ -10842,12 +13379,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 359.41 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -11233,7 +13771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 132.08 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11259,7 +13797,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 132.08 138.43 0)
 			(effects
 				(font
@@ -11268,7 +13806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 132.08 138.43 0)
 			(effects
 				(font
@@ -11277,12 +13815,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -11451,7 +13990,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_name "Q_NMOS_GSD_2")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 60.96 193.04 0)
 		(mirror y)
 		(unit 1)
@@ -11479,6 +14019,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 60.96 193.04 0)
 			(effects
 				(font
@@ -11487,21 +14036,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 60.96 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -11564,7 +14105,7 @@
 	)
 	(symbol
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 261.62 26.67 180)
+		(at 260.35 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11572,7 +14113,7 @@
 		(dnp no)
 		(uuid "457592be-5517-478a-b5eb-80cdb47a4ea3")
 		(property "Reference" "Q10"
-			(at 256.54 27.305 0)
+			(at 255.27 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11581,7 +14122,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 256.54 24.765 0)
+			(at 255.27 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,7 +14131,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11599,7 +14140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11608,7 +14149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11616,7 +14157,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +14167,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +14177,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +14187,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 261.62 26.67 0)
+			(at 260.35 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,29 +14199,11 @@
 		(pin "1"
 			(uuid "71151170-ed38-42f4-8e43-ec3fbafdd8e2")
 		)
-		(pin "2"
-			(uuid "bc3fc675-ab7a-40f5-862a-f9b8e17084af")
-		)
-		(pin "3"
-			(uuid "d024a04d-6cd5-4b81-8ef0-42e99c7acf40")
-		)
 		(pin "4"
 			(uuid "7cc97cda-ae46-41da-9c0b-9fa58c3219aa")
 		)
 		(pin "5"
 			(uuid "05ce96d7-0661-4c90-b378-c3a0c47f8d4a")
-		)
-		(pin "6"
-			(uuid "4ee73427-f731-4461-a13d-3c903802ba37")
-		)
-		(pin "7"
-			(uuid "62a0a1ad-97a9-4cf0-9d71-a6e1da9f40ad")
-		)
-		(pin "8"
-			(uuid "b7a9f5e7-cb0c-4c53-bc42-a5684227accf")
-		)
-		(pin "PAD"
-			(uuid "779c2e90-412d-45bf-bbc0-ef8d84ea4829")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -11829,8 +14352,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 115.57 166.37 0)
+		(lib_id "Device:R_Small_US")
+		(at 115.57 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11838,7 +14361,7 @@
 		(dnp no)
 		(uuid "5532fa52-94df-4a57-ad15-2514a8e90761")
 		(property "Reference" "R52"
-			(at 110.49 164.8714 0)
+			(at 120.65 163.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +14370,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 116.84 164.592 0)
+			(at 114.3 163.8554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,7 +14387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 115.57 166.37 0)
 			(effects
 				(font
@@ -11873,12 +14396,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 115.57 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Yageo"
@@ -11927,7 +14451,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 33.02 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11953,7 +14477,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 33.02 170.18 0)
 			(effects
 				(font
@@ -11962,7 +14486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 170.18 0)
 			(effects
 				(font
@@ -11971,12 +14495,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 33.02 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -12156,8 +14681,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 72.39 243.84 90)
+		(lib_id "Device:R_Small_US")
+		(at 74.93 241.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12165,7 +14690,7 @@
 		(dnp no)
 		(uuid "5da09230-9bd8-4c38-b8ba-6a1071b31635")
 		(property "Reference" "R50"
-			(at 71.12 248.92 0)
+			(at 72.644 240.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +14699,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 71.12 242.57 0)
+			(at 73.66 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +14708,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-			(at 72.39 243.84 0)
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,8 +14716,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 243.84 0)
+		(property "Datasheet" "~"
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,16 +14725,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 243.84 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 72.39 243.84 0)
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +14745,7 @@
 			)
 		)
 		(property "DPN" "311-10.0KHRCT-ND"
-			(at 72.39 243.84 0)
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +14755,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 72.39 243.84 0)
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +14765,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 72.39 243.84 0)
+			(at 74.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12531,8 +15057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 250.19 157.48 270)
+		(lib_id "Device:R_Small_US")
+		(at 250.19 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12540,7 +15066,7 @@
 		(dnp no)
 		(uuid "73396643-fe08-4813-a7b0-2e50205448e7")
 		(property "Reference" "R60"
-			(at 248.92 160.02 0)
+			(at 247.142 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +15075,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 254 160.02 0)
+			(at 248.158 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +15092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 157.48 0)
 			(effects
 				(font
@@ -12575,12 +15101,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 250.19 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -12623,10 +15150,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "35717250-7910-48dc-a8e6-755619224626")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "7bd58849-6352-4244-a5e8-4cf4293fb2cb")
 		)
 		(instances
@@ -12639,8 +15166,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 115.57 171.45 0)
+		(lib_id "Device:R_Small_US")
+		(at 115.57 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12648,7 +15175,7 @@
 		(dnp no)
 		(uuid "75935976-deb4-420c-9808-bec95cf07c20")
 		(property "Reference" "R53"
-			(at 110.49 169.9514 0)
+			(at 120.65 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +15184,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 116.84 169.672 0)
+			(at 114.3 172.9994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +15201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -12683,12 +15210,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 115.57 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Yageo"
@@ -12721,10 +15249,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "fde4c81a-1a18-4d72-b34c-97da8e7bdc22")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "b3936d27-2aa4-4b13-80c9-0981c6d26c36")
 		)
 		(instances
@@ -12737,8 +15265,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_1206-C")
-		(at 259.08 238.76 270)
+		(lib_id "Device:R_Small_US")
+		(at 259.08 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12746,7 +15274,7 @@
 		(dnp no)
 		(uuid "796aeaf5-0a5c-4458-b8c8-ebd39895c1ef")
 		(property "Reference" "R62"
-			(at 256.54 240.03 0)
+			(at 257.302 239.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +15283,7 @@
 			)
 		)
 		(property "Value" "10m"
-			(at 262.89 240.03 0)
+			(at 257.81 236.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12772,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 259.08 238.76 0)
 			(effects
 				(font
@@ -12781,12 +15309,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 259.08 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -12992,8 +15521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 58.42 180.34 90)
+		(lib_id "Device:R_Small_US")
+		(at 58.42 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13001,7 +15530,7 @@
 		(dnp no)
 		(uuid "83f668af-22c3-4dcc-9070-938ce53914d3")
 		(property "Reference" "R48"
-			(at 57.15 185.42 0)
+			(at 57.15 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13010,7 +15539,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 57.15 179.07 0)
+			(at 55.626 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +15556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 58.42 180.34 0)
 			(effects
 				(font
@@ -13036,12 +15565,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 58.42 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Yageo"
@@ -13074,10 +15604,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "71efd219-28be-4f84-9726-2c15b9f072b4")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "414540cc-829a-4405-b746-5b9528541a0f")
 		)
 		(instances
@@ -13090,7 +15620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 115.57 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13116,7 +15646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 115.57 127 0)
 			(effects
 				(font
@@ -13125,7 +15655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 115.57 127 0)
 			(effects
 				(font
@@ -13134,12 +15664,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 115.57 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -13307,8 +15838,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2")
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 237.49 52.07 0)
+		(at 238.76 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13316,7 +15848,7 @@
 		(dnp no)
 		(uuid "94b4efdd-daad-49c7-ab1d-4d48972a7153")
 		(property "Reference" "Q13"
-			(at 242.57 51.435 0)
+			(at 243.84 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +15857,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 242.57 53.975 0)
+			(at 243.84 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +15866,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +15875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13352,7 +15884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +15892,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13370,7 +15902,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13380,7 +15912,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +15922,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 237.49 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13402,29 +15934,11 @@
 		(pin "1"
 			(uuid "92e174b9-c816-4ca8-bae5-9393d4dd052a")
 		)
-		(pin "2"
-			(uuid "cfdca479-c9ae-4fe3-8464-ab361eab97d3")
-		)
-		(pin "3"
-			(uuid "143e13a3-63b8-41cb-9f46-fea858a0733d")
-		)
 		(pin "4"
 			(uuid "9d025b69-b888-474c-ae5f-f9f9fc28441e")
 		)
 		(pin "5"
 			(uuid "7e07d528-dfef-4bce-9b25-2994bba43e1d")
-		)
-		(pin "6"
-			(uuid "0022ecad-65db-420a-bb9e-3a2b13ee38f9")
-		)
-		(pin "7"
-			(uuid "ed58e861-80f9-48e3-9472-81fb8e9d0ed3")
-		)
-		(pin "8"
-			(uuid "ee3b3571-2ff8-46ae-a23a-92e46563e0ef")
-		)
-		(pin "PAD"
-			(uuid "83562cfa-37e0-4390-9822-a17d1348e5f4")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -13436,8 +15950,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 243.84 171.45 180)
+		(lib_id "Device:R_Small_US")
+		(at 243.84 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13445,7 +15959,7 @@
 		(dnp no)
 		(uuid "95a513e8-4670-4ca3-8f46-d08830089cd6")
 		(property "Reference" "R59"
-			(at 238.76 170.18 0)
+			(at 249.174 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +15968,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 245.11 170.18 0)
+			(at 242.824 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13471,7 +15985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 243.84 171.45 0)
 			(effects
 				(font
@@ -13480,12 +15994,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 243.84 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -13528,10 +16043,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "8a204337-1744-4aac-983e-f00e87596322")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "b7bc9cd3-060c-4dda-aaeb-8255b31940b8")
 		)
 		(instances
@@ -13544,8 +16059,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5")
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 256.54 148.59 0)
+		(at 257.81 148.59 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13554,7 +16070,7 @@
 		(dnp no)
 		(uuid "9709a6eb-6402-4e62-a99d-340dc49a8b87")
 		(property "Reference" "Q16"
-			(at 261.62 149.225 0)
+			(at 262.89 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,7 +16079,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 261.62 146.685 0)
+			(at 262.89 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,7 +16088,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +16097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,7 +16106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13598,7 +16114,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,7 +16124,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +16134,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +16144,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 256.54 148.59 0)
+			(at 257.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13640,29 +16156,11 @@
 		(pin "1"
 			(uuid "3d2f8d31-a1f5-4ff6-a59f-8f1f3ce5aca2")
 		)
-		(pin "2"
-			(uuid "b0f40608-d37b-49a9-a461-8d498e29d8f0")
-		)
-		(pin "3"
-			(uuid "f9cf1d4c-beef-46e5-900c-a955de9c6bb5")
-		)
 		(pin "4"
 			(uuid "9a71acfc-25d0-41bb-bee9-ad6e6b01af93")
 		)
 		(pin "5"
 			(uuid "a1d7134d-4490-44fe-8bce-d43cda084118")
-		)
-		(pin "6"
-			(uuid "9001c50b-b272-4e44-9a7d-63e6845d092e")
-		)
-		(pin "7"
-			(uuid "1b847153-95d4-4d83-b3cb-7af17948c496")
-		)
-		(pin "8"
-			(uuid "cbda4837-ef20-448c-b534-4e3e6a601510")
-		)
-		(pin "PAD"
-			(uuid "268629a2-e52e-4fac-9451-1ae25f3fe36c")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -13674,8 +16172,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4")
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 280.67 77.47 0)
+		(at 279.4 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13684,7 +16183,7 @@
 		(dnp no)
 		(uuid "9ac59e8f-bc52-42f2-a8fe-3b18c42967b6")
 		(property "Reference" "Q19"
-			(at 275.59 76.835 0)
+			(at 274.32 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,7 +16192,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 275.59 79.375 0)
+			(at 274.32 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13702,7 +16201,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13711,7 +16210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13720,7 +16219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13728,7 +16227,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13738,7 +16237,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13748,7 +16247,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +16257,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 280.67 77.47 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,29 +16269,11 @@
 		(pin "1"
 			(uuid "15f22250-0fe2-4e4d-908f-6208347d96ed")
 		)
-		(pin "2"
-			(uuid "797a19bf-76e2-493d-a715-bf1bb85978e2")
-		)
-		(pin "3"
-			(uuid "7c12d602-2343-4d6c-b45f-83793aa9b7c6")
-		)
 		(pin "4"
 			(uuid "d8532724-7190-4c03-b6df-53dc4f06f843")
 		)
 		(pin "5"
 			(uuid "c2c617e3-e58b-469e-b887-158440c061c9")
-		)
-		(pin "6"
-			(uuid "2cc3e2c4-b020-41b6-a847-612d67410ed9")
-		)
-		(pin "7"
-			(uuid "a683460a-2947-4a48-9510-f8bdba5a3249")
-		)
-		(pin "8"
-			(uuid "07086ecf-b5e1-4c3c-ae75-bf8712c07df3")
-		)
-		(pin "PAD"
-			(uuid "c8e597b0-a072-46fd-a384-2b2610befe4f")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -13804,8 +16285,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 284.48 69.85 180)
+		(lib_id "Device:R_Small_US")
+		(at 284.48 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13813,7 +16294,7 @@
 		(dnp no)
 		(uuid "9d9043bd-d67a-46ac-85db-c011f9112c4a")
 		(property "Reference" "R55"
-			(at 279.4 72.39 0)
+			(at 289.814 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,7 +16303,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 285.75 72.39 0)
+			(at 283.464 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,7 +16320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 284.48 69.85 0)
 			(effects
 				(font
@@ -13848,12 +16329,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 284.48 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -13896,10 +16378,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "dc693eea-9a63-4d51-acd2-778a79c776d1")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "d9bd9829-0ced-42dc-9102-511c3b74a3cb")
 		)
 		(instances
@@ -14043,8 +16525,9 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:P-MOSFET-SOT23-3")
-		(at 247.65 179.07 0)
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 247.65 176.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14052,7 +16535,7 @@
 		(dnp no)
 		(uuid "a6cf5f1a-86ff-4242-8d6f-a5b0638fe5f7")
 		(property "Reference" "Q15"
-			(at 241.3 181.61 0)
+			(at 241.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14061,7 +16544,7 @@
 			)
 		)
 		(property "Value" "NTR4101"
-			(at 238.76 184.15 0)
+			(at 238.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14070,7 +16553,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
-			(at 247.65 179.07 0)
+			(at 252.73 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14078,8 +16561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 247.65 179.07 0)
+		(property "Datasheet" "~"
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14087,16 +16570,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 179.07 0)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 247.65 179.07 0)
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14106,7 +16590,7 @@
 			)
 		)
 		(property "DPN" "NTR4101PT1GOSCT-ND"
-			(at 247.65 179.07 0)
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +16600,7 @@
 			)
 		)
 		(property "MFR" "ON Semi"
-			(at 247.65 179.07 0)
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,7 +16610,7 @@
 			)
 		)
 		(property "MPN" "NTR4101PT1G"
-			(at 247.65 179.07 0)
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14355,7 +16839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 317.5 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14381,7 +16865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 317.5 57.15 0)
 			(effects
 				(font
@@ -14390,7 +16874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 317.5 57.15 0)
 			(effects
 				(font
@@ -14399,12 +16883,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 317.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -14463,8 +16948,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 151.13 109.22 90)
+		(lib_id "Device:R_Small_US")
+		(at 151.13 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14472,7 +16957,7 @@
 		(dnp no)
 		(uuid "b99a9a37-5c79-443e-b01a-5dac5323bbab")
 		(property "Reference" "R54"
-			(at 149.6314 113.03 0)
+			(at 154.94 110.7186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14481,7 +16966,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 154.432 113.03 0)
+			(at 154.94 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14498,7 +16983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -14507,12 +16992,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 151.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -14571,8 +17057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 232.41 81.28 180)
+		(lib_id "Device:R_Small_US")
+		(at 232.41 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14580,7 +17066,7 @@
 		(dnp no)
 		(uuid "b9b18c47-8116-4d48-95a7-79b1b0859847")
 		(property "Reference" "R74"
-			(at 227.33 83.82 0)
+			(at 237.998 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14589,7 +17075,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 233.68 83.82 0)
+			(at 231.648 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,7 +17092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 232.41 81.28 0)
 			(effects
 				(font
@@ -14615,12 +17101,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -14663,10 +17150,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "6543c19a-b717-49a8-9c74-35e8a456e624")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "1b0acce6-dbd7-457d-b6c6-856f4b9d4243")
 		)
 		(instances
@@ -14745,8 +17232,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 58.42 243.84 90)
+		(lib_id "Device:R_Small_US")
+		(at 58.42 241.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14754,7 +17241,7 @@
 		(dnp no)
 		(uuid "cbc76ddc-05d9-482c-84a8-c77c62d094bc")
 		(property "Reference" "R47"
-			(at 57.15 248.92 0)
+			(at 56.388 240.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14772,7 +17259,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-			(at 58.42 243.84 0)
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14780,8 +17267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 58.42 243.84 0)
+		(property "Datasheet" "~"
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14789,16 +17276,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 243.84 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 58.42 243.84 0)
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,7 +17296,7 @@
 			)
 		)
 		(property "DPN" "311-10.0KHRCT-ND"
-			(at 58.42 243.84 0)
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +17306,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 58.42 243.84 0)
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14828,7 +17316,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 58.42 243.84 0)
+			(at 58.42 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15267,8 +17755,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1")
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 237.49 74.93 0)
+		(at 238.76 74.93 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15277,7 +17766,7 @@
 		(dnp no)
 		(uuid "ddbb19dd-7455-4a18-b5f1-2ee522fdd1db")
 		(property "Reference" "Q12"
-			(at 242.57 75.565 0)
+			(at 243.84 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15286,7 +17775,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 242.57 73.025 0)
+			(at 243.84 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15295,7 +17784,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15304,7 +17793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +17802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15321,7 +17810,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +17820,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15341,7 +17830,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15351,7 +17840,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 237.49 74.93 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15363,29 +17852,11 @@
 		(pin "1"
 			(uuid "e634a59c-50f4-4715-a72a-0f3f3a274e37")
 		)
-		(pin "2"
-			(uuid "6dfe2694-d0c2-4c0a-98a8-8035af0552bb")
-		)
-		(pin "3"
-			(uuid "71c9745b-346a-4490-8bbd-e1a43fb879ea")
-		)
 		(pin "4"
 			(uuid "2e62553d-891c-4963-bfa2-fbb08967293b")
 		)
 		(pin "5"
 			(uuid "b22377c6-9f75-4274-8f98-042ae7752f61")
-		)
-		(pin "6"
-			(uuid "a8d435a5-92ba-4303-80d7-e637e0314cee")
-		)
-		(pin "7"
-			(uuid "8fa77afe-4bcc-4190-8927-f337f8c70d69")
-		)
-		(pin "8"
-			(uuid "186b6852-5701-4238-8f94-3ef393f9ce4b")
-		)
-		(pin "PAD"
-			(uuid "b591f204-e41b-4938-bd46-579245e7074f")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -15463,8 +17934,10 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:P-MOSFET-SOT23-3")
-		(at 247.65 144.78 0)
+		(lib_name "Q_PMOS_GSD_1")
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 247.65 142.24 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15472,7 +17945,7 @@
 		(dnp no)
 		(uuid "e46d7d3b-d52e-4b2e-a79f-45e711bc80eb")
 		(property "Reference" "Q14"
-			(at 241.3 147.32 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +17954,7 @@
 			)
 		)
 		(property "Value" "NTR4101"
-			(at 238.76 149.86 0)
+			(at 238.76 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15490,7 +17963,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
-			(at 247.65 144.78 0)
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15498,8 +17971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 247.65 144.78 0)
+		(property "Datasheet" "~"
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15507,16 +17980,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 144.78 0)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 247.65 144.78 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15526,7 +18000,7 @@
 			)
 		)
 		(property "DPN" "NTR4101PT1GOSCT-ND"
-			(at 247.65 144.78 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15536,7 +18010,7 @@
 			)
 		)
 		(property "MFR" "ON Semi"
-			(at 247.65 144.78 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,7 +18020,7 @@
 			)
 		)
 		(property "MPN" "NTR4101PT1G"
-			(at 247.65 144.78 0)
+			(at 247.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15574,8 +18048,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 297.18 168.91 0)
+		(lib_id "Device:R_Small_US")
+		(at 297.18 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15583,7 +18057,7 @@
 		(dnp no)
 		(uuid "e582a83e-c223-4395-b2b5-76a606470ceb")
 		(property "Reference" "R66"
-			(at 290.83 167.64 0)
+			(at 303.022 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15592,7 +18066,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 298.45 167.64 0)
+			(at 295.402 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15609,7 +18083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 297.18 168.91 0)
 			(effects
 				(font
@@ -15618,12 +18092,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 297.18 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -15682,7 +18157,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 307.34 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15708,7 +18183,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 307.34 179.07 0)
 			(effects
 				(font
@@ -15717,7 +18192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 179.07 0)
 			(effects
 				(font
@@ -15726,12 +18201,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 307.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -15790,8 +18266,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 243.84 137.16 0)
+		(lib_id "Device:R_Small_US")
+		(at 243.84 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15799,7 +18275,7 @@
 		(dnp no)
 		(uuid "e92323c0-19a6-443d-a8c7-ab514b87c28e")
 		(property "Reference" "R58"
-			(at 238.76 135.89 0)
+			(at 249.174 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +18284,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 245.11 135.89 0)
+			(at 242.824 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,7 +18301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -15834,12 +18310,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 243.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -15898,7 +18375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 369.57 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15924,7 +18401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 369.57 129.54 0)
 			(effects
 				(font
@@ -15933,7 +18410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 369.57 129.54 0)
 			(effects
 				(font
@@ -15942,12 +18419,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 369.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -16379,8 +18857,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3")
 		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 280.67 52.07 180)
+		(at 279.4 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16388,7 +18867,7 @@
 		(dnp no)
 		(uuid "f5579838-ecde-4a65-b147-39eae1c372d0")
 		(property "Reference" "Q18"
-			(at 275.59 52.705 0)
+			(at 274.32 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16397,7 +18876,7 @@
 			)
 		)
 		(property "Value" "SI7625DN-T1-GE3"
-			(at 275.59 50.165 0)
+			(at 274.32 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16406,7 +18885,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16415,7 +18894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16424,7 +18903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16432,7 +18911,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16442,7 +18921,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16452,7 +18931,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16462,7 +18941,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 280.67 52.07 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16474,29 +18953,11 @@
 		(pin "1"
 			(uuid "1db1d9de-1fb1-4497-9879-eba7aa262326")
 		)
-		(pin "2"
-			(uuid "35ff71ce-ef29-425e-9589-eb5bc9df1d32")
-		)
-		(pin "3"
-			(uuid "9897ef70-9421-46aa-9f50-7ec8d967efc0")
-		)
 		(pin "4"
 			(uuid "4454b501-d35e-4ac9-8adc-af5a5df7f1f2")
 		)
 		(pin "5"
 			(uuid "0b66299f-69e3-4390-beff-ab08e86467bb")
-		)
-		(pin "6"
-			(uuid "5693b2c5-a159-48bc-97cf-b2751dc332cb")
-		)
-		(pin "7"
-			(uuid "fff8445e-e139-4555-becd-52ddabb3c5c3")
-		)
-		(pin "8"
-			(uuid "97a60961-bbcd-4ec9-8536-dc5dd0901c85")
-		)
-		(pin "PAD"
-			(uuid "3879fa94-0f3d-4756-8980-224496629240")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -16508,8 +18969,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 250.19 226.06 270)
+		(lib_id "Device:R_Small_US")
+		(at 250.19 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16517,7 +18978,7 @@
 		(dnp no)
 		(uuid "f78bac82-0be7-488f-9c43-13623214fb2f")
 		(property "Reference" "R85"
-			(at 248.6914 228.6 0)
+			(at 248.158 228.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16526,7 +18987,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 254 228.6 0)
+			(at 248.158 222.7834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16543,7 +19004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 250.19 226.06 0)
 			(effects
 				(font
@@ -16552,12 +19013,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 250.19 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -16600,10 +19062,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "fee1abf0-96f9-4a6f-b652-958104e7db2f")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "32776317-e991-4567-a618-edcbe2593238")
 		)
 		(instances
@@ -16683,7 +19145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:C-EU0603-C-NOSILK")
+		(lib_id "Device:C_Small")
 		(at 307.34 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16709,7 +19171,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 307.34 154.94 0)
 			(effects
 				(font
@@ -16718,7 +19180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 154.94 0)
 			(effects
 				(font
@@ -16727,12 +19189,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 307.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"

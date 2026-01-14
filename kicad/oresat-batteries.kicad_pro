@@ -491,7 +491,7 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "error",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -667,12 +667,60 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DIST",
+          "name": "DIST",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DISTRIBUTOR",
+          "name": "DISTRIBUTOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DPN",
+          "name": "DPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIS",
+          "name": "DIS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

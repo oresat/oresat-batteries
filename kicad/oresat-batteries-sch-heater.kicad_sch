@@ -11,29 +11,36 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3"
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0 0)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 5.08 -2.54 0)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "oresat-batteries:SOT23-3"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -42,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,141 +67,32 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "r resistor"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "N-MOSFET-SOT-23-3_1_0"
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.175) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.905) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 1.778 0.508) (xy 1.778 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -202,125 +100,302 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 -2.54)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
 					(stroke
 						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "G"
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_PMOS_G1S2G2D2S1D1"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual PMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -331,14 +406,14 @@
 					(name "D"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "6"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -349,14 +424,2268 @@
 					(name "S"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_PMOS_G1S2G2D2S1D1"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual PMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_2_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_PMOS_G1S2G2D2S1D1"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual PMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_3_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_3_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NMOS_GSD_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NMOS_GSD_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NMOS_GSD_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_3_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_PMOS_G1S2G2D2S1D1"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual PMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_PMOS_G1S2G2D2S1D1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -484,906 +2813,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:SOT23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.905) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -3.175) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0.762) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 4.572 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6_2_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.905) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -3.175) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0.762) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 4.572 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:R-US_0603-C-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0603-C-NOSILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -1772,10 +3201,10 @@
 		(uuid "a56512e8-b540-4c01-85f5-856ec73f5071")
 	)
 	(junction
-		(at 214.63 104.14)
+		(at 167.64 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f5af3f1-3343-4dbe-b303-3942e1bbc200")
+		(uuid "08217550-f6c6-4fc4-9442-ed4a9bf8541c")
 	)
 	(junction
 		(at 193.04 153.67)
@@ -1790,16 +3219,22 @@
 		(uuid "13a947ea-1c20-4c08-8eb1-14db6a8b3789")
 	)
 	(junction
+		(at 167.64 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c255e89-c435-4c5d-a11a-21d99aa73bd4")
+	)
+	(junction
+		(at 255.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1daa434e-3bba-49ad-89eb-fc6713f81b20")
+	)
+	(junction
 		(at 201.93 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ba7c700-14b4-437e-8899-72fde19bbfa4")
-	)
-	(junction
-		(at 223.52 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34440810-21f9-4f07-84cf-217b83c8494c")
 	)
 	(junction
 		(at 214.63 125.73)
@@ -1808,22 +3243,10 @@
 		(uuid "3816d95e-785d-4594-ac7b-1045dc06670b")
 	)
 	(junction
-		(at 167.64 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d4608d0-762b-405a-961d-2ee9c6cd99a6")
-	)
-	(junction
 		(at 265.43 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "478f2629-f1c4-4a6a-af44-c930fa767d37")
-	)
-	(junction
-		(at 255.27 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b98f215-1167-43ae-9029-e0206a571390")
 	)
 	(junction
 		(at 265.43 140.97)
@@ -1838,10 +3261,22 @@
 		(uuid "56a4ef5f-8a67-4fad-b4d0-4d153d1f05a2")
 	)
 	(junction
-		(at 248.92 104.14)
+		(at 248.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d5bb23d-a374-4eef-baa2-73874a98d03b")
+		(uuid "6011bf3d-09a6-4a57-b5b4-1ba04417b635")
+	)
+	(junction
+		(at 223.52 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ce025a-0201-43dd-9076-479bc9372b5b")
+	)
+	(junction
+		(at 214.63 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b17fb3a-ab46-45de-bdc3-600cd5f3889f")
 	)
 	(junction
 		(at 255.27 74.93)
@@ -1874,12 +3309,6 @@
 		(uuid "babc5199-18a0-435f-b46a-e9ecc1b20264")
 	)
 	(junction
-		(at 167.64 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c719f253-c593-41b3-bbdb-5bfa4094fd83")
-	)
-	(junction
 		(at 161.29 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1909,13 +3338,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 134.62) (xy 194.31 151.13)
+			(xy 193.04 132.08) (xy 193.04 151.13)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "0bfbb881-6d6b-446d-8d49-e53fd890a289")
+		(uuid "08f13c94-68d2-456f-9371-061069985549")
 	)
 	(wire
 		(pts
@@ -1949,13 +3378,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 104.14) (xy 270.51 104.14)
+			(xy 248.92 83.82) (xy 248.92 86.36)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "13cc7065-cfb7-4096-8e9a-e4a778000d87")
+		(uuid "1933f678-c80b-4044-8883-b3844652e699")
 	)
 	(wire
 		(pts
@@ -1999,13 +3428,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 104.14) (xy 214.63 104.14)
+			(xy 255.27 83.82) (xy 255.27 86.36)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "2514d8d5-83d7-4e82-a713-b8e53625a666")
+		(uuid "31deb70c-a016-445a-9fdc-bec224ae87b4")
 	)
 	(wire
 		(pts
@@ -2099,6 +3528,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c24c9bc-4aa4-49ab-a5a0-8dc3187416d6")
+	)
+	(wire
+		(pts
 			(xy 152.4 134.62) (xy 167.64 134.62)
 		)
 		(stroke
@@ -2109,13 +3548,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 134.62) (xy 194.31 134.62)
+			(xy 255.27 76.2) (xy 255.27 78.74)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "5bb1fa06-9dc8-484d-878c-ca6b8bed1068")
+		(uuid "53de3b49-3295-46ea-9ada-85e98caebf54")
 	)
 	(wire
 		(pts
@@ -2129,13 +3568,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 91.44) (xy 255.27 118.11)
+			(xy 248.92 106.68) (xy 248.92 118.11)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5f34765c-5744-492a-a50c-9299275cf01e")
+		(uuid "5ca22fb0-5f78-4ca7-a246-9287d0d73492")
 	)
 	(wire
 		(pts
@@ -2159,6 +3598,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 93.98) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e517bf-5a65-4ec9-8a8e-a284880b9b88")
+	)
+	(wire
+		(pts
 			(xy 175.26 127) (xy 175.26 125.73)
 		)
 		(stroke
@@ -2169,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 156.21) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f542f6-4c60-47fd-ab3e-1fd32c551360")
+	)
+	(wire
+		(pts
 			(xy 265.43 87.63) (xy 265.43 74.93)
 		)
 		(stroke
@@ -2176,16 +3635,6 @@
 			(type solid)
 		)
 		(uuid "67443223-1b6f-41aa-b00e-e42b16bff56b")
-	)
-	(wire
-		(pts
-			(xy 270.51 91.44) (xy 255.27 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6b2f7809-d2de-4e40-a108-3de15af2ff8b")
 	)
 	(wire
 		(pts
@@ -2209,7 +3658,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 223.52 118.11)
+			(xy 194.31 144.78) (xy 191.77 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cba30c7-bbbb-4f26-a2b3-5bd6b5affdc2")
+	)
+	(wire
+		(pts
+			(xy 223.52 86.36) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -2226,6 +3685,16 @@
 			(type solid)
 		)
 		(uuid "712ca4f6-a255-4aab-bff8-a558b0fba901")
+	)
+	(wire
+		(pts
+			(xy 255.27 93.98) (xy 255.27 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72156159-c397-4061-8e5e-5a7b2f397eb2")
 	)
 	(wire
 		(pts
@@ -2259,13 +3728,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 214.63 118.11)
+			(xy 214.63 86.36) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "7aaf334e-fb00-41a1-95f9-1f1fb6e690a2")
+	)
+	(wire
+		(pts
+			(xy 191.77 144.78) (xy 191.77 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f05e360-e437-4390-a995-f1efde6ab3c2")
 	)
 	(wire
 		(pts
@@ -2299,13 +3778,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 91.44) (xy 223.52 91.44)
+			(xy 194.31 132.08) (xy 193.04 132.08)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "873263f7-c319-42c5-b264-080d311b2a63")
+		(uuid "869b41cc-80f4-4af9-8c51-11fc9cd1e3a5")
 	)
 	(wire
 		(pts
@@ -2329,13 +3808,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 147.32) (xy 191.77 147.32)
+			(xy 152.4 153.67) (xy 152.4 156.21)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "95524a59-1cda-40a4-b52a-6dd23790e295")
+		(uuid "958a7df6-270d-47dc-92c2-3d503e64c0e0")
+	)
+	(wire
+		(pts
+			(xy 267.97 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9696ebfd-1c1e-48c0-b09b-b98dbe87e5ce")
 	)
 	(wire
 		(pts
@@ -2349,33 +3838,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 147.32) (xy 170.18 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9867106a-f4ca-476a-a307-39fc5ecc9748")
-	)
-	(wire
-		(pts
-			(xy 255.27 91.44) (xy 255.27 86.36)
+			(xy 255.27 86.36) (xy 255.27 93.98)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "98e66b09-7d0f-44d9-a9f7-50d266105a3d")
-	)
-	(wire
-		(pts
-			(xy 170.18 134.62) (xy 167.64 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9ac05732-3a56-4ae0-bbbd-12a8164bf22f")
 	)
 	(wire
 		(pts
@@ -2399,23 +3868,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 86.36) (xy 248.92 104.14)
+			(xy 248.92 86.36) (xy 248.92 106.68)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "9cf5c1a4-cf6e-4002-9720-c135c703ac13")
-	)
-	(wire
-		(pts
-			(xy 214.63 104.14) (xy 214.63 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a2743206-ef02-4657-ab5c-e056c5cacba1")
 	)
 	(wire
 		(pts
@@ -2479,6 +3938,36 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 93.98) (xy 223.52 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aada2e66-4f8c-4a94-9280-129513bbaf6b")
+	)
+	(wire
+		(pts
+			(xy 214.63 78.74) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7148507-1050-4745-aa20-8992c40f08fa")
+	)
+	(wire
+		(pts
+			(xy 167.64 144.78) (xy 167.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b738c869-73d3-48c4-b98c-6ff72d085063")
+	)
+	(wire
+		(pts
 			(xy 248.92 123.19) (xy 248.92 125.73)
 		)
 		(stroke
@@ -2496,6 +3985,16 @@
 			(type solid)
 		)
 		(uuid "bb85d05d-8d2b-46fc-9231-5df54770279b")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc4bfe4a-6f63-460f-9224-1858d51f795d")
 	)
 	(wire
 		(pts
@@ -2519,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 151.13) (xy 194.31 151.13)
+			(xy 167.64 151.13) (xy 193.04 151.13)
 		)
 		(stroke
 			(width 0.1524)
@@ -2579,16 +4078,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 223.52 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cad7faea-2c56-4199-8334-38208b876606")
-	)
-	(wire
-		(pts
 			(xy 223.52 76.2) (xy 223.52 74.93)
 		)
 		(stroke
@@ -2596,6 +4085,36 @@
 			(type solid)
 		)
 		(uuid "cdff6155-cd1a-4287-9d01-cb2018ac9822")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 214.63 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce580c55-6195-4d83-9361-9773e611d467")
+	)
+	(wire
+		(pts
+			(xy 161.29 161.29) (xy 161.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefa7bd0-0590-48c8-ae3c-ae4566391451")
+	)
+	(wire
+		(pts
+			(xy 248.92 76.2) (xy 248.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf646eae-7c29-4da8-80af-5f54f0ab7814")
 	)
 	(wire
 		(pts
@@ -2619,6 +4138,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 78.74) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d615cd9f-abd9-4ea2-81c9-c6f95951f87d")
+	)
+	(wire
+		(pts
 			(xy 167.64 147.32) (xy 161.29 147.32)
 		)
 		(stroke
@@ -2626,16 +4155,6 @@
 			(type solid)
 		)
 		(uuid "da73f490-4bd0-4d6f-8249-1a4065aee60d")
-	)
-	(wire
-		(pts
-			(xy 248.92 118.11) (xy 248.92 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "df1195e9-27af-44b8-b10f-49291e516ae7")
 	)
 	(wire
 		(pts
@@ -2649,13 +4168,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 147.32) (xy 191.77 138.43)
+			(xy 267.97 93.98) (xy 255.27 93.98)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e30c4e10-25ba-4c7a-9905-facfcdd187a7")
+		(uuid "e39972e5-5eba-4c31-8043-d4374b4c950c")
 	)
 	(wire
 		(pts
@@ -2679,6 +4198,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 83.82) (xy 214.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee557a67-b0ee-4f85-8fdf-2c1922ae79ce")
+	)
+	(wire
+		(pts
 			(xy 255.27 125.73) (xy 255.27 123.19)
 		)
 		(stroke
@@ -2686,6 +4215,16 @@
 			(type solid)
 		)
 		(uuid "ef759f0f-6729-4525-b55a-dad853ea0ef9")
+	)
+	(wire
+		(pts
+			(xy 223.52 83.82) (xy 223.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1db199d-4ab5-46a5-a991-40d8b5de7a3b")
 	)
 	(wire
 		(pts
@@ -2716,6 +4255,16 @@
 			(type solid)
 		)
 		(uuid "f6eca0a7-f86b-44ad-86bb-fb6f1059455b")
+	)
+	(wire
+		(pts
+			(xy 152.4 161.29) (xy 152.4 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ef19ea-f41d-4d50-a9fc-96fe84267e06")
 	)
 	(wire
 		(pts
@@ -2764,7 +4313,8 @@
 		(uuid "16d1d8ac-04f0-48ad-9586-489daf2be10c")
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_name "Q_NMOS_GSD_3")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 199.39 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2791,6 +4341,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 199.39 144.78 0)
 			(effects
 				(font
@@ -2799,21 +4358,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 199.39 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -2904,7 +4455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6")
+		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 232.41 106.68 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -2931,7 +4482,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-6"
-			(at 232.41 106.68 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,8 +4490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 232.41 106.68 0)
+		(property "Datasheet" "~"
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,12 +4499,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual PMOS transistor, 6 pin package"
 			(at 232.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2984,7 +4536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_name "Q_NMOS_GSD_1")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 172.72 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3011,6 +4564,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 177.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 172.72 144.78 0)
 			(effects
 				(font
@@ -3019,21 +4581,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 172.72 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -3055,7 +4609,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_name "Q_NMOS_GSD_2")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 199.39 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3083,6 +4638,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 199.39 132.08 0)
 			(effects
 				(font
@@ -3091,21 +4655,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 199.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -3193,9 +4749,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 255.27 81.28 90)
-		(mirror x)
+		(lib_id "Device:R_Small_US")
+		(at 255.27 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3203,7 +4758,7 @@
 		(dnp no)
 		(uuid "3e2b4e7b-e4ca-44f3-be21-796805ae9292")
 		(property "Reference" "R43"
-			(at 253.7714 77.47 0)
+			(at 259.08 82.7786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +4767,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 258.572 77.47 0)
+			(at 259.08 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +4784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 255.27 81.28 0)
 			(effects
 				(font
@@ -3238,12 +4793,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 255.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -3438,8 +4994,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 214.63 81.28 90)
+		(lib_id "Device:R_Small_US")
+		(at 214.63 81.28 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3448,7 +5004,7 @@
 		(dnp no)
 		(uuid "54c65a5c-7a50-4fb5-ae11-5b112584f098")
 		(property "Reference" "R41"
-			(at 213.1314 77.47 0)
+			(at 210.82 82.7786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +5013,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 217.932 77.47 0)
+			(at 210.82 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +5030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 214.63 81.28 0)
 			(effects
 				(font
@@ -3483,12 +5039,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 214.63 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -3531,10 +5088,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "bc721078-7e42-48ce-a017-6f33715cefb1")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "0fb5ecf5-5406-457c-bf25-9160a0887922")
 		)
 		(instances
@@ -3547,8 +5104,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 152.4 158.75 90)
+		(lib_id "Device:R_Small_US")
+		(at 152.4 158.75 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3557,7 +5114,7 @@
 		(dnp no)
 		(uuid "5bba7a91-0e1e-4581-afc6-eb539bf5cb21")
 		(property "Reference" "R105"
-			(at 150.9014 154.94 0)
+			(at 145.034 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +5123,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 155.702 154.94 0)
+			(at 145.034 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +5140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 158.75 0)
 			(effects
 				(font
@@ -3592,12 +5149,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 152.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -3640,10 +5198,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "09f45e6c-896d-42f7-8878-0f62bd455a06")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "5604c5d9-58bf-4093-8162-909dda0fbebc")
 		)
 		(instances
@@ -3656,8 +5214,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 248.92 81.28 90)
+		(lib_id "Device:R_Small_US")
+		(at 248.92 81.28 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3666,7 +5224,7 @@
 		(dnp no)
 		(uuid "62bfd7fd-629f-4bca-8d92-f46d128c9114")
 		(property "Reference" "R42"
-			(at 247.4214 77.47 0)
+			(at 245.11 82.7786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +5233,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 252.222 77.47 0)
+			(at 245.11 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 248.92 81.28 0)
 			(effects
 				(font
@@ -3701,12 +5259,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -3765,7 +5324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:N-MOSFET-SOT-23-3")
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 172.72 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3792,6 +5351,15 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-3"
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 172.72 132.08 0)
 			(effects
 				(font
@@ -3800,21 +5368,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
 			(at 172.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -3836,7 +5396,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6")
+		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_3")
+		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 273.05 106.68 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3863,7 +5424,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-6"
-			(at 273.05 106.68 0)
+			(at 274.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,8 +5432,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 273.05 106.68 0)
+		(property "Datasheet" "~"
+			(at 274.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,12 +5441,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual PMOS transistor, 6 pin package"
 			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -4182,7 +5744,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6")
+		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_2")
+		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 273.05 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4209,7 +5772,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-6"
-			(at 273.05 93.98 0)
+			(at 274.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,8 +5780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 273.05 93.98 0)
+		(property "Datasheet" "~"
+			(at 274.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,12 +5789,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual PMOS transistor, 6 pin package"
 			(at 273.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -4527,8 +6091,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 223.52 81.28 90)
+		(lib_id "Device:R_Small_US")
+		(at 223.52 81.28 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4537,7 +6101,7 @@
 		(dnp no)
 		(uuid "e0f84434-1bba-4038-89ed-f788c3d7b2f3")
 		(property "Reference" "R40"
-			(at 222.0214 77.47 0)
+			(at 219.71 82.7786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +6110,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 226.822 77.47 0)
+			(at 219.71 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 223.52 81.28 0)
 			(effects
 				(font
@@ -4572,12 +6136,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 223.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -4620,10 +6185,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "18323173-2c86-4a7c-838c-052a51829a0f")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "f2a06f49-d7a4-4ff4-8ff0-f20a9facb90b")
 		)
 		(instances
@@ -4636,7 +6201,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:Q-MOSFET-PCH-dual-SOT23-6_MOSFET-PCH-SOT23-6")
+		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_1")
+		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 232.41 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4663,7 +6229,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:SOT23-6"
-			(at 232.41 93.98 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,8 +6237,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 232.41 93.98 0)
+		(property "Datasheet" "~"
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,12 +6246,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual PMOS transistor, 6 pin package"
 			(at 232.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4716,8 +6283,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_0603-C-NOSILK")
-		(at 161.29 158.75 90)
+		(lib_id "Device:R_Small_US")
+		(at 161.29 158.75 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4726,7 +6293,7 @@
 		(dnp no)
 		(uuid "eb477b3b-a98d-42e2-ae07-75f71a3aa422")
 		(property "Reference" "R106"
-			(at 159.7914 154.94 0)
+			(at 163.576 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +6302,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 164.592 154.94 0)
+			(at 163.576 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 161.29 158.75 0)
 			(effects
 				(font
@@ -4761,12 +6328,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 161.29 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -4809,10 +6377,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "92b279bc-afbe-4185-8239-9becebd759b0")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "d073d08a-a023-4424-b21f-29292eb9f56f")
 		)
 		(instances
