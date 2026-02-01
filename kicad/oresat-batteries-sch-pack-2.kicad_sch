@@ -438,1734 +438,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Q_NMOS_GSD_1"
 			(pin_numbers
 				(hide yes)
@@ -3906,10 +2178,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Si7336ADP"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:SiS443DN"
 			(pin_names
 				(hide yes)
 			)
@@ -3925,7 +2194,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Si7336ADP"
+			(property "Value" "SiS443DN"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3934,7 +2203,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3945,7 +2214,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -3955,7 +2224,343 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30A Id, 30V Vds, 2.4mOhm Ron, PowerPAK-8"
+			(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SiS443DN_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SiS443DN_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:SiS454DN"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SiS454DN"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3973,7 +2578,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PowerPAK*SO*Single*"
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3982,7 +2587,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Si7336ADP_0_1"
+			(symbol "SiS454DN_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -4149,7 +2754,7 @@
 					)
 				)
 			)
-			(symbol "Si7336ADP_1_1"
+			(symbol "SiS454DN_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -5101,288 +3706,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_0_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.905) (xy -1.016 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -0.508 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.286) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 0 -0.381) (xy 0 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0.381) (xy 2.413 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6355,6 +4678,17 @@
 		)
 		(uuid "6f6c510c-93b9-4df9-b6e8-a68670463241")
 	)
+	(text "Q22 disconnects the - battery lead, but it also kills\nthe ground reference for the ~{SHUTDOOWN} circuit, which \nis bad because it turns on the ABLIC and MAX17 chips. \nSo, R94 preserves the ground reference while not allow\nanny appreciable current to flow."
+		(exclude_from_sim no)
+		(at 271.526 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70de39a5-6da4-441a-aad9-f04a8a5dc9e3")
+	)
 	(text "If ~{SD} is asserted~{,} disable charging as possible. This is a bit strange\nbecause the Ablic ICs should be powered off; however, if there's\nan external supply that powers up the Ablics, disable charging."
 		(exclude_from_sim no)
 		(at 91.44 212.09 0)
@@ -6838,6 +5172,12 @@
 		(uuid "aac5305b-c09a-4d4b-8464-892b4d5a9756")
 	)
 	(junction
+		(at 259.08 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae2f383e-4d9d-4dbe-9f22-ed8f20463eef")
+	)
+	(junction
 		(at 182.88 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6904,12 +5244,6 @@
 		(uuid "d24da7f0-ce7c-452d-9c9e-8719fa03262d")
 	)
 	(junction
-		(at 240.03 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6ab1642-e725-4ec9-a3da-f9dae5269b43")
-	)
-	(junction
 		(at 57.15 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6964,7 +5298,7 @@
 		(uuid "f2003e17-8eaa-4cfd-aa0b-73146400bde5")
 	)
 	(junction
-		(at 250.19 213.36)
+		(at 250.19 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3f74c5e-8bef-476f-b57b-642775928950")
@@ -6974,6 +5308,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f411d138-f462-45fb-8ca1-e488ef3260d9")
+	)
+	(junction
+		(at 259.08 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45b4711-aaf4-4890-948d-377265861538")
+	)
+	(junction
+		(at 240.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6aa701a-8d5b-484d-a690-4e3e99c464bf")
 	)
 	(junction
 		(at 259.08 241.3)
@@ -7121,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 213.36) (xy 250.19 213.36)
+			(xy 248.92 217.17) (xy 250.19 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7321,6 +5667,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 214.63) (xy 265.43 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b24c8d-fb0d-4b17-a3ce-69e19df4bfc2")
+	)
+	(wire
+		(pts
 			(xy 58.42 182.88) (xy 58.42 185.42)
 		)
 		(stroke
@@ -7441,7 +5797,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 213.36) (xy 250.19 217.17)
+			(xy 250.19 217.17) (xy 250.19 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8041,16 +6397,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 205.74) (xy 259.08 208.28)
-		)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(uuid "4d307c78-13c8-40c6-9ea2-62970ea30576")
-	)
-	(wire
-		(pts
 			(xy 92.71 147.32) (xy 92.71 146.05)
 		)
 		(stroke
@@ -8571,6 +6917,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 223.52) (xy 259.08 231.14)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "794716d9-fcc9-4a68-95f9-aac51b2d3346")
+	)
+	(wire
+		(pts
 			(xy 248.92 171.45) (xy 250.19 171.45)
 		)
 		(stroke
@@ -8741,7 +7097,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 222.25) (xy 250.19 226.06)
+			(xy 250.19 224.79) (xy 250.19 226.06)
 		)
 		(stroke
 			(width 0)
@@ -9029,6 +7385,16 @@
 		)
 		(uuid "98241499-34ff-4b2e-b024-4d99a6c1bc89")
 	)
+	(wire
+		(pts
+			(xy 265.43 210.82) (xy 259.08 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98eff57c-faf8-41f0-817b-3a621579a14b")
+	)
 	(polyline
 		(pts
 			(xy 250.19 62.23) (xy 247.65 62.23)
@@ -9208,6 +7574,16 @@
 			(type default)
 		)
 		(uuid "a7c4ecd2-55bf-4328-a362-2163d3ed0661")
+	)
+	(wire
+		(pts
+			(xy 259.08 205.74) (xy 259.08 210.82)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "a8a393c8-7200-4d03-a358-cbddf522ad9d")
 	)
 	(wire
 		(pts
@@ -9551,13 +7927,23 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 218.44) (xy 259.08 231.14)
+			(xy 259.08 222.25) (xy 259.08 223.52)
 		)
 		(stroke
 			(width 0.508)
 			(type solid)
 		)
 		(uuid "c4959598-5aa3-4897-a082-27bed50a0dc7")
+	)
+	(wire
+		(pts
+			(xy 259.08 210.82) (xy 259.08 212.09)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "c4f13471-2613-4628-b85d-c1f7f861bc94")
 	)
 	(wire
 		(pts
@@ -9931,6 +8317,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 223.52) (xy 259.08 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df868d99-521b-428c-aed4-b4e61f1dbdaf")
+	)
+	(wire
+		(pts
 			(xy 369.57 121.92) (xy 369.57 127)
 		)
 		(stroke
@@ -10301,6 +8697,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 219.71) (xy 265.43 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8889da8-5c3d-4924-bed4-817f8cf3a0b3")
+	)
+	(wire
+		(pts
 			(xy 375.92 199.39) (xy 370.84 199.39)
 		)
 		(stroke
@@ -10311,7 +8717,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 213.36) (xy 251.46 213.36)
+			(xy 250.19 217.17) (xy 251.46 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10429,6 +8835,16 @@
 		)
 		(uuid "1d69ca21-27c4-4ced-a9a9-3973c1865db6")
 	)
+	(label "BATTNEG-PK2"
+		(at 264.16 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2415293f-8a63-4f07-bbb1-fd08679a0cda")
+	)
 	(label "VBATT-PK2"
 		(at 238.125 128.27 0)
 		(effects
@@ -10469,6 +8885,16 @@
 		)
 		(uuid "7d313509-7cc6-46fe-a0af-5624a46ed441")
 	)
+	(label "BATTNEG-PK2"
+		(at 187.96 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85727a9b-3143-4acc-932a-ac4817a6af3c")
+	)
 	(label "INTERCELL-PK2"
 		(at 186.69 166.37 0)
 		(effects
@@ -10479,15 +8905,15 @@
 		)
 		(uuid "8d58a1cd-0244-43bd-9af3-0cf61bfe814e")
 	)
-	(label "CSP-PK2"
+	(label "BATTNEG-PK2"
 		(at 78.74 250.19 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a35d9b51-d72f-4012-ba31-02d4e9879031")
+		(uuid "b2d4c7a7-8ef9-468d-bff5-6b6f075201a3")
 	)
 	(label "~{DISCHARGE-PK2}"
 		(at 168.91 128.27 0)
@@ -10529,16 +8955,6 @@
 		)
 		(uuid "eebd0f0d-17a9-45f6-9e7d-b08735c9dbd6")
 	)
-	(label "CSP-PK2"
-		(at 186.69 200.66 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "fff9f82e-1871-44e5-b4d0-bb9b62b0c740")
-	)
 	(hierarchical_label "I2C2_SDA"
 		(shape bidirectional)
 		(at 382.27 151.13 0)
@@ -10554,7 +8970,7 @@
 	)
 	(hierarchical_label "NEG-BATT-DISC"
 		(shape input)
-		(at 248.92 213.36 180)
+		(at 248.92 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11577,6 +9993,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:SiS454DN")
+		(at 256.54 217.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c616aa-9966-41b1-9212-db9690cc751a")
+		(property "Reference" "Q22"
+			(at 252.73 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQS484ENW-T1_GE3"
+			(at 236.982 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 261.62 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
+			(at 261.62 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 256.54 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e247a3ea-734e-45f7-bd25-83759427742b")
+		)
+		(pin "1"
+			(uuid "49c344b8-9e46-4afc-aaee-0283e717827d")
+		)
+		(pin "5"
+			(uuid "8815ee96-feac-4849-94d8-5925cc10d352")
+		)
+		(pin "4"
+			(uuid "70105c8e-46ba-4304-aef5-28a27d37d07f")
+		)
+		(pin "3"
+			(uuid "1d5a3005-2b98-4fd8-ac6c-b956f3a4e0c8")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
+					(reference "Q22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 259.08 62.23 0)
 		(mirror y)
@@ -11681,6 +10179,116 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 265.43 217.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bf00d60-f3ca-41e1-8c73-9a131f50749f")
+		(property "Reference" "R94"
+			(at 266.7 215.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 266.7 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RR08P4.7KDCT-ND"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TE Connectivity"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RR0816P-472-D"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f2437bf-ea6c-414d-96ff-802786989c0b")
+		)
+		(pin "1"
+			(uuid "4ff6eef9-d3d3-4c01-b573-00b1de07f8db")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -13875,9 +12483,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_3")
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 279.4 52.07 0)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 280.67 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13886,7 +12493,7 @@
 		(dnp no)
 		(uuid "4e82a0ce-4007-4ceb-92e1-2e632a712099")
 		(property "Reference" "Q36"
-			(at 274.32 51.435 0)
+			(at 275.59 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,8 +12501,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 274.32 53.975 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 275.59 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,26 +12510,29 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 279.4 52.07 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 275.59 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 275.59 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 279.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, source/drain/gate"
-			(at 279.4 52.07 0)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13931,7 +12541,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 279.4 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13941,7 +12551,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 279.4 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,7 +12561,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 279.4 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,7 +12571,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 279.4 52.07 0)
+			(at 280.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,6 +12588,12 @@
 		)
 		(pin "4"
 			(uuid "eccf51a4-db58-4d99-8f34-1587dc8c625c")
+		)
+		(pin "2"
+			(uuid "22e24505-6d94-4655-a98a-86bb320035ee")
+		)
+		(pin "3"
+			(uuid "aa005380-4af5-46e2-a7a8-8cb2d9793621")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -14887,9 +13503,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_4")
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 238.76 52.07 0)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 237.49 52.07 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14898,7 +13513,7 @@
 		(dnp no)
 		(uuid "787afb68-111f-4fdb-b6b7-51f2a3dfce28")
 		(property "Reference" "Q31"
-			(at 243.84 52.705 0)
+			(at 242.57 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,8 +13521,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 243.84 50.165 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 242.57 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,26 +13530,29 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 238.76 52.07 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 242.57 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 242.57 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 238.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, source/drain/gate"
-			(at 238.76 52.07 0)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14943,7 +13561,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 238.76 52.07 0)
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +13571,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 238.76 52.07 0)
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14963,7 +13581,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 238.76 52.07 0)
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14973,7 +13591,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 238.76 52.07 0)
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,6 +13609,12 @@
 		(pin "4"
 			(uuid "2011cbb1-33fe-41e4-b93e-b0e9577b7dc9")
 		)
+		(pin "2"
+			(uuid "10387f9f-7a08-4226-bc50-3615a6d28809")
+		)
+		(pin "3"
+			(uuid "5e1407ec-cf24-4707-bdad-98f203ea2766")
+		)
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
@@ -15001,9 +13625,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_1")
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 238.76 76.2 0)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 237.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15011,7 +13634,7 @@
 		(dnp no)
 		(uuid "78d5e289-c8d6-4dde-bd6b-bd0aabe344b1")
 		(property "Reference" "Q30"
-			(at 243.84 75.565 0)
+			(at 242.57 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15019,8 +13642,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 243.84 78.105 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 242.57 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15028,26 +13651,29 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 238.76 76.2 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 242.57 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 242.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 238.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, source/drain/gate"
-			(at 238.76 76.2 0)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +13682,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 238.76 76.2 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15066,7 +13692,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 238.76 76.2 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15076,7 +13702,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 238.76 76.2 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15086,7 +13712,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 238.76 76.2 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,6 +13729,12 @@
 		)
 		(pin "4"
 			(uuid "9842d767-32b4-44f7-a5f2-f4ce80ab9315")
+		)
+		(pin "2"
+			(uuid "e34e72bd-6633-42d8-a858-f2352b37ef03")
+		)
+		(pin "3"
+			(uuid "ff123f61-53a7-47b0-b963-5bae07038cfc")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -15832,9 +14464,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_5")
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 257.81 148.59 0)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 256.54 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15842,7 +14473,7 @@
 		(dnp no)
 		(uuid "9d0310d4-8867-403d-8b37-ba9638655e7f")
 		(property "Reference" "Q34"
-			(at 262.89 147.955 0)
+			(at 261.62 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15850,8 +14481,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 262.89 150.495 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 261.62 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15859,26 +14490,29 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 257.81 148.59 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 261.62 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 261.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 257.81 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, source/drain/gate"
-			(at 257.81 148.59 0)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +14521,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 257.81 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,7 +14531,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 257.81 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +14541,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 257.81 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15917,7 +14551,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 257.81 148.59 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15934,6 +14568,12 @@
 		)
 		(pin "4"
 			(uuid "27d88c5a-02fa-4e34-9fcb-b8ed1604d51d")
+		)
+		(pin "2"
+			(uuid "3a917246-3938-474f-90c7-3115e547aa11")
+		)
+		(pin "3"
+			(uuid "a2cc62df-4c4b-40c5-9047-df57380d92f5")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -16123,9 +14763,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_6")
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 257.81 182.88 0)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 256.54 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16133,7 +14772,7 @@
 		(dnp no)
 		(uuid "a61955d6-733e-4726-bf0a-65173e6e945b")
 		(property "Reference" "Q35"
-			(at 262.89 182.245 0)
+			(at 261.62 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,8 +14780,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 262.89 184.785 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 261.62 184.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16150,26 +14789,29 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 257.81 182.88 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 261.62 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 261.62 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 257.81 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, source/drain/gate"
-			(at 257.81 182.88 0)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 256.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16178,7 +14820,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 257.81 182.88 0)
+			(at 256.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +14830,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 257.81 182.88 0)
+			(at 256.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +14840,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 257.81 182.88 0)
+			(at 256.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16208,7 +14850,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 257.81 182.88 0)
+			(at 256.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16225,6 +14867,12 @@
 		)
 		(pin "4"
 			(uuid "0d091953-521d-46eb-bc40-1243a3e2e89a")
+		)
+		(pin "2"
+			(uuid "17a8fac8-c4ac-43df-9a23-85726916a99a")
+		)
+		(pin "3"
+			(uuid "0accddee-65b3-4cd4-985b-d7669d7b574c")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -16850,88 +15498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si7336ADP")
-		(at 256.54 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0eaefc4-b04e-47b7-8516-3eeeb90a1252")
-		(property "Reference" "Q23"
-			(at 262.89 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Si7336ADP"
-			(at 262.89 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
-			(at 261.62 215.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/73152/si7336adp.pdf"
-			(at 261.62 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 30V Vds, 2.4mOhm Ron, PowerPAK-8"
-			(at 256.54 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c899b86f-a1c9-4277-95e5-6d7f7b38e31c")
-		)
-		(pin "4"
-			(uuid "96ed1e57-0b49-4558-8c3f-30aac4ec9ce2")
-		)
-		(pin "3"
-			(uuid "6fd93a3b-013c-4650-9570-51ad63847473")
-		)
-		(pin "1"
-			(uuid "ae50a4a7-359b-4258-8605-5680091bc252")
-		)
-		(pin "2"
-			(uuid "368d45ed-6019-4010-9698-2ab3e8c94869")
-		)
-		(instances
-			(project "oresat-batteries"
-				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
-					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 33.02 170.18 0)
 		(unit 1)
@@ -17041,8 +15607,9 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 260.35 30.48 180)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 261.62 30.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17050,7 +15617,7 @@
 		(dnp no)
 		(uuid "c3712507-a9b7-43d2-977d-6b8029c8558f")
 		(property "Reference" "Q11"
-			(at 255.27 31.115 0)
+			(at 256.54 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17058,8 +15625,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 255.27 28.575 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 256.54 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17067,34 +15634,38 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 260.35 30.48 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 256.54 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 261.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 260.35 30.48 0)
+			(at 261.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17104,7 +15675,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 260.35 30.48 0)
+			(at 261.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17114,7 +15685,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 260.35 30.48 0)
+			(at 261.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17124,7 +15695,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 260.35 30.48 0)
+			(at 261.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17141,6 +15712,12 @@
 		)
 		(pin "5"
 			(uuid "ef96e94f-7b29-4a64-b28a-b70bdf446bcf")
+		)
+		(pin "3"
+			(uuid "eafb8459-fb4b-4566-927a-04c83bae61e6")
+		)
+		(pin "2"
+			(uuid "17dd9c18-a49a-4a50-8c16-7fd35abbf086")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -17779,9 +16356,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8_2")
-		(lib_id "oresat-batteries-eagle-import:Q-VISHAY-MOSFET-PCH-POWERPAK-1212-8")
-		(at 279.4 77.47 180)
+		(lib_id "Transistor_FET:SiS443DN")
+		(at 280.67 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17789,7 +16365,7 @@
 		(dnp no)
 		(uuid "d7a6a198-e95c-48ac-8861-dd2ae634861c")
 		(property "Reference" "Q37"
-			(at 274.066 76.962 0)
+			(at 275.336 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17797,8 +16373,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SI7625DN-T1-GE3"
-			(at 274.066 74.422 0)
+		(property "Value" "SI7111EDN-T1-GE3"
+			(at 275.336 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17806,26 +16382,29 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:POWERPAK-1212-8"
-			(at 279.4 77.47 0)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 275.59 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63253/sis443dn.pdf"
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 279.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, source/drain/gate"
-			(at 279.4 77.47 0)
+		(property "Description" "-35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 280.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17834,7 +16413,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 279.4 77.47 0)
+			(at 280.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17844,7 +16423,7 @@
 			)
 		)
 		(property "DPN" "SI7625DN-T1-GE3CT-ND"
-			(at 279.4 77.47 0)
+			(at 280.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17854,7 +16433,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 279.4 77.47 0)
+			(at 280.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17864,7 +16443,7 @@
 			)
 		)
 		(property "MPN" "SI7625DN-T1-GE3"
-			(at 279.4 77.47 0)
+			(at 280.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17881,6 +16460,12 @@
 		)
 		(pin "4"
 			(uuid "91d9db68-1845-40ef-9c36-3300718a9b93")
+		)
+		(pin "2"
+			(uuid "a7627f5c-eaf3-40a6-9b0d-a03c73077a93")
+		)
+		(pin "3"
+			(uuid "113cbed3-a2d4-44dd-b23e-f7404fc263a0")
 		)
 		(instances
 			(project "oresat-batteries"
@@ -18248,7 +16833,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 250.19 219.71 0)
+		(at 250.19 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18256,7 +16841,7 @@
 		(dnp no)
 		(uuid "de0af3fd-5ab8-478f-a39f-e1b4cdbe08b3")
 		(property "Reference" "R86"
-			(at 247.904 219.71 0)
+			(at 247.904 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +16850,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 248.92 217.678 0)
+			(at 248.92 220.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,7 +16859,7 @@
 			)
 		)
 		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18283,7 +16868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18292,7 +16877,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18301,7 +16886,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18311,7 +16896,7 @@
 			)
 		)
 		(property "DPN" "311-1.00MHRCT-ND"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18321,7 +16906,7 @@
 			)
 		)
 		(property "MFR" "Yageo"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18331,7 +16916,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071ML"
-			(at 250.19 219.71 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

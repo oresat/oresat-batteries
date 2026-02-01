@@ -3546,6 +3546,16 @@
 		)
 		(uuid "415e4cce-4240-454a-ab1b-44e406787d5b")
 	)
+	(label "INH-NEG-BATT_DISC"
+		(at 299.72 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6844155b-bc88-44aa-9c16-b3ccdd8c0f9b")
+	)
 	(label "OPD_SCL"
 		(at 135.89 74.93 0)
 		(effects

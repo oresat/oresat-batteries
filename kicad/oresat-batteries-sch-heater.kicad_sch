@@ -4396,7 +4396,7 @@
 		(dnp no)
 		(uuid "12b32aa8-be23-476c-be2e-8db09bab9f22")
 		(property "Reference" "D12"
-			(at 252.73 118.11 0)
+			(at 260.858 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4405,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 256.54 128.27 0)
+			(at 256.794 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,6 +4457,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 232.41 106.68 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4464,7 +4465,7 @@
 		(dnp no)
 		(uuid "1e2d9859-2f81-4f6a-9f1a-4230b36c257d")
 		(property "Reference" "Q42"
-			(at 220.98 107.95 0)
+			(at 237.236 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4474,7 @@
 			)
 		)
 		(property "Value" "MOSFET-PCH-SOT23-6"
-			(at 220.98 110.49 0)
+			(at 236.982 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4936,7 @@
 		(dnp no)
 		(uuid "5390a78f-a8e8-4498-b3c6-6ea68d3d72eb")
 		(property "Reference" "D9"
-			(at 220.98 118.11 0)
+			(at 227.838 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4945,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 224.79 128.27 0)
+			(at 225.298 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,6 +5400,7 @@
 		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_3")
 		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 273.05 106.68 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5406,7 +5408,7 @@
 		(dnp no)
 		(uuid "9cac0d03-b77f-45e5-a572-1a579e866b48")
 		(property "Reference" "Q43"
-			(at 261.62 107.95 0)
+			(at 278.638 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5417,7 @@
 			)
 		)
 		(property "Value" "MOSFET-PCH-SOT23-6"
-			(at 261.62 110.49 0)
+			(at 278.384 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5555,7 @@
 		(dnp no)
 		(uuid "a39289b2-7993-4363-8ec3-f7e48fc3bc1d")
 		(property "Reference" "D11"
-			(at 246.38 118.11 0)
+			(at 246.634 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5564,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 250.19 128.27 0)
+			(at 237.236 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,6 +5749,7 @@
 		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_2")
 		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 273.05 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5754,7 +5757,7 @@
 		(dnp no)
 		(uuid "baeddc5a-ecdc-4317-a60f-704e437b60d7")
 		(property "Reference" "Q43"
-			(at 261.62 95.25 0)
+			(at 278.638 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5766,7 @@
 			)
 		)
 		(property "Value" "MOSFET-PCH-SOT23-6"
-			(at 261.62 97.79 0)
+			(at 278.384 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,6 +6207,7 @@
 		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_1")
 		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
 		(at 232.41 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6211,7 +6215,7 @@
 		(dnp no)
 		(uuid "e322418c-695e-4708-98ff-cb6ddf72e11a")
 		(property "Reference" "Q42"
-			(at 220.98 95.25 0)
+			(at 237.744 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6224,7 @@
 			)
 		)
 		(property "Value" "MOSFET-PCH-SOT23-6"
-			(at 220.98 97.79 0)
+			(at 237.236 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6407,7 @@
 		(dnp no)
 		(uuid "efab9adc-2383-4866-a6df-7605214fc1e3")
 		(property "Reference" "D4"
-			(at 212.09 118.11 0)
+			(at 212.09 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6416,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 215.9 128.27 0)
+			(at 202.438 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
