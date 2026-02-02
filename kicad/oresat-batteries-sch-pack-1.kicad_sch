@@ -5357,16 +5357,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 140.97) (xy 313.69 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c3a8e1-f4ad-4758-b122-57c52c49e937")
-	)
-	(wire
-		(pts
 			(xy 66.04 218.44) (xy 66.04 219.71)
 		)
 		(stroke
@@ -6204,16 +6194,6 @@
 			(type solid)
 		)
 		(uuid "535382ea-a737-4bd3-ae06-4b435d3b81e7")
-	)
-	(wire
-		(pts
-			(xy 313.69 138.43) (xy 313.69 140.97)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "548c5215-1f69-4727-969c-1d05715ca959")
 	)
 	(wire
 		(pts
@@ -8277,7 +8257,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 135.89) (xy 313.69 138.43)
+			(xy 313.69 135.89) (xy 313.69 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8950,7 +8930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 387.35 167.64 0)
 			(effects
 				(font
@@ -9059,7 +9039,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 250.19 191.77 0)
 			(effects
 				(font
@@ -9160,7 +9140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PM45VEN"
+		(property "Value" "PMV45ENR"
 			(at 63.5 227.33 0)
 			(effects
 				(font
@@ -9169,7 +9149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 63.5 222.25 0)
 			(effects
 				(font
@@ -9196,7 +9176,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 68.58 224.79 0)
 			(effects
 				(font
@@ -9281,7 +9261,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 204.47 50.8 0)
 			(effects
 				(font
@@ -9390,7 +9370,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 48.26 180.34 0)
 			(effects
 				(font
@@ -9499,7 +9479,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 66.04 180.34 0)
 			(effects
 				(font
@@ -9674,7 +9654,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 265.43 33.02 0)
 			(effects
 				(font
@@ -9783,7 +9763,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 297.18 128.27 0)
 			(effects
 				(font
@@ -9810,7 +9790,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 297.18 128.27 0)
 			(effects
 				(font
@@ -9987,7 +9967,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 256.54 182.88 0)
 			(effects
 				(font
@@ -10071,7 +10051,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PM45VEN"
+		(property "Value" "PMV45ENR"
 			(at 45.72 237.49 0)
 			(effects
 				(font
@@ -10080,7 +10060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 45.72 232.41 0)
 			(effects
 				(font
@@ -10107,7 +10087,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 50.8 234.95 0)
 			(effects
 				(font
@@ -10328,7 +10308,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 73.66 181.61 0)
 			(effects
 				(font
@@ -10526,6 +10506,15 @@
 			)
 		)
 		(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
+			(at 256.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 256.54 219.71 0)
 			(effects
 				(font
@@ -10771,7 +10760,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 40.64 180.34 0)
 			(effects
 				(font
@@ -10937,7 +10926,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 92.71 152.4 0)
 			(effects
 				(font
@@ -11343,7 +11332,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PM45VEN"
+		(property "Value" "PMV45ENR"
 			(at 38.1 195.58 0)
 			(effects
 				(font
@@ -11352,7 +11341,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 38.1 190.5 0)
 			(effects
 				(font
@@ -11379,7 +11368,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 43.18 193.04 0)
 			(effects
 				(font
@@ -11464,7 +11453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 313.69 133.35 0)
 			(effects
 				(font
@@ -11640,7 +11629,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 375.92 167.64 0)
 			(effects
 				(font
@@ -11668,16 +11657,6 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 375.92 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DISTRIBUTOR" "Digi-key"
 			(at 375.92 167.64 0)
 			(effects
 				(font
@@ -11826,7 +11805,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 359.41 129.54 0)
 			(effects
 				(font
@@ -11975,7 +11954,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 143.51 0)
+		(at 313.69 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11983,7 +11962,7 @@
 		(dnp no)
 		(uuid "39f659b5-f439-483d-9a31-8a00457d4c72")
 		(property "Reference" "#PWR49"
-			(at 313.69 149.86 0)
+			(at 313.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +11971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 147.32 0)
+			(at 313.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +11979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 143.51 0)
+			(at 313.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +11988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 143.51 0)
+			(at 313.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +11997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 143.51 0)
+			(at 313.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 132.08 138.43 0)
 			(effects
 				(font
@@ -12372,7 +12351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 259.08 62.23 0)
 			(effects
 				(font
@@ -12474,7 +12453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PM45VEN"
+		(property "Value" "PMV45ENR"
 			(at 55.88 195.58 0)
 			(effects
 				(font
@@ -12483,7 +12462,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 55.88 190.5 0)
 			(effects
 				(font
@@ -12510,7 +12489,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 60.96 193.04 0)
 			(effects
 				(font
@@ -12626,7 +12605,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 261.62 26.67 0)
 			(effects
 				(font
@@ -12854,7 +12833,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 115.57 166.37 0)
 			(effects
 				(font
@@ -12953,7 +12932,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 33.02 170.18 0)
 			(effects
 				(font
@@ -13183,7 +13162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 74.93 241.3 0)
 			(effects
 				(font
@@ -13559,7 +13538,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 250.19 157.48 0)
 			(effects
 				(font
@@ -13668,7 +13647,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -13767,7 +13746,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1206-C"
+		(property "Footprint" "oresat-passives:1206-C"
 			(at 259.08 238.76 0)
 			(effects
 				(font
@@ -13941,7 +13920,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 58.42 180.34 0)
 			(effects
 				(font
@@ -14040,7 +14019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 115.57 127 0)
 			(effects
 				(font
@@ -14289,7 +14268,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 237.49 52.07 0)
 			(effects
 				(font
@@ -14380,7 +14359,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 243.84 171.45 0)
 			(effects
 				(font
@@ -14519,7 +14498,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 256.54 148.59 0)
 			(effects
 				(font
@@ -14640,7 +14619,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 280.67 77.47 0)
 			(effects
 				(font
@@ -14731,7 +14710,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 284.48 69.85 0)
 			(effects
 				(font
@@ -14972,7 +14951,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 252.73 179.07 0)
 			(effects
 				(font
@@ -14999,7 +14978,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 247.65 176.53 0)
 			(effects
 				(font
@@ -15285,7 +15264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 317.5 57.15 0)
 			(effects
 				(font
@@ -15394,7 +15373,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -15503,7 +15482,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 232.41 81.28 0)
 			(effects
 				(font
@@ -15678,7 +15657,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 58.42 241.3 0)
 			(effects
 				(font
@@ -15921,7 +15900,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 265.43 219.71 0)
 			(effects
 				(font
@@ -16341,7 +16320,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 237.49 74.93 0)
 			(effects
 				(font
@@ -16500,7 +16479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 252.73 144.78 0)
 			(effects
 				(font
@@ -16527,7 +16506,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -16612,7 +16591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 297.18 168.91 0)
 			(effects
 				(font
@@ -16639,7 +16618,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 297.18 168.91 0)
 			(effects
 				(font
@@ -16721,7 +16700,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 307.34 179.07 0)
 			(effects
 				(font
@@ -16830,7 +16809,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -16939,7 +16918,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 369.57 129.54 0)
 			(effects
 				(font
@@ -17452,7 +17431,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 280.67 52.07 0)
 			(effects
 				(font
@@ -17543,7 +17522,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 250.19 226.06 0)
 			(effects
 				(font
@@ -17719,7 +17698,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 307.34 154.94 0)
 			(effects
 				(font

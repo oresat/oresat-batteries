@@ -151,6 +151,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -648,211 +833,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:LED-GREEN0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -3.429 -4.572 90)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.905 -4.572 90)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "oresat-batteries:LED-0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED-GREEN0603_1_0"
-				(polyline
-					(pts
-						(xy -3.429 -2.159) (xy -3.048 -1.27) (xy -2.54 -1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -3.302) (xy -2.921 -2.413) (xy -2.413 -2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy -3.429 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -3.302 -3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
 						(effects
 							(font
 								(size 0 0)
@@ -3172,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 81.28) (xy 360.68 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "19f72850-b8a8-40ca-92c5-3f18aea569a3")
-	)
-	(wire
-		(pts
 			(xy 365.76 104.14) (xy 365.76 114.3)
 		)
 		(stroke
@@ -3279,16 +3249,6 @@
 			(type solid)
 		)
 		(uuid "2a56df0e-3e29-46cb-942c-ef2dd55b5ddf")
-	)
-	(wire
-		(pts
-			(xy 360.68 88.9) (xy 360.68 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2ebab169-1b5d-424e-8f54-9360b0606f8f")
 	)
 	(wire
 		(pts
@@ -3512,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 81.28) (xy 358.14 81.28)
+			(xy 336.55 81.28) (xy 337.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3942,6 +3902,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 81.28) (xy 337.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b94e154-4ae8-491b-a492-d88fe58fae2c")
+	)
+	(wire
+		(pts
 			(xy 254 93.98) (xy 280.67 93.98)
 		)
 		(stroke
@@ -3949,6 +3919,16 @@
 			(type solid)
 		)
 		(uuid "8d62c99e-716f-488b-9872-498e01802503")
+	)
+	(wire
+		(pts
+			(xy 337.82 87.63) (xy 337.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d73eabf-238a-4221-9ece-ea1fd99f6408")
 	)
 	(wire
 		(pts
@@ -4162,16 +4142,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 81.28) (xy 347.98 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad7cdb61-792b-4a5e-beec-e24f0747a559")
-	)
-	(wire
-		(pts
 			(xy 33.02 68.58) (xy 33.02 71.12)
 		)
 		(stroke
@@ -4272,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 81.28) (xy 347.98 81.28)
+			(xy 254 81.28) (xy 331.47 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -5345,7 +5315,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -5429,7 +5399,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 354.33 81.28 270)
+		(at 334.01 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5437,7 +5407,7 @@
 		(dnp no)
 		(uuid "0cb05381-8b43-4c92-b76f-74365a2254f4")
 		(property "Reference" "R111"
-			(at 354.584 76.2 90)
+			(at 336.55 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5416,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 353.822 73.914 90)
+			(at 336.042 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,8 +5424,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
-			(at 354.33 81.28 0)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 354.33 81.28 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5443,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 354.33 81.28 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5452,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 354.33 81.28 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5462,7 @@
 			)
 		)
 		(property "DPN" "A129693CT-ND"
-			(at 354.33 81.28 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5472,7 @@
 			)
 		)
 		(property "MFR" "TE"
-			(at 354.33 81.28 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5482,7 @@
 			)
 		)
 		(property "MPN" "CRGCQ0603F2K7"
-			(at 354.33 81.28 0)
+			(at 334.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5873,7 +5843,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 396.24 88.9 0)
 			(effects
 				(font
@@ -6114,7 +6084,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -6472,7 +6442,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6780,7 +6750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -6890,7 +6860,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 138.43 41.91 0)
 			(effects
 				(font
@@ -7066,7 +7036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -7310,7 +7280,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -7419,7 +7389,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -7594,7 +7564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -8224,7 +8194,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 345.44 162.56 0)
 			(effects
 				(font
@@ -8489,7 +8459,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 93.98 0)
+		(at 337.82 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8498,7 +8468,7 @@
 		(dnp no)
 		(uuid "ba2a836c-c782-46ab-a4a9-526a2d33af4d")
 		(property "Reference" "#PWR98"
-			(at 360.68 100.33 0)
+			(at 337.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +8477,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.68 97.79 0)
+			(at 337.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 93.98 0)
+			(at 337.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +8494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 93.98 0)
+			(at 337.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,7 +8503,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 93.98 0)
+			(at 337.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,15 +8745,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
-			(at 33.02 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "2ced6bed-0fff-4b37-b7d9-10abfde9c7ab")
 		)
@@ -8842,8 +8803,9 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:LED-GREEN0603")
-		(at 360.68 83.82 0)
+		(lib_id "Device:LED_Small_Filled")
+		(at 337.82 85.09 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8851,7 +8813,7 @@
 		(dnp no)
 		(uuid "cd83b864-ff53-4c9e-89e1-34152eebb1aa")
 		(property "Reference" "D10"
-			(at 362.585 93.218 90)
+			(at 340.36 84.836 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8859,8 +8821,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "AMBER"
-			(at 362.585 87.122 90)
+		(property "Value" "AMB"
+			(at 340.614 87.376 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8868,8 +8830,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "oresat-batteries:LED-0603"
-			(at 360.68 83.82 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 337.82 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,8 +8839,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 360.68 83.82 0)
+		(property "Datasheet" "~"
+			(at 337.82 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,16 +8848,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 360.68 83.82 0)
+		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 360.68 83.82 0)
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +8868,7 @@
 			)
 		)
 		(property "DPN" "1830-1064-1-ND"
-			(at 360.68 83.82 0)
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8878,7 @@
 			)
 		)
 		(property "MFR" "Inolux"
-			(at 360.68 83.82 0)
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8888,7 @@
 			)
 		)
 		(property "MPN" "IN-S63AT5A"
-			(at 360.68 83.82 0)
+			(at 337.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,10 +8897,19 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Sim.Pins" "1=K 2=A"
+			(at 337.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "8390eeec-5507-4d53-93c8-7e579ae535a7")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "494c66b8-f626-4e75-9f6f-a438c9464d68")
 		)
 		(instances
@@ -9043,7 +9015,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -9349,7 +9321,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9458,7 +9430,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:.0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 116.84 97.79 0)
 			(effects
 				(font
