@@ -5623,7 +5623,7 @@
 	)
 	(text "To STM32 I2C\nbootloader"
 		(exclude_from_sim no)
-		(at 151.13 140.97 0)
+		(at 156.21 130.302 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6968,16 +6968,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 143.51) (xy 152.4 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "430eaa8b-d2d2-48fb-aaea-e5e01c4b021d")
-	)
-	(wire
-		(pts
 			(xy 52.07 80.01) (xy 52.07 82.55)
 		)
 		(stroke
@@ -7868,7 +7858,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 138.43) (xy 107.95 143.51)
+			(xy 107.95 138.43) (xy 107.95 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -8148,7 +8138,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 128.27) (xy 140.97 128.27)
+			(xy 123.19 128.27) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0.1524)
@@ -8225,16 +8215,6 @@
 			(type solid)
 		)
 		(uuid "a0fdc028-5431-47cb-aa25-fc296edc94db")
-	)
-	(wire
-		(pts
-			(xy 140.97 128.27) (xy 140.97 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a174c3bc-4fd4-443e-9e94-3d147df63c22")
 	)
 	(wire
 		(pts
@@ -8598,7 +8578,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 142.24 96.52)
+			(xy 142.24 91.44) (xy 142.24 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -8728,7 +8708,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 137.16) (xy 127 137.16)
+			(xy 124.46 137.16) (xy 128.27 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -9567,7 +9547,7 @@
 		(uuid "122a27d4-6052-4594-a41f-f86673a89e1a")
 	)
 	(label "AD1"
-		(at 80.01 118.11 0)
+		(at 85.09 118.11 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9617,7 +9597,7 @@
 		(uuid "484116c4-b860-4bf5-924c-6de510b6fac5")
 	)
 	(label "AD0"
-		(at 80.01 115.57 0)
+		(at 85.09 115.57 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9637,7 +9617,7 @@
 		(uuid "a209ee25-1593-4e2d-b245-a89c537e1020")
 	)
 	(label "AD2"
-		(at 80.01 120.65 0)
+		(at 85.09 120.65 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9731,7 +9711,7 @@
 	)
 	(hierarchical_label "BOOT0"
 		(shape bidirectional)
-		(at 152.4 143.51 0)
+		(at 147.32 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12146,7 +12126,7 @@
 		(dnp no)
 		(uuid "3142253f-6341-44cc-b06c-b53cafd48e5b")
 		(property "Reference" "TP3"
-			(at 82.55 132.08 0)
+			(at 83.566 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12627,7 +12607,7 @@
 		(dnp no)
 		(uuid "3b385893-b440-4782-8498-81e753be5405")
 		(property "Reference" "TP2"
-			(at 82.55 121.92 0)
+			(at 81.788 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14429,7 +14409,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 96.52 0)
+		(at 142.24 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14438,7 +14418,7 @@
 		(dnp no)
 		(uuid "68626f79-57fc-4be3-b645-1bf2741690b7")
 		(property "Reference" "#PWR34"
-			(at 142.24 102.87 0)
+			(at 142.24 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14447,7 +14427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 100.33 0)
+			(at 142.24 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14455,7 +14435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 96.52 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +14444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 96.52 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +14453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 96.52 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17140,7 +17120,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 127 137.16 90)
+		(at 128.27 137.16 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17148,7 +17128,7 @@
 		(dnp no)
 		(uuid "a1d95fb4-e706-4ade-b534-1da121614a48")
 		(property "Reference" "TP5"
-			(at 129.54 137.16 90)
+			(at 130.048 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17157,7 +17137,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 127 137.16 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17166,7 +17146,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 116.84 137.16 0)
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17175,7 +17155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 137.16 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17184,7 +17164,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 127 137.16 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18852,7 +18832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 143.51 0)
+		(at 107.95 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18861,7 +18841,7 @@
 		(dnp no)
 		(uuid "c54dd7c5-54e5-44c0-a0fa-f9fe2881190c")
 		(property "Reference" "#PWR9"
-			(at 107.95 149.86 0)
+			(at 107.95 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18870,7 +18850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 147.32 0)
+			(at 107.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18878,7 +18858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 143.51 0)
+			(at 107.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18887,7 +18867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 143.51 0)
+			(at 107.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18896,7 +18876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 143.51 0)
+			(at 107.95 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
