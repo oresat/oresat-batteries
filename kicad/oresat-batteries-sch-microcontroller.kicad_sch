@@ -474,6 +474,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:TCAN330"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCAN330"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN330_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCAN330_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-batteries-eagle-import:3.3V"
 			(power)
 			(exclude_from_sim no)
@@ -1783,224 +2012,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-batteries-eagle-import:TCAN330"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 7.62 -17.78 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 7.62 -20.32 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:SOT23-8_TI-DCN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCAN330_1_0"
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "SHDN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TCAN330_1_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-batteries-eagle-import:VBUSP"
 			(power)
 			(exclude_from_sim no)
@@ -2785,10 +2796,10 @@
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
-		(at 373.38 78.74 0)
+		(at 376.936 84.582 0)
 		(effects
 			(font
-				(size 2.54 2.159)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
@@ -2855,7 +2866,7 @@
 		(uuid "75182269-8149-4288-b2b1-5211a729f317")
 	)
 	(junction
-		(at 386.08 88.9)
+		(at 384.81 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac9f641-fbcf-4924-aad2-1511df91f84b")
@@ -3042,16 +3053,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 114.3) (xy 373.38 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0eee90fa-ce42-4f49-830c-c08780a8fcc9")
-	)
-	(wire
-		(pts
 			(xy 218.44 22.86) (xy 223.52 22.86)
 		)
 		(stroke
@@ -3152,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 104.14) (xy 365.76 114.3)
+			(xy 365.76 104.14) (xy 365.76 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -3222,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 124.46) (xy 386.08 121.92)
+			(xy 384.81 119.38) (xy 384.81 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -3249,6 +3250,16 @@
 			(type solid)
 		)
 		(uuid "2a56df0e-3e29-46cb-942c-ef2dd55b5ddf")
+	)
+	(wire
+		(pts
+			(xy 254 109.22) (xy 368.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afa05ae-69c8-4cb7-95bf-53abd0b9f1e0")
 	)
 	(wire
 		(pts
@@ -3292,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 104.14) (xy 403.86 104.14)
+			(xy 397.51 104.14) (xy 403.86 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -3312,16 +3323,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 99.06) (xy 363.22 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3597c153-0aee-485c-8ff7-739d5bfa7040")
-	)
-	(wire
-		(pts
 			(xy 146.05 100.33) (xy 148.59 100.33)
 		)
 		(stroke
@@ -3332,13 +3333,23 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 109.22) (xy 370.84 106.68)
+			(xy 368.3 104.14) (xy 372.11 104.14)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "3858a0ba-75a4-4c80-9484-9f311fd850d4")
+		(uuid "363debff-8e35-4cc8-a4ef-931f4ef682f9")
+	)
+	(wire
+		(pts
+			(xy 363.22 101.6) (xy 372.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38630eed-4aac-47b5-ad3f-6cfc964b7192")
 	)
 	(polyline
 		(pts
@@ -3362,7 +3373,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 91.44) (xy 386.08 88.9)
+			(xy 384.81 96.52) (xy 384.81 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -3492,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 104.14) (xy 368.3 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5487ceea-e947-4ef5-83cf-1f40fa3e6b8d")
-	)
-	(wire
-		(pts
 			(xy 208.28 114.3) (xy 157.48 114.3)
 		)
 		(stroke
@@ -3509,6 +3510,16 @@
 			(type solid)
 		)
 		(uuid "575010a3-59e5-4d1d-99dc-56a5b062d70b")
+	)
+	(wire
+		(pts
+			(xy 363.22 101.6) (xy 363.22 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57bd6903-3677-4948-a32d-5baf15fc8b69")
 	)
 	(wire
 		(pts
@@ -3542,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 88.9) (xy 386.08 86.36)
+			(xy 384.81 93.98) (xy 384.81 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -3552,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 88.9) (xy 401.32 91.44)
+			(xy 400.05 93.98) (xy 400.05 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -3629,6 +3640,16 @@
 			(type solid)
 		)
 		(uuid "63317052-6f19-4d2a-a77d-fd89dfa0b27b")
+	)
+	(wire
+		(pts
+			(xy 370.84 109.22) (xy 370.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cec057-b2fc-48e1-bc8f-08bde1cc9f7e")
 	)
 	(wire
 		(pts
@@ -3732,13 +3753,33 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 106.68) (xy 254 106.68)
+			(xy 254 106.68) (xy 370.84 106.68)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "71dc2997-3cdc-41b3-b60c-7a833fed0c40")
+	)
+	(wire
+		(pts
+			(xy 372.11 109.22) (xy 370.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74af0f7f-b6e6-4228-a15c-d4facac89132")
+	)
+	(wire
+		(pts
+			(xy 365.76 111.76) (xy 372.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760a5451-d9cb-45c0-b0cf-5c17da1e7a69")
 	)
 	(wire
 		(pts
@@ -3819,16 +3860,6 @@
 			(type solid)
 		)
 		(uuid "7bb8a472-602e-48f2-8c73-1680e50b413c")
-	)
-	(wire
-		(pts
-			(xy 373.38 109.22) (xy 370.84 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7c59a668-f64c-4c80-9797-865d360bca7b")
 	)
 	(wire
 		(pts
@@ -4022,16 +4053,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 104.14) (xy 368.3 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9b73423e-ff02-47d2-b4b1-261d2350f384")
-	)
-	(wire
-		(pts
 			(xy 107.95 190.5) (xy 43.18 190.5)
 		)
 		(stroke
@@ -4222,7 +4243,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 109.22) (xy 403.86 109.22)
+			(xy 397.51 109.22) (xy 403.86 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -4269,16 +4290,6 @@
 			(type solid)
 		)
 		(uuid "bad594bd-59a0-4b58-b11f-1a13d0c4c802")
-	)
-	(wire
-		(pts
-			(xy 368.3 109.22) (xy 254 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bb239db9-79db-4c30-871c-e241814d8991")
 	)
 	(wire
 		(pts
@@ -4392,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 88.9) (xy 401.32 88.9)
+			(xy 397.51 93.98) (xy 400.05 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -4512,16 +4523,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 99.06) (xy 363.22 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d5466703-1e0f-49ad-9fff-4679fb769581")
-	)
-	(wire
-		(pts
 			(xy 208.28 83.82) (xy 190.5 83.82)
 		)
 		(stroke
@@ -4602,7 +4603,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 88.9) (xy 393.7 88.9)
+			(xy 384.81 93.98) (xy 392.43 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -4669,6 +4670,16 @@
 			(type solid)
 		)
 		(uuid "e86abe99-db4d-4959-9e6b-e888501d6389")
+	)
+	(wire
+		(pts
+			(xy 368.3 109.22) (xy 368.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88869f7-fb4d-4b30-b072-8ba071482565")
 	)
 	(wire
 		(pts
@@ -5574,7 +5585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 401.32 91.44 0)
+		(at 400.05 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5583,7 +5594,7 @@
 		(dnp no)
 		(uuid "2541d80c-8e6d-42c1-b2e4-67ea0780c435")
 		(property "Reference" "#PWR92"
-			(at 401.32 97.79 0)
+			(at 400.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 401.32 95.25 0)
+			(at 400.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 401.32 91.44 0)
+			(at 400.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 91.44 0)
+			(at 400.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 401.32 91.44 0)
+			(at 400.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +5828,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 396.24 88.9 270)
+		(at 394.97 93.98 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5826,7 +5837,7 @@
 		(dnp no)
 		(uuid "2cbcf372-bf93-4b2c-949f-cfaf74ef9ac8")
 		(property "Reference" "C48"
-			(at 396.621 87.376 0)
+			(at 392.938 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +5846,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 391.541 87.376 0)
+			(at 395.478 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +5855,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +5864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5873,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +5882,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5892,7 @@
 			)
 		)
 		(property "DPN" "399-1099-1-ND"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +5902,7 @@
 			)
 		)
 		(property "MFR" "Samsung"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +5912,7 @@
 			)
 		)
 		(property "MPN" "C0603C104M4RACTU"
-			(at 396.24 88.9 0)
+			(at 394.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 124.46 0)
+		(at 384.81 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6001,7 +6012,7 @@
 		(dnp no)
 		(uuid "2e23d785-478d-446d-a15b-535095b00223")
 		(property "Reference" "#PWR93"
-			(at 386.08 130.81 0)
+			(at 384.81 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 128.27 0)
+			(at 384.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 124.46 0)
+			(at 384.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 124.46 0)
+			(at 384.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 386.08 124.46 0)
+			(at 384.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,6 +6231,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -7779,8 +7791,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:TCAN330")
-		(at 386.08 106.68 0)
+		(lib_id "Interface_CAN_LIN:TCAN330")
+		(at 384.81 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7788,7 +7800,7 @@
 		(dnp no)
 		(uuid "8d266c78-4738-49c2-ac5b-f5b021ce66eb")
 		(property "Reference" "U20"
-			(at 389.89 121.92 0)
+			(at 389.128 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +7809,7 @@
 			)
 		)
 		(property "Value" "TCAN330"
-			(at 389.89 124.46 0)
+			(at 389.128 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,8 +7817,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-batteries:SOT23-8_TI-DCN"
-			(at 386.08 106.68 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+			(at 384.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 384.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,25 +7836,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 386.08 106.68 0)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 384.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 386.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 386.08 106.68 0)
+			(at 384.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +7856,7 @@
 			)
 		)
 		(property "DPN" "296-44211-1-ND"
-			(at 386.08 106.68 0)
+			(at 384.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +7866,7 @@
 			)
 		)
 		(property "MFR" "Texas Instruments"
-			(at 386.08 106.68 0)
+			(at 384.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7876,7 @@
 			)
 		)
 		(property "MPN" "TCAN330GDCNT"
-			(at 386.08 106.68 0)
+			(at 384.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,7 +8606,7 @@
 	)
 	(symbol
 		(lib_id "oresat-batteries-eagle-import:3.3V")
-		(at 386.08 86.36 0)
+		(at 384.81 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8601,7 +8615,7 @@
 		(dnp no)
 		(uuid "bddef7ed-809f-4e5b-bb19-2d72f4d0a8c2")
 		(property "Reference" "#SUPPLY012"
-			(at 386.08 86.36 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8624,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 386.08 83.566 0)
+			(at 384.81 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8619,7 +8633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 86.36 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,7 +8642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 86.36 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 386.08 86.36 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

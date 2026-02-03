@@ -11,6 +11,119 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2693,133 +2806,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-batteries-eagle-import:PINHD-1X1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:1X01"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PINHD-1X1_1_0"
-				(polyline
-					(pts
-						(xy -6.35 2.54) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -6.35 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-batteries-eagle-import:VBUSP"
 			(power)
 			(exclude_from_sim no)
@@ -3168,7 +3154,7 @@
 	)
 	(text "+Y HEATER"
 		(exclude_from_sim no)
-		(at 274.32 151.13 90)
+		(at 276.352 151.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3189,7 +3175,7 @@
 	)
 	(text "-Y HEATER"
 		(exclude_from_sim no)
-		(at 254 152.4 90)
+		(at 255.778 151.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3421,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 146.05) (xy 265.43 146.05)
+			(xy 260.35 146.05) (xy 265.43 146.05)
 		)
 		(stroke
 			(width 0.254)
@@ -3471,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 138.43) (xy 265.43 138.43)
+			(xy 260.35 138.43) (xy 265.43 138.43)
 		)
 		(stroke
 			(width 0.254)
@@ -3501,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 138.43) (xy 275.59 138.43)
+			(xy 265.43 138.43) (xy 270.51 138.43)
 		)
 		(stroke
 			(width 0.254)
@@ -3921,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 146.05) (xy 275.59 146.05)
+			(xy 265.43 146.05) (xy 270.51 146.05)
 		)
 		(stroke
 			(width 0.254)
@@ -4801,8 +4787,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:PINHD-1X1")
-		(at 278.13 146.05 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 275.59 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4810,7 +4796,7 @@
 		(dnp no)
 		(uuid "3662e2df-0a9a-40ec-b4b8-c53cef043ad8")
 		(property "Reference" "JP17"
-			(at 271.78 142.875 0)
+			(at 274.066 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4805,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 271.78 151.13 0)
+			(at 269.24 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,8 +4814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 278.13 146.05 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 275.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,8 +4823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 278.13 146.05 0)
+		(property "Datasheet" "~"
+			(at 275.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,12 +4832,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 278.13 146.05 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 275.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4976,8 +4963,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:PINHD-1X1")
-		(at 252.73 138.43 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4986,7 +4973,7 @@
 		(dnp no)
 		(uuid "425b4337-ba77-42e0-a064-c4d85a85afb2")
 		(property "Reference" "JP14"
-			(at 259.08 135.255 0)
+			(at 256.794 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4982,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 259.08 143.51 0)
+			(at 261.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,8 +4991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 252.73 138.43 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,8 +5000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 252.73 138.43 0)
+		(property "Datasheet" "~"
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,12 +5009,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 252.73 138.43 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5803,8 +5791,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:PINHD-1X1")
-		(at 278.13 138.43 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 275.59 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5812,7 +5800,7 @@
 		(dnp no)
 		(uuid "a8669ba9-c759-479f-bba4-c97d137b76b1")
 		(property "Reference" "JP16"
-			(at 271.78 135.255 0)
+			(at 273.812 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5809,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 271.78 143.51 0)
+			(at 269.24 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,8 +5818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 278.13 138.43 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 275.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,8 +5827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 278.13 138.43 0)
+		(property "Datasheet" "~"
+			(at 275.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,12 +5836,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 278.13 138.43 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 275.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6252,8 +6241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:PINHD-1X1")
-		(at 252.73 146.05 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 146.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6262,7 +6251,7 @@
 		(dnp no)
 		(uuid "d27be4ba-543d-4855-9c90-71a847a69617")
 		(property "Reference" "JP15"
-			(at 259.08 142.875 0)
+			(at 257.048 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6260,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 259.08 151.13 0)
+			(at 261.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,8 +6269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-batteries:1X01"
-			(at 252.73 146.05 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 255.27 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,8 +6278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 252.73 146.05 0)
+		(property "Datasheet" "~"
+			(at 255.27 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,12 +6287,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 252.73 146.05 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
