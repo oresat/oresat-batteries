@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-01-10")
+		(date "2026-03-23")
 		(rev "4.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -8450,16 +8450,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 60.96) (xy 278.13 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd7cef2-d79e-4f57-9a46-c5af28aeadf8")
-	)
-	(wire
-		(pts
 			(xy 73.66 176.53) (xy 73.66 179.07)
 		)
 		(stroke
@@ -8908,7 +8898,7 @@
 		)
 		(uuid "f9dddc2d-af5b-4d7b-a6f2-41c3bd6c6305")
 	)
-	(hierarchical_label "PB7{slash}SDA"
+	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 382.27 151.13 0)
 		(effects
@@ -9012,7 +9002,7 @@
 		)
 		(uuid "e5fa11bf-7a6c-430f-9983-b1b7f3daffc1")
 	)
-	(hierarchical_label "PB6{slash}SCL"
+	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
 		(at 382.27 146.05 0)
 		(effects
@@ -10816,7 +10806,7 @@
 			(uuid "71e3c3a1-f103-4d72-bf2c-5fd76719dcc2")
 		)
 		(instances
-			(project ""
+			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
 					(reference "Q29")
 					(unit 1)
@@ -11610,7 +11600,7 @@
 			(uuid "f8466134-447e-44c6-a6f1-bade2fd6ec81")
 		)
 		(instances
-			(project ""
+			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
 					(reference "#PWR041")
 					(unit 1)

@@ -68,26 +68,6 @@
           ""
         ],
         [
-          "courtyards_overlap|130934167|90226336|2f314b1c-2c90-4518-9035-1bba2fc75858|68b17000-21fb-4b92-9e17-37ee70404485",
-          ""
-        ],
-        [
-          "courtyards_overlap|132734167|71226336|b7e64614-4de8-452a-9bc6-459ae57c786b|d13293d4-d2f7-4a4b-8682-6d675a21916d",
-          ""
-        ],
-        [
-          "courtyards_overlap|164011100|77645215|16a15e40-880e-4968-9a73-cf91ce70a6a5|3506ace0-0386-4363-9763-aa1a6ec55201",
-          ""
-        ],
-        [
-          "courtyards_overlap|165111100|118845215|bca01d65-23f1-4dc5-9bdb-aa50e0bf1f11|e9e0de99-fa6c-4a1f-b508-43f9497ea272",
-          ""
-        ],
-        [
-          "courtyards_overlap|181106100|106808600|16918680-9726-409e-8caf-f886c02724c8|89e53141-cbb9-434d-b4cd-8a83ba3e211f",
-          ""
-        ],
-        [
           "courtyards_overlap|195326100|119158600|33d34d23-8c17-4c86-9d45-d59b2d19b4fe|61010493-fdf8-4c6c-b33f-982d073c4c29",
           ""
         ],
@@ -294,7 +274,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2616200|2082800|86a69787-58e9-485a-92f6-2cb6e3c4be53|70b45c70-efed-4def-b097-3ad64e56b0ca|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d",
+        ""
+      ],
+      [
+        "multiple_net_names|2908300|1866900|86a69787-58e9-485a-92f6-2cb6e3c4be53|70b45c70-efed-4def-b097-3ad64e56b0ca|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d",
+        ""
+      ],
+      [
+        "pin_to_pin|2565400|685800|8a50ed2c-4de9-4cbc-b7bb-abc2b442070c|134e72f0-3d4e-41e0-af2b-c652a090fa7f|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d",
+        ""
+      ],
+      [
+        "pin_to_pin|2882900|685800|8a50ed2c-4de9-4cbc-b7bb-abc2b442070c|134e72f0-3d4e-41e0-af2b-c652a090fa7f|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -614,7 +611,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -761,7 +758,7 @@
     ],
     [
       "825d8273-a5eb-4594-9c05-1a3ee01e259d",
-      "Power"
+      "OreSat Power Domain (OPD)"
     ],
     [
       "60cc160f-89b6-42ae-bb0a-7f727f347e07",

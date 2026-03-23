@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-01-10")
+		(date "2026-03-23")
 		(rev "4.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -6250,7 +6250,7 @@
 			(uuid "eca1ffbd-4dd0-49b1-96a9-d0089e8978d9")
 		)
 		(instances
-			(project ""
+			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
 					(reference "R99")
 					(unit 1)
@@ -6704,13 +6704,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6a3581a-1d00-49c6-a91c-578b7ea77ebd")
+			(uuid "d6a3581a-1d00-49c6-a91c-578b7ea77ebe")
 		)
 		(pin "1"
-			(uuid "eca1ffbd-4dd0-49b1-96a9-d0089e8978d9")
+			(uuid "eca1ffbd-4dd0-49b1-96a9-d0089e8978da")
 		)
 		(instances
-			(project ""
+			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
 					(reference "R100")
 					(unit 1)
