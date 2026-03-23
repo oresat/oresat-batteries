@@ -3630,7 +3630,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Omron D2F-L3-D (LEFT)"
+		(property "Value" "D2F-L3-D (LEFT)"
 			(at 194.31 247.65 0)
 			(effects
 				(font
@@ -3648,7 +3648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/875/D2F_0318_DS.pdf"
 			(at 189.23 231.14 0)
 			(effects
 				(font
@@ -3657,12 +3657,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch SPDT Chassis Mount"
 			(at 189.23 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 189.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SW1443-ND"
+			(at 189.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Oron Electronics"
+			(at 189.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SW1443-ND"
+			(at 189.23 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "C"
@@ -3688,7 +3725,7 @@
 		(at 63.5 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3720,7 +3757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 63.5 218.44 0)
 			(effects
 				(font
@@ -3729,12 +3766,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 63.5 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 63.5 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 63.5 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 63.5 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 63.5 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -3829,7 +3903,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "OMRON D2F-L3-D (LEFT)"
+		(property "Value" "D2F-L3-D (LEFT)"
 			(at 294.132 230.632 0)
 			(effects
 				(font
@@ -3847,7 +3921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/875/D2F_0318_DS.pdf"
 			(at 294.64 223.52 0)
 			(effects
 				(font
@@ -3856,12 +3930,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch SPDT Chassis Mount"
 			(at 294.64 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 294.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SW1443-ND"
+			(at 294.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Oron Electronics"
+			(at 294.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SW1443-ND"
+			(at 294.64 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "C"
@@ -4088,7 +4199,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "OMRON D2F-L3-D (RIGHT)"
+		(property "Value" "D2F-L3-D (RIGHT)"
 			(at 250.19 228.6 0)
 			(effects
 				(font
@@ -4106,7 +4217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/875/D2F_0318_DS.pdf"
 			(at 262.89 223.52 0)
 			(effects
 				(font
@@ -4115,12 +4226,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch SPDT Chassis Mount"
 			(at 262.89 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 262.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SW1443-ND"
+			(at 262.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Oron Electronics"
+			(at 262.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SW1443-ND"
+			(at 262.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "C"
@@ -4435,7 +4583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tfm.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 128.27 31.75 0)
 			(effects
 				(font
@@ -4444,12 +4592,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
 			(at 128.27 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec"
@@ -4469,6 +4618,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM10145-ND"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4816,7 +4983,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Omron D2F-L3-D (RIGHT)"
+		(property "Value" "D2F-L3-D (RIGHT)"
 			(at 215.9 247.65 0)
 			(effects
 				(font
@@ -4834,7 +5001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/875/D2F_0318_DS.pdf"
 			(at 210.82 231.14 0)
 			(effects
 				(font
@@ -4843,12 +5010,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch SPDT Chassis Mount"
 			(at 210.82 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 210.82 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SW1443-ND"
+			(at 210.82 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Oron Electronics"
+			(at 210.82 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SW1443-ND"
+			(at 210.82 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "C"

@@ -124,6 +124,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Heater"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heater"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistive heater"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "heater R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heater_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.508) (xy -1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.508) (xy -1.016 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy -1.016 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Heater_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -3133,7 +3296,7 @@
 	)
 	(text "2x Minco HK6903 Heaters (12.7 x 101.6 mm @ 49 ohm)"
 		(exclude_from_sim no)
-		(at 233.68 170.18 0)
+		(at 248.412 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3144,7 +3307,7 @@
 	)
 	(text "At 8.2V and 24.5 ohms, we should see a maximum of ~ 343 mA"
 		(exclude_from_sim no)
-		(at 262.382 172.212 0)
+		(at 277.114 172.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3154,7 +3317,7 @@
 	)
 	(text "+Y HEATER"
 		(exclude_from_sim no)
-		(at 276.352 151.13 90)
+		(at 287.782 151.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3175,7 +3338,7 @@
 	)
 	(text "-Y HEATER"
 		(exclude_from_sim no)
-		(at 255.778 151.13 90)
+		(at 267.208 151.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3214,7 +3377,7 @@
 		(uuid "13a947ea-1c20-4c08-8eb1-14db6a8b3789")
 	)
 	(junction
-		(at 290.83 93.98)
+		(at 302.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1daa434e-3bba-49ad-89eb-fc6713f81b20")
@@ -3226,25 +3389,25 @@
 		(uuid "3816d95e-785d-4594-ac7b-1045dc06670b")
 	)
 	(junction
-		(at 265.43 113.03)
+		(at 276.86 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "478f2629-f1c4-4a6a-af44-c930fa767d37")
 	)
 	(junction
-		(at 265.43 138.43)
+		(at 276.86 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c533ece-6ae3-45d7-9c85-b1b614731bad")
 	)
 	(junction
-		(at 265.43 87.63)
+		(at 276.86 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56a4ef5f-8a67-4fad-b4d0-4d153d1f05a2")
 	)
 	(junction
-		(at 284.48 106.68)
+		(at 295.91 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6011bf3d-09a6-4a57-b5b4-1ba04417b635")
@@ -3268,13 +3431,13 @@
 		(uuid "712e758c-6013-45a3-85a9-e922f0dbd9d6")
 	)
 	(junction
-		(at 284.48 74.93)
+		(at 295.91 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83d360c4-996b-47e6-99fb-013e12645b25")
 	)
 	(junction
-		(at 265.43 146.05)
+		(at 276.86 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "883f37b2-4990-4de0-913b-df8710173350")
@@ -3286,7 +3449,7 @@
 		(uuid "ae88db89-7de1-4379-992e-25cef05ceb41")
 	)
 	(junction
-		(at 265.43 74.93)
+		(at 276.86 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "babc5199-18a0-435f-b46a-e9ecc1b20264")
@@ -3304,7 +3467,7 @@
 		(uuid "e02c2e9f-82b3-4388-aea3-101a5fb96bd6")
 	)
 	(junction
-		(at 284.48 125.73)
+		(at 295.91 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5df5454-a1ed-4a42-a913-59b67e239d6f")
@@ -3314,6 +3477,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a534a7-5183-4ffc-8b30-50ae3b8a8136")
+	)
+	(no_connect
+		(at 292.1 146.05)
+		(uuid "05c53b9d-a03f-43d3-8554-483a113ed9a3")
+	)
+	(no_connect
+		(at 261.62 138.43)
+		(uuid "14088b29-d251-40b6-8421-fe5cdf757912")
+	)
+	(no_connect
+		(at 261.62 146.05)
+		(uuid "ae0d4d0c-4664-429a-a965-ca4cbbab4f70")
+	)
+	(no_connect
+		(at 292.1 138.43)
+		(uuid "e1e33678-bf63-45d9-a2ae-b09e6c6498e5")
 	)
 	(wire
 		(pts
@@ -3327,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 74.93) (xy 265.43 74.93)
+			(xy 233.68 74.93) (xy 276.86 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -3357,17 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 113.03) (xy 265.43 113.03)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(uuid "130df49f-53c3-43d8-be3a-a4d5a2bd1e5f")
-	)
-	(wire
-		(pts
-			(xy 284.48 83.82) (xy 284.48 86.36)
+			(xy 295.91 83.82) (xy 295.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3375,19 +3544,9 @@
 		)
 		(uuid "1933f678-c80b-4044-8883-b3844652e699")
 	)
-	(wire
-		(pts
-			(xy 242.57 111.76) (xy 242.57 113.03)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(uuid "1c41467b-14cf-40f4-81d9-c6170e15860a")
-	)
 	(polyline
 		(pts
-			(xy 248.92 166.37) (xy 261.62 166.37)
+			(xy 250.19 166.37) (xy 273.05 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -3407,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 146.05) (xy 265.43 146.05)
+			(xy 271.78 146.05) (xy 276.86 146.05)
 		)
 		(stroke
 			(width 0.254)
@@ -3427,7 +3586,17 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 83.82) (xy 290.83 86.36)
+			(xy 242.57 113.03) (xy 276.86 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "315158e2-7d95-4558-81f0-e56a9c9b92d0")
+	)
+	(wire
+		(pts
+			(xy 302.26 83.82) (xy 302.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +3616,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 166.37) (xy 261.62 130.81)
+			(xy 273.05 166.37) (xy 273.05 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3457,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 138.43) (xy 265.43 138.43)
+			(xy 271.78 138.43) (xy 276.86 138.43)
 		)
 		(stroke
 			(width 0.254)
@@ -3477,7 +3646,7 @@
 	)
 	(polyline
 		(pts
-			(xy 269.24 166.37) (xy 281.94 166.37)
+			(xy 280.67 166.37) (xy 303.53 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -3487,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 138.43) (xy 270.51 138.43)
+			(xy 276.86 138.43) (xy 281.94 138.43)
 		)
 		(stroke
 			(width 0.254)
@@ -3497,7 +3666,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 166.37) (xy 281.94 130.81)
+			(xy 303.53 166.37) (xy 303.53 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3507,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 101.6) (xy 302.26 99.06)
+			(xy 313.69 101.6) (xy 313.69 99.06)
 		)
 		(stroke
 			(width 0.254)
@@ -3537,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 76.2) (xy 290.83 78.74)
+			(xy 302.26 76.2) (xy 302.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 74.93) (xy 265.43 72.39)
+			(xy 276.86 74.93) (xy 276.86 72.39)
 		)
 		(stroke
 			(width 0.254)
@@ -3567,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 106.68) (xy 284.48 118.11)
+			(xy 295.91 106.68) (xy 295.91 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -3577,7 +3746,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 74.93) (xy 290.83 74.93)
+			(xy 295.91 74.93) (xy 302.26 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -3627,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 87.63) (xy 265.43 74.93)
+			(xy 276.86 87.63) (xy 276.86 74.93)
 		)
 		(stroke
 			(width 0.254)
@@ -3637,7 +3806,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 113.03) (xy 265.43 138.43)
+			(xy 276.86 113.03) (xy 276.86 138.43)
 		)
 		(stroke
 			(width 0.254)
@@ -3677,7 +3846,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 130.81) (xy 269.24 130.81)
+			(xy 303.53 130.81) (xy 280.67 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3687,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 93.98) (xy 290.83 118.11)
+			(xy 302.26 93.98) (xy 302.26 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -3717,7 +3886,7 @@
 	)
 	(polyline
 		(pts
-			(xy 269.24 130.81) (xy 269.24 166.37)
+			(xy 280.67 130.81) (xy 280.67 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -3757,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 149.86) (xy 265.43 146.05)
+			(xy 276.86 149.86) (xy 276.86 146.05)
 		)
 		(stroke
 			(width 0.1524)
@@ -3767,7 +3936,7 @@
 	)
 	(polyline
 		(pts
-			(xy 261.62 130.81) (xy 248.92 130.81)
+			(xy 273.05 130.81) (xy 250.19 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -3797,7 +3966,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 130.81) (xy 248.92 166.37)
+			(xy 250.19 130.81) (xy 250.19 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -3817,7 +3986,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 106.68) (xy 284.48 106.68)
+			(xy 306.07 106.68) (xy 295.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3837,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 86.36) (xy 290.83 93.98)
+			(xy 302.26 86.36) (xy 302.26 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -3847,7 +4016,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 87.63) (xy 302.26 87.63)
+			(xy 276.86 87.63) (xy 313.69 87.63)
 		)
 		(stroke
 			(width 0.254)
@@ -3867,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 86.36) (xy 284.48 106.68)
+			(xy 295.91 86.36) (xy 295.91 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -3887,7 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 125.73) (xy 284.48 125.73)
+			(xy 233.68 125.73) (xy 295.91 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -3907,7 +4076,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 146.05) (xy 270.51 146.05)
+			(xy 276.86 146.05) (xy 281.94 146.05)
 		)
 		(stroke
 			(width 0.254)
@@ -3937,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 123.19) (xy 284.48 125.73)
+			(xy 295.91 123.19) (xy 295.91 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -3957,7 +4126,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 125.73) (xy 290.83 125.73)
+			(xy 295.91 125.73) (xy 302.26 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -3987,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 87.63) (xy 265.43 87.63)
+			(xy 242.57 87.63) (xy 276.86 87.63)
 		)
 		(stroke
 			(width 0.254)
@@ -4057,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 76.2) (xy 284.48 78.74)
+			(xy 295.91 76.2) (xy 295.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4067,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 87.63) (xy 302.26 88.9)
+			(xy 313.69 87.63) (xy 313.69 88.9)
 		)
 		(stroke
 			(width 0.254)
@@ -4077,7 +4246,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 149.86) (xy 265.43 152.4)
+			(xy 276.86 149.86) (xy 276.86 152.4)
 		)
 		(stroke
 			(width 0.254)
@@ -4117,7 +4286,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 93.98) (xy 290.83 93.98)
+			(xy 306.07 93.98) (xy 302.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4127,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 76.2) (xy 290.83 74.93)
+			(xy 302.26 76.2) (xy 302.26 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4147,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 74.93) (xy 265.43 74.93)
+			(xy 295.91 74.93) (xy 276.86 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4167,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 125.73) (xy 290.83 123.19)
+			(xy 302.26 125.73) (xy 302.26 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -4207,7 +4376,17 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 113.03) (xy 302.26 113.03)
+			(xy 242.57 113.03) (xy 242.57 111.76)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "f5d3300b-d1f6-460f-a9e7-17160acacc3f")
+	)
+	(wire
+		(pts
+			(xy 276.86 113.03) (xy 313.69 113.03)
 		)
 		(stroke
 			(width 0.254)
@@ -4217,7 +4396,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 113.03) (xy 302.26 111.76)
+			(xy 313.69 113.03) (xy 313.69 111.76)
 		)
 		(stroke
 			(width 0.254)
@@ -4237,7 +4416,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 76.2) (xy 284.48 74.93)
+			(xy 295.91 76.2) (xy 295.91 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4308,7 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 233.68 151.13 0)
 			(effects
 				(font
@@ -4317,7 +4496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 233.68 151.13 0)
 			(effects
 				(font
@@ -4382,7 +4561,7 @@
 	)
 	(symbol
 		(lib_id "oresat-diodes:1N4151WS-HE3")
-		(at 290.83 120.65 90)
+		(at 302.26 120.65 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4391,7 +4570,7 @@
 		(dnp no)
 		(uuid "12b32aa8-be23-476c-be2e-8db09bab9f22")
 		(property "Reference" "D12"
-			(at 296.418 120.65 90)
+			(at 307.848 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4579,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 292.354 121.158 90)
+			(at 303.784 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4588,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 295.91 120.65 0)
+			(at 307.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
-			(at 298.45 120.65 0)
+			(at 309.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,12 +4605,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 290.83 120.65 0)
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
+			(at 302.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 302.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
+			(at 302.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 302.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4151WS-E3-08"
+			(at 302.26 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4604,7 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 213.36 151.13 0)
 			(effects
 				(font
@@ -4613,7 +4829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 213.36 151.13 0)
 			(effects
 				(font
@@ -4714,7 +4930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 233.68 135.89 0)
 			(effects
 				(font
@@ -4723,7 +4939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 233.68 135.89 0)
 			(effects
 				(font
@@ -4788,15 +5004,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 275.59 146.05 0)
+		(at 287.02 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3662e2df-0a9a-40ec-b4b8-c53cef043ad8")
 		(property "Reference" "JP17"
-			(at 274.066 144.526 0)
+			(at 285.496 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +5021,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 269.24 151.13 0)
+			(at 280.67 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +5031,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 275.59 146.05 0)
+			(at 287.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,8 +5039,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 275.59 146.05 0)
+		(property "Datasheet" "N/A"
+			(at 287.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,8 +5048,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 146.05 0)
+		(property "Description" "N/A"
+			(at 287.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 287.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 287.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 287.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 287.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5107,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 290.83 81.28 180)
+		(at 302.26 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4863,7 +5115,7 @@
 		(dnp no)
 		(uuid "3e2b4e7b-e4ca-44f3-be21-796805ae9292")
 		(property "Reference" "R43"
-			(at 294.64 82.7786 0)
+			(at 306.07 82.7786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +5124,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 294.64 77.978 0)
+			(at 306.07 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5133,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 290.83 81.28 0)
+			(at 302.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,8 +5141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 290.83 81.28 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 302.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,8 +5150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 290.83 81.28 0)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 302.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,18 +5159,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 290.83 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
-			(at 290.83 81.28 0)
+		(property "DIS" "DigiKey"
+			(at 302.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,8 +5169,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
-			(at 290.83 81.28 0)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 302.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,8 +5179,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 290.83 81.28 0)
+		(property "MFR" "Stackpole Electronics"
+			(at 302.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 302.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,16 +5216,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 255.27 138.43 0)
+		(at 266.7 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "425b4337-ba77-42e0-a064-c4d85a85afb2")
 		(property "Reference" "JP14"
-			(at 256.794 136.652 0)
+			(at 268.224 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5234,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 261.62 143.51 0)
+			(at 273.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5244,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 255.27 138.43 0)
+			(at 266.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,8 +5252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 255.27 138.43 0)
+		(property "Datasheet" "N/A"
+			(at 266.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,8 +5261,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 138.43 0)
+		(property "Description" "N/A"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 266.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 266.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,12 +5364,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
 			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 233.68 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
+			(at 233.68 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 233.68 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4151WS-E3-08"
+			(at 233.68 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5136,7 +5461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -5145,7 +5470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -5154,17 +5479,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 227.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
+		(property "DIS" "DigiKey"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -5174,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -5184,7 +5499,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MFR" "Stackpole Electronics"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -5246,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -5255,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -5264,17 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 193.04 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
+		(property "DIS" "DigiKey"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -5284,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -5294,7 +5609,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MFR" "Stackpole Electronics"
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -5321,7 +5646,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 284.48 81.28 0)
+		(at 295.91 81.28 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5330,7 +5655,7 @@
 		(dnp no)
 		(uuid "62bfd7fd-629f-4bca-8d92-f46d128c9114")
 		(property "Reference" "R42"
-			(at 280.67 82.7786 0)
+			(at 292.1 82.7786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5664,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 280.67 77.978 0)
+			(at 292.1 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5673,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 284.48 81.28 0)
+			(at 295.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,8 +5681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 284.48 81.28 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 295.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,8 +5690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 284.48 81.28 0)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 295.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,18 +5699,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 284.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
-			(at 284.48 81.28 0)
+		(property "DIS" "DigiKey"
+			(at 295.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,8 +5709,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
-			(at 284.48 81.28 0)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 295.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,8 +5719,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 284.48 81.28 0)
+		(property "MFR" "Stackpole Electronics"
+			(at 295.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 295.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -5474,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -5540,7 +5865,7 @@
 	(symbol
 		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_3")
 		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
-		(at 299.72 106.68 0)
+		(at 311.15 106.68 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5549,7 +5874,7 @@
 		(dnp no)
 		(uuid "9cac0d03-b77f-45e5-a572-1a579e866b48")
 		(property "Reference" "Q43"
-			(at 305.308 104.902 0)
+			(at 316.738 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5883,7 @@
 			)
 		)
 		(property "Value" "DMP2240UDM-7"
-			(at 305.054 107.188 0)
+			(at 316.484 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5892,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 300.99 106.68 0)
+			(at 312.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5901,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
-			(at 300.99 106.68 0)
+			(at 312.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5910,7 @@
 			)
 		)
 		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
-			(at 299.72 106.68 0)
+			(at 311.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5919,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 299.72 106.68 0)
+			(at 311.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5928,7 @@
 			)
 		)
 		(property "DPN" "DMP2240UDMDICT-ND"
-			(at 299.72 106.68 0)
+			(at 311.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5937,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 299.72 106.68 0)
+			(at 311.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5946,7 @@
 			)
 		)
 		(property "MPN" "DMP2240UDM-7"
-			(at 299.72 106.68 0)
+			(at 311.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5983,7 @@
 	)
 	(symbol
 		(lib_id "oresat-batteries-eagle-import:VBUSP")
-		(at 265.43 72.39 0)
+		(at 276.86 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5666,7 +5991,7 @@
 		(dnp no)
 		(uuid "9ed63a9f-859a-46fb-9412-a1d47f37f410")
 		(property "Reference" "#VBUSP03"
-			(at 265.43 72.39 0)
+			(at 276.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +6000,7 @@
 			)
 		)
 		(property "Value" "VBUSP"
-			(at 265.43 69.596 0)
+			(at 276.86 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +6009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 72.39 0)
+			(at 276.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +6018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 72.39 0)
+			(at 276.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +6027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 72.39 0)
+			(at 276.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +6048,7 @@
 	)
 	(symbol
 		(lib_id "oresat-diodes:1N4151WS-HE3")
-		(at 284.48 120.65 90)
+		(at 295.91 120.65 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5732,7 +6057,7 @@
 		(dnp no)
 		(uuid "a39289b2-7993-4363-8ec3-f7e48fc3bc1d")
 		(property "Reference" "D11"
-			(at 282.194 119.126 90)
+			(at 293.624 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +6066,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 272.796 120.396 90)
+			(at 284.226 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +6075,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 289.56 120.65 0)
+			(at 300.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
-			(at 292.1 120.65 0)
+			(at 303.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,12 +6092,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 284.48 120.65 0)
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
+			(at 295.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 295.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
+			(at 295.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 295.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4151WS-E3-08"
+			(at 295.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5791,16 +6153,122 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 275.59 138.43 0)
+		(lib_id "Device:Heater")
+		(at 261.62 142.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a5ac890a-605f-456a-ba84-1b4e6ccf7de9")
+		(property "Reference" "R99"
+			(at 259.08 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HK6903"
+			(at 259.08 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.398 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minco.com/catalog/?catalogpage=product&cid=3_1-polyimide-thermofoil-heaters&id=HK6903"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polyimide Thermofoil Heaters with leads - 48.91 ohms"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Minco"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HK6903"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6a3581a-1d00-49c6-a91c-578b7ea77ebd")
+		)
+		(pin "1"
+			(uuid "eca1ffbd-4dd0-49b1-96a9-d0089e8978d9")
+		)
+		(instances
+			(project ""
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 287.02 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a8669ba9-c759-479f-bba4-c97d137b76b1")
 		(property "Reference" "JP16"
-			(at 273.812 136.906 0)
+			(at 285.242 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6277,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 269.24 143.51 0)
+			(at 280.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +6287,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 275.59 138.43 0)
+			(at 287.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,8 +6295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 275.59 138.43 0)
+		(property "Datasheet" "N/A"
+			(at 287.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +6304,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 138.43 0)
+		(property "Description" "N/A"
+			(at 287.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 287.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 287.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 287.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 287.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6363,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 152.4 0)
+		(at 276.86 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5868,7 +6372,7 @@
 		(dnp no)
 		(uuid "b76c445d-0fb5-4524-92f4-051b95cafc04")
 		(property "Reference" "#PWR4"
-			(at 265.43 158.75 0)
+			(at 276.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 156.21 0)
+			(at 276.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +6389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 152.4 0)
+			(at 276.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +6398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 152.4 0)
+			(at 276.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +6407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 152.4 0)
+			(at 276.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +6430,7 @@
 	(symbol
 		(lib_name "Q_Dual_PMOS_G1S2G2D2S1D1_2")
 		(lib_id "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1")
-		(at 299.72 93.98 0)
+		(at 311.15 93.98 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5935,7 +6439,7 @@
 		(dnp no)
 		(uuid "baeddc5a-ecdc-4317-a60f-704e437b60d7")
 		(property "Reference" "Q43"
-			(at 305.308 92.202 0)
+			(at 316.738 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6448,7 @@
 			)
 		)
 		(property "Value" "DMP2240UDM-7"
-			(at 305.054 94.996 0)
+			(at 316.484 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6457,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 300.99 93.98 0)
+			(at 312.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
-			(at 300.99 93.98 0)
+			(at 312.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6475,7 @@
 			)
 		)
 		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
-			(at 299.72 93.98 0)
+			(at 311.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6484,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 299.72 93.98 0)
+			(at 311.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6493,7 @@
 			)
 		)
 		(property "DPN" "DMP2240UDMDICT-ND"
-			(at 299.72 93.98 0)
+			(at 311.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6502,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 299.72 93.98 0)
+			(at 311.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6511,7 @@
 			)
 		)
 		(property "MPN" "DMP2240UDM-7"
-			(at 299.72 93.98 0)
+			(at 311.15 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,6 +6607,112 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
 					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Heater")
+		(at 292.1 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3042680-a8c7-448c-b312-25e3012859aa")
+		(property "Reference" "R100"
+			(at 294.64 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HK6903"
+			(at 294.64 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.322 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minco.com/catalog/?catalogpage=product&cid=3_1-polyimide-thermofoil-heaters&id=HK6903"
+			(at 292.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polyimide Thermofoil Heaters with leads - 48.91 ohms"
+			(at 292.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Minco"
+			(at 292.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HK6903"
+			(at 292.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 292.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 292.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6a3581a-1d00-49c6-a91c-578b7ea77ebd")
+		)
+		(pin "1"
+			(uuid "eca1ffbd-4dd0-49b1-96a9-d0089e8978d9")
+		)
+		(instances
+			(project ""
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -6242,16 +6852,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 255.27 146.05 0)
+		(at 266.7 146.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d27be4ba-543d-4855-9c90-71a847a69617")
 		(property "Reference" "JP15"
-			(at 257.048 144.272 0)
+			(at 268.478 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6870,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 261.62 151.13 0)
+			(at 273.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +6880,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 255.27 146.05 0)
+			(at 266.7 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,8 +6888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 255.27 146.05 0)
+		(property "Datasheet" "N/A"
+			(at 266.7 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,8 +6897,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 146.05 0)
+		(property "Description" "N/A"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 266.7 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -6354,7 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -6363,17 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 233.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
+		(property "DIS" "DigiKey"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -6383,7 +7019,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -6393,7 +7029,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MFR" "Stackpole Electronics"
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -6574,7 +7220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6583,7 +7229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6592,17 +7238,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 198.12 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
+		(property "DIS" "DigiKey"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6612,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6622,7 +7258,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MFR" "Stackpole Electronics"
+			(at 198.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -6693,12 +7339,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
 			(at 227.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 227.33 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
+			(at 227.33 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 227.33 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4151WS-E3-08"
+			(at 227.33 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

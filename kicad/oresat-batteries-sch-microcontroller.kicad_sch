@@ -474,7 +474,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:TCAN330"
+		(symbol "Interface_CAN_LIN:TCAN330G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -487,7 +487,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TCAN330"
+			(property "Value" "TCAN330G"
 				(at 2.54 8.89 0)
 				(effects
 					(font
@@ -515,7 +515,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+			(property "Description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -542,7 +542,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TCAN330_0_1"
+			(symbol "TCAN330G_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -555,7 +555,7 @@
 					)
 				)
 			)
-			(symbol "TCAN330_1_1"
+			(symbol "TCAN330G_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -5335,7 +5335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -5344,7 +5344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -5353,17 +5353,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 231.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-1099-1-ND"
+		(property "DIS" "DigiKey"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -5373,7 +5363,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "DPN" "399-6856-1-ND"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -5383,7 +5373,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104M4RACTU"
+		(property "MFR" "KEMET"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -5444,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 334.01 81.28 0)
 			(effects
 				(font
@@ -5453,7 +5453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 334.01 81.28 0)
 			(effects
 				(font
@@ -5462,17 +5462,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 334.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "A129693CT-ND"
+		(property "DIS" "DigiKey"
 			(at 334.01 81.28 0)
 			(effects
 				(font
@@ -5482,7 +5472,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 334.01 81.28 0)
 			(effects
 				(font
@@ -5492,7 +5482,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRGCQ0603F2K7"
+		(property "MFR" "Stackpole Electronics"
+			(at 334.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K70"
 			(at 334.01 81.28 0)
 			(effects
 				(font
@@ -5686,7 +5686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5695,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5704,17 +5704,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
+		(property "DIS" "DigiKey"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5724,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5734,7 +5724,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MFR" "Stackpole Electronics"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -5863,7 +5863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 394.97 93.98 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 394.97 93.98 0)
 			(effects
 				(font
@@ -5881,17 +5881,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 394.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-1099-1-ND"
+		(property "DIS" "DigiKey"
 			(at 394.97 93.98 0)
 			(effects
 				(font
@@ -5901,7 +5891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "DPN" "399-6856-1-ND"
 			(at 394.97 93.98 0)
 			(effects
 				(font
@@ -5911,7 +5901,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104M4RACTU"
+		(property "MFR" "KEMET"
+			(at 394.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 394.97 93.98 0)
 			(effects
 				(font
@@ -6104,7 +6104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -6113,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -6122,17 +6122,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 210.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-1099-1-ND"
+		(property "DIS" "DigiKey"
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -6142,7 +6132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "DPN" "399-6856-1-ND"
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -6152,7 +6142,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104M4RACTU"
+		(property "MFR" "KEMET"
+			(at 210.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 210.82 30.48 0)
 			(effects
 				(font
@@ -6216,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/95/3c/2e/5b/21/09/45/a6/DM00115237.pdf/files/DM00115237.pdf/jcr:content/translations/en.DM00115237.pdf"
 			(at 231.14 86.36 0)
 			(effects
 				(font
@@ -6225,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM® Cortex®-M0 STM32F0 Microcontroller IC 32-Bit 48MHz 128KB (256K x 8) FLASH 48-LQFP (7x7) Industrial temperature range"
 			(at 231.14 86.36 0)
 			(effects
 				(font
@@ -6234,7 +6234,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 231.14 86.36 0)
 			(effects
 				(font
@@ -6264,7 +6264,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "STM32F091CBT6"
+		(property "MPN" "STM32F091CCT7"
 			(at 231.14 86.36 0)
 			(effects
 				(font
@@ -6463,7 +6463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6481,17 +6481,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RR08P4.7KDCT-ND"
+		(property "DIS" "DigiKey"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6501,7 +6491,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6511,7 +6501,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-472-D"
+		(property "MFR" "Stackpole Electronics"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -6789,17 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RR08P4.7KDCT-ND"
+		(property "DIS" "DigiKey"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -6809,7 +6799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -6819,7 +6809,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-472-D"
+		(property "MFR" "Stackpole Electronics"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -7057,7 +7057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -7066,7 +7066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -7075,17 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 218.44 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-1099-1-ND"
+		(property "DIS" "DigiKey"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -7095,7 +7085,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "DPN" "399-6856-1-ND"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -7105,7 +7095,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104M4RACTU"
+		(property "MFR" "KEMET"
+			(at 218.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -7419,7 +7419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -7428,17 +7428,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 243.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-1099-1-ND"
+		(property "DIS" "DigiKey"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -7448,7 +7438,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "DPN" "399-6856-1-ND"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -7458,7 +7448,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C104M4RACTU"
+		(property "MFR" "KEMET"
+			(at 243.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -7585,7 +7585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -7594,7 +7594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -7603,17 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 27.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RR08P4.7KDCT-ND"
+		(property "DIS" "DigiKey"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -7623,7 +7613,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -7633,7 +7623,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-472-D"
+		(property "MFR" "Stackpole Electronics"
+			(at 27.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -7791,7 +7791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:TCAN330")
+		(lib_id "Interface_CAN_LIN:TCAN330G")
 		(at 384.81 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7808,7 +7808,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TCAN330"
+		(property "Value" "TCAN330G"
 			(at 389.128 119.38 0)
 			(effects
 				(font
@@ -7836,7 +7836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+		(property "Description" "High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
 			(at 384.81 106.68 0)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 384.81 106.68 0)
 			(effects
 				(font
@@ -8217,7 +8217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 345.44 162.56 0)
 			(effects
 				(font
@@ -8226,7 +8226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 345.44 162.56 0)
 			(effects
 				(font
@@ -8235,17 +8235,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 345.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "311-10.0KHRCT-ND"
+		(property "DIS" "DigiKey"
 			(at 345.44 162.56 0)
 			(effects
 				(font
@@ -8255,7 +8245,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 345.44 162.56 0)
 			(effects
 				(font
@@ -8265,7 +8255,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MFR" "Stackpole Electronics"
+			(at 345.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 345.44 162.56 0)
 			(effects
 				(font
@@ -8393,7 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236Q.pdf"
 			(at 146.05 34.29 0)
 			(effects
 				(font
@@ -8402,15 +8402,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16MHz ±30ppm Crystal 10pF 80 Ohms 4-SMD, No Lead"
 			(at 146.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 146.05 34.29 0)
 			(effects
 				(font
@@ -8853,7 +8854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 337.82 85.09 90)
 			(effects
 				(font
@@ -8862,7 +8863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 337.82 85.09 0)
 			(effects
 				(font
@@ -8871,17 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 337.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "1830-1064-1-ND"
+		(property "DIS" "DigiKey"
 			(at 337.82 85.09 0)
 			(effects
 				(font
@@ -8891,7 +8882,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Inolux"
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 337.82 85.09 0)
 			(effects
 				(font
@@ -8901,7 +8892,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "IN-S63AT5A"
+		(property "MFR" "Wurth"
+			(at 337.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060AS75000"
 			(at 337.82 85.09 0)
 			(effects
 				(font
@@ -9038,7 +9039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -9047,7 +9048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -9056,17 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 151.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RR08P4.7KDCT-ND"
+		(property "DIS" "DigiKey"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -9076,7 +9067,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -9086,7 +9077,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-472-D"
+		(property "MFR" "Stackpole Electronics"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -9344,7 +9345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9353,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9362,17 +9363,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 33.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RR08P4.7KDCT-ND"
+		(property "DIS" "DigiKey"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9382,7 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9392,7 +9383,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-472-D"
+		(property "MFR" "Stackpole Electronics"
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -9453,7 +9454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -9462,7 +9463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -9471,17 +9472,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
-			(at 116.84 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "RR08P4.7KDCT-ND"
+		(property "DIS" "DigiKey"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -9491,7 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -9501,7 +9492,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RR0816P-472-D"
+		(property "MFR" "Stackpole Electronics"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 116.84 97.79 0)
 			(effects
 				(font
