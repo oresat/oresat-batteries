@@ -16434,7 +16434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d102b743-e5bc-4a8e-93f7-b3dadb15cd0d")
-		(property "Reference" "#PWR36"
+		(property "Reference" "#PWR0108"
 			(at 259.08 73.66 0)
 			(effects
 				(font
@@ -16484,7 +16484,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/80ae2c22-7932-4cbd-bc9c-a350bdf6c1aa"
-					(reference "#PWR36")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)

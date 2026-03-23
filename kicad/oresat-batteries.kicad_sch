@@ -5051,7 +5051,7 @@
 				(justify left)
 			)
 		)
-		(pin "BOOT0" bidirectional
+		(pin "~{ISPMODE}" input
 			(at 213.36 58.42 180)
 			(uuid "a2ca0a15-725f-4dda-8c5d-f1cde33ee5b4")
 			(effects
@@ -5111,7 +5111,7 @@
 				(justify right)
 			)
 		)
-		(pin "POUT" input
+		(pin "411-IOUT" passive
 			(at 213.36 49.53 180)
 			(uuid "173572d8-ca0a-4bf3-b153-050682228901")
 			(effects
@@ -5628,7 +5628,7 @@
 				(justify left top)
 			)
 		)
-		(pin "OPD_PWR" bidirectional
+		(pin "OPD_PWR" input
 			(at 152.4 66.04 180)
 			(uuid "210d20fb-caa0-40f8-ae4a-9115aa700843")
 			(effects
@@ -5638,7 +5638,7 @@
 				(justify left)
 			)
 		)
-		(pin "OPD_SCL" bidirectional
+		(pin "OPD_SCL" input
 			(at 152.4 60.96 180)
 			(uuid "4cca2f91-92c5-4cef-b36b-b35ba9d8af1a")
 			(effects
@@ -5658,7 +5658,7 @@
 				(justify left)
 			)
 		)
-		(pin "BOOT0" bidirectional
+		(pin "~{ISPMODE}" output
 			(at 201.93 58.42 0)
 			(uuid "11a59b64-3ac3-42c6-b380-df1e79e6b604")
 			(effects
@@ -5688,7 +5688,7 @@
 				(justify left)
 			)
 		)
-		(pin "MOARPWR" bidirectional
+		(pin "MOARPWR" input
 			(at 201.93 66.04 0)
 			(uuid "cc8e9922-e4ef-41cc-9502-02db3a7e391b")
 			(effects
@@ -5718,7 +5718,7 @@
 				(justify right)
 			)
 		)
-		(pin "POUT" bidirectional
+		(pin "411-IOUT" passive
 			(at 201.93 49.53 0)
 			(uuid "d335cd7b-dbd6-4b6e-936f-85fa16607c1a")
 			(effects

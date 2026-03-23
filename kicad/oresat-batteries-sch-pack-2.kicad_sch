@@ -3452,211 +3452,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-batteries-eagle-import:R-US_1206-C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:1206-C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_1206-C_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-diodes:1N4151WS-HE3"
 			(pin_numbers
 				(hide yes)
@@ -5123,6 +4918,12 @@
 		(uuid "5ff92fe0-28a9-46ff-bf8b-5b738fdf473b")
 	)
 	(junction
+		(at 259.08 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f06ebd-04f7-41ba-9aef-72b78055f5b1")
+	)
+	(junction
 		(at 259.08 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5229,6 +5030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fce36eb-ad50-4212-9cdf-07c0730a4aaf")
+	)
+	(junction
+		(at 259.08 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90f59b1c-1562-4fc1-a4a1-f62d93d70c96")
 	)
 	(junction
 		(at 299.72 38.1)
@@ -5423,12 +5230,6 @@
 		(uuid "eb2809ca-a592-4032-b7d7-cb7e8904dde8")
 	)
 	(junction
-		(at 259.08 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0849571-40fd-4487-a0ea-29f7283a7853")
-	)
-	(junction
 		(at 259.08 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5457,12 +5258,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4d81495-62d2-4d71-b5dc-aa3c4437c556")
-	)
-	(junction
-		(at 259.08 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7d4358c-dc8b-4c61-8701-02518d02ec6a")
 	)
 	(junction
 		(at 66.04 193.04)
@@ -6327,6 +6122,16 @@
 			(type solid)
 		)
 		(uuid "3957fe80-729a-4aee-b2bc-7fda616cd114")
+	)
+	(wire
+		(pts
+			(xy 259.08 231.14) (xy 259.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8b71dc-14c4-4718-abc9-0a1ded57c60d")
 	)
 	(wire
 		(pts
@@ -8717,6 +8522,16 @@
 			(type solid)
 		)
 		(uuid "eb4e54f1-0df7-45bf-b5b3-5dc853814855")
+	)
+	(wire
+		(pts
+			(xy 259.08 238.76) (xy 259.08 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc4aa54-acce-420b-95de-bc99e034f4f5")
 	)
 	(wire
 		(pts
@@ -15922,8 +15737,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:R-US_1206-C")
-		(at 259.08 236.22 270)
+		(lib_id "Device:R_Small_US")
+		(at 259.08 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15931,7 +15746,7 @@
 		(dnp no)
 		(uuid "b8302f97-2cd6-4e11-b29e-b1576a9a70c1")
 		(property "Reference" "R92"
-			(at 254.508 237.998 0)
+			(at 257.302 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15940,7 +15755,7 @@
 			)
 		)
 		(property "Value" "10m"
-			(at 257.302 238.252 0)
+			(at 257.048 236.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)

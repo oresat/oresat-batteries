@@ -509,6 +509,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -2564,511 +2726,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-batteries-eagle-import:3.3V"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3.3V"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:L-ECS-MPI4040"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 -5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 3.81 -5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-batteries:ECS-MPI4040"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L-ECS-MPI4040_1_0"
-				(arc
-					(start 1.27 3.81)
-					(mid 0.898 2.912)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 5.08)
-					(mid 0.898 4.708)
-					(end 1.27 3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 1.27)
-					(mid 0.898 0.372)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid 0.898 2.168)
-					(end 1.27 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -1.27)
-					(mid 0.898 -2.168)
-					(end 0 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.898 -0.372)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -3.81)
-					(mid 0.898 -4.708)
-					(end 0 -5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.54)
-					(mid 0.898 -2.912)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:VBUSP"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#VBUSP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUSP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUSP_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "VBUSP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-batteries-eagle-import:VPD"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#VPD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VPD"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VPD_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "VPD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-ics:MAX4211D/E/F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5093,6 +4750,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-power:VBUSP"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#VBUSP"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUSP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUSP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUSP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUSP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VBUSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-power:VPD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#VPD"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VPD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VPD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VPD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VPD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-transistors:DMP3050LVT-7"
 			(pin_numbers
 				(hide yes)
@@ -5441,6 +5342,131 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5813,17 +5839,6 @@
 		)
 		(uuid "a91c4563-c64a-468d-9ef7-98bcbc1377d5")
 	)
-	(text "To STM32 I2C\nbootloader"
-		(exclude_from_sim no)
-		(at 149.098 130.556 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab1a4a93-b7f4-4ecb-93d4-4d7a6ad9b705")
-	)
 	(text "> 100 ms low on MAX7310 output will\ndisconnect MAX7310 from OPD I2C."
 		(exclude_from_sim no)
 		(at 34.29 203.2 0)
@@ -5837,7 +5852,7 @@
 	)
 	(text "ECS-MPI4040R4-6R8-R"
 		(exclude_from_sim no)
-		(at 283.21 203.2 0)
+		(at 286.004 204.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5924,6 +5939,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06be9757-70de-4783-8c7f-5bc7de17534d")
+	)
+	(junction
+		(at 288.29 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c40f94-46fa-467f-884c-6f4aafc72da2")
 	)
 	(junction
 		(at 241.3 62.23)
@@ -6166,12 +6187,6 @@
 		(uuid "9c743dbc-af0f-47f5-9d25-88e4c26e2af0")
 	)
 	(junction
-		(at 287.02 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ecfc3e4-0f62-4687-bcec-7b46d99d8c5d")
-	)
-	(junction
 		(at 325.12 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6408,6 +6423,16 @@
 			(type solid)
 		)
 		(uuid "05aa40b9-52ab-40e3-8201-22d1c09f1705")
+	)
+	(wire
+		(pts
+			(xy 300.99 208.28) (xy 307.34 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06513668-ddf7-4dea-ad98-15c30523b6c5")
 	)
 	(wire
 		(pts
@@ -7111,6 +7136,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 46.99) (xy 288.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5387bf-e7e8-46d4-87ce-e5e4190fe7b3")
+	)
+	(wire
+		(pts
 			(xy 67.31 82.55) (xy 67.31 80.01)
 		)
 		(stroke
@@ -7671,7 +7706,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 208.28) (xy 292.1 208.28)
+			(xy 287.02 208.28) (xy 293.37 208.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -7718,16 +7753,6 @@
 			(type solid)
 		)
 		(uuid "640cc5c2-1d1d-4590-aadd-719684bccd79")
-	)
-	(wire
-		(pts
-			(xy 287.02 52.07) (xy 289.56 52.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6602780f-e4c3-4eb9-8a1c-aef334b15095")
 	)
 	(wire
 		(pts
@@ -8751,7 +8776,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 49.53) (xy 307.34 49.53)
+			(xy 284.48 49.53) (xy 288.29 49.53)
 		)
 		(stroke
 			(width 0.1524)
@@ -9058,6 +9083,16 @@
 			(type solid)
 		)
 		(uuid "c38bdf19-7861-4ab5-b6de-dc19c0ac0616")
+	)
+	(wire
+		(pts
+			(xy 293.37 46.99) (xy 288.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d57f96-76a4-4803-b22a-9f22410c5ba5")
 	)
 	(wire
 		(pts
@@ -9611,6 +9646,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 49.53) (xy 307.34 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e99a76fa-96b5-459c-9a1d-5c1b618e1cda")
+	)
+	(wire
+		(pts
 			(xy 90.17 100.33) (xy 90.17 105.41)
 		)
 		(stroke
@@ -9899,16 +9944,6 @@
 		)
 		(uuid "38bca476-fadd-41f1-9eed-5ca2c50a082e")
 	)
-	(label "BOOT0"
-		(at 121.92 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "484116c4-b860-4bf5-924c-6de510b6fac5")
-	)
 	(label "AD0"
 		(at 85.09 115.57 0)
 		(effects
@@ -10022,7 +10057,7 @@
 		)
 		(uuid "1244fc06-c01d-4d85-8201-731cf8237545")
 	)
-	(hierarchical_label "BOOT0"
+	(hierarchical_label "~{ISPMODE}"
 		(shape output)
 		(at 140.97 128.27 0)
 		(effects
@@ -10061,9 +10096,9 @@
 		)
 		(uuid "4e13c929-3971-4c88-bf91-5b5d43e5323c")
 	)
-	(hierarchical_label "POUT"
-		(shape bidirectional)
-		(at 289.56 52.07 0)
+	(hierarchical_label "411-IOUT"
+		(shape passive)
+		(at 293.37 46.99 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10935,7 +10970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VPD")
+		(lib_id "oresat-power:VPD")
 		(at 143.51 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10943,8 +10978,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19fb52b1-31d7-44b3-8399-d1a84d1f66b0")
-		(property "Reference" "#VPD03"
-			(at 143.51 162.56 0)
+		(property "Reference" "#VPD3"
+			(at 143.51 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10953,12 +10988,11 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 143.51 159.766 0)
+			(at 143.51 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -10979,12 +11013,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VPD\""
 			(at 143.51 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10993,15 +11028,15 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#VPD03")
+					(reference "#VPD3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:L-ECS-MPI4040")
-		(at 299.72 208.28 90)
+		(lib_id "Device:L")
+		(at 297.18 208.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11009,7 +11044,7 @@
 		(dnp no)
 		(uuid "1a81ac52-bd67-4290-9ab8-2f11feaf66d0")
 		(property "Reference" "L1"
-			(at 295.91 205.74 90)
+			(at 293.624 206.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11053,7 @@
 			)
 		)
 		(property "Value" "6.8u"
-			(at 300.99 205.74 90)
+			(at 297.688 206.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,7 +11062,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:L_ECS-MPI4040"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11071,7 @@
 			)
 		)
 		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-MPI4040.pdf"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11045,7 +11080,7 @@
 			)
 		)
 		(property "Description" "6.8µH Shielded Inductor 2.4A 91mOhm Nonstandard"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +11089,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,7 +11099,7 @@
 			)
 		)
 		(property "DPN" "XC2337CT-ND"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,7 +11109,7 @@
 			)
 		)
 		(property "MFR" "ECS"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,7 +11119,7 @@
 			)
 		)
 		(property "MPN" "ECS-MPI4040R4-6R8-R"
-			(at 299.72 208.28 0)
+			(at 297.18 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,7 +12773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VPD")
+		(lib_id "oresat-power:VPD")
 		(at 143.51 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12746,8 +12781,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3888e5b1-7039-4511-8daf-c982fa817456")
-		(property "Reference" "#VPD04"
-			(at 143.51 207.01 0)
+		(property "Reference" "#VPD4"
+			(at 143.51 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,12 +12791,11 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 143.51 204.216 0)
+			(at 143.51 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -12782,12 +12816,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VPD\""
 			(at 143.51 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12796,7 +12831,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#VPD04")
+					(reference "#VPD4")
 					(unit 1)
 				)
 			)
@@ -13087,7 +13122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VBUSP")
+		(lib_id "oresat-power:VBUSP")
 		(at 359.41 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13131,12 +13166,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUSP\""
 			(at 359.41 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14215,7 +14251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VPD")
+		(lib_id "oresat-power:VPD")
 		(at 345.44 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14223,8 +14259,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59a436cd-3730-4438-a04a-c0b6187c4970")
-		(property "Reference" "#VPD05"
-			(at 345.44 87.63 0)
+		(property "Reference" "#VPD5"
+			(at 345.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,12 +14269,11 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 345.44 84.836 0)
+			(at 345.44 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -14259,12 +14294,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VPD\""
 			(at 345.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14273,7 +14309,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#VPD05")
+					(reference "#VPD5")
 					(unit 1)
 				)
 			)
@@ -16445,7 +16481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VPD")
+		(lib_id "oresat-power:VPD")
 		(at 107.95 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16453,8 +16489,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "857c849a-68df-44b8-a350-1605b1d2ceee")
-		(property "Reference" "#VPD02"
-			(at 107.95 90.17 0)
+		(property "Reference" "#VPD2"
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,12 +16499,11 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 107.95 87.376 0)
+			(at 107.95 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -16489,12 +16524,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VPD\""
 			(at 107.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16503,7 +16539,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#VPD02")
+					(reference "#VPD2")
 					(unit 1)
 				)
 			)
@@ -17384,7 +17420,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VPD")
+		(lib_id "oresat-power:VPD")
 		(at 85.09 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17392,8 +17428,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e15b98e-43b4-4e22-b226-55fb6059466b")
-		(property "Reference" "#VPD01"
-			(at 85.09 40.64 0)
+		(property "Reference" "#VPD1"
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17402,12 +17438,11 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 85.09 37.846 0)
+			(at 85.09 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -17428,12 +17463,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VPD\""
 			(at 85.09 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17442,7 +17478,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#VPD01")
+					(reference "#VPD1")
 					(unit 1)
 				)
 			)
@@ -18885,7 +18921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 330.2 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18893,8 +18929,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf55933-5416-4ae3-a983-d6e8af50aae8")
-		(property "Reference" "#SUPPLY02"
-			(at 330.2 204.47 0)
+		(property "Reference" "#PWR0101"
+			(at 330.2 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18902,13 +18938,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 330.2 201.676 0)
+		(property "Value" "+3.3V"
+			(at 330.2 200.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -18929,12 +18964,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 330.2 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18943,7 +18979,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#SUPPLY02")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -19304,7 +19340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 312.42 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19312,8 +19348,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7567c97-b27c-4c37-bf0f-0c1d1d31452d")
-		(property "Reference" "#SUPPLY01"
-			(at 312.42 203.2 0)
+		(property "Reference" "#PWR0102"
+			(at 312.42 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19321,13 +19357,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 312.42 200.406 0)
+		(property "Value" "+3.3V"
+			(at 312.42 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -19348,12 +19383,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 312.42 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19362,7 +19398,7 @@
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
-					(reference "#SUPPLY01")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -21164,7 +21200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-batteries-eagle-import:VBUSP")
+		(lib_id "oresat-power:VBUSP")
 		(at 231.14 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21208,12 +21244,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUSP\""
 			(at 231.14 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
