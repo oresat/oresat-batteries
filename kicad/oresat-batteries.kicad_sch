@@ -5349,7 +5349,7 @@
 		)
 		(uuid "60cc160f-89b6-42ae-bb0a-7f727f347e07")
 		(property "Sheetname" "Microcontroller"
-			(at 214.63 41.91 0)
+			(at 230.886 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5625,7 +5625,7 @@
 		)
 		(uuid "68810e50-deab-400a-9111-d6e77020ca2b")
 		(property "Sheetname" "Heaters"
-			(at 302.514 134.366 0)
+			(at 299.974 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
