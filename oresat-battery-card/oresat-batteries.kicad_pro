@@ -172,10 +172,6 @@
         [
           "silk_edge_clearance|162788600|57703600|d4bbf064-be86-49ac-b177-74ae96178554|1a3eefa2-e3d2-45ad-8418-31d83e91d46e",
           ""
-        ],
-        [
-          "silk_overlap|195683149|122135909|157cd538-8189-46ca-a7ad-f22eeb99cbf5|a1e2fd47-f7cb-4beb-93e0-44f8fe72420e",
-          ""
         ]
       ],
       "meta": {
@@ -546,6 +542,10 @@
         ""
       ],
       [
+        "pin_to_pin|2870200|2235200|11680a44-2637-4b81-8ee0-09b0aeacc6e4|5cd5e5b2-15df-4d17-bb8e-98f19379b4d5|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a",
+        ""
+      ],
+      [
         "pin_to_pin|2882900|685800|8a50ed2c-4de9-4cbc-b7bb-abc2b442070c|134e72f0-3d4e-41e0-af2b-c652a090fa7f|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d|/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d",
         ""
       ]
@@ -764,7 +764,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -1037,7 +1037,7 @@
         "uuid": "d5070776-2522-4f7b-9d31-10770161e48a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3-5,TP37,TP47,R119,#PWR83-84,#PWR109,D15-16,C8,C63-65,#FLG1-4",
     "variants": []
   },
   "sheets": [

@@ -6,11 +6,177 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-03-23")
+		(date "2026-09-27")
 		(rev "4.0")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "Device:D_Schottky_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Filled"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, filled shape"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1951,6 +2117,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -2161,6 +2442,16 @@
 		)
 		(uuid "57c93bd5-40b0-4201-8e4c-ec1f8175d81a")
 	)
+	(text "+X+Y"
+		(exclude_from_sim no)
+		(at 264.16 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71663eed-d962-4ae8-9810-38b357c2dd35")
+	)
 	(text "2x OMRON D2F-5L3 SPDT Switch\n(COM + NO connected)"
 		(exclude_from_sim no)
 		(at 152.4 200.914 0)
@@ -2205,7 +2496,7 @@
 	)
 	(text "-X+Y"
 		(exclude_from_sim no)
-		(at 237.236 221.234 0)
+		(at 232.918 200.406 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2224,9 +2515,9 @@
 		)
 		(uuid "c64528b3-2bb1-4cba-82ea-3e61913cc174")
 	)
-	(text "Normally Closed inhibit switches\n(disconnects VBAT from VBUS when pressed)"
+	(text "NEGATIVE BATTERY DISCONNECT: \nNormally closed switch enables MOSFET; \npress to disconnect and turn off MOSFET."
 		(exclude_from_sim no)
-		(at 242.824 196.85 0)
+		(at 220.218 231.394 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2235,9 +2526,9 @@
 		)
 		(uuid "d82632f8-6ee5-42d9-bb4c-24abd8766553")
 	)
-	(text "2x OMRON D2F-5L3 SPDT Switch\n(COM + NC connected)"
+	(text "2x OMRON D2F-5L3 SPDT Switch"
 		(exclude_from_sim no)
-		(at 242.316 202.184 0)
+		(at 235.458 197.358 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2245,6 +2536,17 @@
 			(justify left bottom)
 		)
 		(uuid "d9103f16-ad2f-4ffa-bbfc-0d7eb3087fa1")
+	)
+	(text "POSITIVE BATTERY DISCONNECT: \nNormally open switch enables eFUSE; \npress to disable eFUSE.\n"
+		(exclude_from_sim no)
+		(at 274.066 231.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e05199ea-b044-4028-9d9e-cfb7f7f6a433")
 	)
 	(junction
 		(at 105.41 88.9)
@@ -2319,6 +2621,12 @@
 		(uuid "90259b1b-11ec-4c5a-8a9b-fa7db27ed88f")
 	)
 	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cd146e6-b8c3-473f-8bb4-1f9745792308")
+	)
+	(junction
 		(at 161.29 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2347,6 +2655,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d88a9551-3ec7-4bcc-b1eb-7fcde19e9fc3")
+	)
+	(junction
+		(at 113.03 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcfd0eeb-d439-4b6b-9725-6980fbcd7f6f")
 	)
 	(junction
 		(at 124.46 179.07)
@@ -2411,12 +2725,12 @@
 		(uuid "70fca9d9-5e4c-4347-972e-004dd7ea67f9")
 	)
 	(no_connect
-		(at 102.87 40.64)
-		(uuid "79f90466-a2c2-4474-b14a-b2d6d512c1b6")
+		(at 284.48 207.01)
+		(uuid "79af8076-26bb-4364-9bde-1b7cba153500")
 	)
 	(no_connect
-		(at 267.97 212.09)
-		(uuid "7af40bc5-52b0-4822-846e-ec5ca76e6c6f")
+		(at 102.87 40.64)
+		(uuid "79f90466-a2c2-4474-b14a-b2d6d512c1b6")
 	)
 	(no_connect
 		(at 102.87 83.82)
@@ -2474,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 222.25) (xy 250.19 222.25)
+			(xy 345.44 222.25) (xy 257.81 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2654,7 +2968,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 209.55) (xy 260.35 209.55)
+			(xy 275.59 209.55) (xy 276.86 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 207.01) (xy 342.9 207.01)
+			(xy 284.48 212.09) (xy 342.9 212.09)
 		)
 		(stroke
 			(width 0)
@@ -2704,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 222.25) (xy 250.19 207.01)
+			(xy 257.81 222.25) (xy 257.81 207.01)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 114.3) (xy 342.9 207.01)
+			(xy 342.9 114.3) (xy 342.9 212.09)
 		)
 		(stroke
 			(width 0)
@@ -2984,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 210.82) (xy 259.08 209.55)
+			(xy 275.59 210.82) (xy 275.59 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3034,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 113.03 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8f08bb4b-2186-4f2e-884e-d04ca31042fd")
-	)
-	(wire
-		(pts
 			(xy 201.93 66.04) (xy 213.36 66.04)
 		)
 		(stroke
@@ -3061,6 +3365,16 @@
 			(type default)
 		)
 		(uuid "8f0b389b-f5b0-4773-bc09-30342fb6cec2")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905ed0f6-d4ef-436c-b531-9838ac816835")
 	)
 	(wire
 		(pts
@@ -3111,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "955ce650-7439-447b-9e2f-310dade1d5d5")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ea7d61-11ac-4a1d-b7ba-ecb2ebe73ca4")
 	)
 	(wire
 		(pts
@@ -3181,6 +3505,16 @@
 			(type solid)
 		)
 		(uuid "a761e8d9-7782-4bfa-a301-6564c2371fb8")
+	)
+	(wire
+		(pts
+			(xy 113.03 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c36a98-de65-490c-8b3d-cfd8c9e76108")
 	)
 	(wire
 		(pts
@@ -3264,6 +3598,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 87.63) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab5e710-0f96-4a11-bc12-924c7e157ac3")
+	)
+	(wire
+		(pts
 			(xy 124.46 127) (xy 124.46 179.07)
 		)
 		(stroke
@@ -3271,6 +3615,16 @@
 			(type solid)
 		)
 		(uuid "c094f76c-3cc1-415a-9b30-641a82bbaedb")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1664013-9d26-4791-b5cd-7e8951784896")
 	)
 	(wire
 		(pts
@@ -3304,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 207.01) (xy 236.22 207.01)
+			(xy 257.81 207.01) (xy 236.22 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3434,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed669665-8021-47e0-9547-4ba8b350ad49")
+	)
+	(wire
+		(pts
 			(xy 105.41 127) (xy 124.46 127)
 		)
 		(stroke
@@ -3555,7 +3919,7 @@
 		(uuid "415e4cce-4240-454a-ab1b-44e406787d5b")
 	)
 	(label "INH-NEG-BATT_DISC"
-		(at 269.24 222.25 0)
+		(at 237.49 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3610,7 +3974,7 @@
 		(uuid "e14e72bf-44c4-4c9e-ac87-04811775baef")
 	)
 	(label "INH-POS-BATT-DISC"
-		(at 269.24 207.01 0)
+		(at 285.75 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3642,7 +4006,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "D2F-L3-D (LEFT)"
+		(property "Value" "D2F-L3-D3 (LEFT)"
 			(at 163.83 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +4017,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-L"
+		(property "Footprint" "oresat-misc:D2F-L3-D3-HORIZONTAL-L"
 			(at 163.576 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -3697,7 +4061,7 @@
 				)
 			)
 		)
-		(property "DPN" "SW1443-ND"
+		(property "DPN" "Z8531-ND"
 			(at 158.75 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -3708,7 +4072,7 @@
 				)
 			)
 		)
-		(property "MFR" "Oron Electronics"
+		(property "MFR" "Aratas (Formerly Omron Components)"
 			(at 158.75 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +4083,7 @@
 				)
 			)
 		)
-		(property "MPN" "SW1443-ND"
+		(property "MPN" "D2F-L3-D3"
 			(at 158.75 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -3946,8 +4310,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d987e6a-5e6c-4c8a-a625-5699f64ceadb")
+		(property "Reference" "#FLG01"
+			(at 132.08 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 127.508 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cd5e5b2-15df-4d17-bb8e-98f19379b4d5")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-misc:OMRON-D2F-L3-D-LEFT")
-		(at 264.16 209.55 0)
+		(at 280.67 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3957,7 +4399,7 @@
 		(dnp no)
 		(uuid "3e27d04d-cacf-4562-998e-9370abbe2ef2")
 		(property "Reference" "SW3"
-			(at 263.906 214.63 0)
+			(at 280.416 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3967,8 +4409,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "D2F-L3-D (LEFT)"
-			(at 263.652 216.662 0)
+		(property "Value" "D2F-L3-D3 (LEFT)"
+			(at 280.162 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3978,8 +4420,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-L"
-			(at 264.16 214.376 0)
+		(property "Footprint" "oresat-misc:D2F-L3-D3-HORIZONTAL-L"
+			(at 280.67 214.376 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +4432,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/875/D2F_0318_DS.pdf"
-			(at 264.16 209.55 0)
+			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +4443,7 @@
 			)
 		)
 		(property "Description" "Switch SPDT Chassis Mount"
-			(at 264.16 209.55 0)
+			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4012,7 +4454,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 264.16 209.55 0)
+			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,8 +4464,8 @@
 				)
 			)
 		)
-		(property "DPN" "SW1443-ND"
-			(at 264.16 209.55 0)
+		(property "DPN" "Z8531-ND"
+			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,8 +4475,8 @@
 				)
 			)
 		)
-		(property "MFR" "Oron Electronics"
-			(at 264.16 209.55 0)
+		(property "MFR" "Aratas (Formerly Omron Components)"
+			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,8 +4486,8 @@
 				)
 			)
 		)
-		(property "MPN" "SW1443-ND"
-			(at 264.16 209.55 0)
+		(property "MPN" "D2F-L3-D3"
+			(at 280.67 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4141,6 +4583,85 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
 					(reference "FIDUCIAL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea54775-ece8-4d76-a63c-3e70a303f7a1")
+		(property "Reference" "#FLG02"
+			(at 117.475 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cd5e5b2-15df-4d17-bb8e-98f19379b4d6")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4840,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "D2F-L3-D (RIGHT)"
+		(property "Value" "D2F-L3-D3 (RIGHT)"
 			(at 219.71 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,7 +4851,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-R"
+		(property "Footprint" "oresat-misc:D2F-L3-D3-HORIZONTAL-R"
 			(at 232.41 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4895,7 @@
 				)
 			)
 		)
-		(property "DPN" "SW1443-ND"
+		(property "DPN" "Z8531-ND"
 			(at 232.41 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4385,7 +4906,7 @@
 				)
 			)
 		)
-		(property "MFR" "Oron Electronics"
+		(property "MFR" "Aratas (Formerly Omron Components)"
 			(at 232.41 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4396,7 +4917,7 @@
 				)
 			)
 		)
-		(property "MPN" "SW1443-ND"
+		(property "MPN" "D2F-L3-D3"
 			(at 232.41 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -4427,7 +4948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 210.82 0)
+		(at 132.08 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4436,9 +4957,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "89ddc5c5-3e83-46d4-830e-ecc64146439a")
-		(property "Reference" "#PWR040"
-			(at 259.08 217.17 0)
+		(uuid "6e790469-bbd6-44ef-a907-d9c777264fd2")
+		(property "Reference" "#PWR0109"
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +4970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 214.63 0)
+			(at 132.08 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4459,7 +4980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 210.82 0)
+			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +4991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 210.82 0)
+			(at 132.08 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +5002,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 210.82 0)
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0378118f-48c9-4ca7-a1b9-8ccf5029fb4e")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 210.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89ddc5c5-3e83-46d4-830e-ecc64146439a")
+		(property "Reference" "#PWR040"
+			(at 275.59 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,6 +5650,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Filled")
+		(at 132.08 91.44 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd30ab8b-39bd-4bef-80f1-c183c77ee85e")
+		(property "Reference" "D15"
+			(at 129.54 89.8524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B330A-13-F"
+			(at 129.54 92.3924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 132.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B520C-B560C.pdf"
+			(at 132.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode 30 V 3A Surface Mount SMA"
+			(at 132.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B330A-13-F"
+			(at 132.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Diodes Inc"
+			(at 132.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 132.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "B330A-FDICT-ND"
+			(at 132.08 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0130367c-032c-466b-98de-63e3a0b6b99b")
+		)
+		(pin "1"
+			(uuid "60436d4d-b7c0-4597-8223-d2fd300af957")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 143.51 203.2 0)
 		(unit 1)
@@ -5227,7 +5952,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "D2F-L3-D (RIGHT)"
+		(property "Value" "D2F-L3-D3 (RIGHT)"
 			(at 185.42 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-misc:D2F-L3-D-HORIZONTAL-R"
+		(property "Footprint" "oresat-misc:D2F-L3-D3-HORIZONTAL-R"
 			(at 186.69 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -5282,7 +6007,7 @@
 				)
 			)
 		)
-		(property "DPN" "SW1443-ND"
+		(property "DPN" "Z8531-ND"
 			(at 180.34 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -5293,7 +6018,7 @@
 				)
 			)
 		)
-		(property "MFR" "Oron Electronics"
+		(property "MFR" "Aratas (Formerly Omron Components)"
 			(at 180.34 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -5304,7 +6029,7 @@
 				)
 			)
 		)
-		(property "MPN" "SW1443-ND"
+		(property "MPN" "D2F-L3-D3"
 			(at 180.34 217.17 0)
 			(hide yes)
 			(show_name no)

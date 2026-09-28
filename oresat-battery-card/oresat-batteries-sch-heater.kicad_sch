@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-03-23")
+		(date "2026-09-27")
 		(rev "4.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -3542,9 +3542,9 @@
 		)
 		(uuid "50709c18-24e8-4945-a24d-edc2b1b9afb7")
 	)
-	(text "Diodes prevent gate ruptures to heater \nfrom turning on all P CH MOSFETs"
+	(text "Diodes prevent gate ruptures from any single\nP Ch MOSFET from turning on all P CH MOSFETs"
 		(exclude_from_sim no)
-		(at 193.548 120.142 0)
+		(at 190.246 121.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5327,7 +5327,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3662e2df-0a9a-40ec-b4b8-c53cef043ad8")
 		(property "Reference" "JP17"
 			(at 285.496 144.526 0)
@@ -5580,7 +5580,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "425b4337-ba77-42e0-a064-c4d85a85afb2")
 		(property "Reference" "JP14"
 			(at 268.224 136.652 0)
@@ -6816,7 +6816,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a8669ba9-c759-479f-bba4-c97d137b76b1")
 		(property "Reference" "JP16"
 			(at 285.242 136.906 0)
@@ -7517,7 +7517,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d27be4ba-543d-4855-9c90-71a847a69617")
 		(property "Reference" "JP15"
 			(at 268.478 144.272 0)
