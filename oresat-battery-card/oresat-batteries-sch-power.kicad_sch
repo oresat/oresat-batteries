@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-09-27")
+		(date "2026-10-06")
 		(rev "4.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -25046,7 +25046,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E475KE13-01.pdf"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25057,7 +25057,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25079,7 +25079,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E475KE13LCT-ND"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25090,7 +25090,7 @@
 				)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Murata Electronics"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25101,7 +25101,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E475KE13L"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
