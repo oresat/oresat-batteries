@@ -1,61 +1,181 @@
-# "oresat-proto-card"
+---
+title: "**OreSat Battery Card**"
+subtitle: |
+  **Fabrication and Assembly Information**\
+  For build TIME-STAMP
+fontsize: 10pt
+geometry:
+  - margin=0.5in
+toc: true
+toc-depth: 2
+colorlinks: true
+urlcolor: blue
+---
 
-This is the "prototype" card for OreSat, meant to pioneer future cards and test the backplane, and be an 
-easy way to hack in functionality. NOT MEANT FOR FLIGHT.
+\newpage
 
-## Features
+# About this Board
 
-- Populates the two 1.27 mm connectors from the backplane.
-- Populates all three SMPM RF connectors from the backplane.
-- Standard TPS63070-bsaed buck/boost SPS (Vin = 2.5 to 7 V, Vout = 3.3V)
-- Has our standard/favorite STM32F042K6 microcontroller.
-   - With SWD, UART (FTDI), and CAN (to the backplane).
-- Has lots of breakouts, but DO NOT POPULATE THE 0.1 IN CONNECTORS, THEY'RE TOO TALL!!!
+## Board Description
 
-![OreSat ProtoCard Picture](https://github.com/oresat/oresat-proto-card/blob/master/oresat-proto-card.png)
+The OreSat Battery Card carries two packs of 2S1P 18650 Lithium Ion cells. It operates completely autonomously. The C3 card
+can, however, turn on the Battery Card's OPD, which will enable the onboard microcontroller and the battery card will begin
+sending telemetry over CAN, including from a fuel gauge for each battery pack.
 
-## Connector information
+The battery card has two heater strips, which firmware uses to heat the batteries to >= 5 C.
 
-- Main 1.27 mm connector ("Center" connector)
-   - Samtec TFM-120-01-L-D-RA
-   - https://www.digikey.com/products/en?lang=en&site=US&keywords=TFM-120-01-L-D-RA
-   - Drawing: http://suddendocs.samtec.com/prints/tfm-1xx-xx-xxx-d-xxx-mkt.pdf
-   - Brochure: http://suddendocs.samtec.com/catalog_english/tfm.pdf
-   - 3D CAD: https://www.samtec.com/partnumber/tfm-120-01-l-d-ra?vendor=digikey#technical
-   - Notes: the -RE1 model is better because of the solder stakes, but the female connector doesn't fit! The stakes get in the way :(
+Their are four inhibit switches as well - two for the OreSat !SHUTDOWN circuit, one for positive battery disconnect, and 
+one for negative battery disconnect.
 
-- Auxiliary 1.27 mm ("alt-left" connector)
-   - Samtec TFM-110-01-L-D-RA
+## Documentation Links
 
-- RF (70 cm, L band, S band) conenctors
-   - Card
-      - Molex 73300-0030 (possible replacement is 73300-0020 but it has full detent that we don't want)
-      - SMPM Connector Plug, Male Pin 50 Ohm Board Edge, Cutout; Surface Mount Solder, smooth bore
-      - Molex w/3D: https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000030_RF_COAX_CONNECTORS.xml
-   - Barrell (connects card to backplane)
-      - Molex 73300-0220 (alt but slightly different lengths: -0223, -0228)
-      - SMPM female to female barrel adapter 
-      - RF Adapters - In Series SMPM JACK/JACK BULLET .21IN
-      - Molex w/3D: https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000220_RF_COAX_CONNECTORS.xml
-
-## OreSat Power Domain (OPD)
-
-You can find more design information on the OPD [here](https://docs.google.com/document/d/1NOkO6gGEJUFRpOrkwClRlZlzWuTLteq6fP9LPf_Ez0M/edit?usp=sharing).
+- Git repository: <https://github.com/oresat/oresat-batteries>
+- [Design Notes](https://docs.google.com/document/d/1yaPGtJSM5RQG5k7sVpsDxBkVu4CHtm4LMNnisgOaNRg/edit?usp=sharing)
 
 
-## LICENSE
+## Documentation Files
 
-Copyright Portland State Aerospace Society 2018.
+| Filename                        | Notes                                    |
+| ------------------------------- | ---------------------------------------- |
+| README.pdf                      | This README file                         |
+| PROJECT-NAME-outline.dxf        | Board outline (with holes) in DXF format |
+| PROJECT-NAME-pcba.step          | 3D model of PCBA (with components)       |
+| PROJECT-NAME-render-bot.jpg     | Render of the top of the 3D model        |
+| PROJECT-NAME-render-bot.jpg     | Render of the bottom of the 3D model     |
+| PROJECT-NAME-schematic.pdf      | PDF of board schematics                  |
 
-This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+## Contact Information
 
-You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+- Website: <https://www.oresat.org/>
+- Email: <oresat@pdx.edu>
+- Instagram: @pdxaerospace
 
-## Version Information
+## Board Renders
 
-Version | Date       | Notes
---------|------------|-------------------------
-3.0     | 2018/11/22 | Big changes in structure, mostly springs. Changed RF connectors to SMPM. Optimized layout for more proto area. 
-2.0     | 2018/03/?? | New 1.27 mm connectors, again.
-1.0     | ??         | New connectors.
+![Render of the top of the 3D model](./build/documentation/PROJECT-NAME-render-top.jpg){width=50%}
+![Render of the bottom of the 3D model](./build/documentation/PROJECT-NAME-render-bot.jpg){width=50%}
+
+\newpage
+
+# Printed Circuit Board (PCB) Fabrication Information
+
+## Board Info
+
+- 4 layer board
+- Bounding box is 99.8 x 94.6 mm
+- Board thickness is 1.59 mm
+
+## Board Requirements
+
+- Design Rules
+    - Minimum Trace / Space design rules
+       - Outer layers: 0.127 mm (5.0 mil) / 0.127 mm (5.0 mil)
+       - Inner layers: 0.127 mm (5.0 mil) / 0.127 mm (5.0 mil)
+    - Outer dimension router tolerance: +/- 0.254 mm (10.0 mil)
+    - Hole placement tolerance: +/- 0.075 mm (3.0 mil)
+    - Inner tab routed slot tolerance: +/- 0.254 mm (10.0 mil)
+- Drills
+   - Drill Positional Tolerance: 0.051 mm (2.0 mil)
+   - Drill Size tolerance: +/- 0.064 mm (2.5 mil)
+- Plated/Un-plated holes
+  - Via/PTH minimum diameter: 0.254 mm (10 mil)
+  - Via/PTH minimum annulus: 0.102 mm (4 mil) radius
+- Outline/Routing
+  - This board requires a 1 mm router bit.
+- Slots
+  - There are 16 slots.
+- Cutouts
+  - There are no cutouts
+- There are 3 fiducials on the top layer.
+- Panel tabs ("mouse bites")
+   - Card edges must be smooth; no mouse bites or other intrusions into the card outline.
+   - If external mouse bites are required, minimize and customer will remove by hand before assembly.
+- If not otherwise specified, fabricate PCB to IPC 6012 Class 2 or better.
+
+## Stackup /  Materials
+
+- Outside copper layers is 1 oz Cu after plating (0.043 mm / 1.7 mil)
+- Inside copper layers are 0.5 oz Cu (0.018 mm / 0.7 mil)
+- There are no requirements on the prepreg or core of this four layer stackup.
+- Board Surface treatment should be ENIG, althogh immersion Silver is acceptable.
+- White silkscreen on top and bottom surface
+- Taiyo PSR-4000 or equivalent soldermask on top and bottom, no requirements for color.
+
+## Array / Panel Information
+
+- Coordinate with Contract Manufacturer (CM) for optimal size of this panel.
+- If no feedback from CM, then produce single boards (no panel).
+
+## Fabrication Files
+
+### IPC-2581 File
+
+| Filename                 | Notes                                   |
+| ------------------------ | --------------------------------------- |
+| PROJECT-NAME-ipc2581.xml | IPC-2581 board information file         |
+
+### Legacy PCB Files
+
+| Filename                      | Notes                                         |
+| ------------------------------| --------------------------------------------- |
+| PROJECT-NAME-Edge_Cuts.gbr    | RS274X file for the dimension (outline) layer |
+| PROJECT-NAME-F_Silkscreen.gbr | RS274X file for the top silkscreen            |
+| PROJECT-NAME-F_Mask.gbr       | RS274X file for the top soldermask            |
+| PROJECT-NAME-F_Cu.gbr         | RS274X file for the top copper layer          |
+| PROJECT-NAME-In1_Cu.gbr       | RS274X file for the layer 2 copper            |
+| PROJECT-NAME-In2_Cu.gbr       | RS274X file for the layer 3 copper            |
+| PROJECT-NAME-B_Cu.gbr         | RS274X file for the bottom copper layer       |
+| PROJECT-NAME-B_Mask.gbr       | RS274X file for the bottom soldermask         |
+| PROJECT-NAME-B_Silkscreen.gbr | RS274X file for the bottom silkscreen         |
+| PROJECT-NAME-NPTH.drl         | Excellon file for non-plated through holes    |
+| PROJECT-NAME-PTH.drl          | Excellon file for plated through holes        | 
+
+\newpage
+
+# Printed Circuit Board Assembly (PCBA) Information
+
+## Assembly Info
+
+- All components are on the top side of the board.
+- This PCBA uses both surface mount (SMT) and through-hole (THT) components.
+
+## Assembly Requirements
+
+- Assemble to IPC Class 2 or better
+- Bake components that are not moisture sealed to appropriate levels as required.
+- Any solder paste (leaded or RoHS) is acceptable. RoHS solder is slightly preferred.
+- Any no-clean or aqueous wash flux is acceptable.
+- No conformal coating.
+
+## Component Specific Assembly Information
+
+- ASSEMBLY OF THIS BATTERY CARD IS SAFETY CRITICAL. CAREFULLY FOLLOW THE ASSEMBLY SOP,
+[PSAS SOP - OreSat Battery Card Assembly](https://docs.google.com/document/d/1YFvptCjQO5j7sZraa8bQpTQ43OzNet4JrRba6-A-SFA/edit?usp=sharing).
+
+## Assembly Files
+
+### IPC-2581 File
+
+| Filename                 | Notes                           |
+| ------------------------ | ------------------------------- |
+| PROJECT-NAME-ipc2581.xml | IPC-2581 board information file |
+
+### Bill of Materials (BOM)
+
+| Filename             | Description                            |
+| -------------------- | -------------------------------------- |
+| PROJECT-NAME-bom.csv | BOM in Comma Separated Variable format |
+
+### Solder Paste Stencils
+
+| Filename                 | Notes                                            |
+| ------------------------ | ------------------------------------------------ |
+| PROJECT-NAME-B_Paste.gbr | RS274X file for top/front solder paste stencil   |
+| PROJECT-NAME-F_Paste.gbr | RS274X file for bottom/back solder paste stencil |
+
+### Mounting/Placement Location
+
+| Filename            | Description                                 |
+| ------------------- | ------------------------------------------- |
+| PROJECT-NAME.pos | Pick and place locations for components     |
 

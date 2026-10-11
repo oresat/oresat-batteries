@@ -5615,12 +5615,6 @@
 		(uuid "18173bed-3019-4dea-a6c6-890b690572e5")
 	)
 	(junction
-		(at 365.76 294.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d41d562-5d09-4426-908e-d4a7b77a7657")
-	)
-	(junction
 		(at 365.76 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5801,6 +5795,12 @@
 		(uuid "6e48a2b8-96c2-430f-83fc-4b629bea7101")
 	)
 	(junction
+		(at 374.65 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a64cfa-f6a1-4e95-90f1-cb9b4dc4c4ee")
+	)
+	(junction
 		(at 171.45 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5969,6 +5969,12 @@
 		(uuid "ccf9f068-9a4b-408a-a569-f85c1c410672")
 	)
 	(junction
+		(at 365.76 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd44104b-e31b-4e03-b270-1d2303776870")
+	)
+	(junction
 		(at 327.66 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6045,6 +6051,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8db8183-3ef0-4e73-a896-6a09dea741e0")
+	)
+	(junction
+		(at 374.65 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaa228f3-b442-4ca2-aec6-25411a249ccb")
 	)
 	(junction
 		(at 353.06 200.66)
@@ -6618,6 +6630,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 295.91) (xy 374.65 298.45)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "2c10e5f0-6eed-474c-a8f7-52cf28d8a99d")
+	)
+	(wire
+		(pts
 			(xy 231.14 163.83) (xy 231.14 172.72)
 		)
 		(stroke
@@ -6958,16 +6980,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 294.64) (xy 422.91 294.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4af7fea2-8569-4a6d-b58d-09790bc82b3d")
-	)
-	(wire
-		(pts
 			(xy 474.98 195.58) (xy 474.98 194.31)
 		)
 		(stroke
@@ -7188,7 +7200,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 290.83) (xy 374.65 298.45)
+			(xy 374.65 290.83) (xy 374.65 294.64)
 		)
 		(stroke
 			(width 0.381)
@@ -7708,7 +7720,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 243.84) (xy 422.91 294.64)
+			(xy 422.91 243.84) (xy 422.91 295.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -8878,6 +8890,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 295.91) (xy 422.91 295.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dda8bfa1-eb1b-48dc-90ca-8a5d2f179800")
+	)
+	(wire
+		(pts
 			(xy 485.14 195.58) (xy 485.14 194.31)
 		)
 		(stroke
@@ -9025,6 +9047,16 @@
 			(type solid)
 		)
 		(uuid "e516471d-4d14-4269-be97-a2f56e055974")
+	)
+	(wire
+		(pts
+			(xy 365.76 294.64) (xy 374.65 294.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e63cb19a-6e0a-4360-8fed-932bd1b7b0ed")
 	)
 	(wire
 		(pts
@@ -9195,6 +9227,16 @@
 			(type solid)
 		)
 		(uuid "ee410008-8f04-4682-8f62-4f23552b22eb")
+	)
+	(wire
+		(pts
+			(xy 374.65 294.64) (xy 374.65 295.91)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "ee7c9718-5e8b-485f-a6d4-55ff8da128ff")
 	)
 	(wire
 		(pts
@@ -10163,7 +10205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 322.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10174,7 +10216,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 322.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10197,7 +10239,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "399-12984-1-ND"
 			(at 322.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10221,7 +10263,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 322.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13889,7 +13931,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 249.174 188.976 0)
+			(at 249.174 188.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14337,7 +14379,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2R00DKR-ND"
+		(property "DPN" "RMCF0603FT2R00CT-ND"
 			(at 334.01 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15226,7 +15268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/256/MAX4210-MAX4211-1265251.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4412.pdf"
 			(at 377.19 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15237,7 +15279,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Monitor Regulator High-Side 16-TQFN (4x4)"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6 industrial temp"
 			(at 430.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15260,7 +15302,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "MAX4211FETE+-ND"
+		(property "DPN" "LTC4412ES6#WTRMPBF"
 			(at 430.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15284,7 +15326,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "MAX4211FETE"
+		(property "MPN" "LTC4412ES6#PBF"
 			(at 430.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16317,7 +16359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://riedon.com/media/pdf/CSR.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/30122/wslp.pdf"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -16328,7 +16370,7 @@
 				)
 			)
 		)
-		(property "Description" "10 mOhms ±1% 1W Chip Resistor 1206 (3216 Metric) Current Sense, Non-Inductive Metal Element"
+		(property "Description" "10 mOhms ±1% 1W Chip Resistor 1206 (3216 Metric) Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -16351,7 +16393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "696-1374-1-ND"
+		(property "DPN" "WSLP-.01CT-ND"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -16363,7 +16405,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Riedon"
+		(property "MFR" "Vishay Dale"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -16375,7 +16417,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CSR1206-0R01F1"
+		(property "MPN" "WSLP1206R0100FEA"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -16739,6 +16781,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 231.14 175.26 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16748,7 +16791,7 @@
 		(dnp no)
 		(uuid "91294fff-528c-4d32-883c-0bae6c95cc07")
 		(property "Reference" "C17"
-			(at 233.426 174.752 0)
+			(at 228.854 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16759,7 +16802,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 233.68 176.784 0)
+			(at 228.6 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

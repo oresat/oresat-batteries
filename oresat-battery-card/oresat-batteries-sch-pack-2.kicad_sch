@@ -5580,7 +5580,7 @@
 		(uuid "0f0f7c70-2a36-4ee6-9860-43b8f4653662")
 	)
 	(junction
-		(at 181.61 237.49)
+		(at 181.61 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fcc1a35-82f4-4104-bca0-dbafa921bd8b")
@@ -5622,7 +5622,7 @@
 		(uuid "1b0f43bd-53e4-497d-8737-5b7654ff3dd5")
 	)
 	(junction
-		(at 247.65 237.49)
+		(at 247.65 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cbfd0e4-b364-4279-86c5-9b4ba4cd4547")
@@ -5700,7 +5700,7 @@
 		(uuid "59b70368-8ec0-4a7c-ac8c-aebd2567e146")
 	)
 	(junction
-		(at 208.28 237.49)
+		(at 208.28 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59b90f80-751c-4e29-9448-eb37d9878092")
@@ -5730,6 +5730,12 @@
 		(uuid "6411ca48-c626-4eba-ac4a-2d59fb9ce833")
 	)
 	(junction
+		(at 374.65 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "664f11c2-05d2-4d04-92bf-5696ae95641a")
+	)
+	(junction
 		(at 208.28 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5742,7 +5748,13 @@
 		(uuid "6f428e86-b672-485e-8660-18f8688db6b3")
 	)
 	(junction
-		(at 365.76 237.49)
+		(at 374.65 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717a4d51-7431-4c99-b446-f6fffa6c432f")
+	)
+	(junction
+		(at 365.76 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75ecdffd-117b-45fd-b0dd-a4c5ac66e12e")
@@ -5802,13 +5814,13 @@
 		(uuid "8cd67719-585c-43cf-8be8-4c20a087e5a4")
 	)
 	(junction
-		(at 231.14 237.49)
+		(at 231.14 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d3b4f15-22ef-41b7-9baa-93017b95a359")
 	)
 	(junction
-		(at 266.7 237.49)
+		(at 266.7 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fce36eb-ad50-4212-9cdf-07c0730a4aaf")
@@ -5896,6 +5908,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2803209-8289-4a44-a4cc-5b98e2d7d717")
+	)
+	(junction
+		(at 365.76 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3b22774-0cdb-41b1-a506-8065cfda7bb1")
 	)
 	(junction
 		(at 189.23 257.81)
@@ -6000,6 +6018,12 @@
 		(uuid "e8f1c94f-a2e3-4e0d-9cf2-dd47f8b23700")
 	)
 	(junction
+		(at 374.65 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec9f3235-818f-47c3-a66d-ec12f71eb21d")
+	)
+	(junction
 		(at 189.23 294.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6022,12 +6046,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2bc9b10-64d4-48e1-b23d-0ea88489b7fe")
-	)
-	(junction
-		(at 365.76 294.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f34dc889-f6fd-4bda-bae5-cc805a15ecc7")
 	)
 	(junction
 		(at 365.76 304.8)
@@ -6275,7 +6293,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 237.49) (xy 151.13 237.49)
+			(xy 181.61 236.22) (xy 151.13 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -6425,16 +6443,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 238.76) (xy 181.61 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "132c19ae-867c-411d-99ac-286505630484")
-	)
-	(wire
-		(pts
 			(xy 292.1 140.97) (xy 292.1 160.02)
 		)
 		(stroke
@@ -6465,7 +6473,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 237.49) (xy 231.14 237.49)
+			(xy 208.28 236.22) (xy 208.28 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "162d78a3-538f-4395-86ed-079659a86d4d")
+	)
+	(wire
+		(pts
+			(xy 208.28 236.22) (xy 231.14 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -6482,16 +6500,6 @@
 			(type default)
 		)
 		(uuid "17554559-ea4b-4b24-961f-990f7679d59f")
-	)
-	(wire
-		(pts
-			(xy 231.14 237.49) (xy 231.14 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1867694a-3e69-497d-9225-cacca683ca86")
 	)
 	(wire
 		(pts
@@ -6562,6 +6570,16 @@
 			(type solid)
 		)
 		(uuid "1b56e761-425e-408b-9f01-285076e86c4c")
+	)
+	(wire
+		(pts
+			(xy 374.65 236.22) (xy 374.65 237.49)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(uuid "1b5e9b5c-38cb-47b4-8a4e-1b6e169a47b1")
 	)
 	(wire
 		(pts
@@ -6765,7 +6783,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 237.49) (xy 181.61 237.49)
+			(xy 208.28 236.22) (xy 181.61 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -6795,7 +6813,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 233.68) (xy 374.65 237.49)
+			(xy 374.65 233.68) (xy 374.65 236.22)
 		)
 		(stroke
 			(width 0.381)
@@ -6985,6 +7003,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 236.22) (xy 374.65 237.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "41bfb52e-63aa-4452-9591-a2428c49a9e9")
+	)
+	(wire
+		(pts
 			(xy 355.6 257.81) (xy 356.87 257.81)
 		)
 		(stroke
@@ -7095,6 +7123,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 294.64) (xy 374.65 294.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4c4c0596-cc64-40ad-a70a-f8cb28ea27f9")
+	)
+	(wire
+		(pts
 			(xy 219.71 245.11) (xy 223.52 245.11)
 		)
 		(stroke
@@ -7102,16 +7140,6 @@
 			(type default)
 		)
 		(uuid "4d229c56-65fa-44cf-9c16-8d0af5a0ccb8")
-	)
-	(wire
-		(pts
-			(xy 208.28 238.76) (xy 208.28 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4ddad02a-08d3-4c8a-81e4-3d147df15a18")
 	)
 	(wire
 		(pts
@@ -7342,16 +7370,6 @@
 			(type default)
 		)
 		(uuid "623aeaa2-84b0-476f-b53e-209899d72d50")
-	)
-	(wire
-		(pts
-			(xy 365.76 294.64) (xy 422.91 294.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "629c004f-60b7-49c2-be52-56cf8bdb493d")
 	)
 	(wire
 		(pts
@@ -7885,7 +7903,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 237.49) (xy 365.76 237.49)
+			(xy 266.7 236.22) (xy 365.76 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -8085,7 +8103,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 208.28) (xy 266.7 237.49)
+			(xy 266.7 208.28) (xy 266.7 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -8102,6 +8120,16 @@
 			(type default)
 		)
 		(uuid "9be38744-2096-4fc6-8e3b-58695f5fb7b5")
+	)
+	(wire
+		(pts
+			(xy 374.65 295.91) (xy 374.65 299.72)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(uuid "9c3f9aca-9e54-4ce5-b7d4-f4414ff016ba")
 	)
 	(wire
 		(pts
@@ -8195,7 +8223,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 290.83) (xy 374.65 299.72)
+			(xy 374.65 290.83) (xy 374.65 294.64)
 		)
 		(stroke
 			(width 0.381)
@@ -8485,7 +8513,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 237.49) (xy 374.65 237.49)
+			(xy 365.76 236.22) (xy 374.65 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -8535,7 +8563,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 238.76) (xy 151.13 237.49)
+			(xy 151.13 238.76) (xy 151.13 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -8575,7 +8603,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 237.49) (xy 231.14 237.49)
+			(xy 247.65 236.22) (xy 231.14 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -8805,6 +8833,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 294.64) (xy 374.65 295.91)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(uuid "d236cc37-adbb-45e8-a4e0-bb69451010f3")
+	)
+	(wire
+		(pts
 			(xy 477.52 224.79) (xy 482.6 224.79)
 		)
 		(stroke
@@ -8925,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 254) (xy 422.91 294.64)
+			(xy 422.91 254) (xy 422.91 295.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -9045,7 +9083,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 237.49) (xy 247.65 234.95)
+			(xy 247.65 234.95) (xy 247.65 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -9072,6 +9110,16 @@
 			(type solid)
 		)
 		(uuid "e670058e-11fd-42d1-9a21-36ca3d3aa2e3")
+	)
+	(wire
+		(pts
+			(xy 231.14 200.66) (xy 231.14 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e69517f6-048e-4ca6-81c7-aee3aefee649")
 	)
 	(polyline
 		(pts
@@ -9115,6 +9163,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 236.22) (xy 181.61 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e99a80a4-f5c4-4661-8f29-37484ece7769")
+	)
+	(wire
+		(pts
 			(xy 365.76 215.9) (xy 365.76 223.52)
 		)
 		(stroke
@@ -9125,7 +9183,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 228.6) (xy 365.76 237.49)
+			(xy 365.76 228.6) (xy 365.76 236.22)
 		)
 		(stroke
 			(width 0)
@@ -9285,7 +9343,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 237.49) (xy 247.65 237.49)
+			(xy 266.7 236.22) (xy 247.65 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -9342,6 +9400,16 @@
 			(type default)
 		)
 		(uuid "fa7916ac-82dc-4410-8fea-1ba205c9ce4e")
+	)
+	(wire
+		(pts
+			(xy 374.65 295.91) (xy 422.91 295.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fcc546ee-5267-42a6-be2f-f426054c79cc")
 	)
 	(wire
 		(pts
@@ -9454,7 +9522,7 @@
 		(uuid "85727a9b-3143-4acc-932a-ac4817a6af3c")
 	)
 	(label "INTERCELL-PK2"
-		(at 302.26 237.49 0)
+		(at 302.26 236.22 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9484,7 +9552,7 @@
 		(uuid "b6b60ef2-0ace-440c-a818-4e5db99e9bbf")
 	)
 	(label "INTERCELL-PK2"
-		(at 151.13 237.49 0)
+		(at 151.13 236.22 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10512,7 +10580,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2R00DKR-ND"
+		(property "DPN" "RMCF0603FT2R00CT-ND"
 			(at 331.47 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15013,7 +15081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 321.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15024,7 +15092,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 321.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15047,7 +15115,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "399-6856-1-ND"
+		(property "DPN" "399-12984-1-ND"
 			(at 321.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15071,7 +15139,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0603C104K5RACAUTO"
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 321.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15871,7 +15939,7 @@
 		(dnp no)
 		(uuid "803f4747-d057-45aa-a88b-ccc77ee47484")
 		(property "Reference" "C29"
-			(at 248.666 206.375 0)
+			(at 249.428 206.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15882,7 +15950,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 248.666 211.201 0)
+			(at 249.682 208.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17944,7 +18012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://riedon.com/media/pdf/CSR.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/30122/wslp.pdf"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -17955,7 +18023,7 @@
 				)
 			)
 		)
-		(property "Description" "10 mOhms ±1% 1W Chip Resistor 1206 (3216 Metric) Current Sense, Non-Inductive Metal Element"
+		(property "Description" "10 mOhms ±1% 1W Chip Resistor 1206 (3216 Metric) Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -17978,7 +18046,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "696-1374-1-ND"
+		(property "DPN" "WSLP-.01CT-ND"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -17990,7 +18058,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Riedon"
+		(property "MFR" "Vishay Dale"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -18002,7 +18070,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CSR1206-0R01F1"
+		(property "MPN" "WSLP1206R0100FEA"
 			(at 374.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -19040,6 +19108,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 231.14 195.58 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19049,7 +19118,7 @@
 		(dnp no)
 		(uuid "d078f1d7-5873-4b75-9bc8-55f2816479e1")
 		(property "Reference" "C28"
-			(at 232.156 194.945 0)
+			(at 228.346 195.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19060,7 +19129,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 232.156 199.771 0)
+			(at 228.6 197.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19352,7 +19421,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/256/MAX4210-MAX4211-1265251.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4412.pdf"
 			(at 378.46 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19363,7 +19432,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Monitor Regulator High-Side 16-TQFN (4x4)"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6 industrial temp"
 			(at 431.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19386,7 +19455,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "MAX4211FETE+-ND"
+		(property "DPN" "LTC4412ES6#WTRMPBF"
 			(at 431.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19410,7 +19479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "MAX4211FETE"
+		(property "MPN" "LTC4412ES6#PBF"
 			(at 431.8 110.49 0)
 			(hide yes)
 			(show_name no)

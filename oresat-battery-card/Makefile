@@ -39,7 +39,7 @@ pdf:	## Generate a PDF of the schematic
 	kicad-cli sch export pdf -o $(OUTPUT_DIR)/$(DOC_DIR)/$(PROJECT_NAME)-schematic.pdf $(SCHEMATIC)
 	
 bom:	## Generate a CSV Bill of Materials (BOM) with the output preset file that you created in your schematic.
-	kicad-cli sch export bom --fields "Qty","Reference","MFR","MPN","DIS","DPN","Description" -o $(OUTPUT_DIR)/$(ASM_DIR)/$(PROJECT_NAME)-bom.csv $(SCHEMATIC)
+	kicad-cli sch export bom -o $(OUTPUT_DIR)/$(ASM_DIR)/$(PROJECT_NAME)-bom.csv --fields "QUANTITY,Reference,Value,Footprint,MFR,MPN,DIS,DPN,Description" --group-by "Reference,Value,Footprint" --exclude-dnp  $(SCHEMATIC)
 
 # Generate build files from the board
 
