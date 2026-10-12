@@ -5700,10 +5700,6 @@
 		(uuid "1051264c-165f-4c8e-986b-58c5b86cdf75")
 	)
 	(no_connect
-		(at 101.6 187.96)
-		(uuid "1b469920-f833-43e7-88e1-c110082e7cd7")
-	)
-	(no_connect
 		(at 363.22 184.15)
 		(uuid "218565f5-ff2c-4697-94c3-0d13bd6b6998")
 	)
@@ -5761,7 +5757,7 @@
 	)
 	(no_connect
 		(at 101.6 185.42)
-		(uuid "52eac3e8-c015-4495-8ce4-4f407cf9ddba")
+		(uuid "5749b875-16a2-4228-9a0f-fd68493748bc")
 	)
 	(no_connect
 		(at 102.87 40.64)
@@ -5798,10 +5794,6 @@
 	(no_connect
 		(at 295.91 204.47)
 		(uuid "825311bc-79ac-4a64-98f8-b6380a059b8d")
-	)
-	(no_connect
-		(at 101.6 238.76)
-		(uuid "89b3a5d3-69b7-4067-b33a-e02174f6a335")
 	)
 	(no_connect
 		(at 101.6 107.95)
@@ -5842,6 +5834,10 @@
 	(no_connect
 		(at 101.6 110.49)
 		(uuid "d48e2421-a5b3-446f-92bc-17bd7fdf8f17")
+	)
+	(no_connect
+		(at 101.6 187.96)
+		(uuid "d7f3617b-78dd-4971-b128-11620999fce7")
 	)
 	(no_connect
 		(at 101.6 105.41)
@@ -6981,7 +6977,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 241.3) (xy 105.41 241.3)
+			(xy 91.44 241.3) (xy 101.6 241.3)
 		)
 		(stroke
 			(width 0)
@@ -7391,16 +7387,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 187.96) (xy 101.6 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1cff0fb-5810-41d6-9f3e-2630f2c41652")
-	)
-	(wire
-		(pts
 			(xy 232.41 59.69) (xy 232.41 60.96)
 		)
 		(stroke
@@ -7588,6 +7574,16 @@
 			(type default)
 		)
 		(uuid "b4e79381-a2fe-43d3-a08e-9488c8523f64")
+	)
+	(wire
+		(pts
+			(xy 91.44 187.96) (xy 101.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e41386-e722-4a21-93e9-cca0bec09974")
 	)
 	(wire
 		(pts
@@ -8535,6 +8531,16 @@
 		)
 		(uuid "4c06f01e-df3a-4f5a-9b7b-5bec2209f60a")
 	)
+	(label "P4_19"
+		(at 91.44 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d61a886-5a6b-43da-bac7-5052d3d8a71c")
+	)
 	(label "P1_14"
 		(at 92.71 63.5 0)
 		(effects
@@ -8565,16 +8571,6 @@
 		)
 		(uuid "599eeff0-11f5-4542-8245-4f87b93fae08")
 	)
-	(label "P4_19"
-		(at 91.44 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6005aad0-fe06-4796-84e9-c611c8f994c6")
-	)
 	(label "P5_0"
 		(at 91.44 233.68 0)
 		(effects
@@ -8594,16 +8590,6 @@
 			(justify left bottom)
 		)
 		(uuid "6afa3736-45ad-49cb-afcb-35ad343a6a79")
-	)
-	(label "P4_20"
-		(at 91.44 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70d28043-f3ef-4ca7-bf00-4c666670d8f4")
 	)
 	(label "P3_11"
 		(at 91.44 149.86 0)
@@ -8644,6 +8630,16 @@
 			(justify left bottom)
 		)
 		(uuid "93f7e7d2-17e4-4607-8b26-193c2cfcba46")
+	)
+	(label "P4_20"
+		(at 91.44 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "999c5b5f-b50a-42d0-8533-2a540ed3a448")
 	)
 	(label "VDD_ANA"
 		(at 231.14 113.03 180)
@@ -8694,16 +8690,6 @@
 			(justify left bottom)
 		)
 		(uuid "aa56530d-4647-460c-a04d-9a7a4e1f1ce5")
-	)
-	(label "P5_3"
-		(at 91.44 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afa3799e-e0a7-4c38-a3da-50c48e26a048")
 	)
 	(label "VDD_SYS"
 		(at 231.14 123.19 180)
@@ -8794,16 +8780,6 @@
 			(justify left bottom)
 		)
 		(uuid "cbe39ce5-c7b6-4053-befc-e45007a9e73a")
-	)
-	(label "P5_2"
-		(at 91.44 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e6e0b5-a491-4c53-add5-740ddd0752fb")
 	)
 	(label "P3_15"
 		(at 91.44 139.7 0)
@@ -9235,6 +9211,32 @@
 			(justify right)
 		)
 		(uuid "df66adee-f84a-41e6-bd47-c069482e5565")
+	)
+	(hierarchical_label "IMON-PK1"
+		(shape input)
+		(at 101.6 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e0fc06fd-89b6-4c8d-aa98-5b338c26796b")
+	)
+	(hierarchical_label "IMON-PK2"
+		(shape input)
+		(at 101.6 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f949e027-42e8-401b-943a-a80a4d442724")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -12830,9 +12832,11 @@
 		)
 		(pin "50"
 			(uuid "572e6220-0dd0-40e2-840d-a51457d6e03d")
+			(alternate "ADC1_B10")
 		)
 		(pin "51"
 			(uuid "2e89e549-6d10-4c88-8572-0090cf878ee4")
+			(alternate "ADC1_B11")
 		)
 		(pin "38"
 			(uuid "a48ffe92-e3d2-4258-b734-bbae584328c0")
@@ -18127,85 +18131,6 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
 					(reference "TP113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 105.41 241.3 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d70ff22d-c391-42a7-9679-cbf0fcd6ab61")
-		(property "Reference" "TP34"
-			(at 103.378 239.776 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 105.41 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 115.57 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 105.41 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c29087a-00b8-4e7e-8956-d595396d02dc")
-		)
-		(instances
-			(project "oresat-batteries"
-				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
-					(reference "TP34")
 					(unit 1)
 				)
 			)

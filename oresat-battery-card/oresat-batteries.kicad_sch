@@ -2941,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 96.52) (xy 279.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b33b28-0aca-4343-9382-6eb353c10f12")
+	)
+	(wire
+		(pts
 			(xy 91.44 119.38) (xy 93.98 119.38)
 		)
 		(stroke
@@ -3118,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "3d756a9e-1f99-4ad9-9fb6-5986f84dd7ec")
+	)
+	(wire
+		(pts
+			(xy 265.43 53.34) (xy 279.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40758e0d-022a-464a-aac8-eaee37b9d172")
 	)
 	(wire
 		(pts
@@ -3601,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 93.98) (xy 279.4 93.98)
+			(xy 265.43 90.17) (xy 279.4 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4061,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 96.52) (xy 279.4 96.52)
+			(xy 265.43 92.71) (xy 279.4 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +6618,7 @@
 			)
 		)
 		(pin "I2C2_SCL" output
-			(at 265.43 93.98 0)
+			(at 265.43 90.17 0)
 			(uuid "f336486b-c575-465b-b5d8-153cac7b4e71")
 			(effects
 				(font
@@ -6608,7 +6628,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 265.43 96.52 0)
+			(at 265.43 92.71 0)
 			(uuid "e08c1369-1468-4069-a6d7-19d83f80787a")
 			(effects
 				(font
@@ -6660,6 +6680,26 @@
 		(pin "DISCHARGE-DISABLE-PK1" output
 			(at 265.43 68.58 0)
 			(uuid "b914c519-dc9b-4554-9ca7-9c6682e2b7b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMON-PK1" input
+			(at 265.43 53.34 0)
+			(uuid "3cc97b40-af25-4fcf-90be-369da71479f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMON-PK2" input
+			(at 265.43 96.52 0)
+			(uuid "d3783b51-f9d2-4a92-b5e1-788da5fdf467")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6820,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ALERTA-PK2" bidirectional
+		(pin "ALERTA-PK2" output
 			(at 279.4 101.6 180)
 			(uuid "c76c51e3-89da-4625-9753-11bc3f789984")
 			(effects
@@ -6790,7 +6830,7 @@
 				(justify left)
 			)
 		)
-		(pin "CHARGE-DISABLE-PK2" bidirectional
+		(pin "CHARGE-DISABLE-PK2" input
 			(at 279.4 104.14 180)
 			(uuid "e618a8c8-c4c2-4c1a-9b7b-251345fc2922")
 			(effects
@@ -6800,7 +6840,7 @@
 				(justify left)
 			)
 		)
-		(pin "CHARGE-STAT-OC-PK2" bidirectional
+		(pin "CHARGE-STAT-OC-PK2" output
 			(at 279.4 106.68 180)
 			(uuid "77915d4f-9dc8-46a1-a934-2812866b1538")
 			(effects
@@ -6810,7 +6850,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCHG-STAT-OC-PK2" bidirectional
+		(pin "DCHG-STAT-OC-PK2" output
 			(at 279.4 109.22 180)
 			(uuid "e5c16583-97c7-4d96-b8f2-1b328b865270")
 			(effects
@@ -6820,7 +6860,7 @@
 				(justify left)
 			)
 		)
-		(pin "DISCHARGE-DISABLE-PK2" bidirectional
+		(pin "DISCHARGE-DISABLE-PK2" input
 			(at 279.4 111.76 180)
 			(uuid "83db588d-355a-4e91-838a-2d07bf36bdaa")
 			(effects
@@ -6830,8 +6870,8 @@
 				(justify left)
 			)
 		)
-		(pin "I2C2_SCL" bidirectional
-			(at 279.4 93.98 180)
+		(pin "I2C2_SCL" input
+			(at 279.4 90.17 180)
 			(uuid "b9cf6489-ac60-4970-9e6b-1235c3cfb955")
 			(effects
 				(font
@@ -6841,7 +6881,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 279.4 96.52 180)
+			(at 279.4 92.71 180)
 			(uuid "96051015-f99a-4e4a-8a12-62eacb58e2e3")
 			(effects
 				(font
@@ -6878,6 +6918,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IMON-PK2" output
+			(at 279.4 96.52 180)
+			(uuid "ce72efc7-512f-489a-95f3-dbd639d288f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -6926,7 +6976,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C1_SCL" bidirectional
+		(pin "I2C1_SCL" input
 			(at 279.4 45.72 180)
 			(uuid "3e16f940-5dda-4c82-932a-fbf51f7454de")
 			(effects
@@ -6946,7 +6996,7 @@
 				(justify left)
 			)
 		)
-		(pin "ALERTA-PK1" bidirectional
+		(pin "ALERTA-PK1" output
 			(at 279.4 58.42 180)
 			(uuid "133fecc1-159c-48b6-84d3-15f5861d3022")
 			(effects
@@ -6956,7 +7006,7 @@
 				(justify left)
 			)
 		)
-		(pin "CHARGE-DISABLE-PK1" bidirectional
+		(pin "CHARGE-DISABLE-PK1" input
 			(at 279.4 60.96 180)
 			(uuid "a117c075-a5e6-4c30-9443-3968066e4fd3")
 			(effects
@@ -6966,7 +7016,7 @@
 				(justify left)
 			)
 		)
-		(pin "CHARGE-STAT-OC-PK1" bidirectional
+		(pin "CHARGE-STAT-OC-PK1" output
 			(at 279.4 63.5 180)
 			(uuid "6bcadcf0-fa1d-4a63-a86b-1c0c31b87a1f")
 			(effects
@@ -6976,7 +7026,7 @@
 				(justify left)
 			)
 		)
-		(pin "DCHG-STAT-OC-PK1" bidirectional
+		(pin "DCHG-STAT-OC-PK1" output
 			(at 279.4 66.04 180)
 			(uuid "eddc1bf5-8778-4666-ae49-6dd3fffae47a")
 			(effects
@@ -6986,7 +7036,7 @@
 				(justify left)
 			)
 		)
-		(pin "DISCHARGE-DISABLE-PK1" bidirectional
+		(pin "DISCHARGE-DISABLE-PK1" input
 			(at 279.4 68.58 180)
 			(uuid "382bcfab-732b-42c4-97e9-2abfec2325a4")
 			(effects
@@ -7024,6 +7074,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IMON-PK1" output
+			(at 279.4 53.34 180)
+			(uuid "69a56eb7-c40d-440f-93c7-00291258d79e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
