@@ -5238,6 +5238,17 @@
 		)
 		(uuid "066752a4-837d-44ce-81e3-9f5acdf06082")
 	)
+	(text "150 ms delay on\nall transitions"
+		(exclude_from_sim no)
+		(at 190.754 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d3969fc-db76-44f9-aa12-062031ce0f9d")
+	)
 	(text "CTLC/D\nhas\ninternal\npullups\nto VDD"
 		(exclude_from_sim no)
 		(at 193.04 240.284 0)
@@ -5260,7 +5271,7 @@
 		)
 		(uuid "109a78d4-a92d-4f2d-9e22-62c04109c45c")
 	)
-	(text "EFUSE\n\nCurrent limit: 8.0 A (circuit breaker set to +20%, 9.6 A)\nVoltage ramp up time: 24 ms\nTransient overcurrent timer: 2.0 ms\nTime between retries: 4.6 s"
+	(text "EFUSE\n\nCurrent limit: 8.0 A (set +20% to Rilim = 154 ohm = 9.6 A)\nTransient overcurrent timer: 15 n = 5 ms\nFast current limit = 210% * 9.6 A = 20.16 A\n\nVoltage ramp up time: 24 ms\nTime between retries: 4.6 s"
 		(exclude_from_sim no)
 		(at 252.476 119.38 0)
 		(effects
@@ -5292,9 +5303,19 @@
 		)
 		(uuid "2be8fa72-3594-438a-8eac-382c43cc1dd7")
 	)
+	(text "Vbatt = 6.0V -> EN/UVL = 1.39 V\nwhich is above 1.23 V cutoff"
+		(exclude_from_sim no)
+		(at 298.45 205.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "320ebf23-525f-4ca8-8053-3eb91171ddce")
+	)
 	(text "(Current flows when Vbat > Vbus)"
 		(exclude_from_sim no)
-		(at 240.792 91.694 0)
+		(at 283.21 69.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5302,6 +5323,17 @@
 			(justify left bottom)
 		)
 		(uuid "38e0ac02-9183-4fdb-98fa-97f7b8622396")
+	)
+	(text "150 ms delay on\nall transitions"
+		(exclude_from_sim no)
+		(at 249.428 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40801ef2-beea-4fe7-94e8-e18c4b47eaa8")
 	)
 	(text "(Current flows when Vbat < Vbus)"
 		(exclude_from_sim no)
@@ -5414,17 +5446,6 @@
 		)
 		(uuid "6d3e7f8f-81c8-42a5-bbc0-6eb9a81ee391")
 	)
-	(text "DISCHARGE SWITCH"
-		(exclude_from_sim no)
-		(at 248.158 87.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "754c56c7-23c9-46a0-8b5a-4bd12fc402ca")
-	)
 	(text "Referenced to B2- (top of shunt), not system\nGND which is bottom of shunt."
 		(exclude_from_sim no)
 		(at 229.108 294.132 0)
@@ -5490,17 +5511,6 @@
 		)
 		(uuid "bdf7428a-e5c1-45a9-9a74-0ac4f8a0f515")
 	)
-	(text "100 ms delay on\nall transitions"
-		(exclude_from_sim no)
-		(at 190.246 266.954 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfa13312-b6dd-4d11-9a55-d6e06b539e32")
-	)
 	(text "2x Honeywell 197-103LAG-A01"
 		(exclude_from_sim no)
 		(at 482.346 275.59 0)
@@ -5535,7 +5545,7 @@
 	)
 	(text "DISCHARGE ONLY IF:\n1) Vcell > Voverdisch\n2) DISCHARGE_DISABLE is not asserted."
 		(exclude_from_sim no)
-		(at 237.49 99.314 0)
+		(at 279.908 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5543,17 +5553,6 @@
 			(justify left bottom)
 		)
 		(uuid "e348ab3e-dc58-4805-82da-5e60bdee8526")
-	)
-	(text "100 ms of delay"
-		(exclude_from_sim no)
-		(at 248.92 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4268196-bf9f-4dbc-8a61-9530f31c9e95")
 	)
 	(text "Charge Control"
 		(exclude_from_sim no)
@@ -11461,7 +11460,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "15n"
 			(at 183.388 263.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11483,7 +11482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 189.23 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -11494,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 189.23 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -11517,7 +11516,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "399-12983-1-ND"
+		(property "DPN" "399-12984-1-ND"
 			(at 189.23 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -11541,7 +11540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0603C103J5RACAUTO"
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 189.23 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -13930,7 +13929,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "15n"
 			(at 249.174 188.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13952,7 +13951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 247.65 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13963,7 +13962,7 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 247.65 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13986,7 +13985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "399-12983-1-ND"
+		(property "DPN" "399-12984-1-ND"
 			(at 247.65 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14010,7 +14009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0603C103J5RACAUTO"
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 247.65 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14453,7 +14452,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "357k"
+		(property "Value" "330k"
 			(at 315.976 194.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14486,7 +14485,7 @@
 				)
 			)
 		)
-		(property "Description" "357 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "330 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 317.5 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14509,7 +14508,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT357KCT-ND"
+		(property "DPN" "RMCF0603FT330KCT-ND"
 			(at 317.5 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14533,7 +14532,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT357K"
+		(property "MPN" "RMCF0603FT330K"
 			(at 317.5 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -19594,7 +19593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "15n"
 			(at 296.164 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19616,7 +19615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -19627,7 +19626,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -19650,7 +19649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "399-6856-1-ND"
+		(property "DPN" "399-12984-1-ND"
 			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -19674,7 +19673,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C0603C104K5RACAUTO"
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 294.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -20193,7 +20192,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "470"
 			(at 283.21 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20226,7 +20225,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "470 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 284.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20249,7 +20248,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT470RCT-ND"
 			(at 284.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20273,7 +20272,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT470R"
 			(at 284.48 102.87 0)
 			(hide yes)
 			(show_name no)

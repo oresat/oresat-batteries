@@ -11330,7 +11330,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 292.1 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11478,7 +11478,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 314.96 190.5 90)
 			(hide yes)
 			(show_name no)

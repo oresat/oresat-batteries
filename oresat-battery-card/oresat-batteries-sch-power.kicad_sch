@@ -6246,7 +6246,7 @@
 		)
 		(uuid "370fdb41-1f95-4ffb-b9ad-eb4a9cbdf0da")
 	)
-	(text "Increase CB limit from\n300 mA to 375 mA"
+	(text "Increase CB limit from\n300 mA to 600 mA\nin order to run the heaters."
 		(exclude_from_sim no)
 		(at 338.836 131.572 0)
 		(effects
@@ -11514,7 +11514,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 317.5 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11547,7 +11547,7 @@
 				)
 			)
 		)
-		(property "Description" "20 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11570,7 +11570,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT20K0CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11594,7 +11594,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT20K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)

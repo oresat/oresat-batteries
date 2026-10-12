@@ -3521,9 +3521,9 @@
 		)
 		(uuid "057cc2e3-3a1d-41a0-80ff-085378eb2da1")
 	)
-	(text "At 8.2V and 24.5 ohms, we should see a maximum of ~ 343 mA"
+	(text "At 8.2V and 24.5 ohms, we should see a maximum \nof ~ 335 mA of current through the heaters."
 		(exclude_from_sim no)
-		(at 277.114 172.212 0)
+		(at 277.114 172.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
