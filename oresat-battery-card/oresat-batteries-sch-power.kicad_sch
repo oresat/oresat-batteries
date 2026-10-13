@@ -18146,7 +18146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -18157,7 +18157,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -18179,7 +18179,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -18201,7 +18201,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21304,7 +21304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21315,7 +21315,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21337,7 +21337,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21359,7 +21359,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
