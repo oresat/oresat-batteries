@@ -4910,7 +4910,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4922,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4947,7 +4947,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4973,7 +4973,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17428,7 +17428,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17440,7 +17440,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17465,7 +17465,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17491,7 +17491,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21821,7 +21821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -21833,7 +21833,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -21858,7 +21858,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21884,7 +21884,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32063,7 +32063,7 @@
 				)
 			)
 		)
-		(property "Value" "TCAN337G"
+		(property "Value" "TCAN337GDCN"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "7e8dc824-f520-4cd8-8b1b-3d9eef02d30c")
@@ -32086,7 +32086,7 @@
 				)
 			)
 		)
-		(property "Description" "1/1 Transceiver Half CANbus 8-SOIC"
+		(property "Description" "1/1 Transceiver Half CANbus SOT-23-8"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32111,7 +32111,7 @@
 				)
 			)
 		)
-		(property "DPN" "TCAN337GD-ND"
+		(property "DPN" "296-44539-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32137,7 +32137,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCAN337GD"
+		(property "MPN" "TCAN337GDCNT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51592,7 +51592,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -51604,7 +51604,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -51629,7 +51629,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51655,7 +51655,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64168,7 +64168,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64180,7 +64180,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64205,7 +64205,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64231,7 +64231,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80620,7 +80620,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C473K5RACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -80632,7 +80632,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -80657,7 +80657,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6820-1-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80683,7 +80683,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C473K5RACAUTO"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

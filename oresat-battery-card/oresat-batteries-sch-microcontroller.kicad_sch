@@ -13733,7 +13733,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TCAN337G"
+		(property "Value" "TCAN337GDCN"
 			(at 168.148 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13767,7 +13767,7 @@
 				)
 			)
 		)
-		(property "Description" "1/1 Transceiver Half CANbus 8-SOIC"
+		(property "Description" "1/1 Transceiver Half CANbus SOT-23-8"
 			(at 163.83 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13790,7 +13790,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "TCAN337GD-ND"
+		(property "DPN" "296-44539-1-ND"
 			(at 163.83 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13814,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "TCAN337GD"
+		(property "MPN" "TCAN337GDCNT"
 			(at 163.83 58.42 0)
 			(hide yes)
 			(show_name no)
