@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-10-06")
-		(rev "4.0")
+		(date "2026-11-01")
+		(rev "4.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -3791,6 +3791,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 71.12) (xy 279.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99d711c-e302-4fb3-8c06-2b06a760804d")
+	)
+	(wire
+		(pts
 			(xy 120.65 87.63) (xy 120.65 86.36)
 		)
 		(stroke
@@ -6497,7 +6507,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{ISPMODE}" input
+		(pin "BOOT-ROM" input
 			(at 213.36 58.42 180)
 			(uuid "a2ca0a15-725f-4dda-8c5d-f1cde33ee5b4")
 			(effects
@@ -6700,6 +6710,16 @@
 		(pin "IMON-PK2" input
 			(at 265.43 96.52 0)
 			(uuid "d3783b51-f9d2-4a92-b5e1-788da5fdf467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EFUSE-PG-PK1" input
+			(at 265.43 71.12 0)
+			(uuid "e0699cda-907b-4712-9aa7-596efcb19089")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,6 +7106,16 @@
 				(justify left)
 			)
 		)
+		(pin "EFUSE-PG-PK1" output
+			(at 279.4 71.12 180)
+			(uuid "31345dd4-b58b-41e1-a63f-665bb7a40c6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
@@ -7162,7 +7192,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{ISPMODE}" output
+		(pin "BOOT-ROM" output
 			(at 201.93 58.42 0)
 			(uuid "11a59b64-3ac3-42c6-b380-df1e79e6b604")
 			(effects
