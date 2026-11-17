@@ -25,7 +25,7 @@ env:
 
 jobs:
   submit:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !github.event.deleted
+    if: github.event_name == 'push' && !github.event.deleted
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
@@ -240,7 +240,7 @@ jobs:
           if-no-files-found: error
 
   pending:
-    if: github.event_name != 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/review'))
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -261,7 +261,7 @@ jobs:
             --slurpfile legacy pending-markdown-review.jsonl '
               ($receipts | INDEX(.workflow_run.id | tostring)) as $by_run |
               (($pcb | map(select($by_run[.workflow_run.id | tostring] != null))) + $legacy)
-              | map(select(.workflow_run.head_repository_id == $repo and .workflow_run.head_branch == "main") |
+              | map(select(.workflow_run.head_repository_id == $repo and (.workflow_run.head_branch | IN("main", "review"))) |
                   {artifact: .id, run: .workflow_run.id, created: .created_at, name: .name})
               | sort_by(.created) | .[:256]')
           echo "items=$items" >> "$GITHUB_OUTPUT"
@@ -288,7 +288,7 @@ jobs:
           workflow=${GITHUB_WORKFLOW_REF%@*}
           gh api "repos/$GITHUB_REPOSITORY/actions/runs/$SOURCE_RUN" > "$RUNNER_TEMP/source.json"
           jq -e --arg path "${workflow#"$GITHUB_REPOSITORY/"}" \
-            '.event == "push" and .head_branch == "main" and .path == $path' "$RUNNER_TEMP/source.json" >/dev/null
+            '.event == "push" and (.head_branch | IN("main", "review")) and .path == $path' "$RUNNER_TEMP/source.json" >/dev/null
           endpoint=${LLM_API_URL%/}
           case "$endpoint" in
             */v1/messages/batches) endpoint=${endpoint%/batches} ;;
@@ -431,25 +431,23 @@ jobs:
 
           if [[ "$SUBMIT" == skipped ]]; then
             if [[ "$GITHUB_EVENT_NAME" != push ]]; then
-              submit_reason='Only a push to main submits a new PCB review.'
+              submit_reason='Push to main or review to submit a new PCB review.'
             elif [[ "$DELETED" == true ]]; then
               submit_reason='The push deleted the ref.'
-            elif [[ "$GITHUB_REF" != refs/heads/main ]]; then
-              submit_reason='The pushed ref is outside main.'
             fi
           fi
           if [[ "$PENDING" == skipped ]]; then
             if [[ "$GITHUB_EVENT_NAME" == push ]]; then
               pending_reason='Polling runs on the schedule or a manual dispatch.'
-            elif [[ "$GITHUB_REF" != refs/heads/main ]]; then
-              pending_reason='Polling requires main. Select main under Run workflow to check pending batches.'
+            elif [[ "$GITHUB_EVENT_NAME" == workflow_dispatch && "$GITHUB_REF" != refs/heads/main && "$GITHUB_REF" != refs/heads/review ]]; then
+              pending_reason='Select main or review under Run workflow to check pending batches.'
             fi
           fi
           if [[ "$COLLECT" == skipped ]]; then
             if [[ "$PENDING" != success ]]; then
               collect_reason="Collection requires a successful pending job. Its result was $PENDING."
             elif [[ "$EMPTY" == true ]]; then
-              collect_reason='The pending job found no eligible batches in this repository on main.'
+              collect_reason='The pending job found no eligible batches from main or review in this repository.'
             fi
           fi
 
@@ -467,4 +465,3 @@ jobs:
             row pending "$PENDING" "$pending_reason"
             row collect "$COLLECT" "$collect_reason"
           } | tee -a "$GITHUB_STEP_SUMMARY"
-
