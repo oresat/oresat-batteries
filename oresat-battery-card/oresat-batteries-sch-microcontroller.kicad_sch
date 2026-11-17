@@ -1118,195 +1118,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_CAN_LIN:TCAN337G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5566,7 +5377,7 @@
 	)
 	(text "- Requires Pullup"
 		(exclude_from_sim no)
-		(at 127.762 185.674 0)
+		(at 131.572 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,6 +5397,16 @@
 			(justify right bottom)
 		)
 		(uuid "5f3c260e-0cda-4c54-b2a0-3f5934c44507")
+	)
+	(text "- Requires Pullup"
+		(exclude_from_sim no)
+		(at 131.572 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60ad90e5-0528-4063-8e74-82b4d57f4db8")
 	)
 	(text "ALL CAPS ARE 0603, 10%, X5R or better, AEQ, Vw >= 25 V UNLESS OTHERWISE NOTED\nALL RESISTORS ARE 0603 1% AEQ UNLESS OTHERWISE NOTED."
 		(exclude_from_sim no)
@@ -6159,10 +5980,6 @@
 		(uuid "d48e2421-a5b3-446f-92bc-17bd7fdf8f17")
 	)
 	(no_connect
-		(at 101.6 187.96)
-		(uuid "d7f3617b-78dd-4971-b128-11620999fce7")
-	)
-	(no_connect
 		(at 101.6 105.41)
 		(uuid "dcfe55d8-293d-48af-b7d1-ae0cf75b88f4")
 	)
@@ -6247,16 +6064,6 @@
 			(type default)
 		)
 		(uuid "05a52c94-b0b0-42d4-92bc-e3ab0b1b4c09")
-	)
-	(wire
-		(pts
-			(xy 111.76 182.88) (xy 113.03 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0737a435-1f10-4d6b-90f7-0aafc389840c")
 	)
 	(wire
 		(pts
@@ -6350,6 +6157,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 182.88) (xy 113.03 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103657d1-be6b-4ebd-b8d8-1f38dc419978")
+	)
+	(wire
+		(pts
 			(xy 232.41 73.66) (xy 232.41 71.12)
 		)
 		(stroke
@@ -6390,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 182.88) (xy 104.14 182.88)
+			(xy 91.44 182.88) (xy 105.41 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8958,16 +8775,6 @@
 		)
 		(uuid "4c06f01e-df3a-4f5a-9b7b-5bec2209f60a")
 	)
-	(label "P4_19"
-		(at 91.44 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d61a886-5a6b-43da-bac7-5052d3d8a71c")
-	)
 	(label "P1_14"
 		(at 92.71 68.58 0)
 		(effects
@@ -9347,9 +9154,9 @@
 		)
 		(uuid "3f75842d-5264-4592-b55c-5281d254a555")
 	)
-	(hierarchical_label "EFUSE-PG-PK1"
+	(hierarchical_label "EFUSE-PG-OC-PK1"
 		(shape input)
-		(at 101.6 185.42 0)
+		(at 101.6 187.96 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9528,6 +9335,19 @@
 			(justify left)
 		)
 		(uuid "81b431f9-4734-4fbb-a134-80d7440d7cd5")
+	)
+	(hierarchical_label "EFUSE-PG-OC-PK2"
+		(shape input)
+		(at 101.6 185.42 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+				(thickness 0.2489)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8a4b33bf-879f-4f6e-a268-714d76509f56")
 	)
 	(hierarchical_label "CHARGE-DISABLE-PK2"
 		(shape output)
@@ -15001,7 +14821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R_Small_US")
 		(at 107.95 182.88 90)
 		(mirror x)
 		(unit 1)

@@ -3501,18 +3501,20 @@
 	)
 	(text "IMPORTANT: \n\nUC must assert\nMOARPWR in order not\nto trip the OPD circuit\nbreaker when running\nthe heaters"
 		(exclude_from_sim no)
-		(at 145.034 150.368 0)
+		(at 131.064 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "004ea741-09bd-428a-8a8d-9771b20d79fe")
 	)
 	(text "2x Minco HK6903 Heaters (12.7 x 101.6 mm @ 49 ohm)"
 		(exclude_from_sim no)
-		(at 248.412 170.18 0)
+		(at 248.412 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3525,7 @@
 	)
 	(text "At 8.2V and 24.5 ohms, we should see a maximum \nof ~ 335 mA of current through the heaters."
 		(exclude_from_sim no)
-		(at 277.114 172.974 0)
+		(at 277.114 192.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3531,9 +3533,21 @@
 		)
 		(uuid "05b99265-432b-4246-bc9c-8c161942786a")
 	)
+	(text "Single-fault tolerant (SFT) high-side load switch"
+		(exclude_from_sim no)
+		(at 277.114 64.516 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "486c8606-b932-46ef-92e6-d57500f84e11")
+	)
 	(text "+Y HEATER"
 		(exclude_from_sim no)
-		(at 287.782 151.13 90)
+		(at 287.782 170.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3544,7 +3558,7 @@
 	)
 	(text "Diodes prevent gate ruptures from any single\nP Ch MOSFET from turning on all P CH MOSFETs"
 		(exclude_from_sim no)
-		(at 190.246 121.158 0)
+		(at 340.106 140.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3552,9 +3566,19 @@
 		)
 		(uuid "8c4ebfc0-582d-4040-a655-5756539ba0dc")
 	)
+	(text "No soft start, since that would just be more components that could fail."
+		(exclude_from_sim no)
+		(at 161.544 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90c0027a-1b1a-4f14-a9a1-a8f15a90ed76")
+	)
 	(text "-Y HEATER"
 		(exclude_from_sim no)
-		(at 267.208 151.13 90)
+		(at 267.208 170.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3574,20 +3598,51 @@
 		)
 		(uuid "a56512e8-b540-4c01-85f5-856ec73f5071")
 	)
+	(text "Well, SFT *except* for shorts across R105 and \nR106 and HEATER-ON-1 and HEATER-ON-2 failures.\nSFT to transistor faults, at least."
+		(exclude_from_sim no)
+		(at 168.91 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "bd624df5-b662-43ee-8370-f95e638c2907")
+	)
+	(text "1k resistors prevent dead short to VBUSP\nif P CH MOSFETS have a G to S or D short."
+		(exclude_from_sim no)
+		(at 332.486 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7eaa915-33aa-4a6f-86a1-ebe289e436b9")
+	)
+	(text "1k resistors prevent dead \nshort to VBUSP or GND if \nany one N CH MOSFETS have \na G to S/D short."
+		(exclude_from_sim no)
+		(at 188.976 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbe092ec-a351-44ec-aa98-06311c868036")
+	)
 	(junction
-		(at 207.01 151.13)
+		(at 180.34 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "068749e7-7db3-4f30-ae6d-eb3699b48da9")
 	)
 	(junction
-		(at 227.33 129.54)
+		(at 219.71 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c45e92d-2755-480d-9ee7-f87c2ba56060")
 	)
 	(junction
-		(at 193.04 135.89)
+		(at 166.37 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13a947ea-1c20-4c08-8eb1-14db6a8b3789")
@@ -3599,7 +3654,7 @@
 		(uuid "1daa434e-3bba-49ad-89eb-fc6713f81b20")
 	)
 	(junction
-		(at 227.33 125.73)
+		(at 227.33 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3816d95e-785d-4594-ac7b-1045dc06670b")
@@ -3611,7 +3666,7 @@
 		(uuid "478f2629-f1c4-4a6a-af44-c930fa767d37")
 	)
 	(junction
-		(at 276.86 138.43)
+		(at 276.86 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c533ece-6ae3-45d7-9c85-b1b614731bad")
@@ -3641,7 +3696,7 @@
 		(uuid "6b17fb3a-ab46-45de-bdc3-600cd5f3889f")
 	)
 	(junction
-		(at 207.01 135.89)
+		(at 180.34 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "712e758c-6013-45a3-85a9-e922f0dbd9d6")
@@ -3653,7 +3708,7 @@
 		(uuid "83d360c4-996b-47e6-99fb-013e12645b25")
 	)
 	(junction
-		(at 276.86 146.05)
+		(at 276.86 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "883f37b2-4990-4de0-913b-df8710173350")
@@ -3671,43 +3726,43 @@
 		(uuid "babc5199-18a0-435f-b46a-e9ecc1b20264")
 	)
 	(junction
-		(at 198.12 151.13)
+		(at 171.45 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d531ed8b-29d4-4de4-9c16-d7a10ee07685")
 	)
 	(junction
-		(at 227.33 160.02)
+		(at 219.71 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e02c2e9f-82b3-4388-aea3-101a5fb96bd6")
 	)
 	(junction
-		(at 295.91 125.73)
+		(at 295.91 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5df5454-a1ed-4a42-a913-59b67e239d6f")
 	)
 	(junction
-		(at 233.68 125.73)
+		(at 233.68 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a534a7-5183-4ffc-8b30-50ae3b8a8136")
 	)
 	(no_connect
-		(at 292.1 146.05)
+		(at 292.1 165.1)
 		(uuid "05c53b9d-a03f-43d3-8554-483a113ed9a3")
 	)
 	(no_connect
-		(at 261.62 138.43)
+		(at 261.62 157.48)
 		(uuid "14088b29-d251-40b6-8421-fe5cdf757912")
 	)
 	(no_connect
-		(at 261.62 146.05)
+		(at 261.62 165.1)
 		(uuid "ae0d4d0c-4664-429a-a965-ca4cbbab4f70")
 	)
 	(no_connect
-		(at 292.1 138.43)
+		(at 292.1 157.48)
 		(uuid "e1e33678-bf63-45d9-a2ae-b09e6c6498e5")
 	)
 	(wire
@@ -3732,7 +3787,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 123.19) (xy 233.68 125.73)
+			(xy 233.68 142.24) (xy 233.68 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -3742,7 +3797,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 129.54) (xy 227.33 125.73)
+			(xy 219.71 148.59) (xy 219.71 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -3762,7 +3817,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 166.37) (xy 273.05 166.37)
+			(xy 250.19 185.42) (xy 273.05 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -3772,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 160.02) (xy 215.9 156.21)
+			(xy 201.93 179.07) (xy 201.93 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -3782,7 +3837,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 146.05) (xy 276.86 146.05)
+			(xy 271.78 165.1) (xy 276.86 165.1)
 		)
 		(stroke
 			(width 0.254)
@@ -3792,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 144.78) (xy 227.33 135.89)
+			(xy 204.47 163.83) (xy 213.36 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3822,7 +3877,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 140.97) (xy 236.22 146.05)
+			(xy 191.77 163.83) (xy 204.47 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "333a45ec-a02d-4003-8592-fd07eea8ba8a")
+	)
+	(wire
+		(pts
+			(xy 228.6 160.02) (xy 228.6 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -3832,7 +3897,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.05 166.37) (xy 273.05 130.81)
+			(xy 273.05 185.42) (xy 273.05 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -3842,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 138.43) (xy 276.86 138.43)
+			(xy 271.78 157.48) (xy 276.86 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -3852,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 151.13) (xy 198.12 151.13)
+			(xy 158.75 170.18) (xy 171.45 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -3862,7 +3927,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 166.37) (xy 303.53 166.37)
+			(xy 280.67 185.42) (xy 303.53 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -3872,7 +3937,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 138.43) (xy 281.94 138.43)
+			(xy 276.86 157.48) (xy 281.94 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -3882,13 +3947,23 @@
 	)
 	(polyline
 		(pts
-			(xy 303.53 166.37) (xy 303.53 130.81)
+			(xy 303.53 185.42) (xy 303.53 149.86)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "44793350-c17e-4697-96e6-3ba39c6bf9a8")
+	)
+	(wire
+		(pts
+			(xy 219.71 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47f303eb-ef68-4752-9b79-d7b8d6d05020")
 	)
 	(wire
 		(pts
@@ -3902,6 +3977,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 154.94) (xy 194.31 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b8c5c92-2926-4aa0-84af-4c85899af71c")
+	)
+	(wire
+		(pts
 			(xy 234.95 106.68) (xy 227.33 106.68)
 		)
 		(stroke
@@ -3912,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 135.89) (xy 207.01 135.89)
+			(xy 166.37 154.94) (xy 180.34 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -3932,7 +4017,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 142.24) (xy 227.33 151.13)
+			(xy 191.77 170.18) (xy 194.31 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "56369d68-c983-4054-90df-b1d8a77b01ee")
+	)
+	(wire
+		(pts
+			(xy 204.47 161.29) (xy 213.36 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3952,7 +4047,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 106.68) (xy 295.91 118.11)
+			(xy 295.91 106.68) (xy 295.91 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -3972,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 156.21) (xy 236.22 160.02)
+			(xy 228.6 175.26) (xy 228.6 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -3992,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 130.81) (xy 215.9 129.54)
+			(xy 201.93 149.86) (xy 201.93 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -4002,7 +4097,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 153.67) (xy 198.12 151.13)
+			(xy 171.45 172.72) (xy 171.45 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4022,7 +4117,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 113.03) (xy 276.86 138.43)
+			(xy 276.86 113.03) (xy 276.86 157.48)
 		)
 		(stroke
 			(width 0.254)
@@ -4032,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 193.04 135.89)
+			(xy 158.75 154.94) (xy 166.37 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4042,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 151.13) (xy 227.33 151.13)
+			(xy 220.98 170.18) (xy 213.36 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4062,7 +4157,7 @@
 	)
 	(polyline
 		(pts
-			(xy 303.53 130.81) (xy 280.67 130.81)
+			(xy 303.53 149.86) (xy 280.67 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -4072,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 93.98) (xy 302.26 118.11)
+			(xy 302.26 93.98) (xy 302.26 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -4082,7 +4177,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 151.13) (xy 208.28 151.13)
+			(xy 180.34 170.18) (xy 186.69 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -4092,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 123.19) (xy 227.33 125.73)
+			(xy 227.33 142.24) (xy 227.33 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -4102,7 +4197,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.67 130.81) (xy 280.67 166.37)
+			(xy 280.67 149.86) (xy 280.67 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4112,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 125.73) (xy 233.68 125.73)
+			(xy 227.33 144.78) (xy 233.68 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -4122,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 135.89) (xy 208.28 135.89)
+			(xy 180.34 154.94) (xy 186.69 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -4142,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 149.86) (xy 276.86 146.05)
+			(xy 276.86 168.91) (xy 276.86 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -4152,7 +4247,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.05 130.81) (xy 250.19 130.81)
+			(xy 273.05 149.86) (xy 250.19 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -4162,7 +4257,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 135.89) (xy 227.33 135.89)
+			(xy 220.98 154.94) (xy 213.36 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4182,7 +4277,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 130.81) (xy 250.19 166.37)
+			(xy 250.19 149.86) (xy 250.19 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4192,7 +4287,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 135.89) (xy 193.04 153.67)
+			(xy 227.33 128.27) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e0ea1f5-d1b5-4775-bd58-721ad57ed427")
+	)
+	(wire
+		(pts
+			(xy 166.37 154.94) (xy 166.37 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4212,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 161.29) (xy 227.33 160.02)
+			(xy 219.71 180.34) (xy 219.71 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -4242,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 151.13) (xy 207.01 144.78)
+			(xy 180.34 170.18) (xy 180.34 163.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -4262,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 140.97) (xy 215.9 146.05)
+			(xy 201.93 160.02) (xy 201.93 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -4272,7 +4377,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 125.73) (xy 295.91 125.73)
+			(xy 233.68 144.78) (xy 295.91 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -4282,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 142.24) (xy 218.44 142.24)
+			(xy 180.34 161.29) (xy 186.69 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -4292,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 146.05) (xy 281.94 146.05)
+			(xy 276.86 165.1) (xy 281.94 165.1)
 		)
 		(stroke
 			(width 0.254)
@@ -4302,13 +4407,33 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 93.98) (xy 233.68 118.11)
+			(xy 233.68 93.98) (xy 233.68 123.19)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "aada2e66-4f8c-4a94-9280-129513bbaf6b")
+	)
+	(wire
+		(pts
+			(xy 295.91 129.54) (xy 295.91 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab0c3c08-4b81-4adb-8059-ed83cb7a46ba")
+	)
+	(wire
+		(pts
+			(xy 302.26 129.54) (xy 302.26 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4fa4597-ebc6-4287-a906-f36f6736e767")
 	)
 	(wire
 		(pts
@@ -4322,7 +4447,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 123.19) (xy 295.91 125.73)
+			(xy 295.91 142.24) (xy 295.91 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -4332,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 135.89) (xy 207.01 142.24)
+			(xy 180.34 154.94) (xy 180.34 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -4342,7 +4467,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 125.73) (xy 302.26 125.73)
+			(xy 295.91 144.78) (xy 302.26 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -4362,7 +4487,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 144.78) (xy 218.44 144.78)
+			(xy 180.34 163.83) (xy 186.69 163.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -4382,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 227.33 129.54)
+			(xy 228.6 148.59) (xy 219.71 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -4392,7 +4517,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 129.54) (xy 227.33 129.54)
+			(xy 201.93 148.59) (xy 219.71 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -4422,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 106.68) (xy 227.33 118.11)
+			(xy 227.33 106.68) (xy 227.33 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -4432,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 158.75) (xy 198.12 160.02)
+			(xy 171.45 177.8) (xy 171.45 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4462,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 149.86) (xy 276.86 152.4)
+			(xy 276.86 168.91) (xy 276.86 171.45)
 		)
 		(stroke
 			(width 0.254)
@@ -4482,7 +4607,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 160.02) (xy 236.22 160.02)
+			(xy 219.71 179.07) (xy 228.6 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -4492,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 160.02) (xy 227.33 160.02)
+			(xy 201.93 179.07) (xy 219.71 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -4522,7 +4647,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 161.29) (xy 227.33 162.56)
+			(xy 219.71 180.34) (xy 219.71 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4552,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 125.73) (xy 302.26 123.19)
+			(xy 302.26 144.78) (xy 302.26 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -4572,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 130.81) (xy 236.22 129.54)
+			(xy 228.6 149.86) (xy 228.6 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -4582,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 151.13) (xy 198.12 151.13)
+			(xy 180.34 170.18) (xy 171.45 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -4622,13 +4747,33 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 158.75) (xy 193.04 160.02)
+			(xy 166.37 177.8) (xy 166.37 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8ef19ea-f41d-4d50-a9fc-96fe84267e06")
+	)
+	(wire
+		(pts
+			(xy 191.77 161.29) (xy 204.47 161.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fb1319be-61d9-4c3e-97f7-4541d9245ccc")
+	)
+	(wire
+		(pts
+			(xy 233.68 128.27) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fce6d33c-7a85-4b3a-a652-d159438fcfaf")
 	)
 	(wire
 		(pts
@@ -4642,7 +4787,7 @@
 	)
 	(hierarchical_label "HEATER-ON-2"
 		(shape input)
-		(at 185.42 151.13 180)
+		(at 158.75 170.18 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -4655,7 +4800,7 @@
 	)
 	(hierarchical_label "HEATER-ON-1"
 		(shape input)
-		(at 185.42 135.89 180)
+		(at 158.75 154.94 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -4669,7 +4814,7 @@
 	(symbol
 		(lib_name "Q_NMOS_GSD_3")
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 233.68 151.13 0)
+		(at 226.06 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4679,7 +4824,7 @@
 		(dnp no)
 		(uuid "06fbed69-f8de-44f9-95a5-98685ad5b4b2")
 		(property "Reference" "Q21"
-			(at 238.76 151.13 0)
+			(at 231.14 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4690,7 +4835,7 @@
 			)
 		)
 		(property "Value" "DMN2053UQ-13"
-			(at 238.76 153.67 0)
+			(at 231.14 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4701,7 +4846,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 238.76 148.59 0)
+			(at 231.14 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +4857,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2053UQ.pdf"
-			(at 233.68 151.13 0)
+			(at 226.06 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4868,7 @@
 			)
 		)
 		(property "Description" "N-Channel 20 V 6.5A (Ta) 800mW (Ta) Surface Mount SOT-23-3"
-			(at 233.68 151.13 0)
+			(at 226.06 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4734,7 +4879,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 233.68 151.13 0)
+			(at 226.06 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4745,7 +4890,7 @@
 			)
 		)
 		(property "DPN" "31-DMN2053UQ-13CT-ND"
-			(at 233.68 151.13 0)
+			(at 226.06 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4756,7 +4901,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 233.68 151.13 0)
+			(at 226.06 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,7 +4912,7 @@
 			)
 		)
 		(property "MPN" "DMN2053UQ-13"
-			(at 233.68 151.13 0)
+			(at 226.06 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4942,7 @@
 	)
 	(symbol
 		(lib_id "oresat-diodes:1N4151WS-HE3")
-		(at 302.26 120.65 90)
+		(at 302.26 139.7 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4808,7 +4953,7 @@
 		(dnp no)
 		(uuid "12b32aa8-be23-476c-be2e-8db09bab9f22")
 		(property "Reference" "D12"
-			(at 307.848 120.65 90)
+			(at 307.848 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4819,7 +4964,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 303.784 121.158 90)
+			(at 303.784 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4830,7 +4975,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 307.34 120.65 0)
+			(at 307.34 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4841,7 +4986,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
-			(at 309.88 120.65 0)
+			(at 309.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,7 +4997,7 @@
 			)
 		)
 		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
-			(at 302.26 120.65 0)
+			(at 302.26 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4863,7 +5008,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 302.26 120.65 90)
+			(at 302.26 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4874,7 +5019,7 @@
 			)
 		)
 		(property "DPN" "112-1N4151WS-E3-08CT-ND"
-			(at 302.26 120.65 90)
+			(at 302.26 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4885,7 +5030,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 302.26 120.65 90)
+			(at 302.26 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +5041,7 @@
 			)
 		)
 		(property "MPN" "1N4151WS-E3-08"
-			(at 302.26 120.65 90)
+			(at 302.26 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +5207,7 @@
 	(symbol
 		(lib_name "Q_NMOS_GSD_1")
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 213.36 151.13 0)
+		(at 199.39 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5072,7 +5217,7 @@
 		(dnp no)
 		(uuid "2379ff9e-c929-4ff8-92e6-cbe0b0b79833")
 		(property "Reference" "Q20"
-			(at 218.44 151.13 0)
+			(at 204.47 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5083,7 +5228,7 @@
 			)
 		)
 		(property "Value" "DMN2053UQ-13"
-			(at 218.44 153.67 0)
+			(at 204.47 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5094,7 +5239,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 218.44 148.59 0)
+			(at 204.47 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5105,7 +5250,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2053UQ.pdf"
-			(at 213.36 151.13 0)
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +5261,7 @@
 			)
 		)
 		(property "Description" "N-Channel 20 V 6.5A (Ta) 800mW (Ta) Surface Mount SOT-23-3"
-			(at 213.36 151.13 0)
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5272,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 213.36 151.13 0)
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5283,7 @@
 			)
 		)
 		(property "DPN" "31-DMN2053UQ-13CT-ND"
-			(at 213.36 151.13 0)
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +5294,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 213.36 151.13 0)
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5305,7 @@
 			)
 		)
 		(property "MPN" "DMN2053UQ-13"
-			(at 213.36 151.13 0)
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5191,7 +5336,7 @@
 	(symbol
 		(lib_name "Q_NMOS_GSD_2")
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 233.68 135.89 0)
+		(at 226.06 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5201,8 +5346,7 @@
 		(dnp no)
 		(uuid "2b378652-9f57-438c-aa06-4547dbe61c33")
 		(property "Reference" "Q38"
-			(at 238.76 135.89 0)
-			(hide yes)
+			(at 231.14 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5213,7 +5357,7 @@
 			)
 		)
 		(property "Value" "DMN2053UQ-13"
-			(at 238.76 138.43 0)
+			(at 231.14 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5224,7 +5368,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 238.76 133.35 0)
+			(at 231.14 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5235,7 +5379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2053UQ.pdf"
-			(at 233.68 135.89 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5246,7 +5390,7 @@
 			)
 		)
 		(property "Description" "N-Channel 20 V 6.5A (Ta) 800mW (Ta) Surface Mount SOT-23-3"
-			(at 233.68 135.89 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5401,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 233.68 135.89 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,7 +5412,7 @@
 			)
 		)
 		(property "DPN" "31-DMN2053UQ-13CT-ND"
-			(at 233.68 135.89 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5423,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 233.68 135.89 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5434,7 @@
 			)
 		)
 		(property "MPN" "DMN2053UQ-13"
-			(at 233.68 135.89 0)
+			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,8 +5463,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 170.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34ba07ea-d020-4801-88ac-776366b5a820")
+		(property "Reference" "R130"
+			(at 191.516 173.482 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 190.246 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 188.976 169.164 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 189.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 189.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 189.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 189.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 189.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 189.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4c9df35a-b907-417a-beeb-84ca4e2b148e")
+		)
+		(pin "2"
+			(uuid "c767af8c-91ad-424d-9056-289e71944c99")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 287.02 146.05 0)
+		(at 287.02 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5330,7 +5604,7 @@
 		(dnp yes)
 		(uuid "3662e2df-0a9a-40ec-b4b8-c53cef043ad8")
 		(property "Reference" "JP17"
-			(at 285.496 144.526 0)
+			(at 285.496 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5341,7 +5615,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 280.67 151.13 0)
+			(at 280.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5627,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5638,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +5649,7 @@
 			)
 		)
 		(property "Description" "N/A"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5660,7 @@
 			)
 		)
 		(property "DIS" "N/A"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5671,7 @@
 			)
 		)
 		(property "DPN" "N/A"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5682,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5693,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 287.02 146.05 0)
+			(at 287.02 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,7 +5727,7 @@
 		(dnp no)
 		(uuid "3e2b4e7b-e4ca-44f3-be21-796805ae9292")
 		(property "Reference" "R43"
-			(at 306.07 82.7786 0)
+			(at 301.244 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5464,7 +5738,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 306.07 77.978 0)
+			(at 301.244 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5572,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 266.7 138.43 0)
+		(at 266.7 157.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5583,7 +5857,7 @@
 		(dnp yes)
 		(uuid "425b4337-ba77-42e0-a064-c4d85a85afb2")
 		(property "Reference" "JP14"
-			(at 268.224 136.652 0)
+			(at 268.224 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5594,7 +5868,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 273.05 143.51 0)
+			(at 273.05 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5606,7 +5880,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5891,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +5902,7 @@
 			)
 		)
 		(property "Description" "N/A"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5639,7 +5913,7 @@
 			)
 		)
 		(property "DIS" "N/A"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +5924,7 @@
 			)
 		)
 		(property "DPN" "N/A"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,7 +5935,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5672,7 +5946,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 266.7 138.43 0)
+			(at 266.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,9 +5969,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-diodes:1N4151WS-HE3")
-		(at 233.68 120.65 90)
-		(mirror x)
+		(lib_id "Device:R_Small_US")
+		(at 302.26 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5705,20 +5978,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5390a78f-a8e8-4498-b3c6-6ea68d3d72eb")
-		(property "Reference" "D9"
-			(at 237.998 119.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4151WS"
-			(at 235.458 120.142 90)
+		(uuid "43e2c0cc-7e17-4b2b-a01e-a6d8576591db")
+		(property "Reference" "R126"
+			(at 307.594 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5728,8 +5990,19 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 238.76 120.65 0)
+		(property "Value" "1k"
+			(at 305.562 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 301.244 126.746 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,8 +6012,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
-			(at 241.3 120.65 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 302.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5750,8 +6023,8 @@
 				)
 			)
 		)
-		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
-			(at 233.68 120.65 0)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 302.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5762,7 +6035,137 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 233.68 120.65 90)
+			(at 302.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 302.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 302.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 302.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e54a83e8-c414-4471-ab84-715758317422")
+		)
+		(pin "2"
+			(uuid "0269e6e7-f822-423e-b2ba-ef2a16020219")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:1N4151WS-HE3")
+		(at 233.68 139.7 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5390a78f-a8e8-4498-b3c6-6ea68d3d72eb")
+		(property "Reference" "D9"
+			(at 237.998 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4151WS"
+			(at 235.458 139.192 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
+			(at 241.3 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
+			(at 233.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 233.68 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +6176,7 @@
 			)
 		)
 		(property "DPN" "112-1N4151WS-E3-08CT-ND"
-			(at 233.68 120.65 90)
+			(at 233.68 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,7 +6187,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 233.68 120.65 90)
+			(at 233.68 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5795,7 +6198,7 @@
 			)
 		)
 		(property "MPN" "1N4151WS-E3-08"
-			(at 233.68 120.65 90)
+			(at 233.68 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +6236,7 @@
 		(dnp no)
 		(uuid "54c65a5c-7a50-4fb5-ae11-5b112584f098")
 		(property "Reference" "R41"
-			(at 223.52 82.7786 0)
+			(at 221.996 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5844,7 +6247,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 223.52 77.978 0)
+			(at 222.504 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5952,7 +6355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 193.04 156.21 0)
+		(at 166.37 175.26 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5963,7 +6366,7 @@
 		(dnp no)
 		(uuid "5bba7a91-0e1e-4581-afc6-eb539bf5cb21")
 		(property "Reference" "R105"
-			(at 186.69 154.178 0)
+			(at 160.02 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5974,7 +6377,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 187.706 155.956 0)
+			(at 161.036 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5985,7 +6388,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5996,7 +6399,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,7 +6410,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6421,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6433,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6445,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6054,7 +6457,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 193.04 156.21 0)
+			(at 166.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6093,7 +6496,7 @@
 		(dnp no)
 		(uuid "62bfd7fd-629f-4bca-8d92-f46d128c9114")
 		(property "Reference" "R42"
-			(at 292.1 82.7786 0)
+			(at 290.576 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6104,7 +6507,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 292.1 77.978 0)
+			(at 291.084 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6212,7 +6615,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 213.36 135.89 0)
+		(at 199.39 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6222,7 +6625,7 @@
 		(dnp no)
 		(uuid "6ae80662-0b80-46bb-a8f3-f9968b8d584e")
 		(property "Reference" "Q39"
-			(at 218.44 135.89 0)
+			(at 204.47 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6233,7 +6636,7 @@
 			)
 		)
 		(property "Value" "DMN2053UQ-13"
-			(at 218.44 138.43 0)
+			(at 204.47 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6244,7 +6647,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 218.44 133.35 0)
+			(at 204.47 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6255,7 +6658,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2053UQ.pdf"
-			(at 213.36 135.89 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6669,7 @@
 			)
 		)
 		(property "Description" "N-Channel 20 V 6.5A (Ta) 800mW (Ta) Surface Mount SOT-23-3"
-			(at 213.36 135.89 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6680,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 213.36 135.89 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +6691,7 @@
 			)
 		)
 		(property "DPN" "31-DMN2053UQ-13CT-ND"
-			(at 213.36 135.89 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,7 +6702,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 213.36 135.89 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,7 +6713,7 @@
 			)
 		)
 		(property "MPN" "DMN2053UQ-13"
-			(at 213.36 135.89 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,6 +6736,136 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
 					(reference "Q39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 295.91 127 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73aaa499-c62f-4483-943c-67925f7954a8")
+		(property "Reference" "R125"
+			(at 290.576 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 292.608 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 296.926 126.746 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e9dcef69-a9db-4ca9-a21d-684e75b839e6")
+		)
+		(pin "2"
+			(uuid "d7081a9e-0b99-401b-b1c2-8621e6e59ee6")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -6557,7 +7090,7 @@
 	)
 	(symbol
 		(lib_id "oresat-diodes:1N4151WS-HE3")
-		(at 295.91 120.65 90)
+		(at 295.91 139.7 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6568,7 +7101,7 @@
 		(dnp no)
 		(uuid "a39289b2-7993-4363-8ec3-f7e48fc3bc1d")
 		(property "Reference" "D11"
-			(at 293.624 119.126 90)
+			(at 293.624 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6579,7 +7112,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 284.226 120.396 90)
+			(at 284.226 139.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6590,7 +7123,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 300.99 120.65 0)
+			(at 300.99 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6601,7 +7134,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
-			(at 303.53 120.65 0)
+			(at 303.53 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6612,7 +7145,7 @@
 			)
 		)
 		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
-			(at 295.91 120.65 0)
+			(at 295.91 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +7156,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 295.91 120.65 90)
+			(at 295.91 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +7167,7 @@
 			)
 		)
 		(property "DPN" "112-1N4151WS-E3-08CT-ND"
-			(at 295.91 120.65 90)
+			(at 295.91 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +7178,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 295.91 120.65 90)
+			(at 295.91 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +7189,7 @@
 			)
 		)
 		(property "MPN" "1N4151WS-E3-08"
-			(at 295.91 120.65 90)
+			(at 295.91 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +7216,7 @@
 	)
 	(symbol
 		(lib_id "Device:Heater")
-		(at 261.62 142.24 0)
+		(at 261.62 161.29 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6694,7 +7227,7 @@
 		(dnp no)
 		(uuid "a5ac890a-605f-456a-ba84-1b4e6ccf7de9")
 		(property "Reference" "R99"
-			(at 259.08 140.9699 0)
+			(at 259.08 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6705,7 +7238,7 @@
 			)
 		)
 		(property "Value" "HK6903"
-			(at 259.08 143.5099 0)
+			(at 259.08 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6716,7 +7249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 263.398 142.24 90)
+			(at 263.398 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6727,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minco.com/catalog/?catalogpage=product&cid=3_1-polyimide-thermofoil-heaters&id=HK6903"
-			(at 261.62 142.24 0)
+			(at 261.62 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,7 +7271,7 @@
 			)
 		)
 		(property "Description" "Polyimide Thermofoil Heaters with leads - 48.91 ohms"
-			(at 261.62 142.24 0)
+			(at 261.62 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +7282,7 @@
 			)
 		)
 		(property "MFR" "Minco"
-			(at 261.62 142.24 0)
+			(at 261.62 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,7 +7293,7 @@
 			)
 		)
 		(property "MPN" "HK6903"
-			(at 261.62 142.24 0)
+			(at 261.62 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +7304,7 @@
 			)
 		)
 		(property "DIS" "N/A"
-			(at 261.62 142.24 0)
+			(at 261.62 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +7315,7 @@
 			)
 		)
 		(property "DPN" "N/A"
-			(at 261.62 142.24 0)
+			(at 261.62 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +7342,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 287.02 138.43 0)
+		(at 287.02 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6819,7 +7352,7 @@
 		(dnp yes)
 		(uuid "a8669ba9-c759-479f-bba4-c97d137b76b1")
 		(property "Reference" "JP16"
-			(at 285.242 136.906 0)
+			(at 285.242 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6830,7 +7363,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 280.67 143.51 0)
+			(at 280.67 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6842,7 +7375,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6853,7 +7386,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +7397,7 @@
 			)
 		)
 		(property "Description" "N/A"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,7 +7408,7 @@
 			)
 		)
 		(property "DIS" "N/A"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,7 +7419,7 @@
 			)
 		)
 		(property "DPN" "N/A"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +7430,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +7441,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 287.02 138.43 0)
+			(at 287.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,8 +7464,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 227.33 125.73 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adf263d9-1c63-4adf-9e58-ec06f10cacc7")
+		(property "Reference" "R123"
+			(at 221.996 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 224.028 126.746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 228.346 125.476 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b38b4d6e-def8-4b9a-aef1-720b1b4ba0f4")
+		)
+		(pin "2"
+			(uuid "a9ad630c-2fb2-425c-a15f-41fefda3a31e")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 276.86 152.4 0)
+		(at 276.86 171.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6943,7 +7606,7 @@
 		(dnp no)
 		(uuid "b76c445d-0fb5-4524-92f4-051b95cafc04")
 		(property "Reference" "#PWR4"
-			(at 276.86 158.75 0)
+			(at 276.86 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6954,7 +7617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 156.21 0)
+			(at 276.86 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6964,7 +7627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 152.4 0)
+			(at 276.86 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +7638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 152.4 0)
+			(at 276.86 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6986,7 +7649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 152.4 0)
+			(at 276.86 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +7812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 160.02 0)
+		(at 166.37 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7160,7 +7823,7 @@
 		(dnp no)
 		(uuid "c2657091-2cf1-41ef-9cc2-1ec7ab69c536")
 		(property "Reference" "#PWR32"
-			(at 193.04 166.37 0)
+			(at 166.37 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,7 +7834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 163.83 0)
+			(at 166.37 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7181,7 +7844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 160.02 0)
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7192,7 +7855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 160.02 0)
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +7866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 160.02 0)
+			(at 166.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,7 +7890,7 @@
 	)
 	(symbol
 		(lib_id "Device:Heater")
-		(at 292.1 142.24 0)
+		(at 292.1 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7238,7 +7901,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3042680-a8c7-448c-b312-25e3012859aa")
 		(property "Reference" "R100"
-			(at 294.64 140.9699 0)
+			(at 294.64 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7249,7 +7912,7 @@
 			)
 		)
 		(property "Value" "HK6903"
-			(at 294.64 143.5099 0)
+			(at 294.64 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7260,7 +7923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.322 142.24 90)
+			(at 290.322 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7271,7 +7934,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minco.com/catalog/?catalogpage=product&cid=3_1-polyimide-thermofoil-heaters&id=HK6903"
-			(at 292.1 142.24 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +7945,7 @@
 			)
 		)
 		(property "Description" "Polyimide Thermofoil Heaters with leads - 48.91 ohms"
-			(at 292.1 142.24 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7293,7 +7956,7 @@
 			)
 		)
 		(property "MFR" "Minco"
-			(at 292.1 142.24 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,7 +7967,7 @@
 			)
 		)
 		(property "MPN" "HK6903"
-			(at 292.1 142.24 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7315,7 +7978,7 @@
 			)
 		)
 		(property "DIS" "N/A"
-			(at 292.1 142.24 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,7 +7989,7 @@
 			)
 		)
 		(property "DPN" "N/A"
-			(at 292.1 142.24 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,7 +8016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 162.56 0)
+		(at 219.71 181.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7364,7 +8027,7 @@
 		(dnp no)
 		(uuid "c72be8ca-720e-4452-8d2a-e5a8186e158e")
 		(property "Reference" "#PWR33"
-			(at 227.33 168.91 0)
+			(at 219.71 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,7 +8038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 166.37 0)
+			(at 219.71 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7385,7 +8048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 162.56 0)
+			(at 219.71 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7396,7 +8059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 162.56 0)
+			(at 219.71 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,7 +8070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 162.56 0)
+			(at 219.71 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7431,7 +8094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 160.02 0)
+		(at 171.45 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7442,7 +8105,7 @@
 		(dnp no)
 		(uuid "d127adc0-4464-486a-9d8d-3e5f4312f326")
 		(property "Reference" "#PWR31"
-			(at 198.12 166.37 0)
+			(at 171.45 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +8116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 163.83 0)
+			(at 171.45 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7463,7 +8126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 160.02 0)
+			(at 171.45 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +8137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 160.02 0)
+			(at 171.45 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +8148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 160.02 0)
+			(at 171.45 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,7 +8172,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 266.7 146.05 0)
+		(at 266.7 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7520,7 +8183,7 @@
 		(dnp yes)
 		(uuid "d27be4ba-543d-4855-9c90-71a847a69617")
 		(property "Reference" "JP15"
-			(at 268.478 144.272 0)
+			(at 268.478 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7531,7 +8194,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X1"
-			(at 273.05 151.13 0)
+			(at 273.05 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,7 +8206,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7554,7 +8217,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +8228,7 @@
 			)
 		)
 		(property "Description" "N/A"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7576,7 +8239,7 @@
 			)
 		)
 		(property "DIS" "N/A"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7587,7 +8250,7 @@
 			)
 		)
 		(property "DPN" "N/A"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,7 +8261,7 @@
 			)
 		)
 		(property "MFR" "N/A"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7609,7 +8272,7 @@
 			)
 		)
 		(property "MPN" "N/A"
-			(at 266.7 146.05 0)
+			(at 266.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,6 +8296,395 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 189.23 163.83 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2e68855-b9d2-4fbd-aaf8-d8b19873460e")
+		(property "Reference" "R129"
+			(at 191.516 167.132 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 190.246 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 188.976 162.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 189.23 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c3e5141e-983b-4aca-8883-d8316274b675")
+		)
+		(pin "2"
+			(uuid "990f2219-3b0c-443e-b26f-11644946c4e1")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 233.68 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6125820-795b-4c9f-bef2-80f4752df82a")
+		(property "Reference" "R124"
+			(at 239.014 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 236.982 126.746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 232.664 125.476 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 233.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fadbcf03-9413-4566-a2c0-7778805de23c")
+		)
+		(pin "2"
+			(uuid "807c749c-0ecf-41db-847e-e21f8a60b1f9")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 154.94 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd8d2094-4886-4ef3-af13-39f50bb8dcb9")
+		(property "Reference" "R127"
+			(at 186.69 150.114 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 188.214 152.146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 189.484 155.956 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e68704ec-a425-4af5-ac9e-2d23752ea6ef")
+		)
+		(pin "2"
+			(uuid "fb1476c9-76a6-4829-bc91-533ff7763b60")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 233.68 81.28 0)
 		(mirror x)
 		(unit 1)
@@ -7644,7 +8696,7 @@
 		(dnp no)
 		(uuid "e0f84434-1bba-4038-89ed-f788c3d7b2f3")
 		(property "Reference" "R40"
-			(at 229.87 82.7786 0)
+			(at 228.346 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7655,7 +8707,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 229.87 77.978 0)
+			(at 229.108 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7902,7 +8954,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 198.12 156.21 0)
+		(at 171.45 175.26 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7913,7 +8965,7 @@
 		(dnp no)
 		(uuid "eb477b3b-a98d-42e2-ae07-75f71a3aa422")
 		(property "Reference" "R106"
-			(at 199.136 154.432 0)
+			(at 172.466 173.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7924,7 +8976,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 199.898 156.464 0)
+			(at 173.228 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7935,7 +8987,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +8998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +9009,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +9020,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,7 +9032,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,7 +9044,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +9056,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 198.12 156.21 0)
+			(at 171.45 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,7 +9084,7 @@
 	)
 	(symbol
 		(lib_id "oresat-diodes:1N4151WS-HE3")
-		(at 227.33 120.65 90)
+		(at 227.33 139.7 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8043,7 +9095,7 @@
 		(dnp no)
 		(uuid "efab9adc-2383-4866-a6df-7605214fc1e3")
 		(property "Reference" "D4"
-			(at 224.79 119.126 90)
+			(at 224.79 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8054,7 +9106,7 @@
 			)
 		)
 		(property "Value" "1N4151WS"
-			(at 215.138 119.634 90)
+			(at 215.138 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8065,7 +9117,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 232.41 120.65 0)
+			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +9128,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
-			(at 234.95 120.65 0)
+			(at 234.95 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +9139,7 @@
 			)
 		)
 		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
-			(at 227.33 120.65 0)
+			(at 227.33 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +9150,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 227.33 120.65 90)
+			(at 227.33 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,7 +9161,7 @@
 			)
 		)
 		(property "DPN" "112-1N4151WS-E3-08CT-ND"
-			(at 227.33 120.65 90)
+			(at 227.33 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +9172,7 @@
 			)
 		)
 		(property "MFR" "Vishay"
-			(at 227.33 120.65 90)
+			(at 227.33 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +9183,7 @@
 			)
 		)
 		(property "MPN" "1N4151WS-E3-08"
-			(at 227.33 120.65 90)
+			(at 227.33 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,6 +9203,136 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 161.29 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fade5fba-78bc-422b-87f5-68582ec1f708")
+		(property "Reference" "R128"
+			(at 186.69 156.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 188.214 158.496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 189.484 162.306 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8ca20258-912e-4878-813c-c8de2fa59f73")
+		)
+		(pin "2"
+			(uuid "8cedf140-4620-4e66-a2c8-d6fe054f2638")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/68810e50-deab-400a-9111-d6e77020ca2b"
+					(reference "R128")
 					(unit 1)
 				)
 			)

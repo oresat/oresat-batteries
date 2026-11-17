@@ -2600,7 +2600,7 @@
 	)
 	(text "+X+Y"
 		(exclude_from_sim no)
-		(at 283.21 220.726 0)
+		(at 283.21 215.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2776,13 +2776,19 @@
 		(uuid "4ce7958d-ca2b-47a2-b296-25b1b5d57242")
 	)
 	(junction
+		(at 345.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d684b47-87dd-4c28-8a71-5a06bde002b7")
+	)
+	(junction
 		(at 93.98 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec91ed3-db8d-4478-aded-db6a26b723d1")
 	)
 	(junction
-		(at 345.44 111.76)
+		(at 347.98 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dc4e069-f7a4-419f-81ed-a685ec2508d8")
@@ -2898,7 +2904,7 @@
 		(uuid "70fca9d9-5e4c-4347-972e-004dd7ea67f9")
 	)
 	(no_connect
-		(at 284.48 207.01)
+		(at 284.48 201.93)
 		(uuid "79af8076-26bb-4364-9bde-1b7cba153500")
 	)
 	(no_connect
@@ -2981,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 222.25) (xy 257.81 222.25)
+			(xy 347.98 222.25) (xy 257.81 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3151,6 +3157,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 104.14) (xy 345.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413baeb8-35e9-44c0-ad16-9f7318125dad")
+	)
+	(wire
+		(pts
 			(xy 93.98 116.84) (xy 114.3 116.84)
 		)
 		(stroke
@@ -3161,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 209.55) (xy 276.86 209.55)
+			(xy 275.59 204.47) (xy 276.86 204.47)
 		)
 		(stroke
 			(width 0)
@@ -3181,16 +3197,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 111.76) (xy 345.44 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47293221-2e83-4662-b83e-cb102d5e2cd1")
-	)
-	(wire
-		(pts
 			(xy 93.98 86.36) (xy 101.6 86.36)
 		)
 		(stroke
@@ -3201,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 212.09) (xy 342.9 212.09)
+			(xy 284.48 207.01) (xy 342.9 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3371,6 +3377,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 219.71) (xy 260.35 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71389028-dd0f-4335-89c3-f4dac0cff0e7")
+	)
+	(wire
+		(pts
 			(xy 328.93 116.84) (xy 340.36 116.84)
 		)
 		(stroke
@@ -3391,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 114.3) (xy 342.9 212.09)
+			(xy 342.9 114.3) (xy 342.9 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3438,6 +3454,16 @@
 			(type default)
 		)
 		(uuid "81869a4f-56b8-47b6-827d-fdb6a5e88b27")
+	)
+	(wire
+		(pts
+			(xy 345.44 60.96) (xy 328.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81943965-eef9-4490-9332-fb6a345e30de")
 	)
 	(wire
 		(pts
@@ -3501,7 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 210.82) (xy 275.59 209.55)
+			(xy 275.59 205.74) (xy 275.59 204.47)
 		)
 		(stroke
 			(width 0)
@@ -3561,13 +3587,23 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 111.76) (xy 345.44 111.76)
+			(xy 328.93 101.6) (xy 347.98 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f0b389b-f5b0-4773-bc09-30342fb6cec2")
+	)
+	(wire
+		(pts
+			(xy 260.35 203.2) (xy 223.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb12086-10a5-4b5e-8d01-631b0ba7fc03")
 	)
 	(wire
 		(pts
@@ -3578,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "905ed0f6-d4ef-436c-b531-9838ac816835")
+	)
+	(wire
+		(pts
+			(xy 345.44 104.14) (xy 345.44 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913bbb9f-8747-4cc1-9a3b-fb049b054aaa")
 	)
 	(wire
 		(pts
@@ -3721,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 66.04) (xy 345.44 111.76)
+			(xy 347.98 58.42) (xy 347.98 222.25)
 		)
 		(stroke
 			(width 0)
@@ -3901,6 +3947,26 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 104.14) (xy 345.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a90624-e5bc-4629-82f2-9a3314f86d7a")
+	)
+	(wire
+		(pts
+			(xy 345.44 219.71) (xy 260.35 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4d3259-ca80-4a8a-8d6f-dab6600872b1")
+	)
+	(wire
+		(pts
 			(xy 124.46 203.2) (xy 124.46 179.07)
 		)
 		(stroke
@@ -3971,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 66.04) (xy 345.44 66.04)
+			(xy 328.93 58.42) (xy 347.98 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4008,6 +4074,16 @@
 			(type default)
 		)
 		(uuid "ed669665-8021-47e0-9547-4ba8b350ad49")
+	)
+	(wire
+		(pts
+			(xy 265.43 114.3) (xy 279.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a8cce7-f399-425c-ab34-f708fa90df0a")
 	)
 	(wire
 		(pts
@@ -4161,6 +4237,16 @@
 		)
 		(uuid "415e4cce-4240-454a-ab1b-44e406787d5b")
 	)
+	(label "NEG-BATT-DISC-COM"
+		(at 223.52 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4923a63c-be3e-4bc1-89b1-81cca8851906")
+	)
 	(label "INH-NEG-BATT_DISC"
 		(at 237.49 207.01 0)
 		(effects
@@ -4217,7 +4303,7 @@
 		(uuid "e14e72bf-44c4-4c9e-ac87-04811775baef")
 	)
 	(label "INH-POS-BATT-DISC"
-		(at 285.75 212.09 0)
+		(at 285.75 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4605,83 +4691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 223.52 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b8d2e8f-ee6f-4399-8c44-6fe237a5f8e0")
-		(property "Reference" "#PWR051"
-			(at 223.52 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 223.52 199.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 223.52 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "736e74eb-8126-46c0-82f2-868f8e521e5e")
-		)
-		(instances
-			(project "oresat-batteries"
-				(path "/d5070776-2522-4f7b-9d31-10770161e48a"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 120.65 85.09 0)
 		(unit 1)
@@ -4761,7 +4770,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:OMRON-D2F-L3-D-LEFT")
-		(at 280.67 209.55 0)
+		(at 280.67 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4771,7 +4780,7 @@
 		(dnp no)
 		(uuid "3e27d04d-cacf-4562-998e-9370abbe2ef2")
 		(property "Reference" "SW3"
-			(at 280.924 216.916 0)
+			(at 280.924 211.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4782,7 +4791,7 @@
 			)
 		)
 		(property "Value" "D2F-L3-D3 (LEFT)"
-			(at 275.082 218.948 0)
+			(at 275.082 213.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4793,7 +4802,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:D2F-L3-D3-HORIZONTAL-L"
-			(at 280.67 214.376 0)
+			(at 280.67 209.296 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4813,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/875/D2F_0318_DS.pdf"
-			(at 280.67 209.55 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4824,7 @@
 			)
 		)
 		(property "Description" "Switch SPDT Chassis Mount"
-			(at 280.67 209.55 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +4835,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 280.67 209.55 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4837,7 +4846,7 @@
 			)
 		)
 		(property "DPN" "Z8531-ND"
-			(at 280.67 209.55 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4848,7 +4857,7 @@
 			)
 		)
 		(property "MFR" "Aratas (Formerly Omron Components)"
-			(at 280.67 209.55 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,7 +4868,7 @@
 			)
 		)
 		(property "MPN" "D2F-L3-D3"
-			(at 280.67 209.55 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5406,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 210.82 0)
+		(at 275.59 205.74 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5408,7 +5417,7 @@
 		(dnp no)
 		(uuid "89ddc5c5-3e83-46d4-830e-ecc64146439a")
 		(property "Reference" "#PWR040"
-			(at 275.59 217.17 0)
+			(at 275.59 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 214.63 0)
+			(at 275.59 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5429,7 +5438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 210.82 0)
+			(at 275.59 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 210.82 0)
+			(at 275.59 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 210.82 0)
+			(at 275.59 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6717,9 +6726,19 @@
 				(justify right)
 			)
 		)
-		(pin "EFUSE-PG-PK1" input
+		(pin "EFUSE-PG-OC-PK1" input
 			(at 265.43 71.12 0)
 			(uuid "e0699cda-907b-4712-9aa7-596efcb19089")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EFUSE-PG-OC-PK2" input
+			(at 265.43 114.3 0)
+			(uuid "ca251178-8bf2-4f84-b605-d82121310100")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{SHUTDOWN}" bidirectional
+		(pin "~{SHUTDOWN}" input
 			(at 328.93 116.84 0)
 			(uuid "878caca4-b1e0-4e03-b107-bcfde02e6274")
 			(effects
@@ -6931,7 +6950,7 @@
 			)
 		)
 		(pin "NEG-BATT-DISC" input
-			(at 328.93 111.76 0)
+			(at 328.93 101.6 0)
 			(uuid "51d6e3f9-f528-480f-958e-28b7e404e76f")
 			(effects
 				(font
@@ -6948,6 +6967,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "EFUSE-PG-OC-PK2" output
+			(at 279.4 114.3 180)
+			(uuid "653f0fa2-4534-4ccf-afc8-fa84f7452665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEG-BATT-DISC-COM" input
+			(at 328.93 104.14 0)
+			(uuid "90c2ebb9-7abc-4ee7-a878-c5b02e394137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -7066,7 +7105,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{SHUTDOWN}" bidirectional
+		(pin "~{SHUTDOWN}" input
 			(at 328.93 71.12 0)
 			(uuid "99636b47-26d2-426c-8bb2-1fbc49b156ed")
 			(effects
@@ -7087,7 +7126,7 @@
 			)
 		)
 		(pin "NEG-BATT-DISC" input
-			(at 328.93 66.04 0)
+			(at 328.93 58.42 0)
 			(uuid "9b175288-8895-4a20-bd21-c1bbb20b18a7")
 			(effects
 				(font
@@ -7106,7 +7145,7 @@
 				(justify left)
 			)
 		)
-		(pin "EFUSE-PG-PK1" output
+		(pin "EFUSE-PG-OC-PK1" output
 			(at 279.4 71.12 180)
 			(uuid "31345dd4-b58b-41e1-a63f-665bb7a40c6d")
 			(effects
@@ -7114,6 +7153,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "NEG-BATT-DISC-COM" input
+			(at 328.93 60.96 0)
+			(uuid "f2ed00c9-06d2-4bf0-b9bb-ba9323dd7af5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
