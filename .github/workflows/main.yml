@@ -1,0 +1,30 @@
+name: Publish main update
+
+on:
+  push:
+    # Branch to trigger a review on any push
+    branches: [review]
+
+permissions: {}
+
+jobs:
+  publish:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Send push to Apps Script
+        shell: bash
+        env:
+          DRIVE_WEB_APP: ${{ secrets.DRIVE_WEB_APP }}
+          DRIVE_TOKEN: ${{ secrets.DRIVE_TOKEN }}
+        run: |
+          set -eo pipefail
+          jq '{token: env.DRIVE_TOKEN, run: env.GITHUB_RUN_ID, push: .}' "$GITHUB_EVENT_PATH" |
+            curl --silent --show-error --fail --location --max-time 370 \
+              --header 'Content-Type: application/json' \
+              --data-binary @- "$DRIVE_WEB_APP" |
+            jq -er 'if .ok == true and (.id | type) == "string"
+                    then "https://drive.google.com/open?id=\(.id)"
+                    else error(.error // "Apps Script did not return a file ID") end'
