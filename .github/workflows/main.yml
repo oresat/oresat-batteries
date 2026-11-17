@@ -1,30 +1,48 @@
-name: Publish main update
+name: Generate Markdown report
 
 on:
   push:
-    # Branch to trigger a review on any push
-    branches: [review]
+    branches: [main]
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
-  publish:
+  report:
     if: ${{ !github.event.deleted }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
 
     steps:
-      - name: Send push to Apps Script
-        shell: bash
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Generate report
+        id: report
         env:
-          DRIVE_WEB_APP: ${{ secrets.DRIVE_WEB_APP }}
-          DRIVE_TOKEN: ${{ secrets.DRIVE_TOKEN }}
+          API_KEY: ${{ secrets.API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_URL: ${{ vars.LLM_API_URL }}
+          REPO_NAME: ${{ github.event.repository.name }}
+          TZ: America/Los_Angeles
         run: |
-          set -eo pipefail
-          jq '{token: env.DRIVE_TOKEN, run: env.GITHUB_RUN_ID, push: .}' "$GITHUB_EVENT_PATH" |
-            curl --silent --show-error --fail --location --max-time 370 \
-              --header 'Content-Type: application/json' \
-              --data-binary @- "$DRIVE_WEB_APP" |
-            jq -er 'if .ok == true and (.id | type) == "string"
-                    then "https://drive.google.com/open?id=\(.id)"
-                    else error(.error // "Apps Script did not return a file ID") end'
+          : "${LLM_MODEL:?Set the LLM_MODEL repository variable in GitHub Actions}"
+          : "${API_KEY:?Set the API_KEY repository secret}"
+
+          timestamp=$(date '+%Y-%m-%d_%H-%M-%S-%Z')
+          filename="report-${REPO_NAME}-${timestamp}.md"
+
+          python3 .github/report/generate.py "$RUNNER_TEMP/$filename"
+          printf 'filename=%s\n' "$filename" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Markdown report
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ steps.report.outputs.filename }}
+          path: ${{ runner.temp }}/${{ steps.report.outputs.filename }}
+          archive: false
+          if-no-files-found: error
+          overwrite: false
+          retention-days: 30
