@@ -1,4 +1,4 @@
-name: Generate Markdown report
+name: Generate Markdown Review
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
   report:
     if: ${{ !github.event.deleted }}
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 8
 
     steps:
       - name: Check out repository
@@ -19,30 +19,105 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Generate report
+      - name: Generate Markdown report
         id: report
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          PROMPT_URL: ${{ vars.PROMPT_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_API_URL: ${{ vars.LLM_API_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
           REPO_NAME: ${{ github.event.repository.name }}
           TZ: America/Los_Angeles
+        shell: bash
         run: |
-          : "${LLM_MODEL:?Set the LLM_MODEL repository variable in GitHub Actions}"
+          set -euo pipefail
+          : "${PROMPT_URL:?Set the PROMPT_URL repository variable}"
+          : "${LLM_MODEL:?Set the LLM_MODEL repository variable}"
           : "${API_KEY:?Set the API_KEY repository secret}"
 
           timestamp=$(date '+%Y-%m-%d_%H-%M-%S-%Z')
-          filename="report-${REPO_NAME}-${timestamp}.md"
+          export REPORT_PATH="$RUNNER_TEMP/report-${REPO_NAME}-${timestamp}.md"
 
-          python3 .github/report/generate.py "$RUNNER_TEMP/$filename"
-          printf 'filename=%s\n' "$filename" >> "$GITHUB_OUTPUT"
+          node --input-type=module <<'JS'
+          import { readFile, writeFile } from 'node:fs/promises';
+
+          const env = process.env;
+          const promptResponse = await fetch(env.PROMPT_URL.trim(), {
+            signal: AbortSignal.timeout(30_000),
+          });
+          if (!promptResponse.ok) {
+            throw new Error(`Prompt download failed: HTTP ${promptResponse.status}`);
+          }
+          const contentType = promptResponse.headers.get('content-type') || '';
+          if (contentType.includes('text/html')) {
+            throw new Error('Google returned a web page. Check the export URL and sharing settings.');
+          }
+          const prompt = (await promptResponse.text()).trim();
+          if (!prompt) throw new Error('The prompt document is empty.');
+
+          const event = JSON.parse(await readFile(env.GITHUB_EVENT_PATH, 'utf8'));
+          const commits = event.commits?.length
+            ? event.commits
+            : [event.head_commit].filter(Boolean);
+
+          const context = {
+            repository: env.GITHUB_REPOSITORY,
+            branch: env.GITHUB_REF_NAME,
+            commit: env.GITHUB_SHA,
+            commits: commits.map(({ id, message }) => ({ id, message })),
+          };
+
+          const request = {
+            model: env.LLM_MODEL.trim(),
+            max_tokens: 4096,
+            system: prompt,
+            messages: [{ role: 'user', content: JSON.stringify(context, null, 2) }],
+          };
+
+          try {
+            const effort = (await readFile('.github/report/effort.txt', 'utf8')).trim();
+            if (effort) request.output_config = { effort };
+          } catch (error) {
+            if (error.code !== 'ENOENT') throw error;
+          }
+
+          const endpoint = env.LLM_API_URL?.trim() || 'https://api.anthropic.com/v1/messages';
+          const response = await fetch(endpoint, {
+            method: 'POST',
+            redirect: 'error',
+            headers: {
+              'content-type': 'application/json',
+              'anthropic-version': '2023-06-01',
+              'x-api-key': env.API_KEY,
+            },
+            body: JSON.stringify(request),
+          });
+
+          if (!response.ok) {
+            const detail = await response.json().catch(() => ({}));
+            throw new Error(`Model API returned HTTP ${response.status}: ${detail.error?.message || response.statusText}`);
+          }
+
+          const result = await response.json();
+          if (result.stop_reason !== 'end_turn') {
+            throw new Error(`Report generation stopped early: ${result.stop_reason}`);
+          }
+          const markdown = result.content
+            .filter(block => block.type === 'text')
+            .map(block => block.text)
+            .join('\n\n')
+            .trim();
+          if (!markdown) throw new Error('The model returned an empty report.');
+
+          await writeFile(env.REPORT_PATH, `${markdown}\n`);
+          JS
+
+          printf 'path=%s\n' "$REPORT_PATH" >> "$GITHUB_OUTPUT"
 
       - name: Upload Markdown report
         uses: actions/upload-artifact@v7
         with:
-          name: ${{ steps.report.outputs.filename }}
-          path: ${{ runner.temp }}/${{ steps.report.outputs.filename }}
+          path: ${{ steps.report.outputs.path }}
           archive: false
           if-no-files-found: error
-          overwrite: false
           retention-days: 30
