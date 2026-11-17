@@ -1,11 +1,10 @@
-name: Generate Markdown Review
+name: Generate Markdown report
 
 on:
   push:
     branches: [main]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   report:
@@ -14,26 +13,22 @@ jobs:
     timeout-minutes: 8
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v6
-        with:
-          persist-credentials: false
-
       - name: Generate Markdown report
         id: report
         env:
-          PROMPT_URL: ${{ vars.PROMPT_URL }}
-          LLM_MODEL: ${{ vars.LLM_MODEL }}
-          LLM_API_URL: ${{ vars.LLM_API_URL }}
+          PROMPT_URL: ${{ secrets.PROMPT_URL }}
           API_KEY: ${{ secrets.API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_EFFORT: ${{ vars.LLM_EFFORT }}
+          LLM_API_URL: ${{ vars.LLM_API_URL }}
           REPO_NAME: ${{ github.event.repository.name }}
           TZ: America/Los_Angeles
         shell: bash
         run: |
           set -euo pipefail
-          : "${PROMPT_URL:?Set the PROMPT_URL repository variable}"
-          : "${LLM_MODEL:?Set the LLM_MODEL repository variable}"
-          : "${API_KEY:?Set the API_KEY repository secret}"
+          : "${PROMPT_URL:?Set the PROMPT_URL Actions secret}"
+          : "${API_KEY:?Set the API_KEY Actions secret}"
+          : "${LLM_MODEL:?Set the LLM_MODEL Actions variable}"
 
           timestamp=$(date '+%Y-%m-%d_%H-%M-%S-%Z')
           export REPORT_PATH="$RUNNER_TEMP/report-${REPO_NAME}-${timestamp}.md"
@@ -44,12 +39,13 @@ jobs:
           const env = process.env;
           const promptResponse = await fetch(env.PROMPT_URL.trim(), {
             signal: AbortSignal.timeout(30_000),
+          }).catch(() => {
+            throw new Error('Prompt download failed. Check the PROMPT_URL secret and connectivity.');
           });
           if (!promptResponse.ok) {
             throw new Error(`Prompt download failed: HTTP ${promptResponse.status}`);
           }
-          const contentType = promptResponse.headers.get('content-type') || '';
-          if (contentType.includes('text/html')) {
+          if (promptResponse.headers.get('content-type')?.includes('text/html')) {
             throw new Error('Google returned a web page. Check the export URL and sharing settings.');
           }
           const prompt = (await promptResponse.text()).trim();
@@ -73,13 +69,8 @@ jobs:
             system: prompt,
             messages: [{ role: 'user', content: JSON.stringify(context, null, 2) }],
           };
-
-          try {
-            const effort = (await readFile('.github/report/effort.txt', 'utf8')).trim();
-            if (effort) request.output_config = { effort };
-          } catch (error) {
-            if (error.code !== 'ENOENT') throw error;
-          }
+          const effort = env.LLM_EFFORT?.trim().toLowerCase();
+          if (effort) request.output_config = { effort };
 
           const endpoint = env.LLM_API_URL?.trim() || 'https://api.anthropic.com/v1/messages';
           const response = await fetch(endpoint, {
