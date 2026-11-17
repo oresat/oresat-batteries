@@ -57,6 +57,10 @@ jobs:
               fi
             fi
           fi
+          case "$mode" in
+            done) echo 'Submission skipped. This push run already has a batch receipt.' | tee -a "$GITHUB_STEP_SUMMARY" ;;
+            recover) echo 'Skipping checkout and request preparation. Recovering the previously submitted batch.' | tee -a "$GITHUB_STEP_SUMMARY" ;;
+          esac
           echo "mode=$mode" >> "$GITHUB_OUTPUT"
 
       - name: Resolve API endpoint
@@ -344,7 +348,10 @@ jobs:
           url="$MESSAGES_URL/batches/$batch"
           api status.json --retry 2 "$url"
           status=$(jq -er '.processing_status' status.json)
-          if [[ "$status" != ended ]]; then echo "Batch $batch is $status."; exit 0; fi
+          if [[ "$status" != ended ]]; then
+            echo "Report upload and cleanup skipped. Batch $batch is $status. A later poll will check again." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           api results.jsonl --retry 2 "$url/results"
           jq -es --arg id "review-$SOURCE_RUN" '
             map(select(.custom_id == $id)) | select(length == 1) | .[0].result
@@ -352,6 +359,7 @@ jobs:
           kind=$(jq -er '.type' result.json)
           reason=$(jq -r '.message.stop_reason // .type' result.json)
           if [[ "$kind" != succeeded ]]; then
+            echo "Report upload skipped. Batch $batch returned a $kind result." | tee -a "$GITHUB_STEP_SUMMARY"
             jq -r '[.type, .error.error.type, .error.error.message] | map(select(. != null)) | join(" | ")' result.json >&2
             echo 'failed=true' >> "$GITHUB_OUTPUT"
             echo 'closed=true' >> "$GITHUB_OUTPUT"
@@ -399,3 +407,64 @@ jobs:
         run: |
           gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$ARTIFACT"
           [[ "$FAILED" != true ]]
+
+  explain:
+    name: Review run summary
+    needs: [submit, pending, collect]
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions: {}
+    timeout-minutes: 2
+    steps:
+      - name: Explain job outcomes
+        env:
+          SUBMIT: ${{ needs.submit.result }}
+          PENDING: ${{ needs.pending.result }}
+          COLLECT: ${{ needs.collect.result }}
+          EMPTY: ${{ needs.pending.outputs.items == '[]' }}
+          DELETED: ${{ github.event.deleted == true }}
+        run: |
+          set -euo pipefail
+          submit_reason=''
+          pending_reason=''
+          collect_reason=''
+
+          if [[ "$SUBMIT" == skipped ]]; then
+            if [[ "$GITHUB_EVENT_NAME" != push ]]; then
+              submit_reason='Only a push to main submits a new PCB review.'
+            elif [[ "$DELETED" == true ]]; then
+              submit_reason='The push deleted the ref.'
+            elif [[ "$GITHUB_REF" != refs/heads/main ]]; then
+              submit_reason='The pushed ref is outside main.'
+            fi
+          fi
+          if [[ "$PENDING" == skipped ]]; then
+            if [[ "$GITHUB_EVENT_NAME" == push ]]; then
+              pending_reason='Polling runs on the schedule or a manual dispatch.'
+            elif [[ "$GITHUB_REF" != refs/heads/main ]]; then
+              pending_reason='Polling requires main. Select main under Run workflow to check pending batches.'
+            fi
+          fi
+          if [[ "$COLLECT" == skipped ]]; then
+            if [[ "$PENDING" != success ]]; then
+              collect_reason="Collection requires a successful pending job. Its result was $PENDING."
+            elif [[ "$EMPTY" == true ]]; then
+              collect_reason='The pending job found no eligible batches in this repository on main.'
+            fi
+          fi
+
+          row() {
+            local reason=$3
+            if [[ "$2" == skipped && -z "$reason" ]]; then
+              reason='GitHub reported a skip outside the expected routing conditions.'
+            fi
+            printf '| %s | %s | %s |\n' "$1" "$2" "$reason"
+          }
+          {
+            printf '### PCB review jobs\n\n    Event: %s\n    Ref: %s\n\n' "$GITHUB_EVENT_NAME" "$GITHUB_REF"
+            printf '| Job | Result | Reason for skip |\n|---|---|---|\n'
+            row submit "$SUBMIT" "$submit_reason"
+            row pending "$PENDING" "$pending_reason"
+            row collect "$COLLECT" "$collect_reason"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
