@@ -1,12 +1,11 @@
 # Actions secrets: PROMPT_URL (plain-text export) and API_KEY. Required variable: LLM_MODEL.
 # Optional variables: LLM_EFFORT, LLM_MAX_TOKENS (16384), LLM_INPUT_TOKEN_LIMIT (180000),
-# PCB_REVIEW_DIR (repository-relative directory, default "."), and LLM_API_URL (Messages endpoint).
-
+# PCB_REVIEW_DIR (repository-relative directory, default "."), and LLM_API_URL (Messages endpoint)
 name: PCB design review
 
 on:
   push:
-    branches: [review]
+    branches: [main, review]
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
@@ -115,14 +114,41 @@ jobs:
           for (const n of [maxTokens, inputLimit]) {
             if (!Number.isSafeInteger(n) || n < 1) throw Error('Token limits must be positive integers.');
           }
-          const promptURL = env.PROMPT_URL.trim();
-          const promptResponse = await fetch(promptURL, {signal: AbortSignal.timeout(30000)})
-            .catch(() => {throw Error('Prompt download failed. Check PROMPT_URL.');});
-          if (!promptResponse.ok || /html/i.test(promptResponse.headers.get('content-type') || '')) {
-            throw Error('PROMPT_URL must return plain text. Check sharing and the export URL.');
+          let promptURL;
+          try {
+            promptURL = new URL(env.PROMPT_URL.trim());
+          } catch {
+            throw Error('PROMPT_URL is invalid. Copy the full sharing or plain-text URL into the Actions secret.');
           }
-          const prompt = (await promptResponse.text()).trim();
-          if (!prompt || /^\s*<(?:!doctype html|html)\b/i.test(prompt)) throw Error('Empty or HTML prompt.');
+          if (!['http:', 'https:'].includes(promptURL.protocol)) throw Error('PROMPT_URL must be an HTTP or HTTPS URL.');
+          if (promptURL.hostname === 'docs.google.com') {
+            const doc = promptURL.pathname.match(/^\/document\/(?:u\/\d+\/)?d\/([A-Za-z0-9_-]+)(?:\/(?:edit|view|preview|copy|mobilebasic|export))?\/?$/);
+            if (doc) {
+              const exported = new URL('/document/d/' + doc[1] + '/export', 'https://docs.google.com');
+              exported.searchParams.set('format', 'txt');
+              for (const key of ['resourcekey', 'tab']) {
+                if (promptURL.searchParams.has(key)) exported.searchParams.set(key, promptURL.searchParams.get(key));
+              }
+              promptURL = exported;
+            }
+          }
+          const promptResponse = await fetch(promptURL, {signal: AbortSignal.timeout(30000)})
+            .catch(() => {throw Error('Prompt download failed before an HTTP response. Check the URL and connectivity.');});
+          const accessHint = 'For a Google Doc, set General access to Anyone with the link (Viewer) and allow downloads.';
+          if (!promptResponse.ok) {
+            const hint = promptResponse.status === 404 ? 'Check the document ID and sharing settings.'
+              : [401, 403].includes(promptResponse.status) ? accessHint : 'Check the prompt host and try again.';
+            throw Error('Prompt download returned HTTP ' + promptResponse.status + '. ' + hint);
+          }
+          if (new URL(promptResponse.url).hostname === 'accounts.google.com') {
+            throw Error('Google redirected the prompt download to sign-in. ' + accessHint);
+          }
+          if (/html/i.test(promptResponse.headers.get('content-type') || '')) {
+            throw Error('Prompt download returned an HTML page. Use a plain-text URL or a Google Docs sharing link. ' + accessHint);
+          }
+          const prompt = (await promptResponse.text().catch(() => {throw Error('Prompt download was interrupted while reading the response.');})).trim();
+          if (!prompt) throw Error('The prompt downloaded successfully but is empty.');
+          if (/^<(?:!doctype\s+html|html|head|body)\b/i.test(prompt)) throw Error('The downloaded prompt contains HTML. ' + accessHint);
 
           const git = args => execFileSync('git', args, {maxBuffer: 40 * 1024 * 1024});
           const sha = git(['rev-parse', 'HEAD']).toString().trim();
