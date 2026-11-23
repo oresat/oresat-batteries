@@ -4497,7 +4497,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch SPDT Chassis Mount"
+		(property "Description" "SWITCH SNAP ACTION SPDT 0.1A 30V"
 			(at 158.75 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -4519,7 +4519,7 @@
 				)
 			)
 		)
-		(property "DPN" "Z8531-ND"
+		(property "DPN" "Z12951-ND"
 			(at 158.75 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4541,7 @@
 				)
 			)
 		)
-		(property "MPN" "D2F-L3-D3"
+		(property "MPN" "D2F-01L3-D3"
 			(at 158.75 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -4823,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch SPDT Chassis Mount"
+		(property "Description" "SWITCH SNAP ACTION SPDT 0.1A 30V"
 			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4845,7 @@
 				)
 			)
 		)
-		(property "DPN" "Z8531-ND"
+		(property "DPN" "Z12951-ND"
 			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -4867,7 +4867,7 @@
 				)
 			)
 		)
-		(property "MPN" "D2F-L3-D3"
+		(property "MPN" "D2F-01L3-D3"
 			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch SPDT Chassis Mount"
+		(property "Description" "SWITCH SNAP ACTION SPDT 0.1A 30V"
 			(at 232.41 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -5275,7 +5275,7 @@
 				)
 			)
 		)
-		(property "DPN" "Z8531-ND"
+		(property "DPN" "Z12951-ND"
 			(at 232.41 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -5297,7 +5297,7 @@
 				)
 			)
 		)
-		(property "MPN" "D2F-L3-D3"
+		(property "MPN" "D2F-01L3-D3"
 			(at 232.41 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -6074,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B520C-B560C.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
 			(at 120.65 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6365,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch SPDT Chassis Mount"
+		(property "Description" "SWITCH SNAP ACTION SPDT 0.1A 30V"
 			(at 180.34 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -6387,7 +6387,7 @@
 				)
 			)
 		)
-		(property "DPN" "Z8531-ND"
+		(property "DPN" "Z12951-ND"
 			(at 180.34 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -6409,7 +6409,7 @@
 				)
 			)
 		)
-		(property "MPN" "D2F-L3-D3"
+		(property "MPN" "D2F-01L3-D3"
 			(at 180.34 217.17 0)
 			(hide yes)
 			(show_name no)

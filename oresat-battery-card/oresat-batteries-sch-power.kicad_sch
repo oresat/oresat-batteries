@@ -15297,7 +15297,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10k"
 			(at 313.944 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15330,7 +15330,7 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 312.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15353,7 +15353,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT100RCT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 312.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15377,7 +15377,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT100R"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 312.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16432,7 +16432,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" ""
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16444,7 +16444,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" ""
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16456,7 +16456,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" ""
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16468,7 +16468,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" ""
 			(at 312.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -24985,7 +24985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "15n"
 			(at 330.708 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24996,7 +24996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0805-C-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25007,7 +25007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E475KE13-01.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25018,7 +25018,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25040,7 +25040,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRT21BC71E475KE13LCT-ND"
+		(property "DPN" "399-12984-1-ND"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25051,7 +25051,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25062,7 +25062,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRT21BC71E475KE13L"
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 328.93 41.91 0)
 			(hide yes)
 			(show_name no)

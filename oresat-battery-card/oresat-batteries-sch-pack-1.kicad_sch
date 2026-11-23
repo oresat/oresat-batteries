@@ -5301,7 +5301,7 @@
 		)
 		(uuid "109a78d4-a92d-4f2d-9e22-62c04109c45c")
 	)
-	(text "EFUSE\n\nCurrent limit: 8.0 A (set +20% to Rilim = 154 ohm = 9.6 A)\nTransient overcurrent timer: 15 n = 5 ms\nFast current limit = 210% * 9.6 A = 20.16 A\n\nVoltage ramp up time: 24 ms\nTime between retries: 4.6 s"
+	(text "EFUSE\n\nCurrent limit: 8.0 A (set +20% to Rilim = 154 ohm = 9.6 A)\nTransient overcurrent timer: 15 n = 7.0 ms\nFast current limit = 210% * 9.6 A = 20.16 A\n\nVoltage ramp up time: 24 ms\nTime between retries: 4.6 s"
 		(exclude_from_sim no)
 		(at 282.194 176.53 0)
 		(effects
@@ -5322,17 +5322,6 @@
 			(justify left bottom)
 		)
 		(uuid "19239805-cf95-4fae-87dc-1594c1147503")
-	)
-	(text "PTC @ 2A"
-		(exclude_from_sim no)
-		(at 405.638 174.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2be8fa72-3594-438a-8eac-382c43cc1dd7")
 	)
 	(text "Vbatt = 6.0V -> EN/UVL = 1.39 V\nwhich is above 1.23 V cutoff"
 		(exclude_from_sim no)
@@ -5517,6 +5506,17 @@
 			)
 		)
 		(uuid "890cbd0a-9957-464f-ab0f-dcd2d93ab4f6")
+	)
+	(text "PTC @ 1.5 A (3 A trip)"
+		(exclude_from_sim no)
+		(at 380.238 176.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9643a23f-3593-43a4-baa2-40b3f50c4f4f")
 	)
 	(text "If ~{SD} is asserted~{,} disable charging as possible. This is a bit strange\nbecause the Ablic ICs should be powered off; however, if there's\nan external supply that powers up the Ablics, disable charging."
 		(exclude_from_sim no)
@@ -15827,7 +15827,7 @@
 				)
 			)
 		)
-		(property "MPN" "F5765CT-ND"
+		(property "MPN" "1206L150/12SLYR"
 			(at 403.86 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -16259,7 +16259,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "LTC4412"
+		(property "Value" "LTC4412ES6#WTRMPBF"
 			(at 434.086 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16292,7 +16292,7 @@
 				)
 			)
 		)
-		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6 industrial temp"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6"
 			(at 430.53 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16315,7 +16315,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "LTC4412ES6#WTRMPBF"
+		(property "DPN" "505-LTC4412HS6#WTRMPBFCT-ND"
 			(at 430.53 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16339,7 +16339,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "LTC4412ES6#PBF"
+		(property "MPN" "LTC4412HS6#WTRMPBF"
 			(at 430.53 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19470,7 +19470,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "LTC4412"
+		(property "Value" "LTC4412ES6#WTRMPBF"
 			(at 319.024 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19503,7 +19503,7 @@
 				)
 			)
 		)
-		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6 industrial temp"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6"
 			(at 322.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19526,7 +19526,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "LTC4412ES6#WTRMPBF"
+		(property "DPN" "505-LTC4412HS6#WTRMPBFCT-ND"
 			(at 322.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -19550,7 +19550,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "LTC4412ES6#PBF"
+		(property "MPN" "LTC4412HS6#WTRMPBF"
 			(at 322.58 82.55 0)
 			(hide yes)
 			(show_name no)

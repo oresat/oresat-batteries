@@ -3598,6 +3598,17 @@
 		)
 		(uuid "a56512e8-b540-4c01-85f5-856ec73f5071")
 	)
+	(text "Concept of operations: Keep battery cells >= 5 C so they are above their > 0 C to charge requirement.\nThe Ti EFUSEs also may not operate below -15 C, see datasheet."
+		(exclude_from_sim no)
+		(at 187.198 209.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd5d06f0-4e6e-4bb4-93a9-e651ba0b4e3a")
+	)
 	(text "Well, SFT *except* for shorts across R105 and \nR106 and HEATER-ON-1 and HEATER-ON-2 failures.\nSFT to transistor faults, at least."
 		(exclude_from_sim no)
 		(at 168.91 187.96 0)
@@ -5485,7 +5496,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 190.246 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 189.23 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5541,7 +5552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 189.23 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5565,7 +5576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100K"
 			(at 189.23 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8317,7 +8328,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 190.246 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8350,7 +8361,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 189.23 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8373,7 +8384,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 189.23 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +8408,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100K"
 			(at 189.23 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8576,7 +8587,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 188.214 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8609,7 +8620,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 189.23 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8632,7 +8643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 189.23 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8656,7 +8667,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100K"
 			(at 189.23 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +9242,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100k"
 			(at 188.214 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9264,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 189.23 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9287,7 +9298,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 189.23 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9311,7 +9322,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100K"
 			(at 189.23 161.29 0)
 			(hide yes)
 			(show_name no)

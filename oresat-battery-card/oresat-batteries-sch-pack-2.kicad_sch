@@ -5260,9 +5260,9 @@
 		)
 		(uuid "354e9088-a5c4-42b1-85ab-2c330c059320")
 	)
-	(text "PTC @ 2A"
+	(text "PTC @ 1.5 A (3 A trip)"
 		(exclude_from_sim no)
-		(at 395.478 161.798 0)
+		(at 382.778 162.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5382,7 +5382,7 @@
 		)
 		(uuid "7df4e7b5-ae33-46db-9d41-6a53592dcdbf")
 	)
-	(text "EFUSE\n\nCurrent limit: 8.0 A (set +20% to Rilim = 154 ohm = 9.6 A)\nTransient overcurrent timer: 15 n = 5 ms\nFast current limit = 210% * 9.6 A = 20.16 A\n\nVoltage ramp up time: 24 ms\nTime between retries: 4.6 s"
+	(text "EFUSE\n\nCurrent limit: 8.0 A (set +20% to Rilim = 154 ohm = 9.6 A)\nTransient overcurrent timer: 15 n = 7.0 ms\nFast current limit = 210% * 9.6 A = 20.16 A\n\nVoltage ramp up time: 24 ms\nTime between retries: 4.6 s"
 		(exclude_from_sim no)
 		(at 280.162 154.178 0)
 		(effects
@@ -11971,7 +11971,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "LTC4412"
+		(property "Value" "LTC4412ES6#WTRMPBF"
 			(at 316.484 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12004,7 @@
 				)
 			)
 		)
-		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6 industrial temp"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6"
 			(at 320.04 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12027,7 +12027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "LTC4412ES6#WTRMPBF"
+		(property "DPN" "505-LTC4412HS6#WTRMPBFCT-ND"
 			(at 320.04 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12051,7 +12051,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "LTC4412ES6#PBF"
+		(property "MPN" "LTC4412HS6#WTRMPBF"
 			(at 320.04 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13708,7 +13708,7 @@
 				)
 			)
 		)
-		(property "MPN" "F5765CT-ND"
+		(property "MPN" "1206L150/12SLYR"
 			(at 406.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20667,7 +20667,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "LTC4412"
+		(property "Value" "LTC4412ES6#WTRMPBF"
 			(at 435.356 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20700,7 +20700,7 @@
 				)
 			)
 		)
-		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6 industrial temp"
+		(property "Description" "OR Controller Source Selector Switch P-Channel 2:1 TSOT-23-6"
 			(at 431.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20723,7 +20723,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "LTC4412ES6#WTRMPBF"
+		(property "DPN" "505-LTC4412HS6#WTRMPBFCT-ND"
 			(at 431.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20747,7 +20747,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "LTC4412ES6#PBF"
+		(property "MPN" "LTC4412HS6#WTRMPBF"
 			(at 431.8 68.58 0)
 			(hide yes)
 			(show_name no)
