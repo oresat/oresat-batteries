@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-10-06")
-		(rev "4.0")
+		(date "2026-11-23")
+		(rev "4.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -5375,16 +5375,6 @@
 		)
 		(uuid "1adce767-e541-43ab-a174-75a3698ed9f8")
 	)
-	(text "- Requires Pullup"
-		(exclude_from_sim no)
-		(at 131.572 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2dee6a5c-871b-4cf4-926e-82abf36d8fd5")
-	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
 		(at 177.292 41.91 0)
@@ -5398,16 +5388,6 @@
 		)
 		(uuid "5f3c260e-0cda-4c54-b2a0-3f5934c44507")
 	)
-	(text "- Requires Pullup"
-		(exclude_from_sim no)
-		(at 131.572 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60ad90e5-0528-4063-8e74-82b4d57f4db8")
-	)
 	(text "ALL CAPS ARE 0603, 10%, X5R or better, AEQ, Vw >= 25 V UNLESS OTHERWISE NOTED\nALL RESISTORS ARE 0603 1% AEQ UNLESS OTHERWISE NOTED."
 		(exclude_from_sim no)
 		(at 112.776 265.938 0)
@@ -5418,26 +5398,6 @@
 			(justify left bottom)
 		)
 		(uuid "6b051459-97eb-4c73-b021-6362a3d0c12e")
-	)
-	(text "- Requires Pullup"
-		(exclude_from_sim no)
-		(at 133.35 216.154 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "72af9031-6046-4a99-b8d2-89df513e6c46")
-	)
-	(text "Rev: 000"
-		(exclude_from_sim no)
-		(at 258.572 235.204 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "91a6718a-c086-45e6-aeea-c24b5e2ebe0c")
 	)
 	(text "OreSat Debug\nConnector"
 		(exclude_from_sim no)
@@ -5462,25 +5422,15 @@
 		)
 		(uuid "a9399173-3611-4a9d-a5b5-3ea0549d6945")
 	)
-	(text "- Requires Pullup"
+	(text "LTC4412 OC outputs are too weak to pull down \nMCXN internal pull-ups. Nuts! So use external ones."
 		(exclude_from_sim no)
-		(at 133.35 200.66 0)
+		(at 155.194 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ad6bcc34-285e-48d2-acbf-4cbdaee70bbd")
-	)
-	(text "- Requires Pullup"
-		(exclude_from_sim no)
-		(at 135.128 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bb27a21c-7e9e-455b-ac92-ef8462f7d6cb")
+		(uuid "d9b2d724-9407-41c4-8200-3a47e6b363d2")
 	)
 	(text "VDD_BAT"
 		(exclude_from_sim no)
@@ -5491,16 +5441,6 @@
 			)
 		)
 		(uuid "df2de347-6034-426a-a4c3-d3f48ccfe226")
-	)
-	(text "- Requires Pullup"
-		(exclude_from_sim no)
-		(at 135.382 203.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e120bd8a-9cff-48a1-8326-d7246a13e441")
 	)
 	(text "Hardware version number\n(use pullups)"
 		(exclude_from_sim no)
@@ -5566,6 +5506,12 @@
 		(uuid "03522ab7-5298-45e5-8c33-b0e8deeeb7a3")
 	)
 	(junction
+		(at 151.13 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "047128c8-ce02-47ba-9037-1aef59d326ad")
+	)
+	(junction
 		(at 121.92 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5590,6 +5536,12 @@
 		(uuid "16b1a900-5527-4df3-819d-1906ac9a9108")
 	)
 	(junction
+		(at 143.51 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "245ace37-7e7e-4cc4-a26e-0de14890e708")
+	)
+	(junction
 		(at 306.07 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5612,6 +5564,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "459814c4-c8e8-4741-aa43-92bc0022981c")
+	)
+	(junction
+		(at 173.99 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "559fc12f-de5a-4778-b9b3-a6cdc124404d")
 	)
 	(junction
 		(at 283.21 27.94)
@@ -5644,6 +5602,12 @@
 		(uuid "6a75e41d-b9e5-464d-ab9a-f27952036919")
 	)
 	(junction
+		(at 166.37 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e60036-8014-4015-ad1d-8580b811e7f9")
+	)
+	(junction
 		(at 280.67 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5660,6 +5624,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7666b415-ae44-49a2-815c-9f6057b8c958")
+	)
+	(junction
+		(at 154.94 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79062b4b-f9ce-40f2-b43b-4eea42473196")
 	)
 	(junction
 		(at 163.83 50.8)
@@ -5696,6 +5666,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ad2fa1e-0d7e-4918-9776-f73ade14f32a")
+	)
+	(junction
+		(at 166.37 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91943def-f713-4a8e-9f74-3f3e07527d5b")
 	)
 	(junction
 		(at 276.86 212.09)
@@ -5746,6 +5722,12 @@
 		(uuid "a4b4e0b8-e775-4bdf-b2fe-22e350b87f8d")
 	)
 	(junction
+		(at 135.89 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b22cecaf-b73b-45c5-abf1-a559bb7f6527")
+	)
+	(junction
 		(at 243.84 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5756,6 +5738,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf26ddac-09e2-46b9-ac1f-556c50c324f0")
+	)
+	(junction
+		(at 151.13 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c010aa05-bca3-4b36-ae50-8a342459f8bf")
 	)
 	(junction
 		(at 236.22 144.78)
@@ -5776,6 +5764,12 @@
 		(uuid "c6bbd89c-4a94-4449-b2a1-5fcff97a07d5")
 	)
 	(junction
+		(at 158.75 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cba798ff-5e1e-498f-a488-02e0058acb26")
+	)
+	(junction
 		(at 281.94 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5786,6 +5780,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db15c744-68c2-4ddb-9faf-755ff0245613")
+	)
+	(junction
+		(at 158.75 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db2e6638-d05f-48e4-b5e2-fdde9b70c264")
 	)
 	(junction
 		(at 266.7 27.94)
@@ -5816,6 +5816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee1423b8-cfcf-4ecf-8bdf-aa8e5f8071f2")
+	)
+	(junction
+		(at 143.51 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f079d804-82b6-4b3b-b042-a65178a8bc03")
 	)
 	(junction
 		(at 109.22 24.13)
@@ -6057,6 +6063,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 172.72) (xy 154.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e10dc4-267b-4272-85e9-c95b1db30c68")
+	)
+	(wire
+		(pts
 			(xy 255.27 219.71) (xy 271.78 219.71)
 		)
 		(stroke
@@ -6247,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 179.07) (xy 158.75 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1667125f-79fc-47b7-ab45-b3014ab27d8b")
+	)
+	(wire
+		(pts
 			(xy 292.1 55.88) (xy 292.1 57.15)
 		)
 		(stroke
@@ -6304,6 +6330,16 @@
 			(type default)
 		)
 		(uuid "1b0ffb70-611a-4143-a04b-77ccd5fd54e7")
+	)
+	(wire
+		(pts
+			(xy 166.37 172.72) (xy 166.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4a9faa-0088-41d5-b8be-82cc8d7b210f")
 	)
 	(wire
 		(pts
@@ -6437,6 +6473,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 172.72) (xy 158.75 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280378b5-dcdb-4d6c-a5d9-b8f68cea4d66")
+	)
+	(wire
+		(pts
 			(xy 232.41 86.36) (xy 232.41 91.44)
 		)
 		(stroke
@@ -6504,6 +6550,16 @@
 			(type default)
 		)
 		(uuid "2bcbc397-f124-415c-bdb7-55cdf20c6272")
+	)
+	(wire
+		(pts
+			(xy 151.13 172.72) (xy 151.13 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de3cb77-ec92-459d-8c29-a806762c417d")
 	)
 	(wire
 		(pts
@@ -6637,6 +6693,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 172.72) (xy 151.13 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8257ec-2216-4d3b-b7b6-a50293ffccc8")
+	)
+	(wire
+		(pts
 			(xy 287.02 64.77) (xy 280.67 64.77)
 		)
 		(stroke
@@ -6717,6 +6783,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 172.72) (xy 135.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405e201b-a4a0-4e08-ae01-0445d72a1303")
+	)
+	(wire
+		(pts
 			(xy 283.21 182.88) (xy 283.21 180.34)
 		)
 		(stroke
@@ -6747,6 +6823,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 218.44) (xy 177.8 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4846bfc1-117b-4a28-ba48-1ce6c4e74d9f")
+	)
+	(wire
+		(pts
 			(xy 281.94 144.78) (xy 281.94 148.59)
 		)
 		(stroke
@@ -6754,6 +6840,16 @@
 			(type default)
 		)
 		(uuid "492e5270-1ced-408a-8a58-89ec4053a919")
+	)
+	(wire
+		(pts
+			(xy 166.37 215.9) (xy 177.8 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c15b9c6-9e3e-40a0-9a97-75ffc4b7e143")
 	)
 	(wire
 		(pts
@@ -7157,6 +7253,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 187.96) (xy 177.8 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2b8527-0c8c-4a9d-922f-0a271a37c4ed")
+	)
+	(wire
+		(pts
 			(xy 91.44 100.33) (xy 101.6 100.33)
 		)
 		(stroke
@@ -7194,6 +7300,16 @@
 			(type solid)
 		)
 		(uuid "6e15b834-dc45-435c-887a-e155f8b64dac")
+	)
+	(wire
+		(pts
+			(xy 151.13 200.66) (xy 177.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f495b14-f2aa-4696-b7ce-42f18cbb44a4")
 	)
 	(wire
 		(pts
@@ -7297,7 +7413,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 218.44) (xy 101.6 218.44)
+			(xy 91.44 218.44) (xy 173.99 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7327,7 +7443,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 203.2) (xy 101.6 203.2)
+			(xy 91.44 203.2) (xy 158.75 203.2)
 		)
 		(stroke
 			(width 0)
@@ -7344,6 +7460,16 @@
 			(type default)
 		)
 		(uuid "81f0eacd-167c-41f4-83c8-2c8857dac963")
+	)
+	(wire
+		(pts
+			(xy 173.99 172.72) (xy 166.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82153880-a558-4eeb-8e44-c6dda1db3668")
 	)
 	(wire
 		(pts
@@ -7547,6 +7673,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 179.07) (xy 166.37 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5f26d6-99e5-44d6-860b-fd69321d9e4d")
+	)
+	(wire
+		(pts
 			(xy 236.22 151.13) (xy 236.22 152.4)
 		)
 		(stroke
@@ -7747,13 +7883,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 187.96) (xy 101.6 187.96)
+			(xy 91.44 187.96) (xy 143.51 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5e41386-e722-4a21-93e9-cca0bec09974")
+	)
+	(wire
+		(pts
+			(xy 154.94 171.45) (xy 154.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72ab95f-ebd5-4fc6-b0d9-e62725f8900c")
 	)
 	(wire
 		(pts
@@ -7807,6 +7953,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 172.72) (xy 158.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3f9db0-61b1-4a3b-8d58-6428623805c2")
+	)
+	(wire
+		(pts
 			(xy 302.26 212.09) (xy 302.26 218.44)
 		)
 		(stroke
@@ -7837,13 +7993,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 200.66) (xy 101.6 200.66)
+			(xy 91.44 200.66) (xy 151.13 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c091e7e7-6a5c-4b9b-8436-00580e82382c")
+	)
+	(wire
+		(pts
+			(xy 173.99 173.99) (xy 173.99 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f069b1-6f53-4387-b497-72da88c0fe7d")
 	)
 	(wire
 		(pts
@@ -7907,6 +8073,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 172.72) (xy 143.51 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88b5ced-6e83-41d0-b6ab-06775d3ee126")
+	)
+	(wire
+		(pts
 			(xy 91.44 97.79) (xy 101.6 97.79)
 		)
 		(stroke
@@ -7924,6 +8100,16 @@
 			(type solid)
 		)
 		(uuid "ca5145ef-664e-4246-8896-51ff761481c5")
+	)
+	(wire
+		(pts
+			(xy 135.89 172.72) (xy 135.89 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa0d9d0-4834-4bfd-bba2-6c7800ab6101")
 	)
 	(wire
 		(pts
@@ -8017,6 +8203,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 179.07) (xy 135.89 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f6f794-6963-406d-874e-717ac3f45f49")
+	)
+	(wire
+		(pts
 			(xy 121.92 35.56) (xy 111.76 35.56)
 		)
 		(stroke
@@ -8024,6 +8220,16 @@
 			(type solid)
 		)
 		(uuid "d45ea606-0549-4a25-8baa-76deee9026d2")
+	)
+	(wire
+		(pts
+			(xy 173.99 179.07) (xy 173.99 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d9e54a-720f-4289-9ae2-aea196707215")
 	)
 	(wire
 		(pts
@@ -8044,6 +8250,16 @@
 			(type default)
 		)
 		(uuid "d9fff130-73ec-4e51-b07d-f97d9045f4d7")
+	)
+	(wire
+		(pts
+			(xy 151.13 179.07) (xy 151.13 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd282a41-9d29-48a5-877f-56e0d0143a6b")
 	)
 	(wire
 		(pts
@@ -8087,7 +8303,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 215.9) (xy 101.6 215.9)
+			(xy 91.44 215.9) (xy 166.37 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8277,7 +8493,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 185.42) (xy 101.6 185.42)
+			(xy 91.44 185.42) (xy 135.89 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8334,6 +8550,16 @@
 			(type default)
 		)
 		(uuid "f3d8c090-5e61-4123-bd32-910c4a496893")
+	)
+	(wire
+		(pts
+			(xy 151.13 172.72) (xy 143.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4992443-2073-4bff-9d8f-8f55612276e2")
 	)
 	(wire
 		(pts
@@ -8407,6 +8633,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 179.07) (xy 143.51 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f987da50-1447-42bd-bfd1-90b6fae78b5d")
+	)
+	(wire
+		(pts
 			(xy 292.1 27.94) (xy 283.21 27.94)
 		)
 		(stroke
@@ -8437,6 +8673,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 185.42) (xy 177.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8d8005-a227-4250-8043-3211c5ef4a0f")
+	)
+	(wire
+		(pts
 			(xy 271.78 232.41) (xy 271.78 234.95)
 		)
 		(stroke
@@ -8464,6 +8710,16 @@
 			(type solid)
 		)
 		(uuid "ff61d075-34ea-47fb-8c17-9cde98f0df2a")
+	)
+	(wire
+		(pts
+			(xy 158.75 203.2) (xy 177.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc6c66c-eba4-49de-a118-f48704e5c240")
 	)
 	(table
 		(column_count 2)
@@ -9156,7 +9412,7 @@
 	)
 	(hierarchical_label "EFUSE-PG-OC-PK1"
 		(shape input)
-		(at 101.6 187.96 0)
+		(at 177.8 187.96 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9260,7 +9516,7 @@
 	)
 	(hierarchical_label "DCHG-STAT-OC-PK1"
 		(shape input)
-		(at 101.6 215.9 0)
+		(at 177.8 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9286,7 +9542,7 @@
 	)
 	(hierarchical_label "CHARGE-STAT-OC-PK2"
 		(shape input)
-		(at 101.6 203.2 0)
+		(at 177.8 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9312,7 +9568,7 @@
 	)
 	(hierarchical_label "CHARGE-STAT-OC-PK1"
 		(shape input)
-		(at 101.6 218.44 0)
+		(at 177.8 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9338,7 +9594,7 @@
 	)
 	(hierarchical_label "EFUSE-PG-OC-PK2"
 		(shape input)
-		(at 101.6 185.42 0)
+		(at 177.8 185.42 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9410,7 +9666,7 @@
 		)
 		(uuid "b3c8fc93-10d2-49a6-97ec-e0ba531aa03d")
 	)
-	(hierarchical_label "411-IOUT"
+	(hierarchical_label "4211-IOUT"
 		(shape passive)
 		(at 113.03 182.88 0)
 		(effects
@@ -9425,7 +9681,7 @@
 	)
 	(hierarchical_label "DCHG-STAT-OC-PK2"
 		(shape input)
-		(at 101.6 200.66 0)
+		(at 177.8 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9561,6 +9817,135 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 166.37 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a2ce56e-df76-4585-8d4f-6057e0f72512")
+		(property "Reference" "R135"
+			(at 163.068 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "665k"
+			(at 164.846 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT665KCT-ND"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT665K"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a0c655ff-0ac5-4b35-b1f0-eacf49e20316")
+		)
+		(pin "1"
+			(uuid "c552e530-a7cc-4a81-ae87-0689c5e14565")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -10094,6 +10479,135 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 151.13 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e7eb888-996e-4fdb-9dc9-4b891a6788bd")
+		(property "Reference" "R69"
+			(at 147.828 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "665k"
+			(at 149.606 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT665KCT-ND"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT665K"
+			(at 151.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "ece7b258-f4e6-481b-af0a-aa2af0439a35")
+		)
+		(pin "1"
+			(uuid "f71024cf-541f-4766-836d-36a67c7b850c")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -11846,6 +12360,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 135.89 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "544fa163-d9fb-454e-9d13-823bacfdbb15")
+		(property "Reference" "R56"
+			(at 132.588 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "665k"
+			(at 134.366 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT665KCT-ND"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT665K"
+			(at 135.89 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "040dfff5-c382-41b0-884e-a67911ea747d")
+		)
+		(pin "1"
+			(uuid "f70f82a2-d785-485a-bec1-427e7412c097")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 223.52 134.62 0)
 		(unit 1)
@@ -12553,6 +13196,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 173.99 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65147be6-4dac-44ef-b862-80f68e35186a")
+		(property "Reference" "R136"
+			(at 170.688 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "665k"
+			(at 172.466 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT665KCT-ND"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT665K"
+			(at 173.99 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "0cadc273-01fb-438f-b6dc-2f5677989bc9")
+		)
+		(pin "1"
+			(uuid "24eebf16-c3db-46f8-a8d2-f789476dbf99")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 228.6 148.59 0)
 		(mirror y)
@@ -12673,6 +13445,135 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 158.75 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70d239d3-a1f3-4785-ac73-f0e67b191979")
+		(property "Reference" "R70"
+			(at 155.448 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "665k"
+			(at 157.226 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT665KCT-ND"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT665K"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "000c075c-f3e7-42a9-9324-716167bea7c2")
+		)
+		(pin "1"
+			(uuid "67dfb146-352f-4228-ab35-ff6157e44569")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -13649,6 +14550,84 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 154.94 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80e57495-ec24-4969-99af-a47f9ab55a46")
+		(property "Reference" "#PWR0110"
+			(at 154.94 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 167.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 154.94 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fd7a9c9-a9ac-4072-8653-092057ce1731")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -20508,6 +21487,135 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
 					(reference "#VBUSP05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f87e105c-d7f8-4c91-a6d9-33bf20054920")
+		(property "Reference" "R68"
+			(at 140.208 178.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "665k"
+			(at 141.986 178.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT665KCT-ND"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT665K"
+			(at 143.51 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "7e65b890-b808-41d7-833b-9c10a4c84962")
+		)
+		(pin "1"
+			(uuid "0148d055-1617-40ef-b459-b175b42e1c51")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/60cc160f-89b6-42ae-bb0a-7f727f347e07"
+					(reference "R68")
 					(unit 1)
 				)
 			)

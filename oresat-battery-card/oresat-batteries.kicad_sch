@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-11-01")
+		(date "2026-11-23")
 		(rev "4.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -6576,7 +6576,7 @@
 				(justify right)
 			)
 		)
-		(pin "411-IOUT" passive
+		(pin "4211-IOUT" passive
 			(at 213.36 49.53 180)
 			(uuid "173572d8-ca0a-4bf3-b153-050682228901")
 			(effects
@@ -7301,7 +7301,7 @@
 				(justify right)
 			)
 		)
-		(pin "411-IOUT" passive
+		(pin "4211-IOUT" passive
 			(at 201.93 49.53 0)
 			(uuid "d335cd7b-dbd6-4b6e-936f-85fa16607c1a")
 			(effects

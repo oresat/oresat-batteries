@@ -136,7 +136,7 @@ one for negative battery disconnect.
 
 ## Assembly Info
 
-- All components are on the top side of the board.
+- All PnP assembled components are on the top side of the board.
 - This PCBA uses both surface mount (SMT) and through-hole (THT) components.
 
 ## Assembly Requirements

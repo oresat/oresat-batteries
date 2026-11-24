@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-10-06")
-		(rev "4.0")
+		(date "2026-11-23")
+		(rev "4.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols

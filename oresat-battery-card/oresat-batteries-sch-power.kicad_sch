@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-10-06")
-		(rev "4.0")
+		(date "2026-11-23")
+		(rev "4.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -6268,6 +6268,17 @@
 		)
 		(uuid "6fa00ba5-b0fc-4a9f-aa0b-cdb9553f37c5")
 	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 319.024 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a0995e9-3969-46dd-a553-970276c7018d")
+	)
 	(text "Pulse skip for low power"
 		(exclude_from_sim no)
 		(at 235.458 233.172 0)
@@ -6811,6 +6822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0d3cfbb-a53c-437f-b649-1e12789fdba4")
+	)
+	(junction
+		(at 142.24 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f603bb-fec2-4ab0-bcc1-08c6ec6c95ce")
 	)
 	(junction
 		(at 64.77 82.55)
@@ -7402,6 +7419,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 208.28) (xy 318.77 208.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "282d184d-4cd4-4cfc-abfe-90a4015a0ba1")
+	)
+	(wire
+		(pts
 			(xy 92.71 128.27) (xy 95.25 128.27)
 		)
 		(stroke
@@ -7482,6 +7509,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 215.9) (xy 318.77 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d849859-c135-4c19-b571-a1324bbeb416")
+	)
+	(wire
+		(pts
 			(xy 128.27 172.72) (xy 128.27 176.53)
 		)
 		(stroke
@@ -7499,6 +7536,16 @@
 			(type solid)
 		)
 		(uuid "2ea24e07-5eec-4190-bc9f-cd1ad1b968cc")
+	)
+	(wire
+		(pts
+			(xy 142.24 139.7) (xy 142.24 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f40122-fb3d-4bd4-94ca-bff4ce73d7d5")
 	)
 	(wire
 		(pts
@@ -8112,6 +8159,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 133.35) (xy 199.39 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5dd34416-bdbe-4554-853d-0e6d0da34ccd")
+	)
+	(wire
+		(pts
 			(xy 241.3 50.8) (xy 241.3 55.88)
 		)
 		(stroke
@@ -8412,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 133.35) (xy 199.39 133.35)
+			(xy 121.92 133.35) (xy 142.24 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -10262,6 +10319,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 133.35) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ededa9e3-399f-40ef-9450-bd2998ed7670")
+	)
+	(wire
+		(pts
 			(xy 198.12 36.83) (xy 264.16 36.83)
 		)
 		(stroke
@@ -10429,6 +10496,16 @@
 			(type solid)
 		)
 		(uuid "fd6031a4-d846-4a98-8672-e632250a2ab3")
+	)
+	(wire
+		(pts
+			(xy 318.77 210.82) (xy 318.77 208.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff99f796-1f0d-4744-a992-06e73e636f1c")
 	)
 	(label "CB-RESET"
 		(at 302.26 100.965 90)
@@ -10662,7 +10739,7 @@
 		)
 		(uuid "4e13c929-3971-4c88-bf91-5b5d43e5323c")
 	)
-	(hierarchical_label "411-IOUT"
+	(hierarchical_label "4211-IOUT"
 		(shape passive)
 		(at 293.37 46.99 0)
 		(effects
@@ -15153,7 +15230,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP3050LVTQ-7"
+		(property "Value" "DMPH2040UVTQ-7"
 			(at 344.17 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15177,7 +15254,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVTQ.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 337.82 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -15189,7 +15266,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "P-Channel 30 V 4.5A (Ta) 1.6W (Ta) Surface Mount TSOT-26"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 337.82 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15212,7 +15289,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "31-DMP3050LVTQ-7-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 337.82 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15236,7 +15313,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP3050LVTQ-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 337.82 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15477,6 +15554,84 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
 					(reference "#PWR27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 218.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "544a35ae-2e88-402b-9184-eaa490a6e9dc")
+		(property "Reference" "#PWR026"
+			(at 318.77 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0ccfb8f-8e0d-43f0-91a4-ed11e358dd06")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -16150,6 +16305,135 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
 					(reference "#PWR29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "673f39f3-eb13-421b-9616-286309f22333")
+		(property "Reference" "R137"
+			(at 137.668 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.446 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 142.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "9c64d759-d741-4422-93c4-e036a182f7f0")
+		)
+		(pin "1"
+			(uuid "8f5f58c3-f6f9-4e1f-a068-08fa4da3c9f5")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
+					(reference "R137")
 					(unit 1)
 				)
 			)
@@ -17421,6 +17705,135 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 318.77 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "708814a1-8d79-470e-ab9f-7a82de358355")
+		(property "Reference" "C75"
+			(at 319.024 211.582 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 319.024 215.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRT21BC71E106KE13K"
+			(at 318.77 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "0d271dc7-39ec-42b2-a7f0-2615fa6d6532")
+		)
+		(pin "2"
+			(uuid "8219d874-9fed-455a-a319-d3723959767c")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -19628,7 +20041,7 @@
 				)
 			)
 		)
-		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -19651,7 +20064,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1M00CT-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -19675,7 +20088,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1M00"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -20011,7 +20424,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP3050LVTQ-7"
+		(property "Value" "DMPH2040UVTQ-7"
 			(at 212.598 42.164 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20035,7 +20448,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVTQ.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 193.04 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -20047,7 +20460,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "P-Channel 30 V 4.5A (Ta) 1.6W (Ta) Surface Mount TSOT-26"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 193.04 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20070,7 +20483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "31-DMP3050LVTQ-7-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 193.04 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20094,7 +20507,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP3050LVTQ-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 193.04 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -21292,7 +21705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "15n"
 			(at 350.52 43.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21314,7 +21727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21325,7 +21738,7 @@
 				)
 			)
 		)
-		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.015 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21347,7 +21760,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
+		(property "DPN" "399-12984-1-ND"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21369,7 +21782,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C474K3RACAUTO"
+		(property "MPN" "C0603C153K5RACAUTO"
 			(at 347.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21519,6 +21932,84 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8f09007-b10a-4c2b-8b6a-ab9c7d41e561")
+		(property "Reference" "#PWR043"
+			(at 142.24 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20636ed4-5f11-43b8-8240-a9367abf9c23")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/825d8273-a5eb-4594-9c05-1a3ee01e259d"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -23061,7 +23552,7 @@
 				)
 			)
 		)
-		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 128.27 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -23084,7 +23575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1M00CT-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 128.27 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -23108,7 +23599,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1M00"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 128.27 215.9 0)
 			(hide yes)
 			(show_name no)
