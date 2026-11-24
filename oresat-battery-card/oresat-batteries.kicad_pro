@@ -338,7 +338,7 @@
           ""
         ],
         [
-          "silk_over_copper|180476100|75335300|4af61c3c-3c14-4bcc-87bb-da5db70224c3|c90a510f-71e7-49ea-ae2d-134ab9ba28b3",
+          "silk_over_copper|180530000|75281400|4af61c3c-3c14-4bcc-87bb-da5db70224c3|c90a510f-71e7-49ea-ae2d-134ab9ba28b3",
           ""
         ],
         [
@@ -596,7 +596,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",

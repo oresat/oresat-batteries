@@ -6,7 +6,7 @@
 	(paper "C")
 	(title_block
 		(title "OreSat Battery Card")
-		(date "2026-11-23")
+		(date "2026-11-24")
 		(rev "4.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -10086,7 +10086,7 @@
 		(uuid "c65dcc0e-1cf2-4cc0-927d-7f63ec05722a")
 	)
 	(label "BATT4-DISC"
-		(at 383.54 276.86 0)
+		(at 383.54 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10106,7 +10106,7 @@
 		(uuid "eebd0f0d-17a9-45f6-9e7d-b08735c9dbd6")
 	)
 	(label "BATT3-DISC"
-		(at 383.54 223.52 0)
+		(at 383.54 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
