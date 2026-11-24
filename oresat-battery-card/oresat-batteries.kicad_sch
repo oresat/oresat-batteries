@@ -2693,7 +2693,7 @@
 		)
 		(uuid "d82632f8-6ee5-42d9-bb4c-24abd8766553")
 	)
-	(text "2x OMRON D2F-5L3 SPDT Switch\n(COM + NC connected)"
+	(text "2x OMRON D2F-01L3-D3 SPDT Switch\n(COM + NC connected)"
 		(exclude_from_sim no)
 		(at 273.558 193.548 0)
 		(effects

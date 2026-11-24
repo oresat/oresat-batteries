@@ -3630,7 +3630,7 @@
 		)
 		(uuid "c7eaa915-33aa-4a6f-86a1-ebe289e436b9")
 	)
-	(text "1k resistors prevent dead \nshort to VBUSP or GND if \nany one N CH MOSFETS have \na G to S/D short."
+	(text "Resistors prevent dead \nshort to VBUSP or GND if \nany one N CH MOSFETS have \na G to S/D short."
 		(exclude_from_sim no)
 		(at 188.976 143.764 0)
 		(effects

@@ -5372,7 +5372,7 @@
 		)
 		(uuid "73aad9cd-5e2e-4133-b6a7-1930bbf56978")
 	)
-	(text "TVS diode is next to main connector"
+	(text "Negative transient diode is next to main connector"
 		(exclude_from_sim no)
 		(at 374.65 36.83 0)
 		(effects
@@ -5766,6 +5766,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35562f74-4b2b-48f3-ad29-9496c4100db7")
+	)
+	(junction
+		(at 339.09 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38c649cb-e909-495e-8204-9f37328bb960")
 	)
 	(junction
 		(at 406.4 139.7)
@@ -6212,6 +6218,12 @@
 		(uuid "f6ddd922-31f8-45f5-8644-bdb25e2e12bd")
 	)
 	(junction
+		(at 356.87 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f82e5de2-59c1-4005-8809-9ee1fca07a9a")
+	)
+	(junction
 		(at 168.91 294.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6415,6 +6427,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 173.99) (xy 356.87 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0991dfd9-bb41-470e-b7da-f36f9b559c13")
+	)
+	(wire
+		(pts
 			(xy 474.98 193.04) (xy 464.82 193.04)
 		)
 		(stroke
@@ -6432,6 +6454,16 @@
 			(type solid)
 		)
 		(uuid "0aa4a2ee-3bc7-4144-b1fc-8916c2a5a936")
+	)
+	(wire
+		(pts
+			(xy 339.09 199.39) (xy 339.09 209.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ba7300c-e0f6-4e8b-932c-26d609de684c")
 	)
 	(wire
 		(pts
@@ -6682,6 +6714,16 @@
 			(type default)
 		)
 		(uuid "17554559-ea4b-4b24-961f-990f7679d59f")
+	)
+	(wire
+		(pts
+			(xy 339.09 194.31) (xy 339.09 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181e7223-2832-4811-954e-36a2bf9dc689")
 	)
 	(wire
 		(pts
@@ -8685,7 +8727,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 165.1) (xy 374.65 165.1)
+			(xy 342.9 165.1) (xy 356.87 165.1)
 		)
 		(stroke
 			(width 0.381)
@@ -9405,6 +9447,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 165.1) (xy 356.87 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de37c530-7225-43f9-b573-d924027cdee0")
+	)
+	(wire
+		(pts
 			(xy 381 311.15) (xy 374.65 311.15)
 		)
 		(stroke
@@ -9675,6 +9727,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 165.1) (xy 374.65 165.1)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(uuid "f0c4cf6e-6c4b-42a0-b4d9-be08e79454ca")
+	)
+	(wire
+		(pts
 			(xy 374.65 184.15) (xy 374.65 196.85)
 		)
 		(stroke
@@ -9832,6 +9894,16 @@
 			(type solid)
 		)
 		(uuid "fa30a489-25f6-418b-801a-3587a667fc1d")
+	)
+	(wire
+		(pts
+			(xy 339.09 180.34) (xy 356.87 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3b221c-1e94-4595-97aa-1f24aea37484")
 	)
 	(wire
 		(pts
@@ -10013,6 +10085,16 @@
 		)
 		(uuid "c65dcc0e-1cf2-4cc0-927d-7f63ec05722a")
 	)
+	(label "BATT4-DISC"
+		(at 383.54 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0e2837c-66fd-47e8-b937-481f39c6b304")
+	)
 	(label "VBATT-PK2"
 		(at 368.3 165.1 0)
 		(effects
@@ -10022,6 +10104,16 @@
 			(justify left bottom)
 		)
 		(uuid "eebd0f0d-17a9-45f6-9e7d-b08735c9dbd6")
+	)
+	(label "BATT3-DISC"
+		(at 383.54 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7bf3319-3301-4a39-a4b9-2f09f79c76bb")
 	)
 	(hierarchical_label "I2C2_SDA"
 		(shape bidirectional)
@@ -19218,6 +19310,135 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 356.87 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b471e457-d4ff-4e2a-a823-50e27e0f5530")
+		(property "Reference" "R138"
+			(at 353.568 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 355.346 173.228 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 356.87 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "342f016a-193b-4e13-b9bc-676e53928bfe")
+		)
+		(pin "1"
+			(uuid "69cea78b-ca32-4bd2-be6d-03188e19d48f")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
+					(reference "R138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 168.91 261.62 180)
 		(unit 1)
 		(body_style 1)
@@ -21560,7 +21781,7 @@
 				)
 			)
 		)
-		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 367.03 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -21583,7 +21804,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" "RMCF0603FT1M00CT-ND"
 			(at 367.03 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -21607,7 +21828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT2K70"
+		(property "MPN" "RMCF0603FT1M00"
 			(at 367.03 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -22717,6 +22938,131 @@
 			(project "oresat-batteries"
 				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
 					(reference "#PWR71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-diodes:1N4151WS-HE3")
+		(at 339.09 196.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ec2794a9-0933-43e0-b93c-459d324fd28d")
+		(property "Reference" "D20"
+			(at 343.154 196.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4151WS"
+			(at 342.138 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 334.01 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf"
+			(at 331.47 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode Standard 50V 150mA Surface Mount SOD-323"
+			(at 339.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 339.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "112-1N4151WS-E3-08CT-ND"
+			(at 339.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 339.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4151WS-E3-08"
+			(at 339.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5552d76-6ca9-4177-bdae-3a31f7a63d9e")
+		)
+		(pin "2"
+			(uuid "9fc9eeff-cb68-41f6-b910-9167153d6f0c")
+		)
+		(instances
+			(project "oresat-batteries"
+				(path "/d5070776-2522-4f7b-9d31-10770161e48a/714b8cb1-7fa6-448b-9eed-93330aa30436"
+					(reference "D20")
 					(unit 1)
 				)
 			)
